@@ -2,8 +2,13 @@ site_name: BES Playbook
 theme:
   name: null
   custom_dir: 'bes-theme'
-  navigation_depth: 1
+  navigation_depth: 0
 nav:
   - Home: index.md
-  - 1.0 Overview:
+  - Styleguide: styleguide.md
+  - 1. Overview:
     - 1.1 Purpose:  1-1-purpose.md
+    - 1.2 Audience: 1-2-audience.md
+    - 1.3 Benefits of UX: 1-3-benefits.md
+
+

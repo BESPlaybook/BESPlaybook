@@ -74,23 +74,23 @@ pre .cs, pre .c {
  */
 
 .search-results {
-    margin-top: 23px;
+  margin-top: 23px;
 }
 
 .search-results article {
-    border-top: 1px solid #E1E4E5;
-    padding-top: 24px;
+  border-top: 1px solid #E1E4E5;
+  padding-top: 24px;
 }
 
 .search-results article:first-child {
-    border-top: none;
+  border-top: none;
 }
 
 form .search-query {
-    width: 100%;
-    border-radius: 50px;
-    padding: 6px 12px;  /* csslint allow: box-model */
-    border-color: #D1D4D5;
+  width: 100%;
+  border-radius: 50px;
+  padding: 6px 12px;  /* csslint allow: box-model */
+  border-color: #D1D4D5;
 }
 
 /*
@@ -114,13 +114,20 @@ form .search-query {
  * https://github.com/mkdocs/mkdocs/pull/1034
  */
 .rst-content .section .docutils {
-    width: 100%;
-    overflow: auto;
-    display: block;
-    border: none;
+  width: 100%;
+  overflow: auto;
+  display: block;
+  border: none;
 }
 
 td, th {
-   border: 1px solid #e1e4e5 !important; /* csslint allow: important */
-   border-collapse: collapse;
+  border: 1px solid #e1e4e5 !important; /* csslint allow: important */
+  border-collapse: collapse;
+}
+
+
+/* ******************** */
+
+.wy-nav-side {
+  top: 140px;
 }
