@@ -1,0 +1,33 @@
+
+
+
+.bes-doc-nav-wrap {
+  flex: 0 1 340px;
+  background-color: #F0F0F3;
+  padding: 60px 45px;
+}
+
+.bes-doc-nav__list {
+  display: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.bes-doc-nav__list--active {
+  display: block;
+  
+}
+
+.bes-doc-nav__list li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.bes-doc-nav__list li ul {
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.bes-doc-nav__list.current {
+
+}

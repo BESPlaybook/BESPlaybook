@@ -15,10 +15,14 @@ Apparently we had reached a great height in the atmosphere, for the sky was a de
 
 ## Lists
 
+Unordered Lists
+
 - Apple
-- Orange 
+- Orange
 - Banana
 - Grape
+
+Ordered List
 
 1. Lion
 2. Tiger

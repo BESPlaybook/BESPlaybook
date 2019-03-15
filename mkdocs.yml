@@ -3,6 +3,8 @@ theme:
   name: null
   custom_dir: 'bes-theme'
   navigation_depth: 2
+markdown_extensions:
+    - attr_list
 nav:
   - Home: index.md
   - Styleguide: styleguide.md
