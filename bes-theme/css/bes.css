@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5em;
-  color: #323A45;
+  color: inherit;
   font-weight: 300;
 }
 
@@ -37,7 +37,17 @@ a:hover {
 
 .bes-header h1 {
   color: #fff;
+  font-weight: 300;
 }
+
+.bes-header h1 b {
+  font-weight: 400;
+}
+
+.bes-header-nav {
+  color: #fff;
+}
+
 
 .bes-body-columns {
   display: flex;
@@ -48,15 +58,24 @@ a:hover {
   flex: 0 1 340px;
   background-color: #F0F0F3;
   padding: 60px 45px;
-
 }
 
 .bes-doc-nav__list {
+  display: none;
   padding-left: 15px;
+}
+
+.bes-doc-nav__list--active {
+  display: block;
+  
 }
 
 .bes-doc-nav__list li {
   list-style: none;
+}
+
+.bes-doc-nav__list.current {
+  background: red;
 }
 
 .bes-content-wrap {

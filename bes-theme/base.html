@@ -52,6 +52,19 @@
         {% if 'search' in config['plugins'] %}{% include "searchbox.html" %}{% endif %}
     {%- endblock %}
       </div>
+      <ul class="bes-header-nav">
+
+          <li>
+            <a href="/testing/1-1-testing">
+              Auto Testing
+            </a>
+          </li>
+          <li>
+            <a href="/1-1-purpose">
+              User Experience
+            </a>
+          </li>
+      </ul>
   </div>
   
   <div class="bes-body-columns">
@@ -64,23 +77,16 @@
           {%- set navlevel = 1 %}
           {%- for nav_item in nav %}
               {%- if nav_item.is_section %}
-                  <p class="caption"><span class="caption-text">{{ nav_item.title }}</span></p>
-                  <ul class="bes-doc-nav__list">
+                  <ul class="bes-doc-nav__list {% if nav_item.active %} bes-doc-nav__list--active {% endif %}">
                       {%- for nav_item in nav_item.children %}
                       <li class="toctree-l{{ navlevel }}{% if nav_item.active %} current{% endif %}">
                           {%- include 'nav.html' %}
                       </li>
                       {%- endfor %}
                   </ul>
-              {%- elif config.theme.include_homepage_in_sidebar or (not nav_item == nav.homepage) %}
-                  <ul{% if nav_item.active %} class="current"{% endif %}>
-                      <li class="toctree-l{{ navlevel }}{% if nav_item.active %} current{% endif %}">
-                          {%- include 'nav.html' %}
-                      </li>
-                  </ul>
               {%- endif %}
           {%- endfor %}
-      {%- endblock %}
+          {%- endblock %}
         </div>
     </nav><!-- /bes-doc-nav -->
 
@@ -94,7 +100,6 @@
 
       {# PAGE CONTENT #}
       <div class="bes-content">
-          {% include "breadcrumbs.html" %}
           <div role="main">
             <div class="section">
               {% block content %}
@@ -102,9 +107,6 @@
               {% endblock %}
             </div>
           </div>
-      {%- block footer %}
-          {% include "footer.html" %}
-      {% endblock %}
       </div>
 
     </section>
