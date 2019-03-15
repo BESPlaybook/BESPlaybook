@@ -1,0 +1,21 @@
+{
+  "name": "bes-playbook",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "postcss css/bes.css -o main.css"
+  },
+  "author": "Anne Demey",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "postcss-cli": "^6.1.2"
+  }
+}

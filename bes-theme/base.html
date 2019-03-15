@@ -47,24 +47,24 @@
 <body class="bes-body" role="document">
   <div class="bes-header">
     <h1><a href="{{ nav.homepage.url|url }}"></a><b>BES</b> Playbooks</a></h1>
-    <div class="wy-side-nav-search">
+    <div class="bes-header-search">
     {%- block search_button %}
         {% if 'search' in config['plugins'] %}{% include "searchbox.html" %}{% endif %}
     {%- endblock %}
-      </div>
-      <ul class="bes-header-nav">
+    </div>
+    <ul class="bes-header-nav">
 
-          <li>
-            <a href="/testing/1-1-testing">
-              Auto Testing
-            </a>
-          </li>
-          <li>
-            <a href="/1-1-purpose">
-              User Experience
-            </a>
-          </li>
-      </ul>
+        <li>
+          <a href="/testing/1-1-testing">
+            Automated Testing
+          </a>
+        </li>
+        <li>
+          <a href="/1-1-purpose">
+            User Experience
+          </a>
+        </li>
+    </ul>
   </div>
   
   <div class="bes-body-columns">
