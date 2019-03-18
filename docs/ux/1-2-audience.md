@@ -1,6 +1,6 @@
-
-# **1.2** Audience { .well }
-
+<div class="well">
+<h1><b>1.2</b> Audience</h1>
+</div>
 
 While this playbook can provide value to all personnel involved in a software development project, the primary audience for this playbook are those individuals who are responsible for the planning, management and development of projects that employ or might benefit from User Experience methodologies. 
 

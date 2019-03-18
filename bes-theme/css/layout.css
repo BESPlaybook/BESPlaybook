@@ -16,11 +16,23 @@ body {
 
 .bes-content-wrap {
   flex-grow: 1;
-  padding: 60px 100px;
 }
 
 .bes-content {
-  max-width: 900px;
   margin: 0px auto;
 }
 
+.bes-content p,
+.bes-content p,
+.bes-content h1,
+.bes-content h2,
+.bes-content h3,
+.bes-content h4,
+.bes-content h5,
+.bes-content h6,
+.bes-content ul
+{
+  max-width: 900px;
+  margin-left: 100px;
+  margin-right: 100px;
+}

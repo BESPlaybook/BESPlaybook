@@ -1,3 +1,6 @@
 
 def format_section():
-  print("My text")
+  return "My text"
+
+print("Running Init!!!")
+app.jinja_env.globals.update(format_section=format_section)s

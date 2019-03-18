@@ -53,17 +53,14 @@
     {%- endblock %}
     </div>
     <ul class="bes-header-nav">
+        {%- for k in config.extra.playbooks %}
+          <li>
+            <a href="/{{ config.extra.playbooks[k] }}">
+            {{ k|e }}
+            </a>
+          </li>
+        {%- endfor %}
 
-        <li>
-          <a href="/testing/1-1-testing">
-            Automated Testing
-          </a>
-        </li>
-        <li>
-          <a href="/1-1-purpose">
-            User Experience
-          </a>
-        </li>
     </ul>
   </div>
   
@@ -91,29 +88,18 @@
     </nav><!-- /bes-doc-nav -->
 
     <section class="bes-content-wrap">
-
-      {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="{{ nav.homepage.url|url }}">{{ config.site_name }}</a>
-      </nav>
-
       {# PAGE CONTENT #}
       <div class="bes-content">
-          <div role="main">
-            <div class="section">
-              {% block content %}
-                {{ page.content }}
-              {% endblock %}
-            </div>
-          </div>
+        {% block content %}
+          {{ page.content }}
+        {% endblock %}
       </div>
 
     </section>
 
   </div><!-- /bes-body-colums -->
 
-  {% include "versions.html" %}
+  {% include "footer.html" %}
 
   {%- block scripts %}
     <script>var base_url = '{{ base_url }}';</script>
