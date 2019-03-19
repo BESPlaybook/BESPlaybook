@@ -23,8 +23,11 @@ nav:
       - 2.2 UX Disciplines & Project Roles: ux/2-2-disciplines.md
       - 2.3 UX in Software Lifecycle Methodologies: ux/2-3-lifecycle.md
     - 3. UX Principles & Methodology:
-      - 3.1 UX Principles: 3-1-principles.md
-      - 3.2 UX Methodology: 3-2-methodology.md
+      - 3.1 UX Principles: ux/3-1-principles.md
+      - 3.2 UX Methodology: ux/3-2-methodology.md
+    - 4. Web Design Standards:
+      - 4.1 Introduction: ux/4-1-introduction.md
+
 extra:
   playbooks:
     Automated Testing: testing/1-1-testing

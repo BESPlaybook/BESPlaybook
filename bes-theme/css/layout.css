@@ -1,4 +1,6 @@
 
+* { box-sizing: border-box; }
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -15,24 +17,96 @@ body {
 
 
 .bes-content-wrap {
-  flex-grow: 1;
+  flex: 1 1;
+  padding: 0 20px;
 }
 
 .bes-content {
   margin: 0px auto;
+  overflow-x: hidden;
 }
 
-.bes-content p,
-.bes-content p,
-.bes-content h1,
-.bes-content h2,
-.bes-content h3,
-.bes-content h4,
-.bes-content h5,
-.bes-content h6,
-.bes-content ul
+.bes-content > p,
+.bes-content > p,
+.bes-content > h1,
+.bes-content > h2,
+.bes-content > h3,
+.bes-content > h4,
+.bes-content > h5,
+.bes-content > h6,
+.bes-content > ul,
+.bes-content > img
 {
   max-width: 900px;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* todo: check */
+.bes-content > p > img {
+  max-width: 100%;
+}
+
+.bes-content > .wide,
+.bes-content > h2.well { display: none; }
+
+.bes-content > .wide + p {
+  max-width: 1200px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.bes-content > .wide + p > img {
+  margin: 0px auto;
+  display: block;
+}
+
+.bes-content > .well {
+  position: relative;
+  background-color: #F2F2F2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bes-content > .well::before,
+.bes-content > .well::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.bes-content > .well::before {
+  left: -100%;
+}
+
+.bes-content > .well::after {
+  right: -100%;
+}
+
+
+
+/*
+.bes-content > .well + p {
+  max-width: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #F2F2F2;
+  padding: 20px 40px;
+}
+
+.bes-content > .well + p > img {
+  margin: 0px auto;
+  max-width: 800px;
+  display: block;
+}
+*/
+
+
+
+

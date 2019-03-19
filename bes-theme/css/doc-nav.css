@@ -1,16 +1,16 @@
 
-
-
 .bes-doc-nav-wrap {
-  flex: 0 1 340px;
   background-color: #F0F0F3;
   padding: 60px 45px;
+  max-width: 340px;
+  min-width: 280px;
 }
 
 .bes-doc-nav__list {
   display: none;
   margin: 0;
   padding-left: 0;
+  font-size: 15px;
 }
 
 .bes-doc-nav__list--active {
@@ -20,14 +20,16 @@
 
 .bes-doc-nav__list li {
   list-style: none;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .bes-doc-nav__list li ul {
-  margin-top: 15px;
+  margin-top: 10px;
   padding-left: 15px;
 }
 
-.bes-doc-nav__list.current {
 
+.bes-doc-nav__list a.current {
+  font-weight: 500;
+  color: #2F4CB3;
 }

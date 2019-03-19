@@ -9,7 +9,8 @@
   "scripts": {
     "start": "mkdocs serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "postcss bes-theme/css/bes.css -u autoprefixer postcss-smart-import cssnano --o bes-theme/main.css" 
+    "css": "postcss bes-theme/css/bes.css -u autoprefixer postcss-smart-import cssnano --o bes-theme/main.css",
+    "images": "http-server _asets"
   },
   "author": "Anne Demey",
   "license": "ISC",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "autoprefixer": "^9.5.0",
     "cssnano": "^4.1.10",
+    "http-server": "^0.11.1",
     "postcss-cli": "^6.1.2",
     "postcss-smart-import": "^0.7.6"
   }
