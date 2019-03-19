@@ -1,4 +1,4 @@
-# 1.1 Purpose
+> # **1.1** Purpose
 
 This User Experience Playbook is a continuation of effort by the BES PEO to establish modern practices and methods to accelerate software development and deployment of value for Logistics Information Systems and its end users. Preceded by playbooks for Agile and Automated Testing, the User Experience playbook aims to define a framework for how to plan and structure projects to include User Experience (UX) in both Agile and Waterfall environments, describing each stage of the process including key activities and deliverables as well as their benefits.
 

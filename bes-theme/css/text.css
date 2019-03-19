@@ -20,33 +20,3 @@ ul {
   padding-left: 16px;
 }
 
-/* Section Header */
-
-.bes-page-head {
-  margin: 0;
-  background-color: #24316C;
-  color: #fff;
-  font-weight: 300;
-
-  height: 180px;
-  display: flex;
-  align-items: center;
-  background-image: url('./img/Header.jpg')
-}
-
-.bes-content h1.bes-page-head {
-  max-width: none;
-  margin: 0;
-}
-
-.bes-page-head > em {
-  display: block;
-  max-width: 900px;
-  margin-left: 100px;
-  margin-right : 100px;
-  font-style: normal;
-}
-
-.bes-page-head > em > strong {
-  font-size: 34px;
-}
