@@ -26,11 +26,17 @@ nav:
     - 3. UX Principles & Methodology:
       - 3.1 UX Principles: ux/3-1-principles.md
       - 3.2 UX Methodology: ux/3-2-methodology.md
+      - "3.3 Phase 1: Research & Discovery": ux/3-3-research.md
+      - "3.4 Phase 2: Conceptual Design": ux/3-4-conceptual.md
+      - "3.5 Phase 3: Detailed Design": ux/3-5-detailed.md
+      - "3.6 Phase 4: Support": ux/3-6-support.md
+
     - 4. Web Design Standards:
       - 4.1 Introduction: ux/4-1-introduction.md
 
 extra:
   playbooks:
+    Agile: ux/1-1-purpose
     Automated Testing: testing/1-1-testing
     User Experience: ux/1-1-purpose
   footer:
