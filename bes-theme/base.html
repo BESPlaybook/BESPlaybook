@@ -61,7 +61,6 @@
             </a>
           </li>
         {%- endfor %}
-
     </ul>
   </div>
   
@@ -69,6 +68,16 @@
 
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav class="bes-doc-nav-wrap">
+
+        <ul class="bes-playbook-mobile-nav">
+            {%- for k in config.extra.playbooks %}
+              <li>
+                <a href="/{{ config.extra.playbooks[k] }}">
+                {{ k|e }}
+                </a>
+              </li>
+            {%- endfor %}
+        </ul>
 
         <div class="bes-doc-nav" data-spy="affix" role="navigation" aria-label="main navigation">
           {%- block site_nav %}

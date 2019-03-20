@@ -35,8 +35,56 @@
 }
 
 
+.bes-playbook-mobile-nav {
+  display: none;
+  justify-content: stretch;
+  flex-direction: column;
+  background-color: #24316C;
+  margin: 0;
+  padding: 0;
+}
+
+.bes-playbook-mobile-nav li {
+  list-style: none;
+  display: flex;
+}
+
+.bes-playbook-mobile-nav li a {
+  color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  flex-grow: 1;
+}
+
+
 @media screen and ( max-width: 1200px ) {
   .bes-doc-nav-wrap {
-    display: none;
+    max-width: 50vw;
+    min-width: 0;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    padding: 0;
+  }
+  
+  .bes-doc-nav {
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .bes-playbook-mobile-nav {
+    display: flex;
+  }
+}
+
+@media screen and ( max-width: 800px ) {
+  .bes-doc-nav-wrap {
+    max-width: 100vw;
+    widt: 100vw;
+  }
+  .bes-playbook-mobile-nav {
+    right: 0;
   }
 }
