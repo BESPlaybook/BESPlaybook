@@ -34,9 +34,3 @@
   color: #2F4CB3;
 }
 
-
-@media screen and ( max-width: 1200px ) {
-  .bes-doc-nav-wrap {
-    display: none;
-  }
-}

@@ -9,12 +9,10 @@ body {
   font-weight: 300;
 }
 
-
 .bes-body-columns {
   display: flex;
   flex-direction: row;
 }
-
 
 .bes-content-wrap {
   flex: 1 1;
@@ -26,22 +24,17 @@ body {
 }
 
 .bes-content > p,
-.bes-content > p,
 .bes-content > h1,
 .bes-content > h2,
 .bes-content > h3,
 .bes-content > h4,
 .bes-content > h5,
 .bes-content > h6,
-.bes-content > ul,
-.bes-content > img,
-.bes-content > blockquote > h1
+.bes-content > ul
 {
-  max-width: 900px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 800px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .bes-content > p img {
@@ -49,14 +42,18 @@ body {
 }
 
 .bes-content > .wide {
-  max-width: 1200px;
-  padding-right: 0;
-  padding-left: 0;
+  max-width: 1100px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .bes-content > .wide > img {
   margin: 0px auto;
   display: block;
+}
+
+.bes-content > .extended {
+  max-width: 900px;
 }
 
 .bes-content .center {
@@ -90,24 +87,6 @@ body {
 }
 
 
-
-/*
-.bes-content > .well + p {
-  max-width: none;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: #F2F2F2;
-  padding: 20px 40px;
-}
-
-.bes-content > .well + p > img {
-  margin: 0px auto;
-  max-width: 800px;
-  display: block;
-}
-*/
-
-
 /* Content Header
  * Styling for main h1 on a content page. Applies a blue background and image
  *
@@ -132,11 +111,45 @@ body {
   color: #fff;
   flex: 1 0;
   line-height: 1em;
+  font-weight: 300;
+
+  max-width: 800px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .bes-content > blockquote:first-child  strong {
   font-size: 34px;
 }
 
+.bes-content > blockquote {
+  margin: 0 20px;
+  background-color: #F2F2F2;
+}
+
+.bes-content > blockquote img {
+  max-width: 100%;
+}
+
+.bes-content > blockquote > p {
+  margin-left: 80px;
+  margin-right: 20px;
+}
+
+/*
+.bes-content > .well + p {
+  max-width: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #F2F2F2;
+  padding: 20px 40px;
+}
+
+.bes-content > .well + p > img {
+  margin: 0px auto;
+  max-width: 800px;
+  display: block;
+}
+*/
 
 

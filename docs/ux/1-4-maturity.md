@@ -6,6 +6,7 @@ Integration of user experience as a core strategic pillar within your organizati
 ![1.4.1](/_assets/1.4_maturity_levels.jpg)
 
 ![1.4.2](/_assets/1.4_levels_definitions.png)
+{: .extended}
 
 It’s important to be cognizant of your current maturity level within this model, and to appreciate that moving up this model only increases the overall return on investment to your mission, your stakeholders, and your end users.
 
