@@ -4,28 +4,28 @@ Once the research and discovery work has provided a clear understanding of the p
 
 ## 3.4.1 Activities for Conceptual Design
 
-#### [Wireframing/sketching](1-1-purpose.md)
+#### [Wireframing/sketching](3-4-1-1-wireframe.md)
 
 Using quick, low-fidelity drawings helps explore a broader range of potential solutions in less time.
 
-#### [Information architecture](1-1-purpose.md)
+#### [Information architecture](3-4-1-2-ia.md)
 
 Create an organizational structure for your system’s features and content in ways that are most meaningful to your users.
 
-#### [Participatory design](1-1-purpose.md)
+#### [Participatory design](3-4-1-3-participatory.md)
 
 Collaborating on initial design with subject matter experts and end users reduces risk and rework.
 
-#### [Concept testing](1-1-purpose.md)
+#### [Concept testing](3-4-1-4-concept.md)
 
 Test early concepts with actual users to gauge effectiveness.
 
-## BES UX Playbook (Internal Working Version) Inspect Mode - InVision
+## 3.4.2 Methods for Strategic Planning
 
-#### [Roadmapping](1-1-purpose.md)
+#### [Roadmapping](3-4-2-1-roadmapping.md)
 
 A strategic roadmap provides the team alignment on a plan for implementation.
 
-#### [Story writing](1-1-purpose.md)
+#### [Story writing](3-4-2-2-story.md)
 
 Break up requirements and conceptual designs into discrete, independently executable pieces.

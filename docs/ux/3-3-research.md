@@ -12,19 +12,19 @@ Continue reading below to learn about some of the research methods most appropri
 
 ## 3.3.1 Methods for Gathering Information
 
-#### [Interviews](1-1-purpose.md)
+#### [Interviews](3-3-2-1-interviews.md)
 
 Direct communication in the form of interviews is a reliable way to gather user and business needs.
 
-#### [Surveys](1-1-purpose.md)
+#### [Surveys](3-3-2-2-surveys.md)
 
 Surveys are an easy way to gather a large amount of information in minimal time.
 
-#### [Site metrics analysis](1-1-purpose.md)
+#### [Site metrics analysis](3-3-2-3-metrics.md)
 
 Data-driven analysis of site usage and user behavior can provide important context and theory validation.
 
-#### [Diary studies](1-1-purpose.md)
+#### [Diary studies](3-3-2-4-diary.md)
 
 Logs of activities by users as they occur offer insights like context and environment details, real-time needs and behaviors.
 

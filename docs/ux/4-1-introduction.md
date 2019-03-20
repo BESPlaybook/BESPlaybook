@@ -7,7 +7,7 @@ The visual design section of the BES User Experience Playbook catalogues and des
 (This section is just to demo some content that will be here later)
 
 ![nav](/_assets/__temp-nav.png)
-{: .wide .mobile-only}
+{: .wide}
 
 
 ## Purpose
