@@ -53,11 +53,11 @@
         {% if 'search' in config['plugins'] %}{% include "searchbox.html" %}{% endif %}
     {%- endblock %}
     </div>
-    <ul class="bes-header-nav">
+    <ul class="bes-header-nav" aria-label="main navigation">
         {%- for k in config.extra.playbooks %}
           <li>
             <a href="/{{ config.extra.playbooks[k] }}">
-            {{ k|e }}
+            {{ k }}
             </a>
           </li>
         {%- endfor %}
@@ -69,22 +69,19 @@
 
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav class="bes-doc-nav-wrap">
-
-        <div class="bes-doc-nav" data-spy="affix" role="navigation" aria-label="main navigation">
-          {%- block site_nav %}
+        <div class="bes-doc-nav" aria-label="navigation">
           {%- set navlevel = 1 %}
           {%- for nav_item in nav %}
               {%- if nav_item.is_section %}
                   <ul class="bes-doc-nav__list {% if nav_item.active %} bes-doc-nav__list--active {% endif %}">
                       {%- for nav_item in nav_item.children %}
-                      <li class="toctree-l{{ navlevel }}{% if nav_item.active %} current{% endif %}">
+                      <li class="{% if nav_item.active %}current{% endif %}">
                           {%- include 'nav.html' %}
                       </li>
                       {%- endfor %}
                   </ul>
               {%- endif %}
           {%- endfor %}
-          {%- endblock %}
         </div>
     </nav><!-- /bes-doc-nav -->
 

@@ -26,15 +26,17 @@ nav:
     - 3. UX Principles & Methodology:
       - 3.1 UX Principles: ux/3-1-principles.md
       - 3.2 UX Methodology: ux/3-2-methodology.md
+      - 3.3 subpages:
+        - Interviews: ux/3-3-2-1-interviews.md
       - "3.3 Phase 1: Research & Discovery": ux/3-3-research.md
-      - "3.4 Phase 2: Conceptual Design": ux/3-4-conceptual.md
-      - 3.4 hide:
+      - 3.4 subpages:
         - Wireframing/sketching: ux/3-4-1-1-wireframe.md
         - Information architecture: ux/3-4-1-2-ia.md
         - Participatory design: ux/3-4-1-3-participatory.md
         - Concept testing: ux/3-4-1-4-concept.md
         - Roadmapping: ux/3-4-2-1-roadmapping.md
         - Story writing: ux/3-4-2-2-story.md
+      - "3.4 Phase 2: Conceptual Design": ux/3-4-conceptual.md
       - "3.5 Phase 3: Detailed Design": ux/3-5-detailed.md
       - "3.6 Phase 4: Support": ux/3-6-support.md
 
