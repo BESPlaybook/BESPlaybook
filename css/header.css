@@ -1,0 +1,73 @@
+
+.bes-header {
+  background-color: #24316C;
+  padding: 35px 40px 20px 120px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.bes-header__logo {
+  width: 70px;
+  height: 61px;
+  background: url('./img/logo.svg') no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.bes-header h1 {
+  color: #fff;
+  font-weight: 300;
+  margin: 0;
+}
+
+.bes-header h1 b {
+  font-weight: 400;
+}
+
+.bes-header-nav {
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bes-header-nav li {
+  list-style: none;
+  display: flex;
+  position: relative;
+  top: 3px;
+}
+
+.bes-header-nav li a {
+  padding: 15px 40px;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+}
+
+.bes-header-search {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.bes-header-nav li a:hover {
+  text-decoration: none;
+  border-color:#fff;
+}
+
+.bes-search-form input {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color:rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+

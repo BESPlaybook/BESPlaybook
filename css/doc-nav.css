@@ -1,0 +1,65 @@
+
+.bes-doc-nav-wrap {
+  background-color: #F0F0F3;
+  padding: 60px 45px;
+  max-width: 340px;
+  min-width: 280px;
+}
+
+.bes-doc-nav__list {
+  display: none;
+  margin: 0;
+  padding-left: 0;
+  font-size: 15px;
+}
+
+.bes-doc-nav__list--active {
+  display: block;
+  
+}
+
+.bes-doc-nav__list li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.bes-doc-nav__list li ul {
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+
+.bes-doc-nav__list a.current {
+  font-weight: 500;
+  color: #2F4CB3;
+}
+
+
+/*
+  In order to get subsections to display the proper nav, and highlight the section
+  it is under there needs to be some trickery. We cant directly add the subsections
+  under sections with a homepage (3.3 in example below) because of the data structure
+  of MkDocs.
+
+  Subsections are placed before the main section in the yaml file like:
+  - 3.3 subpages:
+    - Interviews: ux/3-3-2-1-interviews.md
+    ...
+  - "3.3 Phase 1: Research & Discovery": ux/3-3-research.md
+
+  The title (3.3 subpages) is irrelevent and will not be displayed, though it needs to
+  be unique.
+  
+  When the navigation is being built, a list item will be rendered for the subpages,
+  and will be hidden with css. Then the next sibling selector is used to highlight
+  the proper active section.
+ */
+.bes-doc-nav__list .subsection {
+  display: none;
+}
+
+.bes-doc-nav__list .subsection.current + li a {
+  font-weight: 500;
+  color: #2F4CB3;
+}
+

@@ -1,0 +1,153 @@
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+  color: #323A45;
+  font-weight: 300;
+}
+
+.bes-body-columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.bes-content-wrap {
+  flex: 1 1;
+}
+
+.bes-content {
+  margin: 0px auto;
+  padding-bottom: 50px;
+}
+
+.bes-content > p,
+.bes-content > h1,
+.bes-content > h2,
+.bes-content > h3,
+.bes-content > h4,
+.bes-content > h5,
+.bes-content > h6,
+.bes-content > ul
+{
+  max-width: 800px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.bes-content > p img {
+  max-width: 100%;
+}
+
+.bes-content > .wide {
+  max-width: 1100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.bes-content > .wide > img {
+  margin: 0px auto;
+  display: block;
+}
+
+.bes-content > .extended {
+  max-width: 900px;
+}
+
+.bes-content .center {
+  text-align: center;
+}
+
+.bes-content > .well {
+  position: relative;
+  background-color: #F2F2F2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid green;
+}
+
+.bes-content > .well::before,
+.bes-content > .well::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.bes-content > .well::before {
+  left: -100%;
+}
+
+.bes-content > .well::after {
+  right: -100%;
+}
+
+
+/* Content Header
+ * Styling for main h1 on a content page. Applies a blue background and image
+ *
+ * Markdown:
+ * > # **1.2** Audience
+ */
+
+.bes-content > blockquote:first-child {
+  margin: 0;
+  margin-bottom: 50px;
+  background-color: #24316C;
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+  height: 180px;
+  align-items: center;
+  background-image: url('./img/Header.jpg');
+  background-size: cover;
+}
+
+.bes-content > blockquote:first-child  h1 {
+  color: #fff;
+  flex: 1 0;
+  line-height: 1em;
+  font-weight: 300;
+
+  max-width: 800px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.bes-content > blockquote:first-child  strong {
+  font-size: 34px;
+}
+
+.bes-content > blockquote {
+  margin: 0 20px;
+  background-color: #F2F2F2;
+}
+
+.bes-content > blockquote img {
+  max-width: 100%;
+}
+
+.bes-content > blockquote > p {
+  margin-left: 80px;
+  margin-right: 20px;
+}
+
+
+
+.bes-content > .fill-2 {
+  display: flex;
+  padding: 0 -20px;
+}
+
+.bes-content > .fill-2 em {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.bes-content > .fill-2 em:last-child {
+  margin-right: 0;
+}
