@@ -4,8 +4,6 @@
 
 Story writing is the process of breaking down a feature or group of features that are to be built into discrete, achieveable implementation tasks. In Agile terminology, a story may be also called a Product Backlog Item. The term “story” is frequently used, however, because of the important notion that these implementation tasks be oriented around the user and achieving value for the user. Thus, the task is very loosely written in the format of a “story” of which the target user is the main character. Use cases are ideal building blocks for stories. The user’s need becomes the focus of the story. The sequence of actions, and the system functionality necessary to support those actions, form the basis for the story’s acceptance criteria.
 
-![3.4.2.1](/_assets/3.4.2.1_maturity_levels.jpg)
-
 
 ## Product/output
 

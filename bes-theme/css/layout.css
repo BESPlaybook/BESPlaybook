@@ -136,20 +136,16 @@ body {
   margin-right: 20px;
 }
 
-/*
-.bes-content > .well + p {
-  max-width: none;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: #F2F2F2;
-  padding: 20px 40px;
+
+.bes-content > .img-2 {
+  display: flex;
 }
 
-.bes-content > .well + p > img {
-  margin: 0px auto;
-  max-width: 800px;
-  display: block;
+.bes-content > .img-2 img {
+  display: flex;
+  margin-right: 20px;
 }
-*/
 
-
+.bes-content > .img-2 img:last-child {
+  margin-right: 0;
+}

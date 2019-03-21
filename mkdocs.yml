@@ -45,6 +45,11 @@ nav:
         - Roadmapping: ux/3-4-2-1-roadmapping.md
         - Story writing: ux/3-4-2-2-story.md
       - "3.4 Phase 2: Conceptual Design": ux/3-4-conceptual.md
+      - 3.5 subpages:
+        - High-fidelity wireframing and visual design: ux/3-5-1-1-visualdesign.md
+        - Prototyping: ux/3-5-1-2-prototyping.md
+        - Usability testing: ux/3-5-1-3-usability.md
+        - Specifying/annotating: ux/3-5-1-4-annotating.md
       - "3.5 Phase 3: Detailed Design": ux/3-5-detailed.md
       - "3.6 Phase 4: Support": ux/3-6-support.md
 
