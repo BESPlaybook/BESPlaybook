@@ -1,6 +1,6 @@
 [Back to Phase 1: Research & Discovery](3-3-research.md)
 
-# 3.3.2.2 Surveys
+# 3.3.1.2 Surveys
 
 Conducting surveys is a simple, quick tool for gathering a large amount of input. And since this method is generally simpler and easier than others, it can frequently be a default recommendation. However, it is important to consider the advantages and limitations of surveying before selecting this method.
 

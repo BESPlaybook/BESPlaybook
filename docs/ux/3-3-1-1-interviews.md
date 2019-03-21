@@ -1,6 +1,6 @@
 [Back to Phase 1: Research & Discovery](3-3-research.md)
 
-# 3.3.2.1 Interviews
+# 3.3.1.1 Interviews
 
 Direct interviews are typically the single most effective method for uncovering insight. There are different types of interviews, each serving a different purpose.
 
