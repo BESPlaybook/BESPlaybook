@@ -137,15 +137,17 @@ body {
 }
 
 
-.bes-content > .img-2 {
+
+.bes-content > .fill-2 {
   display: flex;
+  padding: 0 -20px;
 }
 
-.bes-content > .img-2 img {
-  display: flex;
+.bes-content > .fill-2 em {
+  flex: 1;
   margin-right: 20px;
 }
 
-.bes-content > .img-2 img:last-child {
+.bes-content > .fill-2 em:last-child {
   margin-right: 0;
 }
