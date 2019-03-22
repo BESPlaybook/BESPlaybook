@@ -30,11 +30,41 @@ body {
 .bes-content > h4,
 .bes-content > h5,
 .bes-content > h6,
-.bes-content > ul
+.bes-content > ul,
+.bes-content > .quote
 {
   max-width: 800px;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.bes-content > h2 {
+  margin-top: 40px;
+}
+
+.bes-content > h4 {
+  margin-bottom: 5px;
+}
+.bes-content > h4 + p {
+  margin-top: 0;
+}
+
+
+/* Back link */
+.bes-content > p:first-child > a:only-child {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.bes-content > p:first-child > a:only-child::before {
+  content: '';
+  display: inline-block;
+  background: url(../img/back.svg) no-repeat;
+  width: 9px;
+  height: 14px;
+  margin-right: 10px;
 }
 
 .bes-content > p img {
@@ -137,10 +167,8 @@ body {
 }
 
 
-
 .bes-content > .fill-2 {
   display: flex;
-  padding: 0 -20px;
 }
 
 .bes-content > .fill-2 em {
@@ -150,4 +178,13 @@ body {
 
 .bes-content > .fill-2 em:last-child {
   margin-right: 0;
+}
+
+.bes-content > .quote {
+  margin-top: 20px;
+  background: url('../img/3.3.3.2_quote@2x.png') no-repeat;
+  background-size: 41px 32px;
+  background-position: 15px 15px;
+  padding-left: 60px;
+  font-style: italic;
 }
