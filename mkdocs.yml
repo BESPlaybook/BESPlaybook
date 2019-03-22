@@ -6,6 +6,7 @@ theme:
 markdown_extensions:
   - attr_list
   - admonition
+  - extra
 plugins:
   - search
 nav:
@@ -52,10 +53,20 @@ nav:
         - Specifying/annotating: ux/3-5-1-4-annotating.md
       - "3.5 Phase 3: Detailed Design": ux/3-5-detailed.md
       - "3.6 Phase 4: Support": ux/3-6-support.md
-
     - 4. Web Design Standards:
       - 4.1 Introduction: ux/4-1-introduction.md
-
+      - 4.2 General Interface Guidelines: ux/4-2-guidelines.md
+      - 4.3 Grids & Breakpoints: ux/4-3-grids.md
+      - 4.4 Branding/Logo: ux/4-4-branding.md
+      - 4.5 Global Headers & Footers: ux/4-5-headers.md
+      - 4.6 Page Layouts: ux/4-6-layouts.md
+      - 4.7 Typography: ux/4-7-typography.md
+      - 4.8 Color: ux/4-8-color.md
+      - 4.9 Iconography: ux/4-9-icons.md
+      - 4.10 Imagery: ux/4-10-imagery.md
+      - 4.11 Buttons & Controls: ux/4-11-buttons.md
+      - 4.12 Key Mobile Standards: ux/4-12-mobile.md
+      - 4.13 Accessibility: ux/4-13-accessibility.md
 extra:
   playbooks:
     Agile: ux/1-1-purpose
