@@ -10,7 +10,8 @@
     "start": "mkdocs serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "postcss bes-theme/css/bes.css -u autoprefixer postcss-smart-import cssnano --o bes-theme/main.css",
-    "images": "http-server _asets"
+    "images": "http-server _asets",
+    "deploy": "mkdocs gh-deploy --remote-name isobar"
   },
   "author": "Anne Demey",
   "license": "ISC",

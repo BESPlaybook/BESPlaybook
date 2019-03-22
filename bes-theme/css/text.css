@@ -30,7 +30,7 @@ ul {
   list-style: none;
   padding-left: 25px;
   background: url(../img/bullet.svg) no-repeat;
-  background-position: 0 5px;
+  background-position: 0 7px;
   background-size: 7px 7px;
   margin-bottom: 20px;
 }
