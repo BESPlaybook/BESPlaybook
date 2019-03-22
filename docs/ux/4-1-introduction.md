@@ -6,7 +6,7 @@ The visual design section of the BES User Experience Playbook catalogues and des
 
 (This section is just to demo some content that will be here later)
 
-![nav](/_assets/__temp-nav.png)
+![nav](../_assets/__temp-nav.png)
 {: .wide}
 
 
@@ -16,7 +16,7 @@ The visual design section of the BES User Experience Playbook catalogues and des
 
 This content also exists as a living document. As USAF applications, best practices, and use cases continue to evolve, so too will this document and the examples herein. 
 
->![nav](/_assets/__temp-action.png)
+>![nav](../_assets/__temp-action.png)
 
 
 This is not a style guide. This content is intended as a teaching tool, to complement technical documentation from other design and development playbooks. The visualizations are not intended as redesigns of existing or new applications, but rather guidelines for making decisions within the context of your own design systems. When designing specific user interface components, first consult your application’s style guide, then refer to this playbook should any questions remain. 

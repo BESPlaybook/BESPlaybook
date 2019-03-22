@@ -8,7 +8,6 @@ Like low-fidelity wireframes, high-fidelity wireframes are still mostly line ren
 
 Visual design comps should offer presentation details such as how individual components should be visually styled, and how the components relate to one another in the interface.
 
-
 ## Requirements
 
 - A determination of which conceptual design direction to pursue in detail.
@@ -18,8 +17,8 @@ Visual design comps should offer presentation details such as how individual com
 
 High-fidelity wireframes and comps serve as the foundation for communicating the final design. For lean documentation practices and usability testing, these artifacts will serve as the design source for a prototype. They also serve as the source material for writing full developer specifications.
 
-_![3.5.1.1-1](/_assets/3.5.1.1_high_fidelity.jpg)_
-_![3.5.1.1-2](/_assets/3.5.1.1_visual_design_comp.jpg)_
+_![3.5.1.1-1](../_assets/3.5.1.1_high_fidelity.jpg)_
+_![3.5.1.1-2](../_assets/3.5.1.1_visual_design_comp.jpg)_
 {: .fill-2}
 
 ## Practical considerations
@@ -32,3 +31,6 @@ _![3.5.1.1-2](/_assets/3.5.1.1_visual_design_comp.jpg)_
 What is Interaction Design? – Interaction Design Foundation
 
 Adaptive vs. Responsive Design – Interaction Design Foundation
+
+
+http://isobar-us.github.io/USAF-2212-A4UX-Playbook

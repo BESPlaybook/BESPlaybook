@@ -4,7 +4,7 @@
 
 A journey map is a narrative-driven graph that describes the typical journey of an end user by representing the different touchpoints and interactions that encompass their experience with the system and surrounding environment.
 
-![](/_assets/3.3.3.3_journey_maps.png)
+![](../_assets/3.3.3.3_journey_maps.png)
 
 ## When to use
 
@@ -18,7 +18,7 @@ Use journey maps to explore how users might use your system as part of accomplis
 
 The map product is a timeline-based chart, typically split into two primary sections. The first section, the lens, depicts the user’s perspective as they become oriented to the activities and requirements of each new stage of the journey. The journey section then captures the specific activities and interactions in which the user is involved at each stage, along with typical thoughts and feelings they might have along the way. This layer of thoughts and feelings provides context for ideas about better ways to support their experience.
 
-![3.3.3.3](/_assets/3.3.3.3_product_output.png)
+![3.3.3.3](../_assets/3.3.3.3_product_output.png)
 
 The process of depicting a user journey will uncover insights and opportunities to better align the current experience with user needs, or introduce new capabilities to fill gaps in the experience. These ideas should next be explored in conceptual designs, evaluated for feasibility, and finally be roadmapped for implementation. If the journey occurs as part of a larger service offering from your system, a next step could be exploring the full details of the service execution in a service design blueprint.
 

@@ -12,7 +12,7 @@ In order to properly support development, all possible states of the interface s
 
 Design specifications are most useful when presented side-by-side with the detailed design artifacts (wireframes or comps). Typically, a numbered marker is placed on top of the artifact, that references its respective annotation.
 
-![3.5.1.4](/_assets/3.5.1.4_product_output.jpg)
+![3.5.1.4](../_assets/3.5.1.4_product_output.jpg)
 
 ## Practical considerations
 

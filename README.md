@@ -8,6 +8,7 @@ Extensions to the Python Markdown interpreter
 
 - https://python-markdown.github.io/extensions/
 - https://python-markdown.github.io/extensions/attr_list/
+- https://facelessuser.github.io/pymdown-extensions/extensions/extrarawhtml/
 
 ### Symlink resources
 

@@ -2,7 +2,7 @@
 
 When planning a software development project, the process typically breaks down into four discrete stages, each of which will be described in greater detail within section 3.0.
 
-![2.3](/_assets/2.3_graphic.png)
+![2.3](../_assets/2.3_graphic.png)
 
 - **Research & Discovery**: This is the stage where initial research activities will be performed and insights will be synthesized based on the research findings. A high-level strategy should be established at this stage that includes experience goals, tactics, plans and content/feature recommendations which can then be used as a foundation for Conceptual Design.
 - **Conceptual Design**: During this stage, key aspects of the experience will be modeled and discussed in order to establish alignment around the overall approach and design framework for the experience. The conceptual models produced during this stage can describe things like site architecture,  processes, navigation patterns and key page layouts to help lay the foundations for an efficient Detailed Design process. A key goal of this stage is to establish clear expectations about how a digital experience will be presented at a high level in order to minimize the need for significant rework in the future.
@@ -15,7 +15,7 @@ The approach to planning and managing each of these stages can vary considerably
 
 ## 2.3.1 Waterfall Process Considerations
 
-![2.3.1](/_assets/2.3.1_waterfall_process.png)
+![2.3.1](../_assets/2.3.1_waterfall_process.png)
 
 In a “waterfall” process, each of these stages happens in sequential order, with the output of each stage being typically reviewed, finalized and approved in its entirety before proceeding to the next stage. In this type of process methodology, the typical expectation is that all documentation is comprehensive and exhaustive, addressing all possible questions and scenarios prior to any development being performed.  Representative members of each project team can be incorporated into each stage to ensure that proper communication occurs and relevant questions are identified early in the process, but often this is not the case in a classic waterfall process. Instead, each project team often works independently from each other, with the resulting documentation being tossed “over the wall” so to speak to other project teams in order to guide their efforts for the next process stage.
 
@@ -50,7 +50,7 @@ In addition to values and ceremonies, the Agile management framework is another 
 
 The aspect in which the classic Agile methodology is least prescriptive for User Experience teams is its guidance around planning each of the process stages and determining what user experience practices to incorporate within them. Many of the Agile ceremonies outlined above are more relevant to the Detailed Design and Support stages than they are to the initial Research/Discovery and Conceptual Design stages. In Agile terms, these first two stages are often combined and named “Sprint Zero”, continuing to resemble a waterfall process in many ways. This allows for solid research foundations and a clear product vision to be established in advance of working iteratively on detailed design specifications. Cross-team input is valuable at any stage, and daily scrums may be incorporated to facilitate this, but beginning front-end development before a clear product vision is set can result in lost development cycles and a significant amount of rework. Design teams should focus first on establishing a clear product architecture and basic alignment around how features might be translated into layouts before the team begins iterations of detailed design and prototyping. Once a product backlog is created at the end of Conceptual Design, the project team is prepared to adopt all other typical Agile ceremonies for the remainder of the project.
 
-![2.3.2-2](/_assets/2.3.2_research_and_discovery.png)
+![2.3.2-2](../_assets/2.3.2_research_and_discovery.png)
 
 Detailed Design and Support are the stages where the Agile methodology is utilized in its truest form. In an ideal scenario, all project teams are focused on the same set of features at once, working in unison to arrive at a functioning prototype of a specific feature. User Experience teams leads their counterparts through the iterative process for each feature:
 
@@ -75,7 +75,7 @@ Another approach is to anticipate “staggered sprints” from the outset. This 
 
 The need for additional time to work through complex issues is a common challenge for development teams, but can be a challenge for user experience teams as well. If this type of challenge is foreseen during the project’s planning activities, something called a “design spike” can be instituted to alleviate this issue. A design spike is an activity that can take place of a regular sprint to resolve big unknowns and work through complexities that would otherwise impact the efficiency of the project team. During this time, development teams are typically assigned non-dependent work while the user experience team gathers additional requirements and potential explore concepts for specific feature areas within the product.
 
-![2.3.3](/_assets/2.3.3_agile_sprint_cycle.png)
+![2.3.3](../_assets/2.3.3_agile_sprint_cycle.png)
 
 While these practices may not be considered Agile in its truest form, they may become essential in managing a team successfully through limiting factors to agility such as resource availability, vendor involvement, project budget and ability to co-locate. These practices might also be considered stepping stones to more advanced and integrated Agile practices, enabling project teams to abide by the value and reap the benefits of the Agile methodology while ensuring project plans and output are optimized for success.
 

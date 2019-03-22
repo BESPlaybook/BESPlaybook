@@ -9,7 +9,7 @@ Low-fidelity wireframing or sketching is a method for quickly translating requir
 
 At the initial stage, the wireframes or sketches need only be detailed enough to communicate their intent. The larger goal is to  explore a range of possibilities, not to explore the nuances of any single possibility.
 
-![3.4.1.1](/_assets/3.4.1.1_wireframing_sketching.jpg)
+![3.4.1.1](../_assets/3.4.1.1_wireframing_sketching.jpg)
 
 ## Resources
 

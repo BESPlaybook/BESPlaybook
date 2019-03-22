@@ -16,7 +16,7 @@ Use to humanize your users, especially in order to create rich scenarios and jou
 
 The output should be a single page or card, that fully characterizes its represented user segment, including goals and motivations, challenges and frustrations, behaviors and habits, attitudes and concerns.
 
-![3.3.2.1](/_assets/3.3.3.1_majcom_analyst.jpg)
+![3.3.2.1](../_assets/3.3.3.1_majcom_analyst.jpg)
 
 Personas are used as the insight to generate scenarios and journey maps that include a comprehensive user perspective.
 
