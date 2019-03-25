@@ -265,7 +265,58 @@
       
       <div class="bes-content">
         
-          
+          <blockquote>
+<h1 id="413-accessibility"><strong>4.13</strong> Accessibility</h1>
+</blockquote>
+<h2 id="accessibility-considers-the-user-experience-for-all-users">Accessibility Considers the User Experience for All Users</h2>
+<p>As excerpted from the WCAG Guidelines, “Accessibility defines how to make Web content more accessible to people with disabilities. Accessibility involves a wide range of disabilities, including visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities.” While this might not be a requirement of your particular application’s users, accessibility standards often reflect the most stringent interpretation of contrast, legibility, and usability best practices – and thus are of use to all designers. </p>
+<h2 id="accessibility-tips-for-designers">Accessibility Tips for Designers</h2>
+<p>Accessible application design is a collaboration between designers and developers, affecting UI and code alike. In the interest of a useful shorthand for this playbook’s primary users, this section focuses on best practices of visual design &amp; accessibility (quoted heavily from the Web Accessibility Initiative): </p>
+<ul>
+<li><strong>Provide sufficient contrast between foreground and background</strong>. Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements.  </li>
+<li><strong>Don’t use color alone to convey information</strong>. While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. For example, use an asterisk in addition to color to indicate required form fields, and use labels to distinguish areas on graphs. </li>
+</ul>
+<p class="space-between"><em><img alt="4.13 Color" src="../../_assets/4.13_color_only_dont.png" srcset="../../_assets/4.13_color_only_dont@2x.png 2x" /></em>
+<em><img alt="4.13 Color" src="../../_assets/4.13_color_only_do.png" srcset="../../_assets/4.13_color_only_do@2x.png 2x" /></em></p>
+<ul>
+<li><strong>Ensure that interactive elements are easy to identify</strong>. Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation. Ensure that styles and naming for interactive elements are used consistently throughout the website. </li>
+<li><strong>Provide clear and consistent navigation options</strong>. Ensure that navigation across pages within a website has consistent naming, styling, and positioning. Provide more than one method of website navigation, such as a site search or a site map. Help users understand where they are in a website or page by providing orientation cues, such as breadcrumbs and clear headings. </li>
+<li><strong>Ensure that form elements include clearly associated labels</strong>. Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.</li>
+</ul>
+<p class="well"><em><img alt="4.13 Form Labeling" src="../../_assets/4.13_form_labeling.png" srcset="../../_assets/4.13_form_labeling@2x.png 2x" /></em></p>
+<ul>
+<li><strong>Provide easily identifiable feedback</strong>. Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Instructions should be easy to identify. Important feedback that requires user action should be presented in a prominent style. </li>
+</ul>
+<p class="well"><em><img alt="4.13 Form Feedback" src="../../_assets/4.13_identifiable_feedback_confirm.png" srcset="../../_assets/4.13_identifiable_feedback_confirm@2x.png 2x" /></em>
+<em><img alt="4.13 Form Feedback" src="../../_assets/4.13_identifiable_feedback_error.png" srcset="../../_assets/4.13_identifiable_feedback_error@2x.png 2x" /></em></p>
+<ul>
+<li><strong>Use headings and spacing to group related content</strong>. Use whitespace and proximity to make relationships between content more apparent. Style headings to group content, reduce clutter, and make it easier to scan and understand. </li>
+<li><strong>Create designs for different viewport sizes</strong>. Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility. </li>
+<li><strong>Include image and media alternatives in your design</strong>. Provide a place in your design for alternatives for images and media. For example, you might need: visible links to transcripts of audio, visible links to audio described versions of videos, text along with icons and graphical buttons, and / or captions and descriptions for tables or complex graphs. Work with content authors and developers to provide alternatives for non-text content. </li>
+<li><strong>Provide controls for content that starts automatically</strong>. Provide visible controls to allow users to stop any animations or auto-playing sound. This applies to carousels, image sliders, background sound, and videos. </li>
+</ul>
+<p class="well space-between"><em><img alt="4.13 Caption" src="../../_assets/4.13_provide_controls_left.png" srcset="../../_assets/4.13_provide_controls_left@2x.png 2x" /></em>
+<em><img alt="4.13 Controls" src="../../_assets/4.13_provide_controls_right.png" srcset="../../_assets/4.13_provide_controls_right@2x.png 2x" /></em></p>
+<p>Most government platforms are subject to the Revised Section 508 Standards and thus WCAG 2.0 Level AA Success Criteria. In addition to other requirements, this will most commonly affect a designer’s text &amp; background color (contrast) choices:</p>
+<ul>
+<li>Text (including images of text) have a contrast ratio of at least 4.5:1. For text and images of that is at least 24px and normal weight or 19px and bold, use a contrast ratio that is at least 3:1. </li>
+<li>Color contrast for graphics and interactive UI components must be at least 3:1 so that different parts can be distinguished. </li>
+<li>When providing custom states for elements (e.g. hover, active, focus), color contrast for those states should be at least 3:1.</li>
+</ul>
+<p><img alt="4.13 Contrast active" src="../../_assets/4.13_contrast_active_btn.png" srcset="../../_assets/4.13_contrast_active_btn@2x.png 2x" />
+<img alt="4.13 Contrast disabled" src="../../_assets/4.13_contrast_disabled.png" srcset="../../_assets/4.13_contrast_disabled@2x.png 2x" />
+<img alt="4.13 Contrast on image" src="../../_assets/4.13_contrast_text_on_image.png" srcset="../../_assets/4.13_contrast_text_on_image@2x.png 2x" /></p>
+<p class="well center"><em><img alt="4.13 Charts" src="../../_assets/4.13_contrast_charts.png" srcset="../../_assets/4.13_contrast_charts@2x.png 2x" /></em></p>
+<h2 id="ref">Ref</h2>
+<p>W3.org Tips &amp; Resources for Designers 
+https://www.w3.org/WAI/tips/designing/ </p>
+<p>Web Content Accessibility Guidelines (WCAG) 2.0 
+https://www.w3.org/TR/WCAG20/ </p>
+<p>US Web Design System
+https://www.usability.gov/what-and-why/accessibility.html"https://www.usability.gov/what-and-why/accessibility.html<br />
+https://designsystem.digital.gov/documentation/accessibility/ </p>
+<p>HHS Design Standards 
+https://webstandards.hhs.gov/guidelines/</p>
         
       </div>
 
