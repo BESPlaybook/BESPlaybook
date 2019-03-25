@@ -64,7 +64,7 @@ body {
   width: 9px;
   height: 14px;
   margin-right: 10px;
-  background: url(../img/back.svg) no-repeat;
+  background: url(./img/back.svg) no-repeat;
 }
 
 .bes-content > p img {
@@ -189,7 +189,7 @@ body {
 .bes-content > .quote {
   margin-top: 20px;
   padding-left: 60px;
-  background: url('../img/3.3.3.2_quote@2x.png') no-repeat;
+  background: url('./img/3.3.3.2_quote@2x.png') no-repeat;
   background-position: 15px 15px;
   background-size: 41px 32px;
   font-style: italic;
