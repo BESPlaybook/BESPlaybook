@@ -3,10 +3,10 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5em;
   color: #323A45;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5em;
 }
 
 .bes-body-columns {
@@ -19,7 +19,7 @@ body {
 }
 
 .bes-content {
-  margin: 0px auto;
+  margin: 0 auto;
   padding-bottom: 50px;
 }
 
@@ -34,8 +34,8 @@ body {
 .bes-content > .quote
 {
   max-width: 800px;
-  margin-left: 100px;
   margin-right: 100px;
+  margin-left: 100px;
 }
 
 .bes-content > h2 {
@@ -53,18 +53,18 @@ body {
 /* Back link */
 .bes-content > p:first-child > a:only-child {
   display: flex;
-  margin-top: 50px;
   align-items: center;
+  margin-top: 50px;
   font-size: 14px;
 }
 
 .bes-content > p:first-child > a:only-child::before {
   content: '';
   display: inline-block;
-  background: url(../img/back.svg) no-repeat;
   width: 9px;
   height: 14px;
   margin-right: 10px;
+  background: url(../img/back.svg) no-repeat;
 }
 
 .bes-content > p img {
@@ -80,8 +80,8 @@ body {
 }
 
 .bes-content > .wide > img {
-  margin: 0px auto;
   display: block;
+  margin: 0 auto;
 }
 
 
@@ -96,10 +96,10 @@ body {
 
 .bes-content > .well {
   position: relative;
-  background-color: #F2F2F2;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 1px solid green;
+  background-color: #F2F2F2;
 }
 
 .bes-content > .well::before,
@@ -123,8 +123,8 @@ body {
 .bes-content > .space-between {
   display: flex;
   justify-content: space-between;
-  margin-left: 90px;
   margin-right: 90px;
+  margin-left: 90px;
 }
 
 .bes-content > .space-between > em {
@@ -141,27 +141,27 @@ body {
  */
 
 .bes-content > blockquote:first-child {
+  display: flex;
+  align-items: center;
+  height: 180px;
   margin: 0;
   margin-bottom: 50px;
   background-color: #24316C;
-  color: #fff;
-  font-weight: 300;
-  display: flex;
-  height: 180px;
-  align-items: center;
   background-image: url('./img/Header.jpg');
   background-size: cover;
+  color: #fff;
+  font-weight: 300;
 }
 
 .bes-content > blockquote:first-child  h1 {
-  color: #fff;
   flex: 1 0;
-  line-height: 1em;
-  font-weight: 300;
 
   max-width: 800px;
-  margin-left: 100px;
   margin-right: 100px;
+  margin-left: 100px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1em;
 }
 
 .bes-content > blockquote:first-child  strong {
@@ -178,8 +178,8 @@ body {
 }
 
 .bes-content > blockquote > p {
-  margin-left: 80px;
   margin-right: 20px;
+  margin-left: 80px;
 }
 
 
@@ -198,21 +198,21 @@ body {
 
 .bes-content > .quote {
   margin-top: 20px;
-  background: url('../img/3.3.3.2_quote@2x.png') no-repeat;
-  background-size: 41px 32px;
-  background-position: 15px 15px;
   padding-left: 60px;
+  background: url('../img/3.3.3.2_quote@2x.png') no-repeat;
+  background-position: 15px 15px;
+  background-size: 41px 32px;
   font-style: italic;
 }
 
 .logo-row {
-  background-color: #F1F3F9;
   padding: 30px 100px;
+  background-color: #F1F3F9;
 }
 
 .logo-row em {
-  margin: 0 10px;
   flex-shrink: 1;
+  margin: 0 10px;
 }
 
 .logo-row em img {
@@ -227,15 +227,15 @@ body {
 
 
 .overflow-row {
-  background-color: #F5F5F5;
-  padding: 30px 100px;
   margin-top: 10%;
   margin-bottom: 10%;
+  padding: 30px 100px;
+  background-color: #F5F5F5;
 }
 
 .overflow-row em {
-  margin: 0 10px;
   flex-shrink: 1;
+  margin: 0 10px;
 }
 
 .overflow-row em img {
@@ -252,8 +252,8 @@ body {
 @media screen and (max-width: 1000px) {
 
   .overflow-row {
-    padding-left: 30px;
     padding-right: 30px;
+    padding-left: 30px;
   }
 
   .overflow-row p {

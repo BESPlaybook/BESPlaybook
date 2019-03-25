@@ -1,9 +1,9 @@
 
 .bes-doc-nav-wrap {
-  background-color: #F0F0F3;
-  padding: 60px 45px;
-  max-width: 340px;
   min-width: 280px;
+  max-width: 340px;
+  padding: 60px 45px;
+  background-color: #F0F0F3;
 }
 
 .bes-doc-nav__list {
@@ -19,8 +19,8 @@
 }
 
 .bes-doc-nav__list li {
-  list-style: none;
   margin-bottom: 10px;
+  list-style: none;
 }
 
 .bes-doc-nav__list li ul {
@@ -30,8 +30,8 @@
 
 
 .bes-doc-nav__list a.current {
-  font-weight: 500;
   color: #2F4CB3;
+  font-weight: 500;
 }
 
 
@@ -59,7 +59,7 @@
 }
 
 .bes-doc-nav__list .subsection.current + li a {
-  font-weight: 500;
   color: #2F4CB3;
+  font-weight: 500;
 }
 

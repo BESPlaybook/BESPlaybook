@@ -1,29 +1,29 @@
 
 .bes-header {
-  background-color: #24316C;
-  padding: 35px 40px 20px 120px;
-  height: 140px;
   display: flex;
-  justify-content: space-between;
   position: relative;
-  flex-direction: column;
   box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 140px;
+  padding: 35px 40px 20px 120px;
+  background-color: #24316C;
 }
 
 .bes-header__logo {
+  position: absolute;
+  top: 15px;
+  left: 30px;
   width: 70px;
   height: 61px;
   background: url('./img/logo.svg') no-repeat;
   background-size: contain;
-  position: absolute;
-  top: 15px;
-  left: 30px;
 }
 
 .bes-header h1 {
+  margin: 0;
   color: #fff;
   font-weight: 300;
-  margin: 0;
 }
 
 .bes-header h1 b {
@@ -31,27 +31,27 @@
 }
 
 .bes-header-nav {
-  color: #fff;
   display: flex;
-  justify-content: flex-end;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  margin: 0;
   box-sizing: border-box;
+  justify-content: flex-end;
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
 }
 
 .bes-header-nav li {
-  list-style: none;
   display: flex;
-  align-items: center;
   position: relative;
   top: 3px;
+  align-items: center;
+  list-style: none;
 }
 
 .bes-header-nav li a {
   display: block;
   padding: 5px 40px;
-  color: #fff;
   border-bottom: 2px solid transparent;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -62,14 +62,14 @@
 }
 
 .bes-header-nav li a:hover {
-  text-decoration: none;
   border-color:#fff;
+  text-decoration: none;
 }
 
 .bes-search-form input {
+  padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background-color:rgba(255, 255, 255, 0.15);
-  padding: 10px;
   color: #fff;
   font-size: 16px;
 }
