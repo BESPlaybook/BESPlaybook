@@ -94,31 +94,20 @@ body {
   text-align: center;
 }
 
+.bes-content .padded {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
 .bes-content > .well {
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border: 1px solid green;
+  padding: 30px;
   background-color: #F2F2F2;
+  display: flex;
 }
 
-.bes-content > .well::before,
-.bes-content > .well::after {
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #F2F2F2;
-}
-
-.bes-content > .well::before {
-  left: -100%;
-}
-
-.bes-content > .well::after {
-  right: -100%;
-}
 
 .bes-content > .space-between {
   display: flex;
@@ -127,7 +116,9 @@ body {
   margin-left: 90px;
 }
 
-.bes-content > .space-between > em {
+.bes-content > .space-between > em,
+.bes-content > .padded > em,
+.bes-content > .well > em {
   margin: 0 10px;
 }
 
