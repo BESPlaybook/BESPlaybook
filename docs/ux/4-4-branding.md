@@ -18,12 +18,17 @@ _![4.4 logo](../_assets/4.4_our_identification_02.png){srcset="../../_assets/4.4
 - If used with the logotype, the two elements are in a fixed relationship and cannot be altered.
 - The only alternate words permitted “directly” under the Symbol are those approved by the Chief of Staff of the Air Force (see Formats)
 
-(These images are misaligned. They should be exported so they have the same height)
-
 <div class="logo-row wide" markdown="1">
 _![4.4 logo](../_assets/4.4_logo_blue.png){srcset="../../_assets/4.4_logo_blue@2x.png 2x"}_
 _![4.4 logo](../_assets/4.4_logo_white.png){srcset="../../_assets/4.4_logo_white@2x.png 2x"}_
 _![4.4 logo](../_assets/4.4_logo_chrome.png){srcset="../../_assets/4.4_logo_chrome@2x.png 2x"}_
+</div>
+
+## Test!
+
+<div class="overflow-row wide" markdown="1">
+_![4.4 logo](../_assets/_test-5_3-1.png)_
+_![4.4 logo](../_assets/_test-5_3-2.png)_
 </div>
 
 ## Logo Application
@@ -33,6 +38,24 @@ The spacing and positioning for the logomark has been carefully considered and o
 #### Spacing
 
 The spacing and positioning for the logomark has been carefully considered and optimized to create an ideal optical balance. Because the shape is comprised of sharp, angular points, in tandem with the illusion of a 3-dimensional shape, a sense of symmetry is achieved through subtle repositioning of the mathematical center.
+
+
+### Tips on usage
+
+_![4.4 logo](../_assets/4.4_logo_dark_bkgd_colortreatment.jpg){srcset="../../_assets/4.4_logo_dark_bkgd_colortreatment@2x.jpg 2x"}_
+
+White logo on photographic/textural background
+
+_![4.4 logo](../_assets/4.4_logo_light_bkgd_colortreatment.jpg){srcset="../../_assets/4.4_logo_light_bkgd_colortreatment@2x.jpg 2x"}_
+
+White or color logo on solid color background
+
+_![4.4 logo](../_assets/4.4_logo_wrong_treatment.jpg){srcset="../../_assets/4.4_logo_wrong_treatment@2x.jpg 2x"}_
+
+Avoid using USAF color logo on full-color photographic 
+image background
+
+_![4.4 logo](../_assets/4.4_logo_spacing.png){srcset="../../_assets/4.4_logo_spacing@2x.png 2x"}_
 
 #### Sizing
 
