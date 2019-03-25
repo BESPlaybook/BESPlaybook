@@ -14,8 +14,12 @@
   <div class="bes-footer__link-group">
     <h4>BES Playbooks</h4>
     <ul>
-      {%- for link in config.extra.playbooks %}
-        <li><a href="{{ config.extra.playbooks[link] }}">{{ link }}</a></li>
+      {%- for k in config.extra.playbooks %}
+        <li>
+          <a href="{{ k.url }}">
+          {{ k.name }}
+          </a>
+        </li>
       {%- endfor %}
     </ul>
   </div>

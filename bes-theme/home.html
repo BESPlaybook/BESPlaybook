@@ -44,7 +44,7 @@
   {%- endblock %}
 </head>
 
-<body class="bes-body" role="document">
+<body class="bes-body bes-home" role="document">
   <div class="bes-header">
     <div class="bes-header__logo"></div>
     <h1><a href="{{ nav.homepage.url|url }}"></a><b>BES</b> Playbooks</a></h1>
@@ -66,31 +66,26 @@
   </div>
   
   <div class="bes-body-columns">
-
-    {# SIDE NAV, TOGGLES ON MOBILE #}
-    <nav class="bes-doc-nav-wrap">
-        <div class="bes-doc-nav" aria-label="navigation">
-          {%- set navlevel = 1 %}
-          {%- for nav_item in nav %}
-              {%- if nav_item.is_section %}
-                  <ul class="bes-doc-nav__list {% if nav_item.active %} bes-doc-nav__list--active {% endif %}">
-                      {%- for nav_item in nav_item.children %}
-                      <li class="{% if nav_item.active %}current{% endif %}">
-                          {%- include 'nav.html' %}
-                      </li>
-                      {%- endfor %}
-                  </ul>
-              {%- endif %}
-          {%- endfor %}
-        </div>
-    </nav><!-- /bes-doc-nav -->
-
     <section class="bes-content-wrap">
       {# PAGE CONTENT #}
+      <div class="bes-home-header">
+        {{ page.content }}
+      </div>
       <div class="bes-content">
-        {% block content %}
-          {{ page.content }}
-        {% endblock %}
+
+        <div class="bes-playbook-grid">
+        {%- for k in config.extra.p %}
+          <div class="bes-playbook-grid__item">
+            <h2><img src="{{ k.icon }}" />{{ k.name }}</h2>
+            <p>
+              {{ k.desc }}
+            </p>
+            <a href="{{ k.url }}">
+              View
+            </a>
+          </div>
+        {%- endfor %}
+        </div>
       </div>
 
     </section>
