@@ -1,0 +1,57 @@
+
+
+.bes-home-header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: auto;
+  margin: 0;
+  margin-bottom: 50px;
+  background-color: #24316C;
+  background-image: url('./img/Header.jpg');
+  background-size: cover;
+  color: #fff;
+  font-weight: 300;
+  padding-bottom: 50px;
+}
+
+.bes-home-header h1,
+.bes-home-header p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+  padding: 0 50px;
+  max-width: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+.bes-playbook-grid {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bes-playbook-grid__item {
+  flex-basis: 33%;
+  padding: 20px;
+}
+
+.bes-playbook-grid__item h2 {
+  display: flex;
+  align-items: center;
+}
+
+.bes-playbook-grid__item a {
+  display: inline-block;
+  background-color: #2F4CB3;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+.bes-playbook-grid__item h2 img {
+  margin-right: 20px;
+}
