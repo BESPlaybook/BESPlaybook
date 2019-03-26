@@ -8,7 +8,7 @@
   margin: 0;
   margin-bottom: 50px;
   background-color: #24316C;
-  background-image: url('./img/Header.jpg');
+  background-image: url('./img/home/0_home_page_header_01@2x.jpg');
   background-size: cover;
   color: #fff;
   font-weight: 300;
@@ -19,15 +19,20 @@
 .bes-home-header p {
   margin-left: auto;
   margin-right: auto;
-  width: 940px;
-  padding: 0 50px;
+  width: 1100px;
+  padding: 0 250px 0 50px;
   max-width: none;
   color: #fff;
   font-weight: 300;
 }
 
+.bes-home-header p {
+  font-size: 30px;
+  line-height: 2em;
+}
+
 .bes-playbook-grid {
-  width: 940px;
+  width: 1100px;
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
