@@ -31,6 +31,8 @@ body {
 .bes-content > h5,
 .bes-content > h6,
 .bes-content > ul,
+.bes-content > ol,
+.bes-content > hr,
 .bes-content > .quote
 {
   max-width: 800px;
@@ -49,6 +51,13 @@ body {
   margin-top: 0;
 }
 
+.bes-content > hr {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
 /* Back link */
 .bes-content > p:first-child > a:only-child {
