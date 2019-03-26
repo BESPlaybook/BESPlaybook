@@ -2,42 +2,47 @@
 
 .bes-home-header {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
+  align-items: flex-start;
   height: auto;
   margin: 0;
   margin-bottom: 50px;
+  padding: 70px 0;
   background-color: #24316C;
-  background-image: url('./img/home/0_home_page_header_01@2x.jpg');
+  background-image: url('_assets/0_home_page_header_01@2x.jpg');
   background-size: cover;
   color: #fff;
   font-weight: 300;
-  padding-bottom: 50px;
 }
 
 .bes-home-header h1,
 .bes-home-header p {
-  margin-left: auto;
-  margin-right: auto;
   width: 1100px;
-  padding: 0 250px 0 50px;
   max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 250px 0 50px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 100;
+}
+
+.bes-home-header h1 {
+  margin-top: 0
 }
 
 .bes-home-header p {
-  font-size: 30px;
-  line-height: 2em;
+  margin-bottom: 0;
+  font-size: 26px;
+  line-height: 1.6em
 }
 
 .bes-playbook-grid {
-  width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px;
   display: flex;
   flex-wrap: wrap;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px;
 }
 
 .bes-playbook-grid__item {
@@ -52,9 +57,9 @@
 
 .bes-playbook-grid__item a {
   display: inline-block;
+  padding: 5px 20px;
   background-color: #2F4CB3;
   color: #fff;
-  padding: 5px 20px;
 }
 
 .bes-playbook-grid__item h2 img {

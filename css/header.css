@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 140px;
-  padding: 35px 40px 20px 120px;
+  padding: 20px 40px 20px 120px;
   background-color: #24316C;
 }
 
@@ -49,10 +49,11 @@
 
 .bes-header-nav li a {
   display: block;
-  padding: 5px 40px;
+  padding: 5px 15px;
   border-bottom: 2px solid transparent;
   color: #fff;
   font-size: 14px;
+  width: 190px;
 }
 
 .bes-header-search {
