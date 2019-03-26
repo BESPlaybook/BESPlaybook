@@ -56,7 +56,7 @@
     <ul class="bes-header-nav" aria-label="main navigation">
         {%- for k in config.extra.playbooks %}
           <li>
-            <a href="{{ k.url }}">
+            <a href="{{config.extra.baseurl}}{{ k.url }}">
             {{ k.name }}
             </a>
           </li>
@@ -74,13 +74,13 @@
       <div class="bes-content">
 
         <div class="bes-playbook-grid">
-        {%- for k in config.extra.p %}
+        {%- for k in config.extra.playbooks %}
           <div class="bes-playbook-grid__item">
             <h2><img src="{{ k.icon }}" />{{ k.name }}</h2>
             <p>
               {{ k.desc }}
             </p>
-            <a href="{{ k.url }}">
+            <a href="{{config.extra.baseurl}}{{ k.url }}">
               View
             </a>
           </div>

@@ -24,13 +24,6 @@ _![4.4 logo](../_assets/4.4_logo_white.png){srcset="../../_assets/4.4_logo_white
 _![4.4 logo](../_assets/4.4_logo_chrome.png){srcset="../../_assets/4.4_logo_chrome@2x.png 2x"}_
 </div>
 
-## Test!
-
-<div class="overflow-row wide" markdown="1">
-_![4.4 logo](../_assets/_test-5_3-1.png)_
-_![4.4 logo](../_assets/_test-5_3-2.png)_
-</div>
-
 ## Logo Application
 
 The spacing and positioning for the logomark has been carefully considered and optimized to create an ideal optical balance. Because the shape is comprised of sharp, angular points, in tandem with the illusion of a 3-dimensional shape, a sense of symmetry is achieved through subtle repositioning of the mathematical center.

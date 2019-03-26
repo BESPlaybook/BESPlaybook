@@ -16,7 +16,7 @@
     <ul>
       {%- for k in config.extra.playbooks %}
         <li>
-          <a href="{{ k.url }}">
+          <a href="{{config.extra.baseurl}}{{ k.url }}">
           {{ k.name }}
           </a>
         </li>
