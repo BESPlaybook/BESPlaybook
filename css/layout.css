@@ -11,8 +11,8 @@ body {
 
 .bes-body-columns {
   display: flex;
-  flex-direction: row;
   z-index: 1;
+  flex-direction: row;
 }
 
 .bes-content-wrap {

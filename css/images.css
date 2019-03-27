@@ -21,9 +21,8 @@
 }
 
 
-
-
 .bes-content .center {
+  display: flex;
   justify-content: center;
 }
 
@@ -41,8 +40,8 @@
 
 .bes-content > .float {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
   /* 100px - item margin */
   margin-right: 90px;
   margin-left: 90px;
@@ -73,8 +72,8 @@
 
 .bes-content > .wide > img {
   display: block;
-  margin: 0 auto;
   width: 100%;
+  margin: 0 auto;
 }
 
 
@@ -83,8 +82,8 @@
 .bes-content > .wide.well.space-between,
 .bes-content > .wide.well.padded
 {
-  padding-left: 70px;
   padding-right: 60px;
+  padding-left: 70px;
 }
 
 
@@ -106,8 +105,8 @@
   .bes-content > .wide.well.space-between,
   .bes-content > .wide.well.padded
   {
-    padding-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
   }
 
 }
