@@ -268,3 +268,12 @@ body {
     margin: 0;
   }
 }
+@media screen and (max-width: 1200px) {
+  .bes-content-wrap {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+}
