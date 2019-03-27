@@ -3,16 +3,18 @@
 
 Integration of user experience as a core strategic pillar within your organization is not a binary proposition. Every organization will have differences in the extent to which they have adopted design into their business process. For this reason, InVision defined a maturity model for experience design adoption. In this model, organizations are rated at one of five levels.
 
-![1.4.1](../_assets/1.4_maturity_levels.jpg)
 
-![1.4.2](../_assets/1.4_levels_definitions.png)
-{: .extended}
+_![1.4.1](../_assets/1.4_maturity_levels.png){srcset="../../_assets/1.4_maturity_levels@2x.png 2x"}_
+
+_![1.4.2](../_assets/1.4_levels_definitions.png){srcset="../../_assets/1.4_levels_definitions@2x.png 2x"}_
+{.extended}
 
 It’s important to be cognizant of your current maturity level within this model, and to appreciate that moving up this model only increases the overall return on investment to your mission, your stakeholders, and your end users.
 
 For example, per InVision’s research, organizations are five times more likely to report having an impact on cost savings, when functioning at a Level 5 versus a Level 1. This number only increases when examining time to release.
 
-![1.4.3](../_assets/1.4_impact_chart.jpg)
+
+_![1.4.3](../_assets/1.4_impact_chart.png){srcset="../../_assets/1.4_impact_chart@2x.png 2x"}_
 
 ## 1.4.1 Leveling Up
 

@@ -8,9 +8,9 @@ The focus of the User Experience craft is typically on interactive, digital expe
 
 This holistic focus is conveyed well via the classic “Three Circles” diagram first proposed by Peter Morville, considered one of the “founding fathers” of the modern UX field:
 
-![2.1-1](../_assets/2.1_three_circles.png)
-{.center}
 
+_![2.1-1](../_assets/2.1_three_circles.png){srcset="../../_assets/2.1_three_circles@2x.png 2x"}_
+{.center}
 
 The meaning of each circle in this diagram is as follows:
 
@@ -23,7 +23,7 @@ A deep understanding of the needs and context for each user profile results in m
 
 Usability is often the first aspect that comes to mind when considering the focus of user experience, but there are in actuality a number of other factors that UX practitioners take into account when shaping a product, system or service. This is captured well by another classic model created by Peter Morville:
  
-![2.1-1](../_assets/2.1.2_important_qualities.png)
+_![2.1-2 qualities](../_assets/2.1.2_important_qualities.png){srcset="../../_assets/2.1.2_important_qualities@2x.png 2x"}_
 {.center}
 
 Each hexagon within this Honeycomb diagram is defined as follows:

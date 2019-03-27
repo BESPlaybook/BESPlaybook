@@ -2,13 +2,13 @@
 .bes-header {
   display: flex;
   position: relative;
+  z-index: 99; /* under nav toggle*/
   box-sizing: border-box;
   flex-direction: column;
   justify-content: space-between;
   height: 140px;
   padding: 20px 40px 20px 120px;
   background-color: #24316C;
-  z-index: 99; /* under nav toggle*/
 }
 
 .bes-header__logo {
@@ -49,8 +49,9 @@
 }
 
 .bes-header-nav li a {
-  display: block;
-  width: 190px;
+  display: flex;
+  justify-content: center;
+  width: 160px;
   padding: 5px 15px;
   border-bottom: 2px solid transparent;
   color: #fff;
@@ -74,6 +75,11 @@
   background-color:rgba(255, 255, 255, 0.15);
   color: #fff;
   font-size: 16px;
+}
+
+@media screen and (max-width: 1400px) {
+  .bes-header-nav li a {
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -102,8 +108,4 @@
     width: 35px;
     height: 30px;
   }
-}
-
-@media screen and (max-width: 800px) {
-
 }

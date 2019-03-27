@@ -16,7 +16,7 @@ Among the most common factors for project failure are:
 - Poor communication among customers, developers and users
 - Inability to handle the project’s complexity
 
-![1.3.3](../_assets/1.3_possible_design_alternative.jpg)
+_![1.3](../_assets/1.3_possible_design_alternative.png){srcset="../../_assets/1.3_possible_design_alternative@2x.jpngpg 2x"}_
 
 User Experience is the key to addressing many of these factors. A well-defined User Experience process can help to establish and clarify project goals, balancing the needs of the people and organizations that stand to benefit most from digital products. The process also helps validate and refine system requirements by facilitating their analysis through the lens of user value, organizational value and complexity, identifying and resolving areas of ambiguity prior to the initiation of development cycles. These benefits leads to stronger project plans, better estimation and increased chances for project success. 
 

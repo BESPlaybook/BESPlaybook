@@ -1,10 +1,10 @@
 
 .bes-doc-nav-wrap {
+  z-index: 10; /* above content */
   min-width: 280px;
   max-width: 340px;
   padding: 60px 45px;
   background-color: #F0F0F3;
-  z-index: 10; /* above content */
 }
 
 .bes-doc-nav__list {
@@ -92,11 +92,11 @@
 .bes-nav-toggle__label {
   display: none;
   position: fixed;
+  z-index: 100; /* top */
   top: 15px;
   left: 15px;
   width: 0;
   height: 0;
-  z-index: 100; /* top */
 }
 
 .bes-nav-toggle__hamburger {
@@ -125,7 +125,8 @@
   display: flex;
 }
 
-
+@media screen and (max-width: 1200px) {
+}
 
 @media screen and (max-width: 1024px) {
   .bes-doc-nav-wrap {
