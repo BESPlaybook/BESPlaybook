@@ -22,8 +22,9 @@ of that standards documentation, this library provides general design guidance.
 
 Given the differences between specific application style guides, this component library frequently refers to page elements by the purpose they serve or their front-end (HTML) shorthand. So, instead of defining a block of copy by its specific typographic properties, for instance (font name, size, hex color, etc.), we label it as “Body” or “H1 - Headline” in reference to your specific application’s styles.
 
-![5.1 Desktop](../_assets/5.1_style_specificity_desktop.jpg){srcset="../../_assets/5.1_style_specificity_desktop@2x.jpg 2x"}
-![5.1 Mobile](../_assets/5.1_style_specificity_mobile.jpg){srcset="../../_assets/5.1_style_specificity_mobile@2x.jpg 2x"}
+_![5.1 Desktop](../_assets/5.1_style_specificity_desktop.jpg){srcset="../../_assets/5.1_style_specificity_desktop@2x.jpg 2x"}_
+_![5.1 Mobile](../_assets/5.1_style_specificity_mobile.jpg){srcset="../../_assets/5.1_style_specificity_mobile@2x.jpg 2x"}_
+{.float}
 
 In the case of entirely new components, enterprise-wide updates, or emergent devices / contexts / interaction patterns not accounted for in foundational style guides, this library provides a more prescriptive design: “Alpha Standard.” Again, these styles should only be applied if you’ve exhausted all other standards, and are primarily to demonstrate the best practices outlined in Web Design Standards.
 

@@ -15,6 +15,8 @@ The vast majority of global navigation exists at the top of the screen, either w
 ![5.2 Global Nav](../_assets/5.2_nav_example_03.png){srcset="../../_assets/5.2_nav_example_03@2x.png 2x"}
 {.wide}
 
+---
+
 ## Alpha Standard
 
 The following example component illustrates the web standards outlined previously, with the practical choices that make it so. Note that the Alpha Standard below is a stylistic proposal only. The inclusion / exclusion of particular navigation items (including utility nav, search, and functional elements) is usually determined by UX designers in accordance with user needs.
