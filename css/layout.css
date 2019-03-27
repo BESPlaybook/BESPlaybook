@@ -12,6 +12,7 @@ body {
 .bes-body-columns {
   display: flex;
   flex-direction: row;
+  z-index: 1;
 }
 
 .bes-content-wrap {
@@ -59,6 +60,17 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+
+
+h1.spacer,
+h2.spacer,
+h3.spacer,
+h4.spacer,
+h5.spacer,
+h6.spacer {
+  height: 0;
+}
+
 /* Back link */
 .bes-content > p:first-child > a:only-child {
   display: flex;
@@ -76,67 +88,6 @@ body {
   background: url(./img/back.svg) no-repeat;
 }
 
-.bes-content > p img {
-  max-width: 100%;
-}
-
-
-/* Extend the full column widths */
-.bes-content > .wide {
-  max-width: 1100px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.bes-content > .wide > img {
-  display: block;
-  margin: 0 auto;
-}
-
-
-/* Align with content left, but stretch full width to right */
-.bes-content > .extended {
-  max-width: 900px;
-}
-
-.bes-content .center {
-  justify-content: center;
-}
-
-.bes-content .padded {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.bes-content > .float {
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 90px;
-  margin-left: 90px;
-}
-
-
-.bes-content > .well {
-  display: flex;
-  position: relative;
-  padding: 30px;
-  background-color: #F2F2F2;
-}
-
-
-.bes-content > .space-between {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 90px;
-  margin-left: 90px;
-}
-
-.bes-content > .space-between > em,
-.bes-content > .padded > em,
-.bes-content > .well > em,
-.bes-content > .float > em {
-  margin: 0 10px;
-}
 
 
 
@@ -146,7 +97,6 @@ body {
  * Markdown:
  * > # **1.2** Audience
  */
-
 .bes-content > blockquote:first-child {
   display: flex;
   align-items: center;
@@ -174,34 +124,9 @@ body {
   font-size: 34px;
 }
 
-.bes-content > blockquote {
-  margin: 0 20px;
-  background-color: #F2F2F2;
-}
-
-.bes-content > blockquote img {
-  max-width: 100%;
-}
-
-.bes-content > blockquote > p {
-  margin-right: 20px;
-  margin-left: 80px;
-}
-
-
-.bes-content > .fill-2 {
-  display: flex;
-}
-
-.bes-content > .fill-2 em {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.bes-content > .fill-2 em:last-child {
-  margin-right: 0;
-}
-
+/*
+ Is this a blockquote? 
+*/
 .bes-content > .quote {
   margin-top: 20px;
   padding-left: 60px;
@@ -268,9 +193,32 @@ body {
     margin: 0;
   }
 }
+
 @media screen and (max-width: 1200px) {
+  /* Account for fixed header */
   .bes-content-wrap {
     margin-top: 60px;
+  }
+
+  .bes-content > p,
+  .bes-content > h1,
+  .bes-content > h2,
+  .bes-content > h3,
+  .bes-content > h4,
+  .bes-content > h5,
+  .bes-content > h6,
+  .bes-content > ul,
+  .bes-content > ol,
+  .bes-content > hr,
+  .bes-content > .quote
+  {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .bes-content > blockquote:first-child  h1 {
+    margin-right: 50px;
+    margin-left: 50px;
   }
 }
 

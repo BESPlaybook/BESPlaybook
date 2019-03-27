@@ -1,0 +1,6 @@
+/* One-off rules for layouts */
+
+.bes-content > .blue-well {
+  margin-top: -20px;
+  background-color: #2F4CB3;
+}

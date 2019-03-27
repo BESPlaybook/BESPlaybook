@@ -1,6 +1,8 @@
 @import './layout.css';
+@import './images.css';
 @import './text.css';
 @import './header.css';
 @import './home.css';
 @import './doc-nav.css';
 @import './footer.css';
+@import './custom.css';
