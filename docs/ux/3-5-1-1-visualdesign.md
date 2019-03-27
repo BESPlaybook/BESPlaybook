@@ -19,7 +19,7 @@ High-fidelity wireframes and comps serve as the foundation for communicating the
 
 _![3.5.1.1-1](../_assets/3.5.1.1_high_fidelity.jpg){srcset="../../_assets/3.5.1.1_high_fidelity@2x.jpg"}_
 _![3.5.1.1-2](../_assets/3.5.1.1_visual_design_comp.jpg){srcset="../../_assets/3.5.1.1_visual_design_comp@2x.jpg"}_
-{: .fill-2}
+{.space-between}
 
 ## Practical considerations
 

@@ -1,0 +1,62 @@
+
+.bes-content > p img {
+  max-width: 100%;
+}
+
+
+/* Extend the full column widths */
+.bes-content > .wide {
+  max-width: 1100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.bes-content > .wide > img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Align with content left, but stretch full width to right */
+.bes-content > .extended {
+  max-width: 900px;
+}
+
+.bes-content .center {
+  justify-content: center;
+}
+
+.bes-content .padded {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bes-content > .float {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+
+.bes-content > .well {
+  display: flex;
+  position: relative;
+  padding: 30px;
+  background-color: #F2F2F2;
+}
+
+
+.bes-content > .space-between {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.bes-content > .space-between > em,
+.bes-content > .padded > em,
+.bes-content > .well > em,
+.bes-content > .float > em {
+  margin: 0 10px;
+}
