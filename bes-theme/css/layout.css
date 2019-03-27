@@ -215,6 +215,11 @@ h6.spacer {
     margin-right: 50px;
     margin-left: 50px;
   }
+
+  .bes-content > blockquote:first-child  h1 {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
 }
 
 @media screen and (max-width: 800px) {

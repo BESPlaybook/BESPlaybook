@@ -12,7 +12,7 @@ Use blueprinting to model solutions that address specific process inefficiencies
 
 - Service design blueprints work best when layered onto an existing journey map, but can be executed independently.
 
-![3.3.2.3](../_assets/3.3.3.4_Journey_map_illustration.png)
+![3.3.2.4 journey maps](../_assets/3.3.3.4_Journey_map_illustration.png){srcset="../../_assets/3.3.3.4_Journey_map_illustration@2x.png 2x"}
 
 - A thorough understanding of the service delivery process is necessary to accurately capture it. Because complex services can require the efforts of a host of different support personnel and systems, elicit direct input from all participants through interviews or a collaborative workshop session.
 
@@ -20,7 +20,7 @@ Use blueprinting to model solutions that address specific process inefficiencies
 
 A service design blueprint should be a time-based diagram, with swim lanes for the end user’s actions, system touchpoints, frontstage support personnel actions, backstage actions, and additional support processes/additional required systems. The detailed analysis inherit in creating a service blueprint will uncover gaps, inefficiencies, and pain points in your current service delivery model that your conceptual designs can address.
 
-![3.3.3.4](../_assets/3.3.3.4_service_blueprint_diagram.png)
+![3.3.2.4 blueprint](../_assets/3.3.3.4_service_blueprint_diagram.png){srcset="../../_assets/3.3.3.4_service_blueprint_diagram@2x.png 2x"}
 
 ## Resources
 

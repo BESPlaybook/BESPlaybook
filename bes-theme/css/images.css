@@ -21,33 +21,7 @@
 }
 
 
-/* Extend the full column widths */
-.bes-content > .wide {
-  max-width: 1040px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
 
-.bes-content > .wide > img {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-}
-
-
-.bes-content > .wide.well,
-.bes-content > .wide.well.float
-.bes-content > .wide.well.space-between,
-.bes-content > .wide.well.padded
-{
-  padding-left: 70px
-}
-
-
-/* Align with content left, but stretch full width to right */
-.bes-content > .extended {
-  max-width: 1000px;
-}
 
 .bes-content .center {
   justify-content: center;
@@ -56,6 +30,13 @@
 .bes-content .padded {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.bes-content > .space-between {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 90px;
+  margin-left: 90px;
 }
 
 .bes-content > .float {
@@ -76,18 +57,40 @@
 }
 
 
-.bes-content > .space-between {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 90px;
-  margin-left: 90px;
-}
-
 .bes-content > .space-between > em,
 .bes-content > .padded > em,
 .bes-content > .well > em,
 .bes-content > .float > em {
   margin: 0 10px;
+}
+
+/* Extend the full column widths */
+.bes-content > .wide {
+  max-width: 1040px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.bes-content > .wide > img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.bes-content > .wide.well,
+.bes-content > .wide.well.float
+.bes-content > .wide.well.space-between,
+.bes-content > .wide.well.padded
+{
+  padding-left: 70px;
+  padding-right: 60px;
+}
+
+
+/* Align with content left, but stretch full width to right */
+.bes-content > .extended {
+  max-width: 1000px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -103,7 +106,8 @@
   .bes-content > .wide.well.space-between,
   .bes-content > .wide.well.padded
   {
-    padding-left: 20px
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 }
