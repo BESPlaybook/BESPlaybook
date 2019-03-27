@@ -32,10 +32,10 @@ footer {
 }
 
 
-@media screen and ( max-width: 800px ) {
+@media screen and (max-width: 800px) {
   footer {
-    padding: 20px;
     flex-direction: column;
+    padding: 20px;
   }
 
   .bes-footer__link-group li {

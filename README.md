@@ -16,3 +16,9 @@ ln -s ~/Dropbox\ \(Isobar\ US\)/USAF\ UX\ Playbook/6_developer/_assets ./docs/
 
 ### Templating
 http://jinja.pocoo.org/docs/2.10/
+
+## Developing
+
+### TODO
+
+- Create better base templates so main and home pages can be shared

@@ -49,11 +49,11 @@
 
 .bes-header-nav li a {
   display: block;
+  width: 190px;
   padding: 5px 15px;
   border-bottom: 2px solid transparent;
   color: #fff;
   font-size: 14px;
-  width: 190px;
 }
 
 .bes-header-search {
@@ -75,34 +75,34 @@
   font-size: 16px;
 }
 
-@media screen and ( max-width: 1200px ) {
+@media screen and (max-width: 1200px) {
   .bes-header-nav,
   .bes-search-form { display: none; }
  
   .bes-header {
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0;
-    height: 60px;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 0;
   }
 
   .bes-header h1 {
-    font-size: 30px;
     margin-left: 20px;
+    font-size: 30px;
   }
 
   .bes-header__logo {
+    position: initial;
     width: 35px;
     height: 30px;
-    position: initial;
   }
 }
 
-@media screen and ( max-width: 800px ) {
+@media screen and (max-width: 800px) {
 
 }

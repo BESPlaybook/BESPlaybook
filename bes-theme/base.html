@@ -67,6 +67,11 @@
   <div class="bes-body-columns">
     
     {# SIDE NAV, TOGGLES ON MOBILE #}
+    <input type="checkbox" id="bes-nav-toggle" name="bes-nav-toggle" />
+    <label for="bes-nav-toggle" class="bes-nav-toggle__label">
+      <span class="bes-nav-toggle__hamburger"></span>
+      <span class="bes-nav-toggle__x"></span>
+    </label>
     <nav class="bes-doc-nav-wrap">
         <ul class="bes-playbook-mobile-nav">
             {%- for k in config.extra.playbooks %}
