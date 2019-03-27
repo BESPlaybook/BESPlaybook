@@ -43,7 +43,7 @@
   display: flex;
   position: relative;
   top: 3px;
-  align-items: center;
+  align-items: flex-end;
   list-style: none;
 }
 
