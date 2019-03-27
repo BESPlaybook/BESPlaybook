@@ -62,8 +62,9 @@ _![5.2 Phablet Nav](../_assets/5.2_phablet_nav_dropdown.png){srcset="../../_asse
 
 ## Mobile Navigation
 
-![5.2 Mobile Nav](../_assets/5.2_phone_nav.jpg){srcset="../../_assets/5.2_phone_nav@2x.jpg 2x"}
-![5.2 Mobile Nav](../_assets/5.2_phone_nav_dropdown.jpg){srcset="../../_assets/5.2_phone_nav_dropdown@2x.jpg 2x"}
+_![5.2 Mobile Nav](../_assets/5.2_phone_nav.jpg){srcset="../../_assets/5.2_phone_nav@2x.jpg 2x"}_
+_![5.2 Mobile Nav](../_assets/5.2_phone_nav_dropdown.jpg){srcset="../../_assets/5.2_phone_nav_dropdown@2x.jpg 2x"}_
+{.float}
 
 ## Reference Pages
 

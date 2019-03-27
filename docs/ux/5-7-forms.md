@@ -10,13 +10,11 @@ Form controls are specific to applications, though their triggers, appearance, a
 ![5.7 radio on](../_assets/5.7_engines_radio_on.png){srcset="../../_assets/5.7_engines_radio_on@2x.png 2x"}
 ![5.7 radio off](../_assets/5.7_engines_radio_off.png){srcset="../../_assets/5.7_engines_radio_off@2x.png 2x"}
 
----
-
 #### Positive Inventory Control
 
 _![5.7 autocomplete](../_assets/5.7_pic_auto_complete.png){srcset="../../_assets/5.7_pic_auto_complete@2x.png 2x"}_
 _![5.7 dropdown](../_assets/5.7_pic_dropdown_states.png){srcset="../../_assets/5.7_pic_dropdown_states@2x.png 2x"}_
-{.space-between}
+{.float}
 
 ![5.7 accordion](../_assets/5.7_pic_accordion.png){srcset="../../_assets/5.7_pic_accordion@2x.png 2x"}
 
@@ -38,4 +36,4 @@ The following example component illustrates the best practices outlined previous
 
 _![5.7 carousel](../_assets/5.7_as_carousel_pagenation.png){srcset="../../_assets/5.7_as_carousel_pagenation@2x.png 2x"}_
 _![5.7 video](../_assets/5.7_as_video.png){srcset="../../_assets/5.7_as_video@2x.png 2x"}_
-{.space-between}
+{.float}

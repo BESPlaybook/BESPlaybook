@@ -8,6 +8,7 @@
   height: 140px;
   padding: 20px 40px 20px 120px;
   background-color: #24316C;
+  z-index: 99; /* under nav toggle*/
 }
 
 .bes-header__logo {

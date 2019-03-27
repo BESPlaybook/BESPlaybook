@@ -4,6 +4,7 @@
   max-width: 340px;
   padding: 60px 45px;
   background-color: #F0F0F3;
+  z-index: 10; /* above content */
 }
 
 .bes-doc-nav__list {
@@ -95,7 +96,7 @@
   left: 15px;
   width: 0;
   height: 0;
-  background: pink
+  z-index: 100; /* top */
 }
 
 .bes-nav-toggle__hamburger {
@@ -126,7 +127,7 @@
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .bes-doc-nav-wrap {
     display: none;
     position: fixed;
