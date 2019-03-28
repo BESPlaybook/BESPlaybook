@@ -78,11 +78,18 @@
   list-style: none;
 }
 
+.bes-playbook-mobile-nav li.active a,
+.bes-playbook-mobile-nav li a:hover {
+  border-right: 4px solid #fff;
+  text-decoration: none;
+}
+
 .bes-playbook-mobile-nav li a {
   flex-grow: 1;
   padding: 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   color: #fff;
+  border-right: 4px solid transparent;
 }
 
 #bes-nav-toggle {

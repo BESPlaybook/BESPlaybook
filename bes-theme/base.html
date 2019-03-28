@@ -37,6 +37,7 @@
     var mkdocs_page_name = {{ page.title|tojson|safe }};
     var mkdocs_page_input_path = {{ page.file.src_path|string|tojson|safe }};
     var mkdocs_page_url = {{ page.abs_url|tojson|safe }};
+    var mkdocs_base_url = {{ config.extra.baseurl|tojson|safe }}
   </script>
   {% endif %}
   <script src="{{ 'js/jquery-2.1.1.min.js'|url }}" defer></script>
@@ -59,9 +60,9 @@
           {% if 'search' in config['plugins'] %}{% include "searchbox.html" %}{% endif %}
       {%- endblock %}
     </div>
-    <ul class="bes-header-nav" aria-label="main navigation">
+    <ul class="bes-header-nav bes-playbook-nav" aria-label="main navigation">
         {%- for k in config.extra.playbooks %}
-          <li>
+          <li data-url="{{ k.url }}">
             <a href="{{config.extra.baseurl}}{{ k.url }}">
             {{ k.name }}
             </a>
@@ -79,9 +80,9 @@
       <span class="bes-nav-toggle__x"></span>
     </label>
     <nav class="bes-doc-nav-wrap">
-        <ul class="bes-playbook-mobile-nav">
+        <ul class="bes-playbook-mobile-nav bes-playbook-nav">
             {%- for k in config.extra.playbooks %}
-              <li>
+              <li data-url="{{ k.url }}">
                 <a href="{{config.extra.baseurl}}{{ k.url }}">
                 {{ k.name }}
                 </a>
@@ -121,14 +122,6 @@
   {%- block scripts %}
     <script>var base_url = '{{ base_url }}';</script>
     <script src="{{ 'js/theme.js'|url }}" defer></script>
-    {%- for path in config['extra_javascript'] %}
-      <script src="{{ path|url }}" defer></script>
-    {%- endfor %}
-    <script type="text/javascript" defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable({{ 'true' if config.theme.sticky_navigation else 'false' }});
-        };
-    </script>
   {%- endblock %}
 
 </body>

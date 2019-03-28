@@ -5,7 +5,6 @@ theme:
   navigation_depth: 2
 markdown_extensions:
   - attr_list
-  - admonition
   - extra
 plugins:
   - search
@@ -81,7 +80,7 @@ extra:
   baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
   playbooks:
     - name: Agile
-      url: /ux/1-1-purpose
+      url: /agile/1-1-agile
       icon: _assets/0_home_page_icon_agile.svg
       desc: Faster, more dynamic response to customers’ development needs requires a modern management approach. Learn what is necessary to establish those responsive process and management guidelines within the DoD environment.
     - name: Automated Testing
@@ -93,19 +92,19 @@ extra:
       icon: _assets/0_home_page_icon_user_experience.svg
       desc: Delivering value requires delivering an experience that meets the needs of your users. Learn what UX is, how it benefits and enhances development efforts, methods for designing experiences, and best-practice visual design guidelines.
     - name: DevSec Ops
-      url: /ux/1-1-purpose
+      url: /devops/1-1-devops
       icon: _assets/0_home_page_icon_devsec.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
     - name: Cyber Security
-      url: /ux/1-1-purpose
+      url: /cyber/1-1-cyber
       icon: _assets/0_home_page_icon_security.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
     - name: App Technology Refresh for Cloud
-      url: /ux/1-1-purpose
+      url: /cloud/1-1-purpose
       icon: _assets/0_home_page_icon_cloud.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
     - name: Agile Acquistions
-      url: /ux/1-1-purpose
+      url: /acquistions/1-1-acquistions
       icon: _assets/0_home_page_icon_agile_acquistions.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
 
