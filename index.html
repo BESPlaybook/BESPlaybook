@@ -19,6 +19,7 @@
     var mkdocs_page_name = "Home";
     var mkdocs_page_input_path = "index.md";
     var mkdocs_page_url = null;
+    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook"
   </script>
   
   <script src="js/jquery-2.1.1.min.js" defer></script>
@@ -29,6 +30,11 @@
   <div class="bes-header">
     <div class="bes-header__logo"></div>
     <h1><a href="."></a><b>BES</b> Playbooks</a></h1>
+    <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
+    <label for="bes-search-toggle" class="bes-search-toggle__label">
+      <span class="bes-search-toggle__search"></span>
+      <span class="bes-search-toggle__x"></span>
+    </label>
     <div class="bes-header-search">
         <div role="search">
   <form id ="rtd-search-form" class="bes-search-form" action="./search.html" method="get">
@@ -36,7 +42,7 @@
   </form>
 </div>
     </div>
-    <ul class="bes-header-nav" aria-label="main navigation">
+    <ul class="bes-header-nav" aria-label="main navigation" data-baseurl="https://isobar-us.github.io/USAF-2212-A4UX-Playbook">
           <li>
             <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/ux/1-1-purpose">
             Agile
@@ -255,17 +261,11 @@
 </footer>
     <script>var base_url = '.';</script>
     <script src="js/theme.js" defer></script>
-      <script src="search/main.js" defer></script>
-    <script type="text/javascript" defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(false);
-        };
-    </script>
 
 </body>
 </html>
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2019-03-28 15:59:31
+Build Date UTC : 2019-03-28 16:51:54
 -->
