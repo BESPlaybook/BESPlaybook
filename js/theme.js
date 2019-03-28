@@ -9,7 +9,7 @@
     if (isLocal) {
       slug = window.location.href.split('8000')[1]
     } else {
-      slug = window.location.href.split(mkdocs_base_url)[0];
+      slug = window.location.href.split(mkdocs_base_url)[1];
     }
 
     var section = slug.split('/')[1];
