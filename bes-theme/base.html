@@ -48,10 +48,16 @@
   <div class="bes-header">
     <div class="bes-header__logo"></div>
     <h1><a href="{{ nav.homepage.url|url }}"></a><b>BES</b> Playbooks</a></h1>
+    
+    <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
+    <label for="bes-search-toggle" class="bes-search-toggle__label">
+      <span class="bes-search-toggle__search"></span>
+      <span class="bes-search-toggle__x"></span>
+    </label>
     <div class="bes-header-search">
-    {%- block search_button %}
-        {% if 'search' in config['plugins'] %}{% include "searchbox.html" %}{% endif %}
-    {%- endblock %}
+      {%- block search_button %}
+          {% if 'search' in config['plugins'] %}{% include "searchbox.html" %}{% endif %}
+      {%- endblock %}
     </div>
     <ul class="bes-header-nav" aria-label="main navigation">
         {%- for k in config.extra.playbooks %}

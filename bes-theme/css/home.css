@@ -6,11 +6,11 @@
   align-items: flex-start;
   height: auto;
   margin: 0;
-  margin-bottom: 50px;
   padding: 70px 0;
   background-color: #24316C;
   background-image: url('_assets/0_home_page_header_01@2x.jpg');
   background-size: cover;
+  background-position: center center;
   color: #fff;
   font-weight: 300;
 }
@@ -30,6 +30,10 @@
   margin-top: 0
 }
 
+.bes-home-header h1 strong {
+  font-weight: 400;
+}
+
 .bes-home-header p {
   margin-bottom: 0;
   font-size: 26px;
@@ -42,7 +46,7 @@
   width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 50px;
+  padding: 30px;
 }
 
 .bes-playbook-grid__item {
@@ -64,4 +68,79 @@
 
 .bes-playbook-grid__item h2 img {
   margin-right: 20px;
+}
+
+.bes-home .bes-doc-nav-wrap {
+  display: none;
+  padding-right: 0;
+  min-width: 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .bes-home .bes-doc-nav-wrap {
+    display: flex;
+  }
+  
+  
+  .bes-playbook-grid {
+    width: auto;
+  }
+
+  .bes-playbook-grid__item {
+    flex-basis: 50%;
+  }
+
+  .bes-home-header h1,
+  .bes-home-header p {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* .bes-home .bes-header {
+    background: transparent;
+  }
+  
+  .bes-home .bes-content-wrap {
+    margin-top: 0;
+  } */
+}
+
+@media screen and (max-width: 1024px) {
+  .bes-home-header h1,
+  .bes-home-header p {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .bes-home .bes-doc-nav-wrap {
+    display: none;
+  }
+
+  .bes-home #bes-nav-toggle:checked + label + .bes-doc-nav-wrap {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ 
+  .bes-playbook-grid {
+    padding: 0;
+  }
+
+  .bes-playbook-grid__item {
+    flex-basis: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .bes-home-header p {
+    display: none;
+  }
+
+  .bes-home-header h1 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
