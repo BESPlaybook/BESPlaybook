@@ -1,12 +1,12 @@
 footer {
-  display: flex;
+  display: block;
   padding: 35px 30px;
   background-color: #24316C;
   color: #fff;
 }
 
 .bes-footer__link-group {
-  flex: 0 0;
+  display: inline-block;
   padding: 0 30px;
 }
 
@@ -34,6 +34,7 @@ footer {
 
 @media screen and (max-width: 800px) {
   footer {
+    display: flex;
     flex-direction: column;
     padding: 20px;
   }

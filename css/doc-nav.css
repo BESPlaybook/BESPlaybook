@@ -92,7 +92,7 @@
 .bes-nav-toggle__label {
   display: none;
   position: fixed;
-  z-index: 100; /* top */
+  z-index: 90; /* above header */
   top: 15px;
   left: 15px;
   width: 0;

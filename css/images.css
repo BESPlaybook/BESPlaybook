@@ -110,3 +110,13 @@
   }
 
 }
+
+@media screen and (max-width: 800px) {
+  .bes-content > .space-between,
+  .bes-content > .padded,
+  .bes-content > .well,
+  .bes-content > .float {
+    flex-wrap: wrap;
+  }
+
+}
