@@ -76,7 +76,7 @@ _![5.6 alpha](../_assets/5.6_as_form_field_email.png){srcset="../../_assets/5.6_
 _![5.6 alpha](../_assets/5.6_as_form_field_symbol_and_color_01.png){srcset="../../_assets/5.6_as_form_field_symbol_and_color_01@2x.png 2x"}_
 {.float}
 
-_![5.6 alpha](../_assets/5.6_as_form_field_confirmation.png){srcset="../../_assets/5.6_as_form_field_email@2x.png 2x"}_
+_![5.6 alpha](../_assets/5.6_as_form_field_confirmation.png){srcset="../../_assets/5.6_as_form_field_confirmation@2x.png 2x"}_
 _![5.6 alpha](../_assets/5.6_as_form_field_error.png){srcset="../../_assets/5.6_as_form_field_error@2x.png 2x"}_
 {.float}
 

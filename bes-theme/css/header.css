@@ -24,6 +24,7 @@
 .bes-header h1 {
   margin: 0;
   color: #fff;
+  font-size: 34px;
   font-weight: 300;
 }
 
@@ -52,17 +53,17 @@
 .bes-header-nav li a {
   display: flex;
   justify-content: center;
-  width: 180px;
+  width: 160px;
   padding: 5px 15px;
   border-bottom: 2px solid transparent;
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .bes-header-search {
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 40px;
 }
 
 .bes-header-nav li.active a,
@@ -70,6 +71,11 @@
   border-color:#fff;
   text-decoration: none;
 }
+
+.bes-header-nav li.active a {
+  font-weight: 600;
+}
+
 
 .bes-search-form input {
   padding: 6px 30px 6px 6px;
@@ -81,16 +87,16 @@
 }
 
 .bes-header-search::after {
-  display: block;
   content: '';
+  display: block;
   position: absolute;
   top: 6px;
   right: 6px;
-  height: 18px;
   width: 18px;
+  height: 18px;
+  opacity: 0.5;
   background: url('./img/search.svg');
   background-size: contain;
-  opacity: 0.5;
 }
 
 .bes-search-form input::placeholder {
@@ -170,19 +176,19 @@
   .bes-header-search {
     display: none;
     position: fixed;
+    z-index: 95;
     top: 0;
     right: 0;
     left: 0;
-    background-color: #24316c;
-    padding: 13px 60px;
-    z-index: 95;
     height: 60px;
+    padding: 13px 60px;
+    background-color: #24316c;
   }
 
   .bes-header-search input {
     width: 100%;
-    background-color: transparent;
     border-bottom: 1px solid #fff;
+    background-color: transparent;
   }
 
   .bes-header-search::after {

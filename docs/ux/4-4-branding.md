@@ -35,20 +35,24 @@ The spacing and positioning for the logomark has been carefully considered and o
 
 ### Tips on usage
 
-_![4.4 logo](../_assets/4.4_logo_dark_bkgd_colortreatment.jpg){srcset="../../_assets/4.4_logo_dark_bkgd_colortreatment@2x.jpg 2x"}_
+![4.4 logo](../_assets/4.4_logo_dark_bkgd_colortreatment.jpg){srcset="../../_assets/4.4_logo_dark_bkgd_colortreatment@2x.jpg 2x"}
 
 White logo on photographic/textural background
 
-_![4.4 logo](../_assets/4.4_logo_light_bkgd_colortreatment.jpg){srcset="../../_assets/4.4_logo_light_bkgd_colortreatment@2x.jpg 2x"}_
+![4.4 logo](../_assets/4.4_logo_light_bkgd_colortreatment.jpg){srcset="../../_assets/4.4_logo_light_bkgd_colortreatment@2x.jpg 2x"}
 
 White or color logo on solid color background
 
-_![4.4 logo](../_assets/4.4_logo_wrong_treatment.jpg){srcset="../../_assets/4.4_logo_wrong_treatment@2x.jpg 2x"}_
+![4.4 logo](../_assets/4.4_logo_wrong_treatment.jpg){srcset="../../_assets/4.4_logo_wrong_treatment@2x.jpg 2x"}
 
 Avoid using USAF color logo on full-color photographic 
 image background
 
-_![4.4 logo](../_assets/4.4_logo_spacing.png){srcset="../../_assets/4.4_logo_spacing@2x.png 2x"}_
+![4.4 logo](../_assets/4.4_logo_spacing.png){srcset="../../_assets/4.4_logo_spacing@2x.png 2x"}
+
+#### Spacing
+
+The spacing and positioning for the logomark has been carefully considered and optimized to create an ideal optical balance. Because the shape is comprised of sharp, angular points, in tandem with the illusion of a 3-dimensional shape, a sense of symmetry is achieved through subtle repositioning of the mathematical center.
 
 #### Sizing
 

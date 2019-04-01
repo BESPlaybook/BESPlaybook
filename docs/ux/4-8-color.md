@@ -21,9 +21,9 @@ The primary palette should be applied in marketing communications and applicatio
 
 The secondary palette extends the original colors to support new contexts, such as color-coded categorization, complex data visualization, and interactive color cues.
 
->_![4.8 Colors](../_assets/4.8_colors_01.png){srcset="../../_assets/4.8_colors_01@2x.png 2x"}_
+_![4.8 Colors](../_assets/4.8_colors_01.png){srcset="../../_assets/4.8_colors_01@2x.png 2x"}_
 _![4.8 Colors](../_assets/4.8_colors_02.png){srcset="../../_assets/4.8_colors_02@2x.png 2x"}_
-{.space-between .extended .padded}
+{.wide .well .space-between .extended}
 
 ### Colors for Accessibility 
 
@@ -33,17 +33,17 @@ The options below offer color palette combinations that fall within the range of
 
 If you choose to customize beyond this palette, https://webaim.org/resources/contrastchecker/ is a useful resource for testing the compliance of any color combination. 
 
->_![4.8 Common Colors](../_assets/4.8_common_ui_colors_01.png){srcset="../../_assets/4.8_common_ui_colors_01@2x.png 2x"}_
+_![4.8 Common Colors](../_assets/4.8_common_ui_colors_01.png){srcset="../../_assets/4.8_common_ui_colors_01@2x.png 2x"}_
 _![4.8 Common Colors](../_assets/4.8_common_ui_colors_02.png){srcset="../../_assets/4.8_common_ui_colors_02@2x.png 2x"}_
-{.space-between .padded}
+{.wide .well .space-between .extended}
 
 Colors should be used to denote the type of component or content being displayed. Large blocks of passive, read-only text should be colored to achieve maximum readability, whereas interactive links within that text should be colored with a more eye-catching “call-to-action" (CTA) standard. Reds and greens should be used sparingly, as they are often reserved for “alert colors,” or stylized system notifications (for when a form field is filled incorrectly, for instance). A color that indicates a disabled state could be the same as one that indicates active, but applied at 50% opacity. 
 
->_![4.8 Color Usage](../_assets/4.8_color_usage_cta.png){srcset="../../_assets/4.8_color_usage_cta@2x.png 2x"}_
+_![4.8 Color Usage](../_assets/4.8_color_usage_cta.png){srcset="../../_assets/4.8_color_usage_cta@2x.png 2x"}_
 _![4.8 Color Usage](../_assets/4.8_color_usage_alert.png){srcset="../../_assets/4.8_color_usage_alert@2x.png 2x"}_
 _![4.8 Color Usage](../_assets/4.8_color_usage_checkmark.png){srcset="../../_assets/4.8_color_usage_checkmark@2x.png 2x"}_
 _![4.8 Color Usage](../_assets/4.8_color_usage_navigation.png){srcset="../../_assets/4.8_color_usage_alert@2x.png 2x"}_
-{.space-between .padded}
+{.wide .well .space-between .extended}
 
 While your particular USAF application may adhere to its own style guide, all color palettes should comply with the USAF brand and digital best practices. 
 
@@ -57,6 +57,4 @@ https://www.trademark.af.mil/About-Us/The-Air-Force-Symbol/Display-guidelines/
  
 From CCE
 https://company-123432.frontify.com/d/YQiReCF6Sab5/usaf-cce-style-guide#/brand-design/colors
- 
- 
  

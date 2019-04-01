@@ -1,4 +1,4 @@
-> # 2.1 What is User Experience?
+> # **2.1**  What is User Experience?
 
 Defined broadly, “User Experience” is about how people experience and interact with an organization’s varied products, systems and services. 
 

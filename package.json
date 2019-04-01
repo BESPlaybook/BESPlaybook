@@ -12,6 +12,7 @@
     "css": "postcss bes-theme/css/bes.css -u autoprefixer postcss-smart-import cssnano --o bes-theme/main.css",
     "images": "http-server _asets",
     "deploy": "mkdocs gh-deploy --remote-name isobar",
+    "deploy-array": "mkdocs gh-deploy --remote-name array",
     "stylelint": "stylelint ./bes-theme/css"
   },
   "author": "Anne Demey",

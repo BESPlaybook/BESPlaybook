@@ -30,7 +30,7 @@ Remember that a mobile device isn’t just a phone. Scalability across devices, 
 
 _![4.12 Phone](../_assets/4.12_phone_interfaces.png){srcset="../../_assets/4.12_phone_interfaces@2x.png 2x"}_
 _![4.12 Phone](../_assets/4.12_tablet_interfaces.png){srcset="../../_assets/4.12_tablet_interfaces@2x.png 2x"}_
-{.well .space-between}
+{.well .space-between .align-bottom}
 
 
 

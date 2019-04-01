@@ -18,7 +18,7 @@ Not all of the mentioned elements should be included in one web page header: in 
 
 ## Desktop Navigation
 
-_![4.4 logo](../_assets/4.5_header_example.png){srcset="../../_assets/4.5_header_example@2x.png 2x"}_
+_![4.5 Header](../_assets/4.5_header_example.png){srcset="../../_assets/4.5_header_example@2x.png 2x"}_
 {.wide}
 
 ## Search is Intertwined with Navigation
@@ -33,7 +33,10 @@ The footer is the lower (bottommost) part of the page, where scrolling terminate
 
 Contemporary users have demonstrated comfort scrolling long pages and engaging with large page footers, provided both follow layout best practices. It is reasonable to use the page footer as a repository for all content that is both deprioritized but should also be universally accessible. 
 
-_![4.4 logo](../_assets/4.5_header_example.png){srcset="../../_assets/4.5_header_example@2x.png 2x"}_
+_![4.5 footer dark](../_assets/4.5_footer_dark_graphic.png){srcset="../../_assets/4.5_footer_dark_graphic@2x.png 2x"}_
+{.wide}
+
+_![4.5 footer dark](../_assets/4.5_footer_light_graphic.png){srcset="../../_assets/4.5_footer_light_graphic@2x.png 2x"}_
 {.wide}
 
 ### Visual Hierarchy

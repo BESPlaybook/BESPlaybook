@@ -1,8 +1,9 @@
 footer {
-  display: block;
+  display: flex;
   padding: 35px 30px;
   background-color: #24316C;
   color: #fff;
+  font-size: 14px;
 }
 
 .bes-footer__link-group {
@@ -15,8 +16,6 @@ footer {
 }
 
 .bes-footer__link-group ul {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
 }
@@ -31,6 +30,15 @@ footer {
   color: #fff;
 }
 
+.bes-footer__playbooks ul {
+  columns: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .bes-footer__playbooks ul {
+    columns: 1;
+  }
+}
 
 @media screen and (max-width: 800px) {
   footer {
@@ -43,3 +51,4 @@ footer {
     white-space: normal;
   }
 }
+

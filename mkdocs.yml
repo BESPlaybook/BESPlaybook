@@ -75,9 +75,13 @@ nav:
       - 5.6 Alerts & Messaging: ux/5-6-alerts.md
       - 5.7 Forms & Controls: ux/5-7-forms.md
       - 5.8 Visualizations: ux/5-8-visualizations.md
-      - 5.9 Key Mobile Standards: ux/5-9-mobile.md
+      - 5.9 Key Mobile Components: ux/5-9-mobile.md
+    - 6. Appendix:
+      - 6.1 Additional Resources: ux/6-1-appendix.md
+      - 6.2 Alpha Standard Layouts: ux/6-2-layouts.md
 extra:
   baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
+  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
   playbooks:
     - name: Agile
       url: /agile/1-1-agile

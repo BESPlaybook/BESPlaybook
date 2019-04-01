@@ -29,7 +29,7 @@ Icons accompanied by labels make information easier to find and scan, as long as
 
 _![4.9 Button](../_assets/4.9_icon_button_label_next.png){srcset="../../_assets/4.9_icon_button_label_next@2x.png 2x"}_
 _![4.9 Button](../_assets/4.9_icon_button_label_positive.png){srcset="../../_assets/4.9_icon_button_label_positive@2x.png 2x"}_
-_![4.9 Button](../_assets/4.9_icon_button_label_negative.png){srcset="../../_assets/4.9_icon_button_label_negative.png@2x.png 2x"}_
+_![4.9 Button](../_assets/4.9_icon_button_label_negative.png){srcset="../../_assets/4.9_icon_button_label_negative@2x.png 2x"}_
 {.wide .well}
 
 ## Icons in Data Tables
