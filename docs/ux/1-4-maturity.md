@@ -41,6 +41,7 @@ Within each principle below are statements that, per InVision’s findings, hold
 - Product/feature ideas are jointly developed and owned between design and key partners.
 
 
-## References
+## Reference
 
-[The New Design Frontier](http://google.com) - InVision
+- The New Design Frontier [https://www.invisionapp.com/design-better/design-maturity-model/](https://www.invisionapp.com/design-better/design-maturity-model/)
+

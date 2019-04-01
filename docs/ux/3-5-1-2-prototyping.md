@@ -19,6 +19,6 @@ A high-fidelity prototype should be digital and interactive, even if only for hi
 - If usability testing goals do not require the prototype to dynamically respond to user inputs, a prototype comprised simply of clickable static interface images (i.e. visual design comps) can suffice.
 - It is generally better to prototype small units of an experience such as key pages, sections or features than to manage one comprehensive prototype. This keeps prototypes manageable and focused, and minimizes need for additional time in refactoring patterns and interactions across a larger whole, especially when the delivery focus is narrower.
 
-## References
+## Reference
 
-Prototyping – usability.gov
+- Prototyping [https://www.usability.gov/how-to-and-tools/methods/prototyping.html](https://www.usability.gov/how-to-and-tools/methods/prototyping.html)

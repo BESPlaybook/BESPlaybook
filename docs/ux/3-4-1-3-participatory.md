@@ -23,4 +23,4 @@ As your participants are largely not going to immediately be comfortable taking 
 
 ## References
 
-Bringing Users into Your Process Through Participatory Design – David Sherwin and Erin Muntzert
+- Bringing Users into Your Process Through Participatory Design [https://www.slideshare.net/frogdesign/bringing-users-into-your-process-through-participatory-design](https://www.slideshare.net/frogdesign/bringing-users-into-your-process-through-participatory-design)

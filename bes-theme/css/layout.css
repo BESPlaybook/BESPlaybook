@@ -158,6 +158,21 @@ body {
   margin-bottom: -13%;
 }
 
+#reference + ul li,
+#references + ul li,
+#resource + ul li,
+#resources + ul li {
+  background: none;
+  padding-left: 0
+}
+
+#reference + ul a,
+#references + ul a,
+#resource + ul a,
+#resources + ul a {
+  display: block;
+}
+
 @media screen and (max-width: 1000px) {
 
   .overflow-row {

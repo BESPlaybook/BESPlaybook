@@ -25,6 +25,6 @@ Behavioral patterns discerned through metrics analysis can be used to:
 - Carefully consider sample sizes and occurrence percentages to avoid fixating on edge cases.
 - Avoid attempting to characterize user intent/goals solely by assessing their behavior.
 
-## References & Resources
+## Reference
 
-8 Usability Metrics Tech Teams Can Use To Analyze User Behaviour – Stephen Croome
+- 8 Usability Metrics Tech Teams Can Use To Analyze User Behaviour [https://www.shopify.com/partners/blog/9-usability-metrics-tech-teams-can-use-to-analyze-user-behaviour](https://www.shopify.com/partners/blog/9-usability-metrics-tech-teams-can-use-to-analyze-user-behaviour)

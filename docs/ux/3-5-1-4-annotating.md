@@ -19,6 +19,6 @@ Design specifications are most useful when presented side-by-side with the detai
 - In Agile and Lean environments, verbal and collaborative communication is favored to extensive documentation like fully annotated wireframes. Even so, some level of specification is still generally necessary to fully convey the designs for implementation. 
 
 
-## Resources
+## Resource
 
-Wireframing – The Perfectionist's Guide – Smashing Magazine
+- Wireframing – The Perfectionist's Guide [https://www.smashingmagazine.com/2016/11/wireframe-perfectionist-guide/#annotating-the-wireframes](https://www.smashingmagazine.com/2016/11/wireframe-perfectionist-guide/#annotating-the-wireframes)

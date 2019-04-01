@@ -42,3 +42,6 @@ The Medium Viewport layout includes a potential for additional white space to ap
 
 As a takeaway, design with a minimum of 4 columns / 1 component width for the smallest viewport, and otherwise subdivide the total number of grid columns evenly to create a consistent layout on table and desktop.
 
+## Reference
+
+- Interaction Design Foundation [https://www.interaction-design.org/literature/article/responsive-design-let-the-device-do-the-work](https://www.interaction-design.org/literature/article/responsive-design-let-the-device-do-the-work)

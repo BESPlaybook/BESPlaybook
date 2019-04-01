@@ -27,7 +27,7 @@ Personas are used as the insight to generate scenarios and journey maps that inc
 
 ## References
 
-Describing Personas – Indi Young
+- Describing Personas [https://medium.com/inclusive-software/describing-personas-af992e3fc527](https://medium.com/inclusive-software/describing-personas-af992e3fc527)
+- Personas Make Users Memorable for Product Team Members [https://www.nngroup.com/articles/persona](https://www.nngroup.com/articles/persona)
 
-Personas Make Users Memorable for Product Team Members – Nielsen Norman Group
 

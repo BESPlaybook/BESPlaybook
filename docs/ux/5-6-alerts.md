@@ -96,9 +96,6 @@ _![5.6 alpha](../_assets/5.6_as_banner_information.png){srcset="../../_assets/5.
 {.float}
 
 
-## Reference Page
+## Reference
 
-Alerts U.S. Web Design System
-https://designsystem.digital.gov/components/alerts/
- 
- 
+- Alerts U.S. Web Design System [https://designsystem.digital.gov/components/alerts](https://designsystem.digital.gov/components/alerts)

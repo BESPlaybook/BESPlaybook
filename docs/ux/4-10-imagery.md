@@ -34,12 +34,8 @@ When evaluating your optimization method, consider the nature of the image and m
 
 When in doubt, attempt to optimize for the smallest possible file size without an obvious loss in visual quality. 
 
-## Ref
+## References
 
-Web Fundamentals from Google
-https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization
- 
-Image Optimizers
-https://tinypng.com/  
-https://kraken.io/web-interface  
+- Web Fundamentals from Google [https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
+- Image Optimizers [https://tinypng.com](https://tinypng.com) [https://kraken.io/web-interface](https://kraken.io/web-interface)
  

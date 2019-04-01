@@ -8,7 +8,7 @@ The following icons are an aggregate of USAF applications and labeled accordingl
 
 _![5.3 App Logos](../_assets/5.3_application_styles_left.png){srcset="../../_assets/5.3_application_styles_left@2x.png 2x"}_
 _![5.3 App Logos](../_assets/5.3_application_styles_right.png){srcset="../../_assets/5.3_application_styles_right@2x.png 2x"}_
-{.wide .well .space-between}
+{.wide .well .space-between .align-bottom}
 
 When selecting new icons, choose only from a single family to retain consistency, or match the characteristics of your pre-existing icon set. A good practice is ensuring the icons fit within the same square, having matching line weight / complexity when compared at the same size. 
 

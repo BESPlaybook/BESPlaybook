@@ -53,18 +53,10 @@ _![4.13 Charts](../_assets/4.13_contrast_charts.png){srcset="../../_assets/4.13_
 {.well .center}
 
 
-## Ref
+## References
 
-W3.org Tips & Resources for Designers 
-https://www.w3.org/WAI/tips/designing/ 
- 
-Web Content Accessibility Guidelines (WCAG) 2.0 
-https://www.w3.org/TR/WCAG20/ 
-
-US Web Design System
-https://www.usability.gov/what-and-why/accessibility.html"https://www.usability.gov/what-and-why/accessibility.html  
-https://designsystem.digital.gov/documentation/accessibility/ 
-
-HHS Design Standards 
-https://webstandards.hhs.gov/guidelines/
+- W3.org Tips & Resources for Designers [https://www.w3.org/WAI/tips/designing](https://www.w3.org/WAI/tips/designing)
+- Web Content Accessibility Guidelines (WCAG) 2.0 [https://www.w3.org/TR/WCAG20](https://www.w3.org/TR/WCAG20)
+- US Web Design System [https://www.usability.gov/what-and-why/accessibility.html](https://www.usability.gov/what-and-why/accessibility.html) [https://designsystem.digital.gov/documentation/accessibility](https://designsystem.digital.gov/documentation/accessibility)
+- HHS Design Standards [https://webstandards.hhs.gov/guidelines](https://webstandards.hhs.gov/guidelines)
  

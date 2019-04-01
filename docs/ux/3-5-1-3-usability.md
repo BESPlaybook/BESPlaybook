@@ -40,10 +40,9 @@ Ideally, your setup allows for a recording of the test sessions (most importantl
 
 #### References
 
-Running a Usability Test – usability.gov
+- Running a Usability Test [https://www.usability.gov/how-to-and-tools/methods/running-usability-tests.html](https://www.usability.gov/how-to-and-tools/methods/running-usability-tests.html)
+- Complete Beginner’s Guide to UX Research [https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research](https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research)
 
-Complete Beginner’s Guide to UX Research – UX Booth
+#### Resources
 
-#### Additional resources
-
-Selecting an Online Tool for Unmoderated Remote User Testing – Nielsen Norman Group
+- Selecting an Online Tool for Unmoderated Remote User Testing [https://www.nngroup.com/articles/unmoderated-user-testing-tools](https://www.nngroup.com/articles/unmoderated-user-testing-tools)

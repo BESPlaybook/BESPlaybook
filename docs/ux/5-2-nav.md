@@ -66,10 +66,7 @@ _![5.2 Mobile Nav](../_assets/5.2_phone_nav.jpg){srcset="../../_assets/5.2_phone
 _![5.2 Mobile Nav](../_assets/5.2_phone_nav_dropdown.jpg){srcset="../../_assets/5.2_phone_nav_dropdown@2x.jpg 2x"}_
 {.float}
 
-## Reference Pages
+## References
 
-U.S. Web Design System 
-https://designsystem.digital.gov/page-templates/#documentation-page
- 
-UX Planet 
-uxplanet.org
+- U.S. Web Design System [https://designsystem.digital.gov/page-templates/#documentation-page](https://designsystem.digital.gov/page-templates/#documentation-page)
+- UX Planet [uxplanet.org](uxplanet.org)

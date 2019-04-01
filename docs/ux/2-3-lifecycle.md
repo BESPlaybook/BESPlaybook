@@ -92,16 +92,10 @@ Further details about each stage of the User Experience process, including the k
 
 ## References
 
-Agile Manifesto – agilemanifesto.org
-
-Scrum – Atlassian
-
-Design Sprint Kit – Google
-
-Benefits of Partnering Closely with Your Product Owner – UXmatters
-
-A Spectrum of Approaches to Project Agility – PMI
-
-Spikes – Scaled Agile
-
-Fitting Big-Picture UX Into Agile Development – Smashing Magazine
+- Agile Manifesto [https://agilemanifesto.org](https://agilemanifesto.org)
+- Scrum [https://www.atlassian.com/agile/scrum](https://www.atlassian.com/agile/scrum)
+- Design Sprint Kit [https://designsprintkit.withgoogle.com/introduction/overview](https://designsprintkit.withgoogle.com/introduction/overview)
+- Benefits of Partnering Closely with Your Product Owner [https://www.uxmatters.com/mt/archives/2018/08/benefits-of-partnering-closely-with-your-product-owner.php](https://www.uxmatters.com/mt/archives/2018/08/benefits-of-partnering-closely-with-your-product-owner.php)
+- A Spectrum of Approaches to Project Agility [https://www.pmi.org/-/media/pmi/documents/public/pdf/learning/thought-leadership/achieving-greater-agility-series/spectrum-approaches.pdf](https://www.pmi.org/-/media/pmi/documents/public/pdf/learning/thought-leadership/achieving-greater-agility-series/spectrum-approaches.pdf)
+- Spikes [https://www.scaledagileframework.com/spikes](https://www.scaledagileframework.com/spikes)
+- Fitting Big-Picture UX Into Agile Development [https://www.smashingmagazine.com/2012/11/design-spikes-fit-big-picture-ux-agile-development](https://www.smashingmagazine.com/2012/11/design-spikes-fit-big-picture-ux-agile-development)

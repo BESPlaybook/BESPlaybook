@@ -23,6 +23,6 @@ The map product is a timeline-based chart, typically split into two primary sect
 
 The process of depicting a user journey will uncover insights and opportunities to better align the current experience with user needs, or introduce new capabilities to fill gaps in the experience. These ideas should next be explored in conceptual designs, evaluated for feasibility, and finally be roadmapped for implementation. If the journey occurs as part of a larger service offering from your system, a next step could be exploring the full details of the service execution in a service design blueprint.
 
-## Resources
+## Resource
 
-Journey Mapping in Real Life: A Survey of UX Practitioners – Nielsen Norman Group
+- Journey Mapping in Real Life: A Survey of UX Practitioners [https://www.nngroup.com/articles/journey-mapping-ux-practitioners](https://www.nngroup.com/articles/journey-mapping-ux-practitioners)

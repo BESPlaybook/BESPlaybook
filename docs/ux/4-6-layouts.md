@@ -17,14 +17,9 @@ _![4.6 F](../_assets/4.6_z_pattern.png){srcset="../../_assets/4.6_z_pattern@2x.p
 _![4.6 F](../_assets/4.6_trianglepattern.png){srcset="../../_assets/4.6_trianglepattern@2x.png 2x"}_
 {.extended .space-between}
 
-## Reference Pages
+## References
 
-NN/g Nielsen Norma Group : Pattern of Reading
-https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/
-
-Vanseo Design : Design Layouts : Gutenberg Diagram, Z-OPattern and F-Pattern
-http://vanseodesign.com/web-design/3-design-layouts/
- 
-U.S. Web Design System 
-https://designsystem.digital.gov/  
+- NN/g Nielsen Norma Group : Pattern of Reading [https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/)
+- Vanseo Design : Design Layouts : Gutenberg Diagram, Z-OPattern and F-Pattern [http://vanseodesign.com/web-design/3-design-layouts](http://vanseodesign.com/web-design/3-design-layouts/)
+ - U.S. Web Design System [https://designsystem.digital.gov](https://designsystem.digital.gov)
  

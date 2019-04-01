@@ -50,10 +50,7 @@ Consider “reversing” the colors of the main page in the page’s footer in o
 Both headers and footers can “anchor” to the top or bottom of the page (though rarely should both page elements should behave this way simultaneously). An anchored – or “sticky” – element stays on screen as the user scrolls, no matter the scroll depth. This is particularly useful for bringing persistent information or interaction along with the user, such as a form submission, call to action, or mode toggle (edit / review).
 
 
-## Reference Pages
+## References
 
-U.S. Web Design System 
-https://designsystem.digital.gov/page-templates/#documentation-page
- 
-UX Planet 
-uxplanet.org
+- U.S. Web Design System [https://designsystem.digital.gov/page-templates/#documentation-page](https://designsystem.digital.gov/page-templates/#documentation-page)
+- UX Planet [uxplanet.org](uxplanet.org)

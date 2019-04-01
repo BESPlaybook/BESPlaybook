@@ -17,6 +17,6 @@ Use cases are good building blocks for user stories and helpful references while
 
 • Use cases function most effectively when they are written simply, technology-free and implementation-agnostic. That is, they are written unaware of their eventual technical solutions. This keeps the focus on task accomplishment from the user’s perspective, and keeps the cases relevant even as the system’s technology and architecture change.
 
-## References
+## Reference
 
-Essential (Abstract) Use Cases: An Agile Introduction – Agile Modeling
+- Essential (Abstract) Use Cases: An Agile Introduction [http://agilemodeling.com/artifacts/essentialUseCase.htm](http://agilemodeling.com/artifacts/essentialUseCase.htm)

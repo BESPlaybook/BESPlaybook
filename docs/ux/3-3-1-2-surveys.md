@@ -38,15 +38,9 @@ The individual open-ended responses themselves can uncover topics for follow-up 
 - Be aware that requiring respondent identification will reduce your response rate.
 - Avoid using Likert scales (i.e. 1-10 ratings) or similar structures for quantifying opinions. These tend to rely on subjective or arbitrary value assignments by your respondents, which devalues their responses.
 
-## References & Resources
+## References
 
-#### References
-
-Online Surveys – usability.gov
-
-Complete Beginner’s Guide to UX Research – UX Booth
-
-#### Additional resources
-
-On Surveys – Erika Hall
+- Online Surveys [https://www.usability.gov/how-to-and-tools/methods/online-surveys.html](https://www.usability.gov/how-to-and-tools/methods/online-surveys.html)
+- Complete Beginner’s Guide to UX Research [https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research](https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research)
+- On Surveys [https://medium.com/mule-design/on-surveys-5a73dda5e9a0](https://medium.com/mule-design/on-surveys-5a73dda5e9a0)
 

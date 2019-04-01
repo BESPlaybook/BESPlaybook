@@ -25,7 +25,6 @@ Use to collect qualitative data about user behaviors, activities and experiences
 - Avoid using Likert scales (i.e. 1-10 ratings) or similar structures for quantifying opinions. These tend to rely on subjective or arbitrary value assignments by your respondents, which devalues their responses.
 
 
-## References & Resources
+## Reference
 
-Diary Studies: Understanding Long-Term User Behavior and Experiences – Nielsen Norman Group
-
+- Diary Studies: Understanding Long-Term User Behavior and Experiences [https://www.nngroup.com/articles/diary-studies](https://www.nngroup.com/articles/diary-studies)

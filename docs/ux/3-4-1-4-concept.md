@@ -21,4 +21,4 @@ Start validating with end users as soon as conceptual designs are mature enough 
 
 ## Resources
 
-Paper Prototyping: Getting User Data Before You Code – Nielsen Norman Group
+- Paper Prototyping: Getting User Data Before You Code [https://www.nngroup.com/articles/paper-prototyping](https://www.nngroup.com/articles/paper-prototyping)

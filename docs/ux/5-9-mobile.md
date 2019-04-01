@@ -142,12 +142,9 @@ _![5.9 messaging](../_assets/5.9_table_desktop.png){srcset="../../_assets/5.9_ta
 _![5.9 messaging](../_assets/5.9_table_mobile.png){srcset="../../_assets/5.9_table_mobile@2x.png 2x"}_
 {.space-between}
 
-## Reference
+## References
 
-iOS Design Standards
-https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/
- 
-Android Design Standards
-https://developer.android.com/design/handhelds  
+- iOS Design Standards [https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes)
+- Android Design Standards [https://developer.android.com/design/handhelds](https://developer.android.com/design/handhelds)
  
  

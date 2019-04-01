@@ -21,4 +21,4 @@ As the story matures as is prepped for execution, complete requirements, in the 
 
 ## Resources
 
-User Stories: An Agile Introduction – Agile Modeling
+- User Stories: An Agile Introduction [http://agilemodeling.com/artifacts/userStory.htm](http://agilemodeling.com/artifacts/userStory.htm)

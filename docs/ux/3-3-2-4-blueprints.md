@@ -24,6 +24,5 @@ A service design blueprint should be a time-based diagram, with swim lanes for t
 
 ## Resources
 
-Service Blueprints: Laying the Foundation – Cooper
-
-The difference between a journey map and a service blueprint – Megan Erin Miller and Erik Flowers
+- Service Blueprints: Laying the Foundation [https://www.cooper.com/journal/2014/08/service-blueprints-laying-the-foundation](https://www.cooper.com/journal/2014/08/service-blueprints-laying-the-foundation)
+- The difference between a journey map and a service blueprint [https://blog.practicalservicedesign.com/the-difference-between-a-journey-map-and-a-service-blueprint-31a6e24c4a6c](https://blog.practicalservicedesign.com/the-difference-between-a-journey-map-and-a-service-blueprint-31a6e24c4a6c)

@@ -58,15 +58,9 @@ Similar to buttons and navigation elements, tabs often have states to communicat
 
 _![4.11 Tabs](../_assets/4.11_tab.png){srcset="../../_assets/4.11_tab@2x.png 2x"}_
 {.well}
-## Ref
 
-Button Design Best Practices
-https://uxplanet.org/7-basic-rules-for-button-design-63dcdf5676b4 
-https://www.smashingmagazine.com/2016/11/a-quick-guide-for-designing-better-buttons/ 
-https://material.io/design/components/buttons.html#
- 
-Table Design Best Practices
-https://uxplanet.org/tabs-for-mobile-ux-design-d4cc4d9410d1  
-https://www.justinmind.com/blog/8-tips-to-get-tabs-right-in-web-design/ 
-https://material.io/design/components/tabs.html# 
+## References
+
+- Button Design Best Practices [https://uxplanet.org/7-basic-rules-for-button-design-63dcdf5676b4](https://uxplanet.org/7-basic-rules-for-button-design-63dcdf5676b4) [https://www.smashingmagazine.com/2016/11/a-quick-guide-for-designing-better-buttons](https://www.smashingmagazine.com/2016/11/a-quick-guide-for-designing-better-buttons) [https://material.io/design/components/buttons.html](https://material.io/design/components/buttons.html)
+- Table Design Best Practices [https://uxplanet.org/tabs-for-mobile-ux-design-d4cc4d9410d1](https://uxplanet.org/tabs-for-mobile-ux-design-d4cc4d9410d1) [https://www.justinmind.com/blog/8-tips-to-get-tabs-right-in-web-design](https://www.justinmind.com/blog/8-tips-to-get-tabs-right-in-web-design) [https://material.io/design/components/tabs.html](https://material.io/design/components/tabs.html)
  

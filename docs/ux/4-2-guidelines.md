@@ -23,15 +23,14 @@ Digital platforms are not passive environments. While some principles of print d
 - **Provide Proactive and Immediate Feedback**. Obvious labels, content categorization, and color cues create a proactive shorthand for users. Button hover states and dynamic rollovers allow them to “peek behind the curtain” and know better what comes after their click (see Buttons & Controls). 
 - **Progressively Reveal**. Only display – through truncated content and other components – what the user absolutely needs to know in order to make their next, informed choice. There is a good reason the web is so rife with “Learn More” buttons – this saves on both page weight and cognitive load.  
 
-
+_![4.3 progressive reveal](../_assets/4.2_progressive_reveal_image.png){srcset="../../_assets/4.2_progressive_reveal_image@2x.png 2x"}_
+{.well}
 
 - **Differentiate Clicks/Taps, Hover, and Scroll**. Every time the user interacts with the application, they tell us something about their intent. While a hover is exploratory, a click is committal. Scrolling down a page says “I haven’t found what I’m looking for.” Consider how your design choices respond to the nuanced behaviors of 
 the user. 
 
 ## Reference
 
-General Assembly’s Guide to UI
-
-https://generalassemb.ly/design/visual-design/user-interfaces
+- General Assembly’s Guide to UI [https://generalassemb.ly/design/visual-design/user-interfaces](https://generalassemb.ly/design/visual-design/user-interfaces)
  
  

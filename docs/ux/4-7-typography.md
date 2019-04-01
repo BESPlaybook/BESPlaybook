@@ -68,10 +68,7 @@ _![4.7 White Space do](../_assets/4.7_line_height_do.png){srcset="../../_assets/
 _![4.7 White Space dont](../_assets/4.7_line_height_dont.png){srcset="../../_assets/4.7_line_height_dont@2x.png 2x"}_
 {.center .padded}
 
-### Reference Pages
+### References
 
-Tubik Blog
-https://tubikstudio.com/20-wise-thoughts-by-typography-master-erik-spiekermann/
- 
-Smashing Design
-https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/  
+- Tubik Blog [https://tubikstudio.com/20-wise-thoughts-by-typography-master-erik-spiekermann](https://tubikstudio.com/20-wise-thoughts-by-typography-master-erik-spiekermann)
+- Smashing Design [https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design)  

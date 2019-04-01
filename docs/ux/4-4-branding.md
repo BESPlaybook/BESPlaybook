@@ -58,3 +58,12 @@ The spacing and positioning for the logomark has been carefully considered and o
 
 The shape of the mark should maintain its integrity at relatively small sizes. Designers should use discretion and consider the output-media when utilizing the mark at a smaller size.
 
+## References
+
+- The Official Website of the Air Force Trademark and Licensing Program 
+[https://www.trademark.af.mil/About-Us/The-Air-Force-Symbol/Display-guidelines](https://www.trademark.af.mil/About-Us/The-Air-Force-Symbol/Display-guidelines)
+- Meaning behind the mark [https://www.airman.af.mil/Portals/17/002%20All%20Products/003%20PACEsetters/Meaning_Air_Force_Symbol.pdf?ver=2016-03-30-001043-347](https://www.airman.af.mil/Portals/17/002%20All%20Products/003%20PACEsetters/Meaning_Air_Force_Symbol.pdf?ver=2016-03-30-001043-347)
+ 
+ 
+ 
+ 

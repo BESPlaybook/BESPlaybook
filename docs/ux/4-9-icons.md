@@ -41,12 +41,10 @@ Icons to the left of a number usually indicate the intent of the data, whereas i
 
 _![4.9 Table Icons](../_assets/4.9_table_icons.png){srcset="../../_assets/4.9_table_icons@2x.png 2x"}_
 {.wide .well .padded}
-## Reference
 
-Smashing Magazine; perspectives on icons 
-https://www.smashingmagazine.com/2016/10/icons-as-part-of-a-great-user-experience/ 
- 
-The Noun Project; a comprehensive source of free and attributed icons
-https://thenounproject.com/   
+## References
+
+- Smashing Magazine; perspectives on icons [https://www.smashingmagazine.com/2016/10/icons-as-part-of-a-great-user-experience](https://www.smashingmagazine.com/2016/10/icons-as-part-of-a-great-user-experience)
+- The Noun Project; a comprehensive source of free and attributed icons [https://thenounproject.com](https://thenounproject.com)
  
  

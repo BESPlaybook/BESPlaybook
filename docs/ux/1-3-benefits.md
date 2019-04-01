@@ -22,8 +22,10 @@ User Experience is the key to addressing many of these factors. A well-defined U
 
 The USAF is unique in its challenges and opportunities as they relate to incorporating User Experience practices and methods within its daily operations. The USAF became reliant on technology systems far in advance of the general public, and many of those early systems were deployed at a larger scale than comparable commercial systems.  In addition, these software systems support highly mission-critical operations where effectiveness cannot be compromised. This makes the effort associated with updating legacy systems and modernizing practices much more challenging and sensitive than are typically found. However these factors also reinforce the need to make these changes, taking advantage of better technological capabilities and User Experience practices that yield greater effectiveness across the organization and its workforce, ensuring greater success and reliability for these mission-critical operations.
 
-## References
+## Reference
 
-[Why Software Fails](http://google.com) - IEEE
+- Why Software Fails [https://spectrum.ieee.org/computing/software/why-software-fails](https://spectrum.ieee.org/computing/software/why-software-fails)
+
+
 
 

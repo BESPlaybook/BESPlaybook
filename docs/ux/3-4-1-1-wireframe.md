@@ -11,6 +11,6 @@ At the initial stage, the wireframes or sketches need only be detailed enough to
 
 ![3.4.1.1](../_assets/3.4.1.1_wireframing_sketching.jpg){srcset="../../_assets/3.4.1.1_wireframing_sketching@2x.jpg 2x"}
 
-## Resources
+## Resource
 
-How to design a low-fi wireframe – Creative Bloq
+- How to design a low-fi wireframe [https://www.creativebloq.com/wireframes/how-design-low-fi-wireframe-91516934](https://www.creativebloq.com/wireframes/how-design-low-fi-wireframe-91516934)

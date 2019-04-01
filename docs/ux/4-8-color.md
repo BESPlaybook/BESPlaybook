@@ -50,11 +50,8 @@ While your particular USAF application may adhere to its own style guide, all co
 As a matter of example, the following color palettes have been designed and optimized specifically for USAF experiences. Careful consideration has been made with regards to content, data, accessibility, mobile form factors, and eye fatigue. In addition, hues have been strategically chosen to either compliment or reinforce the existing USAF parent brand palettes. In this way, the following schemes should be seen as an extension of the USAF brand, with additions and minor modifications included to create an optimal digital experience. First consult your application’s style guide, should one exist. 
 
 
-## Reference Page
+## References
 
-From AF Branding & Trademark Licensing
-https://www.trademark.af.mil/About-Us/The-Air-Force-Symbol/Display-guidelines/
- 
-From CCE
-https://company-123432.frontify.com/d/YQiReCF6Sab5/usaf-cce-style-guide#/brand-design/colors
+- From AF Branding & Trademark Licensing [https://www.trademark.af.mil/About-Us/The-Air-Force-Symbol/Display-guidelines](https://www.trademark.af.mil/About-Us/The-Air-Force-Symbol/Display-guidelines)
+ - From CCE [https://company-123432.frontify.com/d/YQiReCF6Sab5/usaf-cce-style-guide#/brand-design/colors](https://company-123432.frontify.com/d/YQiReCF6Sab5/usaf-cce-style-guide#/brand-design/colors)
  

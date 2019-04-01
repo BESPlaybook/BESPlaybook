@@ -18,7 +18,8 @@ Specializations do exist for each of the separate core disciplines outlined abov
 While User Experience practitioners do establish the foundations for interface design, the craft of creating pixel-perfect page layouts are often managed by a separate Visual Design function who holds a much deeper understanding of factors such as color, typography and creative asset production. Some practitioners may have both skillsets, but considering these as separate functions will increase the likelihood of identifying talent that holds sufficient depth of experience, skill and perspective for each role. Similarly, while User Experience practitioners should be competent in prototyping and understanding the implications of technical factors identified by development teams, true front-end development skills should be considered a separate role within the project team.
 
 ## References
-[What Is User Experience (UX) Design? Everything You Need To Know To Get Started](google.com) – CareerFoundry
+
+- What Is User Experience (UX) Design? Everything You Need To Know To Get Started [https://careerfoundry.com/en/blog/ux-design/what-is-user-experience-ux-design-everything-you-need-to-know-to-get-started](https://careerfoundry.com/en/blog/ux-design/what-is-user-experience-ux-design-everything-you-need-to-know-to-get-started)
 
 
 

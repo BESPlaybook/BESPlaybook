@@ -62,16 +62,9 @@ Smart phones and tablets have a lot to offer: touch, voice, pressure, location t
 
 When designing for native platforms, however, consistently refer to the native OS design guidelines. These constantly evolve with new version releases and system redesigns, so it’s always good practice to stay on top of these guidelines and refresh your memory and knowledge often.
 
-## Ref
+## References
 
-Apple’s Human Interface Guidelines
-https://developer.apple.com/ios/human-interface-guidelines/  
- 
-Google’s Material Design Guidelines 
-https://material.io/guidelines/  
- 
-Mobile Design Principles
-https://medium.com/blueprint-by-intuit/native-mobile-app-design-overall-principles-and-common-patterns-26edee8ced10  
-
-https://uxplanet.org/7-rules-for-mobile-ui-button-design-e9cf2ea54556    
+- Apple’s Human Interface Guidelines [https://developer.apple.com/ios/human-interface-guidelines](https://developer.apple.com/ios/human-interface-guidelines)
+- Google’s Material Design Guidelines [https://material.io/guidelines](https://material.io/guidelines)
+- Mobile Design Principles [https://medium.com/blueprint-by-intuit/native-mobile-app-design-overall-principles-and-common-patterns-26edee8ced10](https://medium.com/blueprint-by-intuit/native-mobile-app-design-overall-principles-and-common-patterns-26edee8ced10) [https://uxplanet.org/7-rules-for-mobile-ui-button-design-e9cf2ea54556](https://uxplanet.org/7-rules-for-mobile-ui-button-design-e9cf2ea54556)
  

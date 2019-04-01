@@ -66,13 +66,7 @@ _![5.8 table](../_assets/5.8_as_table.png){srcset="../../_assets/5.8_as_table@2x
 {.float}
 
 
-## Reference Pages
+## Reference
 
-Catalog of Data Visualizations
-https://datavizcatalogue.com/
- 
-Data Visualization Best Practices
-https://www.promptcloud.com/blog/design-principles-for-effective-data-visualization/
- 
- 
- 
+- Catalog of Data Visualizations [https://datavizcatalogue.com](https://datavizcatalogue.com)
+- Data Visualization Best Practices [https://www.promptcloud.com/blog/design-principles-for-effective-data-visualization](https://www.promptcloud.com/blog/design-principles-for-effective-data-visualization)

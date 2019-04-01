@@ -32,12 +32,8 @@ In the case of entirely new components, enterprise-wide updates, or emergent dev
 
 This component library places an increased focus on mobile (small viewport) use cases. When possible, desktop (and landscape tablet) components are shown with their behavior at the mobile breakpoint.
 
-## USAF Application Style Guides
+## USAF Application Style Guides {#references}
 
-USAF Branding & Trademark Licensing
-https://www.trademark.af.mil/About-Us/The-Air-Force-Symbol/Display-guidelines/
+- USAF Branding & Trademark Licensing [https://www.trademark.af.mil/About-Us/The-Air-Force-Symbol/Display-guidelines](https://www.trademark.af.mil/About-Us/The-Air-Force-Symbol/Display-guidelines)
+- US Web Design System [https://designsystem.digital.gov](https://designsystem.digital.gov)
 
-US Web Design System
-https://designsystem.digital.gov/
- 
- 

@@ -43,14 +43,8 @@ In unstructured interviews the topics are only broadly laid out. The interviewer
 Input from subject matter experts and stakeholders form the primary depiction of staff/support actions and processes in service blueprints and user journeys.
 
 
-## References & Resources
+## References
 
-#### References
-
-Complete Beginner’s Guide to UX Research – UX Booth
-
-#### Additional resources
-
-How to Conduct User Interviews – The Interaction Design Foundation
-
-Listening Tips – Indi Young
+- Complete Beginner’s Guide to UX Research [https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research](https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research)
+- How to Conduct User Interviews [https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews](https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews)
+- Listening Tips [https://indiyoung.com/listening-tips/#more-7443](https://indiyoung.com/listening-tips/#more-7443)

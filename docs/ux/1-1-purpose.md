@@ -6,5 +6,5 @@ Furthermore, this playbook aims to establish core User Experience design princip
 
 The User Experience Playbook will serve as a “living document,” delivering value in the present while providing a foundation for future updates and enhancements as the state of technology and the needs of stakeholders and users served by Logistics Information Systems continually evolve. 
 
-For those seeking further resources and materials to help you advance along the path the understanding User Experience practices and methods, please see the Resources page within the Appendix.
+For those seeking further resources and materials to help you advance along the path the understanding User Experience practices and methods, please see the [Resources](6-1-appendix.md) page within the Appendix.
 

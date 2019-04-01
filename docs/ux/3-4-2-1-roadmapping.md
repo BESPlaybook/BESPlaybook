@@ -26,4 +26,4 @@ The roadmap itself can take many forms, but a common one is a timeline-based cha
 
 ## Resources
 
-Roadmap Basics – ProductPlan
+- Roadmap Basics [https://www.productplan.com/roadmap-basics](https://www.productplan.com/roadmap-basics)

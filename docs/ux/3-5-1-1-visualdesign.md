@@ -28,9 +28,6 @@ _![3.5.1.1-2](../_assets/3.5.1.1_visual_design_comp.jpg){srcset="../../_assets/3
 
 ## Resources
 
-What is Interaction Design? – Interaction Design Foundation
+- What is Interaction Design? [https://www.interaction-design.org/literature/article/what-is-interaction-design](https://www.interaction-design.org/literature/article/what-is-interaction-design)
+- Adaptive vs. Responsive Design [https://www.interaction-design.org/literature/article/adaptive-vs-responsive-design](https://www.interaction-design.org/literature/article/adaptive-vs-responsive-design)
 
-Adaptive vs. Responsive Design – Interaction Design Foundation
-
-
-http://isobar-us.github.io/USAF-2212-A4UX-Playbook

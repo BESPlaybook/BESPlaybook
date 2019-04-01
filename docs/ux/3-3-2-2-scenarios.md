@@ -26,6 +26,6 @@ Tim is preparing to report at the quarterly WSR on his weapon system’s availab
 - Be willing to explore highly specific scenarios. Unexpected insights come from examining how your users’ behaviors and needs change as their context does.
 
 
-## Resources
+## Resource
 
-When It Comes To Personas, The Real Value Is In The Scenarios – UIE
+- When It Comes To Personas, The Real Value Is In The Scenarios [https://articles.uie.com/when-it-comes-to-personas-the-real-value-is-in-the-scenarios](https://articles.uie.com/when-it-comes-to-personas-the-real-value-is-in-the-scenarios)

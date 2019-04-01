@@ -40,6 +40,5 @@ UX practitioners can design more effective digital experiences through careful a
 
 ## References
 
-[The Definition of User Experience (UX)](google.com) – Nielsen Norman Group
-
-[User Experience Design](google.com) – Semantic Studios
+- The Definition of User Experience (UX) [https://www.nngroup.com/articles/definition-user-experience](https://www.nngroup.com/articles/definition-user-experience/)
+- User Experience Design [http://semanticstudios.com/user_experience_design](http://semanticstudios.com/user_experience_design/)
