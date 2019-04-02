@@ -117,7 +117,7 @@
   font-weight: 100;
 }
 
-
+/* Checkbox hack to toggle header search */
 #bes-search-toggle {
   display: none;
 }
@@ -190,8 +190,17 @@
 }
 
 @media screen and (max-width: 800px) {
+  .bes-header {
+    height: 80px;
+  }
+
   .bes-header h1 {
     display: none;
+  }
+
+  .bes-header__logo {
+    width: 56px;
+    height: 50px;
   }
 
   .bes-header-search {
@@ -201,7 +210,7 @@
     top: 0;
     right: 0;
     left: 0;
-    height: 60px;
+    height: 80px;
     padding: 13px 60px;
     background-color: #24316c;
   }

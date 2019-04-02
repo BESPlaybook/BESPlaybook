@@ -219,6 +219,11 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+
+  .bes-content-wrap {
+    margin-top: 80px;
+  }
+
   .bes-content > blockquote:first-child  h1 {
     font-size: 40px;
   }
