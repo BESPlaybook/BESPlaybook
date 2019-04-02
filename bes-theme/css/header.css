@@ -60,12 +60,6 @@
   font-size: 13px;
 }
 
-.bes-header-search {
-  position: absolute;
-  top: 15px;
-  right: 40px;
-}
-
 .bes-header-nav li.active a,
 .bes-header-nav li a:hover {
   border-color:#fff;
@@ -76,6 +70,11 @@
   font-weight: 600;
 }
 
+.bes-header-search {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+}
 
 .bes-search-form input {
   padding: 6px 30px 6px 6px;
@@ -165,6 +164,12 @@
     position: initial;
     width: 35px;
     height: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bes-header-search {
+    right: 15px;
   }
 }
 

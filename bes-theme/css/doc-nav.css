@@ -1,8 +1,7 @@
 
 .bes-doc-nav-wrap {
   z-index: 10; /* above content */
-  min-width: 280px;
-  max-width: 340px;
+  width: 320px;
   padding: 60px 45px;
   background-color: #F0F0F3;
 }
