@@ -38,6 +38,8 @@
     var mkdocs_page_input_path = {{ page.file.src_path|string|tojson|safe }};
     var mkdocs_page_url = {{ page.abs_url|tojson|safe }};
     var mkdocs_base_url = {{ config.extra.baseurl|tojson|safe }}
+    var mkdocs_home_headers = {{ config.extra.home_headers|tojson|safe }};
+
   </script>
   {% endif %}
   <script src="{{ 'js/jquery-2.1.1.min.js'|url }}" defer></script>

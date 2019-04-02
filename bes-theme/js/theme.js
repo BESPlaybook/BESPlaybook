@@ -25,4 +25,19 @@
     }
   });
 
+  var headerEl  = document.querySelector('.bes-content > blockquote:first-child');
+  var headerImages = window.mkdocs_section_headers;
+
+  if (headerEl && headerImages) {
+    var img = headerImages[Math.floor(Math.random() * headerImages.length)]
+    headerEl.setAttribute('style', 'background-image: url(' + img + ')');
+  }
+
+  var homeHeaderEl  = document.querySelector('.bes-home-header');
+  var homeImages = window.mkdocs_home_headers;
+  if (homeHeaderEl && homeImages) {
+    var img = homeImages[Math.floor(Math.random() * homeImages.length)]
+    homeHeaderEl.setAttribute('style', 'background-image: url(' + img + ')');
+  }
+
 }())
