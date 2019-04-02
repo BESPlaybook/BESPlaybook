@@ -11,6 +11,8 @@ plugins:
 nav:
   - Home: index.md
   - Styleguide: styleguide.md
+  - Agile:
+    - 1. Overview: agile/1-1-agile.md
   - Automated Testing:
     - 1. Overview: testing/1-1-testing.md
   - User Experience:
@@ -79,6 +81,15 @@ nav:
     - 6. Appendix:
       - 6.1 Additional Resources: ux/6-1-appendix.md
       - 6.2 Alpha Standard Layouts: ux/6-2-layouts.md
+  - DevSec Ops:
+    - 1. Overview: devops/1-1-devops.md
+  - Cyber Security:
+    - 1. Overview: cyber/1-1-cyber.md
+  - App Technology Refresh for Cloud:
+    - 1. Overview: cloud/1-1-cloud.md
+  - Agile Acquistions:
+    - 1. Overview: acquistions/1-1-acquistions.md
+  
 extra:
   baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
   # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
@@ -104,7 +115,7 @@ extra:
       icon: _assets/0_home_page_icon_security.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
     - name: App Technology Refresh for Cloud
-      url: /cloud/1-1-purpose
+      url: /cloud/1-1-cloud
       icon: _assets/0_home_page_icon_cloud.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
     - name: Agile Acquistions

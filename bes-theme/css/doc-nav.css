@@ -15,7 +15,6 @@
 
 .bes-doc-nav__list--active {
   display: block;
-  
 }
 
 .bes-doc-nav__list li {
@@ -132,7 +131,9 @@
 
   .bes-doc-nav-wrap {
     display: flex;
+    min-width: 320px;
     max-width: 500px;
+    width: auto;
     padding-right: 30px;
     padding-bottom: 0;
     padding-left: 0;

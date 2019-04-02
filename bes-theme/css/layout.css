@@ -112,13 +112,13 @@ body {
   margin-right: 100px;
   margin-left: 100px;
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 300;
   line-height: 1em;
 }
 
 .bes-content > blockquote:first-child  strong {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -162,8 +162,8 @@ body {
 #references + ul li,
 #resource + ul li,
 #resources + ul li {
-  background: none;
-  padding-left: 0
+  padding-left: 0;
+  background: none
 }
 
 #reference + ul a,
@@ -207,6 +207,10 @@ body {
   {
     margin-right: 50px;
     margin-left: 50px;
+  }
+
+  .bes-content > blockquote:first-child {
+    height: auto;
   }
 
   .bes-content > blockquote:first-child  h1 {

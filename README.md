@@ -19,6 +19,12 @@ http://jinja.pocoo.org/docs/2.10/
 
 ## Developing
 
+## Theme
+
+This project uses a custom theme, `bes-theme`. It is based off of the [readthedocs](https://github.com/mkdocs/mkdocs/tree/master/mkdocs/themes/readthedocs) theme.
+
+All of the css and js was removed from that project. The template files have been modified to suit this project. There are many vestigial items left in these templates unfortunately. Cleaning these templates should be looked at if this playbook is revisited.
+
 ### Branches
 
 - `master` Final work for release
