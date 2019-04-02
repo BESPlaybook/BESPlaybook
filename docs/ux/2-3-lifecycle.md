@@ -2,7 +2,8 @@
 
 When planning a software development project, the process typically breaks down into four discrete stages, each of which will be described in greater detail within section 3.0.
 
-![2.3](../_assets/2.3_graphic.png)
+_![2.3](../_assets/2.3_graphic.png){srcset="../../_assets/2.3_graphic@2x.png 2x"}_
+
 
 - **Research & Discovery**: This is the stage where initial research activities will be performed and insights will be synthesized based on the research findings. A high-level strategy should be established at this stage that includes experience goals, tactics, plans and content/feature recommendations which can then be used as a foundation for Conceptual Design.
 - **Conceptual Design**: During this stage, key aspects of the experience will be modeled and discussed in order to establish alignment around the overall approach and design framework for the experience. The conceptual models produced during this stage can describe things like site architecture,  processes, navigation patterns and key page layouts to help lay the foundations for an efficient Detailed Design process. A key goal of this stage is to establish clear expectations about how a digital experience will be presented at a high level in order to minimize the need for significant rework in the future.
@@ -15,7 +16,7 @@ The approach to planning and managing each of these stages can vary considerably
 
 ## 2.3.1 Waterfall Process Considerations
 
-![2.3.1](../_assets/2.3.1_waterfall_process.png)
+_![2.3.1](../_assets/2.3.1_waterfall_process.png){srcset="../../_assets/2.3.1_waterfall_process@2x.png 2x"}_
 
 In a “waterfall” process, each of these stages happens in sequential order, with the output of each stage being typically reviewed, finalized and approved in its entirety before proceeding to the next stage. In this type of process methodology, the typical expectation is that all documentation is comprehensive and exhaustive, addressing all possible questions and scenarios prior to any development being performed.  Representative members of each project team can be incorporated into each stage to ensure that proper communication occurs and relevant questions are identified early in the process, but often this is not the case in a classic waterfall process. Instead, each project team often works independently from each other, with the resulting documentation being tossed “over the wall” so to speak to other project teams in order to guide their efforts for the next process stage.
 
@@ -44,13 +45,14 @@ Putting these values into context, things like plans, processes, tools and docum
 
 As such, there are many crucial “ceremonies” that also remain consistent within an Agile process, playing a key role in ensuring that the values and benefits of the Agile methodology are realized. A daily “scrum” or “standup” meeting is a one type of Agile ceremony that ensures that team members across disciplines have a daily view of what features are in focus today and what key challenges might impact their completion. Teams typically work from a “product backlog” – a prioritized list of all features and capabilities that will ultimately be part of the final experience – and break that product backlog down into “sprints”, typically 2 weeks in duration, where a portion of the items from the backlog are expected to be complete. As changes occur or new requirements are realized, this product backlog is continually “groomed” to ensure that the project plan is optimized for the best outcome, and planning sessions at the start of each new sprint offer an opportunity to put the adjusted plan into effect. See the Agile Playbook for further details on typical Agile ceremonies, tools and methods.
 
-![2.3.2](2.3.2_agile_sprint_cycle_diagram.png)
+_![2.3.2](../_assets/2.3.2_agile_sprint_cycle_diagram.png){srcset="../../_assets/2.3.2_agile_sprint_cycle_diagram@2x.png 2x"}_
 
 In addition to values and ceremonies, the Agile management framework is another aspect of the methodology that remains relatively unchanged when design teams are incorporated, however slight amendments must be made to define a clear role for User Experience. The Agile management framework identifies two key roles – the Scrum Master and the Product Owner – where the Scrum Master’s primary role is to keep the project team focused on its goals for the sprint, and the Product Owner’s primary role is to keep the team’s work aligned with the overall product vision. While the Agile methodology does not directly prescribe a role for User Experience teams, their role is best considered as an extension to the Product Owner role. This means helping to establish the product context during the Research/Discovery stage, summarizing core user needs and business requirements. This also entails modeling the product vision during the Conceptual Design stage, creating preliminary wireframes and user stories that describe the expected user needs and behaviors that each feature of the experience will be designed to support. Lastly, this means leading the creation, prioritization and ongoing “grooming” of the product backlog, ensuring that the most valuable features are delivered first and meet the expectations of the users for whom they are designed. As a project moves into detailed design, the task of backlog grooming is often shared with members of the Project Management team, with members of the UX team offering significant guidance while focusing mainly on the creation of design specifications for each item in the backlog.
 
 The aspect in which the classic Agile methodology is least prescriptive for User Experience teams is its guidance around planning each of the process stages and determining what user experience practices to incorporate within them. Many of the Agile ceremonies outlined above are more relevant to the Detailed Design and Support stages than they are to the initial Research/Discovery and Conceptual Design stages. In Agile terms, these first two stages are often combined and named “Sprint Zero”, continuing to resemble a waterfall process in many ways. This allows for solid research foundations and a clear product vision to be established in advance of working iteratively on detailed design specifications. Cross-team input is valuable at any stage, and daily scrums may be incorporated to facilitate this, but beginning front-end development before a clear product vision is set can result in lost development cycles and a significant amount of rework. Design teams should focus first on establishing a clear product architecture and basic alignment around how features might be translated into layouts before the team begins iterations of detailed design and prototyping. Once a product backlog is created at the end of Conceptual Design, the project team is prepared to adopt all other typical Agile ceremonies for the remainder of the project.
 
-![2.3.2-2](../_assets/2.3.2_research_and_discovery.png)
+
+_![2.3.2 research](../_assets/2.3.2_research_and_discovery.png){srcset="../../_assets/2.3.2_research_and_discovery@2x.png 2x"}_
 
 Detailed Design and Support are the stages where the Agile methodology is utilized in its truest form. In an ideal scenario, all project teams are focused on the same set of features at once, working in unison to arrive at a functioning prototype of a specific feature. User Experience teams leads their counterparts through the iterative process for each feature:
 
@@ -75,7 +77,7 @@ Another approach is to anticipate “staggered sprints” from the outset. This 
 
 The need for additional time to work through complex issues is a common challenge for development teams, but can be a challenge for user experience teams as well. If this type of challenge is foreseen during the project’s planning activities, something called a “design spike” can be instituted to alleviate this issue. A design spike is an activity that can take place of a regular sprint to resolve big unknowns and work through complexities that would otherwise impact the efficiency of the project team. During this time, development teams are typically assigned non-dependent work while the user experience team gathers additional requirements and potential explore concepts for specific feature areas within the product.
 
-![2.3.3](../_assets/2.3.3_agile_sprint_cycle.png)
+_![2.3.2 agile cycle](../_assets/2.3.3_agile_sprint_cycle.png){srcset="../../_assets/2.3.3_agile_sprint_cycle@2x.png 2x"}_
 
 While these practices may not be considered Agile in its truest form, they may become essential in managing a team successfully through limiting factors to agility such as resource availability, vendor involvement, project budget and ability to co-locate. These practices might also be considered stepping stones to more advanced and integrated Agile practices, enabling project teams to abide by the value and reap the benefits of the Agile methodology while ensuring project plans and output are optimized for success.
 

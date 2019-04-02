@@ -134,6 +134,11 @@
     padding-left: 30px;
   }
 
+  .bes-playbook-grid__item a {
+    display: block;
+    text-align: center;
+  }
+
   .bes-home-header p {
     display: none;
   }

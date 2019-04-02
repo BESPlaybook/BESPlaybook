@@ -14,8 +14,8 @@ footer::after {
 
 .bes-footer__link-group {
   display: block;
-  float: left;
   padding: 0 30px;
+  float: left;
 }
 
 .bes-footer__link-group h4 {

@@ -6,8 +6,10 @@ More than 95% of information on the web is in the form of written language. If t
 
 ## Three Fundamental Aspects of Typography
 
-![4.7 1](../_assets/4.7_fundamental_aspects_typography.png)
-{.center .padded}
+_![4.7 Legibility](../_assets/4.7_fundamental_aspects_typography_legibility.png){srcset="../../_assets/4.7_fundamental_aspects_typography_legibility@2x.png 2x"}_
+_![4.7 Legibility](../_assets/4.7_fundamental_aspects_typography_readability.png){srcset="../../_assets/4.7_fundamental_aspects_typography_readability@2x.png 2x"}_
+_![4.7 Legibility](../_assets/4.7_fundamental_aspects_typography_aesthetics.png){srcset="../../_assets/4.7_fundamental_aspects_typography_aesthetics@2x.png 2x"}_
+{.space-between .padded}
 
 Although in a non-technical sense “legible” and “readable” are often used synonymously, typographically they are separate but related concepts. Legibility is the ease with which a reader can recognize individual characters in text. Readability is the ease with which a reader can recognize words, sentences, and paragraphs comprised of characters. Aesthetics is the emotional property of the text, communicating everything from precision to speed to humor.
 

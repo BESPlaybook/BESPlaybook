@@ -31,6 +31,15 @@
   font-weight: 100;
 }
 
+.bes-header h1 a {
+  color: #fff;
+}
+.bes-header h1 a:hover {
+  text-decoration: none;
+  color: #b6d3f3
+}
+
+
 .bes-header h1 b {
   font-weight: 500;
 }

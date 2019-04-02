@@ -128,8 +128,8 @@ extra:
 
   footer:
     AFLCMC/BES:
-      Air Force Life Cycle Management Center (AFLCMC): http://google.com
-      Air Force Business and Enterprise Systems (BES): http://google.com
+      Air Force Life Cycle Management Center (AFLCMC): https://www.wpafb.af.mil/aflcmc
+      Air Force Business and Enterprise Systems (BES): https://www.airforcebes.af.mil
 
   section_headers:
     - ../../_assets/_headers/Header01.jpg

@@ -25,6 +25,13 @@
     }
   });
 
+  /* Apply random headers to the home page and section headers.
+
+    The mkdocs.yaml file contains the list of images under the `extra` section.
+    This creates an array in mkdocs, which is assigned to a window variable in
+    the base.html and home.html files.
+   */
+
   var headerEl  = document.querySelector('.bes-content > blockquote:first-child');
   var headerImages = window.mkdocs_section_headers;
 
