@@ -1,6 +1,6 @@
 [Back to Phase 1: Research & Discovery](3-3-research.md)
 
-# 3.3.2.4 Diary Studies
+# 3.3.1.4 Diary Studies
 
 In this method, study participants are asked to keep a diary and log specific information over time about activities being studied. The diary itself can range from a simple paper journal to a digital recording device, and the input to be collected in the log entries can range from highly structured responses (like duration of the activity in seconds) to open-ended responses like detailed depictions of thoughts or emotions.
 

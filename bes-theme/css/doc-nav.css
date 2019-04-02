@@ -142,6 +142,7 @@
   .bes-doc-nav {
     padding-top: 30px;
     padding-left: 30px;
+    width: 300px;
   }
 
   #bes-nav-toggle:checked + label .bes-nav-toggle__hamburger {
@@ -189,6 +190,7 @@
     flex-grow: 1;
     padding: 20px;
     overflow-y: auto;
+    width: auto;
   }
 
   .bes-playbook-mobile-nav {

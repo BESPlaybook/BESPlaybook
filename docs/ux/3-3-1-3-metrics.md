@@ -1,6 +1,6 @@
 [Back to Phase 1: Research & Discovery](3-3-research.md)
 
-# 3.3.2.3 Site Metrics Analysis
+# 3.3.1.3 Site Metrics Analysis
 
 When a pre-existing capability is available in a live environment, and has an integrated data analytics tool, time should be spent assessing the data that has been captured to learn more about your users’ actual usage and behavior patterns.
 
@@ -14,7 +14,6 @@ When a pre-existing capability is available in a live environment, and has an in
 
 ## Product/output
 
-[Add links]
 Behavioral patterns discerned through metrics analysis can be used to:
 - Inform [customer journeys](3-3-2-3-journey.md) and [service design blueprints](3-3-2-4-blueprints.md).
 - Provide quantitative support and evidence to [personas](3-3-2-1-personas.md) or [user scenarios](3-3-2-2-scenarios.md).

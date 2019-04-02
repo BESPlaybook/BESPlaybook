@@ -1,6 +1,6 @@
 [Back to Phase 1: Research & Discovery](3-3-research.md)
 
-# 3.3.2.1 Use Cases
+# 3.3.2.5 Use Cases
 
 A use case is a simple depiction of a sequence of actions in a system that result in a meaningful outcome for the actor (who is typically an end user of the system, but could also be support personnel in the case of a service).
 
