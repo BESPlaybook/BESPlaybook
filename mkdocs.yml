@@ -142,10 +142,10 @@ extra:
     - ../../_assets/_headers/Header08.jpg
     - ../../_assets/_headers/Header09.jpg
   home_headers:
-    - ../_assets/0_home_page_header_01.jpg
-    - ../_assets/0_home_page_header_02.jpg 
-    - ../_assets/0_home_page_header_03.jpg
-    - ../_assets/0_home_page_header_04.jpg
+    - _assets/0_home_page_header_01.jpg
+    - _assets/0_home_page_header_02.jpg 
+    - _assets/0_home_page_header_03.jpg
+    - _assets/0_home_page_header_04.jpg
     
 
 
