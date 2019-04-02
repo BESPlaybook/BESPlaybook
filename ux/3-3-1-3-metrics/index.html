@@ -19,7 +19,8 @@
     var mkdocs_page_name = "Site metrics analysis";
     var mkdocs_page_input_path = "ux/3-3-1-3-metrics.md";
     var mkdocs_page_url = null;
-    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook"
+    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook";
+    var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -29,7 +30,7 @@
 <body class="bes-body" role="document">
   <div class="bes-header">
     <div class="bes-header__logo"></div>
-    <h1><a href="../.."></a><b>BES</b> Playbooks</a></h1>
+    <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
     <label for="bes-search-toggle" class="bes-search-toggle__label">
@@ -69,8 +70,8 @@
             Cyber Security
             </a>
           </li>
-          <li data-url="/cloud/1-1-purpose">
-            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <li data-url="/cloud/1-1-cloud">
+            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
             App Technology Refresh for Cloud
             </a>
           </li>
@@ -117,8 +118,8 @@
                 Cyber Security
                 </a>
               </li>
-              <li data-url="/cloud/1-1-purpose">
-                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+              <li data-url="/cloud/1-1-cloud">
+                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
                 App Technology Refresh for Cloud
                 </a>
               </li>
@@ -129,6 +130,16 @@
               </li>
         </ul>
         <div class="bes-doc-nav" aria-label="navigation">
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../agile/1-1-agile/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
                   <ul class="bes-doc-nav__list ">
                       <li class="">
 <a class="reference internal"\
@@ -379,9 +390,64 @@
                 <li class="">
 <a class="reference internal"\
   href="../5-9-mobile/">
-  5.9 Key Mobile Standards
+  5.9 Key Mobile Components
 </a>
                 </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../6-1-appendix/">
+  6.1 Additional Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-2-layouts/">
+  6.2 Alpha Standard Layouts
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../devops/1-1-devops/">
+  1. Overview
+</a>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cyber/1-1-cyber/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cloud/1-1-cloud/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../acquistions/1-1-acquistions/">
+  1. Overview
+</a>
+    <ul>
     </ul>
                       </li>
                   </ul>
@@ -404,16 +470,18 @@
 <h2 id="productoutput">Product/output</h2>
 <p>[Add links]
 Behavioral patterns discerned through metrics analysis can be used to:
-- Inform customer journeys and service design blueprints.
-- Provide quantitative support and evidence to personas or user scenarios.</p>
+- Inform <a href="../3-3-2-3-journey/">customer journeys</a> and <a href="../3-3-2-4-blueprints/">service design blueprints</a>.
+- Provide quantitative support and evidence to <a href="../3-3-2-1-personas/">personas</a> or <a href="../3-3-2-2-scenarios/">user scenarios</a>.</p>
 <h2 id="practical-considerations">Practical considerations</h2>
 <ul>
 <li>Look for click paths (page-to-page navigational flows) that have drop-offs or exits you would not expect, to identify pain points or unknown user intents. </li>
 <li>Carefully consider sample sizes and occurrence percentages to avoid fixating on edge cases.</li>
 <li>Avoid attempting to characterize user intent/goals solely by assessing their behavior.</li>
 </ul>
-<h2 id="references-resources">References &amp; Resources</h2>
-<p>8 Usability Metrics Tech Teams Can Use To Analyze User Behaviour – Stephen Croome</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li>8 Usability Metrics Tech Teams Can Use To Analyze User Behaviour <a href="https://www.shopify.com/partners/blog/9-usability-metrics-tech-teams-can-use-to-analyze-user-behaviour">https://www.shopify.com/partners/blog/9-usability-metrics-tech-teams-can-use-to-analyze-user-behaviour</a></li>
+</ul>
         
       </div>
 
@@ -425,13 +493,13 @@ Behavioral patterns discerned through metrics analysis can be used to:
   <div class="bes-footer__link-group">
     <h4>AFLCMC/BES</h4>
     <ul>
-        <li><a href="http://google.com">Air Force Life Cycle Management Center (AFLCMC)</a></li>
-        <li><a href="http://google.com">Air Force Business and Enterprise Systems (BES)</a></li>
+        <li><a href="https://www.wpafb.af.mil/aflcmc">Air Force Life Cycle Management Center (AFLCMC)</a></li>
+        <li><a href="https://www.airforcebes.af.mil">Air Force Business and Enterprise Systems (BES)</a></li>
     </ul>
   </div>
 
 
-  <div class="bes-footer__link-group">
+  <div class="bes-footer__link-group bes-footer__playbooks">
     <h4>BES Playbooks</h4>
     <ul>
         <li>
@@ -460,7 +528,7 @@ Behavioral patterns discerned through metrics analysis can be used to:
           </a>
         </li>
         <li>
-          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
           App Technology Refresh for Cloud
           </a>
         </li>

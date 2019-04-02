@@ -19,7 +19,8 @@
     var mkdocs_page_name = "Use cases";
     var mkdocs_page_input_path = "ux/3-3-2-5-usecase.md";
     var mkdocs_page_url = null;
-    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook"
+    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook";
+    var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -29,7 +30,7 @@
 <body class="bes-body" role="document">
   <div class="bes-header">
     <div class="bes-header__logo"></div>
-    <h1><a href="../.."></a><b>BES</b> Playbooks</a></h1>
+    <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
     <label for="bes-search-toggle" class="bes-search-toggle__label">
@@ -69,8 +70,8 @@
             Cyber Security
             </a>
           </li>
-          <li data-url="/cloud/1-1-purpose">
-            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <li data-url="/cloud/1-1-cloud">
+            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
             App Technology Refresh for Cloud
             </a>
           </li>
@@ -117,8 +118,8 @@
                 Cyber Security
                 </a>
               </li>
-              <li data-url="/cloud/1-1-purpose">
-                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+              <li data-url="/cloud/1-1-cloud">
+                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
                 App Technology Refresh for Cloud
                 </a>
               </li>
@@ -129,6 +130,16 @@
               </li>
         </ul>
         <div class="bes-doc-nav" aria-label="navigation">
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../agile/1-1-agile/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
                   <ul class="bes-doc-nav__list ">
                       <li class="">
 <a class="reference internal"\
@@ -379,9 +390,64 @@
                 <li class="">
 <a class="reference internal"\
   href="../5-9-mobile/">
-  5.9 Key Mobile Standards
+  5.9 Key Mobile Components
 </a>
                 </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../6-1-appendix/">
+  6.1 Additional Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-2-layouts/">
+  6.2 Alpha Standard Layouts
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../devops/1-1-devops/">
+  1. Overview
+</a>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cyber/1-1-cyber/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cloud/1-1-cloud/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../acquistions/1-1-acquistions/">
+  1. Overview
+</a>
+    <ul>
     </ul>
                       </li>
                   </ul>
@@ -396,14 +462,16 @@
 <h1 id="3321-use-cases">3.3.2.1 Use Cases</h1>
 <p>A use case is a simple depiction of a sequence of actions in a system that result in a meaningful outcome for the actor (who is typically an end user of the system, but could also be support personnel in the case of a service).</p>
 <h2 id="when-to-use">When to use</h2>
-<p>Create use cases to identify and catalog all of the tasks and sub-tasks that the system needs to support in order to fulfill your users’ needs within it. They can be derived by decomposing stakeholder requirements around system purpose and intent, or by decomposing journey maps into discrete tasks and system interactions.</p>
+<p>Create use cases to identify and catalog all of the tasks and sub-tasks that the system needs to support in order to fulfill your users’ needs within it. They can be derived by decomposing stakeholder requirements around system purpose and intent, or by decomposing <a href="../3-3-2-3-journey/">journey maps</a> into discrete tasks and system interactions.</p>
 <h2 id="productoutput">Product/output</h2>
 <p>Use cases are typically written in a two-column format. The left column lists the intention of the actor and the right column lists the system's responsibilities and responses. In this way, the use case can resemble a dialogue between actor and system. Any prerequisites should be identified and noted.
-Use cases are good building blocks for user stories and helpful references while identifying a scope of work for a given sprint or release.</p>
+Use cases are good building blocks for <a href="../3-4-2-2-story/">user stories</a> and helpful references while identifying a scope of work for a given sprint or release.</p>
 <h2 id="practical-considerations">Practical considerations</h2>
 <p>• Use cases function most effectively when they are written simply, technology-free and implementation-agnostic. That is, they are written unaware of their eventual technical solutions. This keeps the focus on task accomplishment from the user’s perspective, and keeps the cases relevant even as the system’s technology and architecture change.</p>
-<h2 id="references">References</h2>
-<p>Essential (Abstract) Use Cases: An Agile Introduction – Agile Modeling</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li>Essential (Abstract) Use Cases: An Agile Introduction <a href="http://agilemodeling.com/artifacts/essentialUseCase.htm">http://agilemodeling.com/artifacts/essentialUseCase.htm</a></li>
+</ul>
         
       </div>
 
@@ -415,13 +483,13 @@ Use cases are good building blocks for user stories and helpful references while
   <div class="bes-footer__link-group">
     <h4>AFLCMC/BES</h4>
     <ul>
-        <li><a href="http://google.com">Air Force Life Cycle Management Center (AFLCMC)</a></li>
-        <li><a href="http://google.com">Air Force Business and Enterprise Systems (BES)</a></li>
+        <li><a href="https://www.wpafb.af.mil/aflcmc">Air Force Life Cycle Management Center (AFLCMC)</a></li>
+        <li><a href="https://www.airforcebes.af.mil">Air Force Business and Enterprise Systems (BES)</a></li>
     </ul>
   </div>
 
 
-  <div class="bes-footer__link-group">
+  <div class="bes-footer__link-group bes-footer__playbooks">
     <h4>BES Playbooks</h4>
     <ul>
         <li>
@@ -450,7 +518,7 @@ Use cases are good building blocks for user stories and helpful references while
           </a>
         </li>
         <li>
-          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
           App Technology Refresh for Cloud
           </a>
         </li>

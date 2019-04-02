@@ -19,7 +19,8 @@
     var mkdocs_page_name = "Prototyping";
     var mkdocs_page_input_path = "ux/3-5-1-2-prototyping.md";
     var mkdocs_page_url = null;
-    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook"
+    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook";
+    var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -29,7 +30,7 @@
 <body class="bes-body" role="document">
   <div class="bes-header">
     <div class="bes-header__logo"></div>
-    <h1><a href="../.."></a><b>BES</b> Playbooks</a></h1>
+    <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
     <label for="bes-search-toggle" class="bes-search-toggle__label">
@@ -69,8 +70,8 @@
             Cyber Security
             </a>
           </li>
-          <li data-url="/cloud/1-1-purpose">
-            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <li data-url="/cloud/1-1-cloud">
+            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
             App Technology Refresh for Cloud
             </a>
           </li>
@@ -117,8 +118,8 @@
                 Cyber Security
                 </a>
               </li>
-              <li data-url="/cloud/1-1-purpose">
-                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+              <li data-url="/cloud/1-1-cloud">
+                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
                 App Technology Refresh for Cloud
                 </a>
               </li>
@@ -129,6 +130,16 @@
               </li>
         </ul>
         <div class="bes-doc-nav" aria-label="navigation">
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../agile/1-1-agile/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
                   <ul class="bes-doc-nav__list ">
                       <li class="">
 <a class="reference internal"\
@@ -379,9 +390,64 @@
                 <li class="">
 <a class="reference internal"\
   href="../5-9-mobile/">
-  5.9 Key Mobile Standards
+  5.9 Key Mobile Components
 </a>
                 </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../6-1-appendix/">
+  6.1 Additional Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-2-layouts/">
+  6.2 Alpha Standard Layouts
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../devops/1-1-devops/">
+  1. Overview
+</a>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cyber/1-1-cyber/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cloud/1-1-cloud/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../acquistions/1-1-acquistions/">
+  1. Overview
+</a>
+    <ul>
     </ul>
                       </li>
                   </ul>
@@ -397,19 +463,21 @@
 <p>A prototype is a simulation of the intended presentation and functionality of the system. It allows user validation prior to committing to build, and demonstrates its intended functionality to the development team. In the detailed design phase, a prototype would typically be based on high-fidelity wireframes or comps.</p>
 <h2 id="requirements">Requirements</h2>
 <ul>
-<li>High-fidelity wireframes or comps to act as source material.</li>
-<li>Use cases the prototype is meant to simulate.</li>
-<li>User stories or similar for detailed requirements or acceptance criteria the prototype should follow.</li>
+<li><a href="../3-5-1-1-visualdesign/">High-fidelity wireframes or comps</a> to act as source material.</li>
+<li><a href="../3-3-2-5-usecase/">Use cases</a> the prototype is meant to simulate.</li>
+<li><a href="../3-4-2-2-story/">User stories</a> or similar for detailed requirements or acceptance criteria the prototype should follow.</li>
 </ul>
 <h2 id="productoutput">Product/output</h2>
-<p>A high-fidelity prototype should be digital and interactive, even if only for highly specific click-paths. The fidelity at this point should be close enough to an exact representation of the intended final product, that testing of the prototype should result in reasonably accurate user performance data (e.g. time to perform a given task).</p>
+<p>A high-fidelity prototype should be digital and interactive, even if only for highly specific click-paths. The fidelity at this point should be close enough to an exact representation of the intended final product, that <a href="../3-5-1-3-usability/">testing</a> of the prototype should result in reasonably accurate user performance data (e.g. time to perform a given task).</p>
 <h2 id="practical-considerations">Practical considerations</h2>
 <ul>
 <li>If usability testing goals do not require the prototype to dynamically respond to user inputs, a prototype comprised simply of clickable static interface images (i.e. visual design comps) can suffice.</li>
 <li>It is generally better to prototype small units of an experience such as key pages, sections or features than to manage one comprehensive prototype. This keeps prototypes manageable and focused, and minimizes need for additional time in refactoring patterns and interactions across a larger whole, especially when the delivery focus is narrower.</li>
 </ul>
-<h2 id="references">References</h2>
-<p>Prototyping – usability.gov</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li>Prototyping <a href="https://www.usability.gov/how-to-and-tools/methods/prototyping.html">https://www.usability.gov/how-to-and-tools/methods/prototyping.html</a></li>
+</ul>
         
       </div>
 
@@ -421,13 +489,13 @@
   <div class="bes-footer__link-group">
     <h4>AFLCMC/BES</h4>
     <ul>
-        <li><a href="http://google.com">Air Force Life Cycle Management Center (AFLCMC)</a></li>
-        <li><a href="http://google.com">Air Force Business and Enterprise Systems (BES)</a></li>
+        <li><a href="https://www.wpafb.af.mil/aflcmc">Air Force Life Cycle Management Center (AFLCMC)</a></li>
+        <li><a href="https://www.airforcebes.af.mil">Air Force Business and Enterprise Systems (BES)</a></li>
     </ul>
   </div>
 
 
-  <div class="bes-footer__link-group">
+  <div class="bes-footer__link-group bes-footer__playbooks">
     <h4>BES Playbooks</h4>
     <ul>
         <li>
@@ -456,7 +524,7 @@
           </a>
         </li>
         <li>
-          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
           App Technology Refresh for Cloud
           </a>
         </li>

@@ -19,7 +19,8 @@
     var mkdocs_page_name = "User Scenarios";
     var mkdocs_page_input_path = "ux/3-3-2-2-scenarios.md";
     var mkdocs_page_url = null;
-    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook"
+    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook";
+    var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -29,7 +30,7 @@
 <body class="bes-body" role="document">
   <div class="bes-header">
     <div class="bes-header__logo"></div>
-    <h1><a href="../.."></a><b>BES</b> Playbooks</a></h1>
+    <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
     <label for="bes-search-toggle" class="bes-search-toggle__label">
@@ -69,8 +70,8 @@
             Cyber Security
             </a>
           </li>
-          <li data-url="/cloud/1-1-purpose">
-            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <li data-url="/cloud/1-1-cloud">
+            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
             App Technology Refresh for Cloud
             </a>
           </li>
@@ -117,8 +118,8 @@
                 Cyber Security
                 </a>
               </li>
-              <li data-url="/cloud/1-1-purpose">
-                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+              <li data-url="/cloud/1-1-cloud">
+                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
                 App Technology Refresh for Cloud
                 </a>
               </li>
@@ -129,6 +130,16 @@
               </li>
         </ul>
         <div class="bes-doc-nav" aria-label="navigation">
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../agile/1-1-agile/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
                   <ul class="bes-doc-nav__list ">
                       <li class="">
 <a class="reference internal"\
@@ -379,9 +390,64 @@
                 <li class="">
 <a class="reference internal"\
   href="../5-9-mobile/">
-  5.9 Key Mobile Standards
+  5.9 Key Mobile Components
 </a>
                 </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../6-1-appendix/">
+  6.1 Additional Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-2-layouts/">
+  6.2 Alpha Standard Layouts
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../devops/1-1-devops/">
+  1. Overview
+</a>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cyber/1-1-cyber/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cloud/1-1-cloud/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../acquistions/1-1-acquistions/">
+  1. Overview
+</a>
+    <ul>
     </ul>
                       </li>
                   </ul>
@@ -394,24 +460,26 @@
         
           <p><a href="../3-3-research/">Back to Phase 1: Research &amp; Discovery</a></p>
 <h1 id="3322-user-scenarios">3.3.2.2 User Scenarios</h1>
-<p>User scenarios are essentially short expositions, used to explore why a specific user or user group would use your system within a narrow context and purpose. They detail the user’s motivations, goals and concerns, and are perfect setups for journey maps. When comparing different scenarios that have the same user goals, opportunities for the system to be more helpful in accomplishing those goals can be discovered.</p>
+<p>User scenarios are essentially short expositions, used to explore why a specific user or user group would use your system within a narrow context and purpose. They detail the user’s motivations, goals and concerns, and are perfect setups for <a href="../3-3-2-3-journey/">journey maps</a>. When comparing different scenarios that have the same user goals, opportunities for the system to be more helpful in accomplishing those goals can be discovered.</p>
 <h2 id="when-to-use">When to use</h2>
 <p>Use scenarios to explore how users might approach your system in specific contexts or environments. This exploration should foster insight into ways to optimize the system for these scenarios, thus increasing the value your system offers its users.</p>
 <h2 id="requirements">Requirements</h2>
 <ul>
-<li>Scenarios should be crafted around actual, real-world circumstances, and require realistic user perspectives. As such, having direct input from end users is crucial for accurate scenarios. Working from their actual stories, provided in interviews or even possibly surveys, grounds your scenarios in reality.</li>
-<li>While not a hard and fast requirement, starting from personas is a good way to ensure your scenarios are focused on your key user types and their needs.</li>
+<li>Scenarios should be crafted around actual, real-world circumstances, and require realistic user perspectives. As such, having direct input from end users is crucial for accurate scenarios. Working from their actual stories, provided in <a href="../3-3-1-1-interviews/">interviews</a> or even possibly <a href="../3-3-1-2-surveys/">surveys</a>, grounds your scenarios in reality.</li>
+<li>While not a hard and fast requirement, starting from <a href="../3-3-2-1-personas/">personas</a> is a good way to ensure your scenarios are focused on your key user types and their needs.</li>
 </ul>
 <h2 id="productoutput">Product/output</h2>
-<p>Scenarios are typically written as simple prose, like the start of a short story. They form the input for user journey maps, where the scenario can be played out and interactions with your system can be explored. Scenarios should also become the foundation of your concept testing and usability testing – having your test participants attempt to accomplish the goals laid out in your scenarios is an effective method of design validation.</p>
+<p>Scenarios are typically written as simple prose, like the start of a short story. They form the input for <a href="../3-3-2-3-journey/">user journey maps</a>, where the scenario can be played out and interactions with your system can be explored. Scenarios should also become the foundation of your <a href="../3-4-1-4-concept/">concept testing</a> and <a href="../3-5-1-3-usability/">usability testing</a> – having your test participants attempt to accomplish the goals laid out in your scenarios is an effective method of design validation.</p>
 <p class="quote">Tim is preparing to report at the quarterly WSR on his weapon system’s availability in the previous quarter. When doing this analysis previously, he’s relied on downloading ESR data then importing it into a spreadsheet created years ago by a colleague. This quarter, however, his CO has told him his analysis needs to go further and identify the 10 maintenance issues most limiting overall availability and at what locations they are most frequently occurring. This has Tim worried, as he doesn’t believe he can break down the data and prepare it for presentation in the time he has before the conference.”</p>
 <h2 id="practical-considerations">Practical considerations</h2>
 <ul>
 <li>It’s impossible to craft every scenario your users would have for using your system. Instead, start by drawing some of the most common scenarios out of your user research.</li>
 <li>Be willing to explore highly specific scenarios. Unexpected insights come from examining how your users’ behaviors and needs change as their context does.</li>
 </ul>
-<h2 id="resources">Resources</h2>
-<p>When It Comes To Personas, The Real Value Is In The Scenarios – UIE</p>
+<h2 id="resource">Resource</h2>
+<ul>
+<li>When It Comes To Personas, The Real Value Is In The Scenarios <a href="https://articles.uie.com/when-it-comes-to-personas-the-real-value-is-in-the-scenarios">https://articles.uie.com/when-it-comes-to-personas-the-real-value-is-in-the-scenarios</a></li>
+</ul>
         
       </div>
 
@@ -423,13 +491,13 @@
   <div class="bes-footer__link-group">
     <h4>AFLCMC/BES</h4>
     <ul>
-        <li><a href="http://google.com">Air Force Life Cycle Management Center (AFLCMC)</a></li>
-        <li><a href="http://google.com">Air Force Business and Enterprise Systems (BES)</a></li>
+        <li><a href="https://www.wpafb.af.mil/aflcmc">Air Force Life Cycle Management Center (AFLCMC)</a></li>
+        <li><a href="https://www.airforcebes.af.mil">Air Force Business and Enterprise Systems (BES)</a></li>
     </ul>
   </div>
 
 
-  <div class="bes-footer__link-group">
+  <div class="bes-footer__link-group bes-footer__playbooks">
     <h4>BES Playbooks</h4>
     <ul>
         <li>
@@ -458,7 +526,7 @@
           </a>
         </li>
         <li>
-          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
           App Technology Refresh for Cloud
           </a>
         </li>

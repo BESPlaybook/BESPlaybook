@@ -8,9 +8,8 @@
   margin: 0;
   padding: 70px 0;
   background-color: #24316C;
-  background-image: url('_assets/0_home_page_header_01@2x.jpg');
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
   color: #fff;
   font-weight: 300;
 }
@@ -72,8 +71,8 @@
 
 .bes-home .bes-doc-nav-wrap {
   display: none;
-  padding-right: 0;
   min-width: 0;
+  padding-right: 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -94,8 +93,8 @@
   .bes-home-header h1,
   .bes-home-header p {
     width: auto;
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
   }
 
   /* .bes-home .bes-header {
@@ -131,8 +130,13 @@
 
   .bes-playbook-grid__item {
     flex-basis: 100%;
-    padding-left: 30px;
     padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .bes-playbook-grid__item a {
+    display: block;
+    text-align: center;
   }
 
   .bes-home-header p {

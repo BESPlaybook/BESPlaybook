@@ -3,11 +3,19 @@ footer {
   padding: 35px 30px;
   background-color: #24316C;
   color: #fff;
+  font-size: 14px;
+}
+
+footer::after {
+  content: ' ';
+  display: block;
+  clear: both;
 }
 
 .bes-footer__link-group {
-  display: inline-block;
+  display: block;
   padding: 0 30px;
+  float: left;
 }
 
 .bes-footer__link-group h4 {
@@ -15,8 +23,6 @@ footer {
 }
 
 .bes-footer__link-group ul {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
 }
@@ -31,15 +37,25 @@ footer {
   color: #fff;
 }
 
+.bes-footer__playbooks ul {
+  columns: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .bes-footer__playbooks ul {
+    columns: 1;
+  }
+}
 
 @media screen and (max-width: 800px) {
   footer {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .bes-footer__link-group li {
     white-space: normal;
   }
 }
+

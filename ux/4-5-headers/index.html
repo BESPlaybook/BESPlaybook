@@ -19,7 +19,8 @@
     var mkdocs_page_name = "4.5 Global Headers & Footers";
     var mkdocs_page_input_path = "ux/4-5-headers.md";
     var mkdocs_page_url = null;
-    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook"
+    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook";
+    var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -29,7 +30,7 @@
 <body class="bes-body" role="document">
   <div class="bes-header">
     <div class="bes-header__logo"></div>
-    <h1><a href="../.."></a><b>BES</b> Playbooks</a></h1>
+    <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
     <label for="bes-search-toggle" class="bes-search-toggle__label">
@@ -69,8 +70,8 @@
             Cyber Security
             </a>
           </li>
-          <li data-url="/cloud/1-1-purpose">
-            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <li data-url="/cloud/1-1-cloud">
+            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
             App Technology Refresh for Cloud
             </a>
           </li>
@@ -117,8 +118,8 @@
                 Cyber Security
                 </a>
               </li>
-              <li data-url="/cloud/1-1-purpose">
-                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+              <li data-url="/cloud/1-1-cloud">
+                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
                 App Technology Refresh for Cloud
                 </a>
               </li>
@@ -129,6 +130,16 @@
               </li>
         </ul>
         <div class="bes-doc-nav" aria-label="navigation">
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../agile/1-1-agile/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
                   <ul class="bes-doc-nav__list ">
                       <li class="">
 <a class="reference internal"\
@@ -379,9 +390,64 @@
                 <li class="">
 <a class="reference internal"\
   href="../5-9-mobile/">
-  5.9 Key Mobile Standards
+  5.9 Key Mobile Components
 </a>
                 </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../6-1-appendix/">
+  6.1 Additional Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-2-layouts/">
+  6.2 Alpha Standard Layouts
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../devops/1-1-devops/">
+  1. Overview
+</a>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cyber/1-1-cyber/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cloud/1-1-cloud/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../acquistions/1-1-acquistions/">
+  1. Overview
+</a>
+    <ul>
     </ul>
                       </li>
                   </ul>
@@ -407,7 +473,7 @@
 </ul>
 <p>Not all of the mentioned elements should be included in one web page header: in this case, the risk is high that the header section would be overloaded with information. The more objects that attract a user’s attention, the harder it is to concentrate on the vital ones. As with all design decisions, apply UX best practices to focus on user orientation (“where am I and what does this do?”) and task completion (“how do I do it?”). </p>
 <h2 id="desktop-navigation">Desktop Navigation</h2>
-<p class="wide"><em><img alt="4.4 logo" src="../../_assets/4.5_header_example.png" srcset="../../_assets/4.5_header_example@2x.png 2x" /></em></p>
+<p class="wide"><em><img alt="4.5 Header" src="../../_assets/4.5_header_example.png" srcset="../../_assets/4.5_header_example@2x.png 2x" /></em></p>
 <h2 id="search-is-intertwined-with-navigation">Search is Intertwined with Navigation</h2>
 <p>Search is a form of navigation. In many situations, the reader will use a combination of the “content 
 gatherers”. They will use search to bring them to the subject area or product type they are interested in. 
@@ -415,17 +481,18 @@ Then the navigation should kick in, giving them the context for their search.</p
 <h2 id="footers">Footers</h2>
 <p>The footer is the lower (bottommost) part of the page, where scrolling terminates. Footers can support wide varieties and large volumes of content, and often contain universal content (contact details and forms), expanded navigation options, and links outside of the given site or application. </p>
 <p>Contemporary users have demonstrated comfort scrolling long pages and engaging with large page footers, provided both follow layout best practices. It is reasonable to use the page footer as a repository for all content that is both deprioritized but should also be universally accessible. </p>
-<p class="wide"><em><img alt="4.4 logo" src="../../_assets/4.5_header_example.png" srcset="../../_assets/4.5_header_example@2x.png 2x" /></em></p>
+<p class="wide"><em><img alt="4.5 footer dark" src="../../_assets/4.5_footer_dark_graphic.png" srcset="../../_assets/4.5_footer_dark_graphic@2x.png 2x" /></em></p>
+<p class="wide"><em><img alt="4.5 footer dark" src="../../_assets/4.5_footer_light_graphic.png" srcset="../../_assets/4.5_footer_light_graphic@2x.png 2x" /></em></p>
 <h3 id="visual-hierarchy">Visual Hierarchy</h3>
 <p>Given that the footer is often more visually dense than other page components, a visual hierarchy is critical. Adequate spacing helps improve both focus and legibility. Thoughtful typography helps improve scanning and the overall layout. </p>
 <p>Consider “reversing” the colors of the main page in the page’s footer in order to communicate that they’ve reached the end of the page. That is, if the body of the page is on a light background, put the footer on a dark background. Given that this is a common technique, note that “reversing” the colors of a component in the page body can sometimes create a “false bottom,” causing users to believe they’ve hit the footer, and possibly miss the rest of the page.</p>
 <h3 id="anchoring">Anchoring</h3>
 <p>Both headers and footers can “anchor” to the top or bottom of the page (though rarely should both page elements should behave this way simultaneously). An anchored – or “sticky” – element stays on screen as the user scrolls, no matter the scroll depth. This is particularly useful for bringing persistent information or interaction along with the user, such as a form submission, call to action, or mode toggle (edit / review).</p>
-<h2 id="reference-pages">Reference Pages</h2>
-<p>U.S. Web Design System 
-https://designsystem.digital.gov/page-templates/#documentation-page</p>
-<p>UX Planet 
-uxplanet.org</p>
+<h2 id="references">References</h2>
+<ul>
+<li>U.S. Web Design System <a href="https://designsystem.digital.gov/page-templates/#documentation-page">https://designsystem.digital.gov/page-templates/#documentation-page</a></li>
+<li>UX Planet <a href="https://uxplanet.org">uxplanet.org</a></li>
+</ul>
         
       </div>
 
@@ -437,13 +504,13 @@ uxplanet.org</p>
   <div class="bes-footer__link-group">
     <h4>AFLCMC/BES</h4>
     <ul>
-        <li><a href="http://google.com">Air Force Life Cycle Management Center (AFLCMC)</a></li>
-        <li><a href="http://google.com">Air Force Business and Enterprise Systems (BES)</a></li>
+        <li><a href="https://www.wpafb.af.mil/aflcmc">Air Force Life Cycle Management Center (AFLCMC)</a></li>
+        <li><a href="https://www.airforcebes.af.mil">Air Force Business and Enterprise Systems (BES)</a></li>
     </ul>
   </div>
 
 
-  <div class="bes-footer__link-group">
+  <div class="bes-footer__link-group bes-footer__playbooks">
     <h4>BES Playbooks</h4>
     <ul>
         <li>
@@ -472,7 +539,7 @@ uxplanet.org</p>
           </a>
         </li>
         <li>
-          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
           App Technology Refresh for Cloud
           </a>
         </li>

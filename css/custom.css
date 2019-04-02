@@ -4,3 +4,38 @@
   margin-top: -20px;
   background-color: #2F4CB3;
 }
+
+/* TODO: Check if this is needed */
+.logo-row {
+  padding: 30px 100px;
+  background-color: #F1F3F9;
+}
+
+.logo-row em {
+  flex-shrink: 1;
+  margin: 0 10px;
+}
+
+.logo-row em img {
+  max-width: 100%;
+}
+
+.logo-row p {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.caption-example {
+  margin-top: -30px;
+  padding: 0 30px 30px;
+  text-align: center;
+}
+
+.caption-example em {
+  color: #494949;
+}
+
+.method-list-3-2 {
+  border: 1px solid blue;
+}

@@ -19,7 +19,8 @@
     var mkdocs_page_name = "Diary studies";
     var mkdocs_page_input_path = "ux/3-3-1-4-diary.md";
     var mkdocs_page_url = null;
-    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook"
+    var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook";
+    var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -29,7 +30,7 @@
 <body class="bes-body" role="document">
   <div class="bes-header">
     <div class="bes-header__logo"></div>
-    <h1><a href="../.."></a><b>BES</b> Playbooks</a></h1>
+    <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
     <label for="bes-search-toggle" class="bes-search-toggle__label">
@@ -69,8 +70,8 @@
             Cyber Security
             </a>
           </li>
-          <li data-url="/cloud/1-1-purpose">
-            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <li data-url="/cloud/1-1-cloud">
+            <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
             App Technology Refresh for Cloud
             </a>
           </li>
@@ -117,8 +118,8 @@
                 Cyber Security
                 </a>
               </li>
-              <li data-url="/cloud/1-1-purpose">
-                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+              <li data-url="/cloud/1-1-cloud">
+                <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
                 App Technology Refresh for Cloud
                 </a>
               </li>
@@ -129,6 +130,16 @@
               </li>
         </ul>
         <div class="bes-doc-nav" aria-label="navigation">
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../agile/1-1-agile/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
                   <ul class="bes-doc-nav__list ">
                       <li class="">
 <a class="reference internal"\
@@ -379,9 +390,64 @@
                 <li class="">
 <a class="reference internal"\
   href="../5-9-mobile/">
-  5.9 Key Mobile Standards
+  5.9 Key Mobile Components
 </a>
                 </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../6-1-appendix/">
+  6.1 Additional Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-2-layouts/">
+  6.2 Alpha Standard Layouts
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../devops/1-1-devops/">
+  1. Overview
+</a>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cyber/1-1-cyber/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cloud/1-1-cloud/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../acquistions/1-1-acquistions/">
+  1. Overview
+</a>
+    <ul>
     </ul>
                       </li>
                   </ul>
@@ -396,23 +462,18 @@
 <h1 id="3324-diary-studies">3.3.2.4 Diary Studies</h1>
 <p>In this method, study participants are asked to keep a diary and log specific information over time about activities being studied. The diary itself can range from a simple paper journal to a digital recording device, and the input to be collected in the log entries can range from highly structured responses (like duration of the activity in seconds) to open-ended responses like detailed depictions of thoughts or emotions.</p>
 <h2 id="when-to-use">When to use</h2>
-<p>Use to collect qualitative data about user behaviors, activities and experiences over time, especially when field study or “shadowing” is not possible, such as when the duration of the activities to be studied is longer than a day or two, or involves the user traveling to multiple geographic locations, or requires round-the-clock monitoring.</p>
+<p>Use to collect qualitative data about user behaviors, activities and experiences over time, especially when <a href="../3-3-1-2-surveys/">field study</a> or “shadowing” is not possible, such as when the duration of the activities to be studied is longer than a day or two, or involves the user traveling to multiple geographic locations, or requires round-the-clock monitoring.</p>
 <h2 id="requirements">Requirements</h2>
 <ul>
 <li>Access to actual end users who are willing to earnestly and accurately report their own thoughts and actions.</li>
 <li>A means of collecting diaries at the end of the reporting period.</li>
 </ul>
 <h2 id="productoutput">Product/output</h2>
-<p>[links] Depending on the types of input your study requested of its participants, the diary entries can be decomposed and categorized or aggregated into quantitative measures to inform and support personas, or can be used for qualitative inputs to populate personas, user scenarios, journey maps and service design blueprints.</p>
-<h2 id="practical-considerations">Practical considerations</h2>
+<p>Depending on the types of input your study requested of its participants, the diary entries can be decomposed and categorized or aggregated into quantitative measures to inform and support personas, or can be used for qualitative inputs to populate <a href="../3-3-2-1-personas/">personas</a>, <a href="../3-3-2-2-scenarios/">user scenarios</a>, <a href="../3-3-2-3-journey/">journey maps</a> and <a href="../3-3-2-4-blueprints/">service design blueprints</a>.</p>
+<h2 id="reference">Reference</h2>
 <ul>
-<li>Consider distributing the survey to a couple test participants prior to wider distribution, to uncover questions that can be misinterpreted and should be rewritten, and to ensure you receive the types of responses you are expecting.</li>
-<li>Ask questions that you have reason to believe your respondents are willing and able to answer sincerely.</li>
-<li>Be aware that requiring respondent identification will reduce your response rate.</li>
-<li>Avoid using Likert scales (i.e. 1-10 ratings) or similar structures for quantifying opinions. These tend to rely on subjective or arbitrary value assignments by your respondents, which devalues their responses.</li>
+<li>Diary Studies: Understanding Long-Term User Behavior and Experiences <a href="https://www.nngroup.com/articles/diary-studies">https://www.nngroup.com/articles/diary-studies</a></li>
 </ul>
-<h2 id="references-resources">References &amp; Resources</h2>
-<p>Diary Studies: Understanding Long-Term User Behavior and Experiences – Nielsen Norman Group</p>
         
       </div>
 
@@ -424,13 +485,13 @@
   <div class="bes-footer__link-group">
     <h4>AFLCMC/BES</h4>
     <ul>
-        <li><a href="http://google.com">Air Force Life Cycle Management Center (AFLCMC)</a></li>
-        <li><a href="http://google.com">Air Force Business and Enterprise Systems (BES)</a></li>
+        <li><a href="https://www.wpafb.af.mil/aflcmc">Air Force Life Cycle Management Center (AFLCMC)</a></li>
+        <li><a href="https://www.airforcebes.af.mil">Air Force Business and Enterprise Systems (BES)</a></li>
     </ul>
   </div>
 
 
-  <div class="bes-footer__link-group">
+  <div class="bes-footer__link-group bes-footer__playbooks">
     <h4>BES Playbooks</h4>
     <ul>
         <li>
@@ -459,7 +520,7 @@
           </a>
         </li>
         <li>
-          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-purpose">
+          <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
           App Technology Refresh for Cloud
           </a>
         </li>
