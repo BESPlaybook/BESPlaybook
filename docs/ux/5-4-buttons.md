@@ -2,23 +2,26 @@
 
 ## USAF Application Styles
 
-Buttons styles are specific to applications, though button behaviors should follow best practices laid out in Buttons & Controls.
+Buttons styles are specific to applications, though button behaviors should follow best practices laid out in [Buttons & Controls](4-11-buttons) (4.11).
 
 #### Machine Learning
 
 ![5.4 ML](../_assets/5.4_machine_learning.png){srcset="../../_assets/5.4_machine_learning@2x.png 2x"}
+{.padded}
 
 ---
 
 #### Engines Health
 
 ![5.4 ML](../_assets/5.4_engines.png){srcset="../../_assets/5.4_engines@2x.png 2x"}
+{.padded}
 
 ---
 
 #### Positive Inventory Control
 
 ![5.4 ML](../_assets/5.4_positive_inventory_control.png){srcset="../../_assets/5.4_positive_inventory_control@2x.png 2x"}
+{.padded}
 
 
 
@@ -34,9 +37,10 @@ The following example component illustrates the best practices outlined previous
 
 **Disclaimer**: Please default to your application’s and USAF styles; the following component standards are to be used only if those assets are not applicable or not available.
 
-[img]
-
-
+_![5.4 button primary](../_assets/5.4_alpha_standard_primary.png){srcset="../../_assets/5.4_alpha_standard_primary@2x.png 2x"}_
+_![5.4 button seconday](../_assets/5.4_alpha_standard_secondary.png){srcset="../../_assets/5.4_alpha_standard_secondary@2x.png 2x"}_
+_![5.4 button](../_assets/5.4_alpha_standard_text_link.png){srcset="../../_assets/5.4_alpha_standard_text_link@2x.png 2x"}_
+{.space-between}
 
 ---
 

@@ -6,21 +6,21 @@
 }
 
 /* TODO: Check if this is needed */
-.logo-row {
+.logo-row-4-4 {
   padding: 30px 100px;
   background-color: #F1F3F9;
 }
 
-.logo-row em {
+.logo-row-4-4 em {
   flex-shrink: 1;
   margin: 0 10px;
 }
 
-.logo-row em img {
+.logo-row-4-4 em img {
   max-width: 100%;
 }
 
-.logo-row p {
+.logo-row-4-4 p {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -38,4 +38,26 @@
 
 .method-list-3-2 {
   border: 1px solid blue;
+}
+
+.colors-4-8 em:last-child {
+  margin-top: 40px;
+}
+
+.common-colors-4-8 em:last-child {
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .logo-row-4-4 {
+    padding: 20px;
+  }
+  .logo-row-4-4 p {
+    flex-wrap: wrap;
+  }
+
+  .common-colors-4-8 em:last-child {
+    margin-left: 10px;
+  }
+  
 }

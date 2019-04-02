@@ -23,7 +23,7 @@ The secondary palette extends the original colors to support new contexts, such 
 
 _![4.8 Colors](../_assets/4.8_colors_01.png){srcset="../../_assets/4.8_colors_01@2x.png 2x"}_
 _![4.8 Colors](../_assets/4.8_colors_02.png){srcset="../../_assets/4.8_colors_02@2x.png 2x"}_
-{.wide .well .space-between .extended}
+{.wide .well .space-between .extended .colors-4-8}
 
 ### Colors for Accessibility 
 
@@ -35,7 +35,7 @@ If you choose to customize beyond this palette, https://webaim.org/resources/con
 
 _![4.8 Common Colors](../_assets/4.8_common_ui_colors_01.png){srcset="../../_assets/4.8_common_ui_colors_01@2x.png 2x"}_
 _![4.8 Common Colors](../_assets/4.8_common_ui_colors_02.png){srcset="../../_assets/4.8_common_ui_colors_02@2x.png 2x"}_
-{.wide .well .space-between .extended}
+{.wide .well .extended .common-colors-4-8}
 
 Colors should be used to denote the type of component or content being displayed. Large blocks of passive, read-only text should be colored to achieve maximum readability, whereas interactive links within that text should be colored with a more eye-catching “call-to-action" (CTA) standard. Reds and greens should be used sparingly, as they are often reserved for “alert colors,” or stylized system notifications (for when a form field is filled incorrectly, for instance). A color that indicates a disabled state could be the same as one that indicates active, but applied at 50% opacity. 
 

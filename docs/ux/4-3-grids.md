@@ -10,7 +10,7 @@ A thoughtful grid is particularly helpful in responsive design. This type of des
 
 As device display technology improves, the density of pixels has grown to differ across devices. Names like HD and 4k indicate different numbers of pixels per inch – all in pursuit of a crisper image. To retain predictability and consistency, designers and developers rely on **CSS pixels**, which provide a standard definition of pixel size for the web that does not vary based on the device’s pixel density.
 
-It is highly recommended that designers work with their front-end developers to define target devices and pixel densities, and use resources that track changing display technology (like https://vizdevices.yesviz.com/).
+It is highly recommended that designers work with their front-end developers to define target devices and pixel densities, and use resources that track changing display technology (like [https://vizdevices.yesviz.com/](https://vizdevices.yesviz.com/)).
 
 ![4.3](../_assets/4.3_grid_image@2x.png){srcset="../../_assets/4.3_grid_image@2x.png"}
 {.extended}
