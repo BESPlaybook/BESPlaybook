@@ -12,7 +12,7 @@ Offering your end users early investment and ownership in the process can also h
 
 ## Activities
 
-There is a large range of activities that can be conducted as part of a participatory design workshop. In fact, many of the methods covered in this playbook work well in a workshop session, such as journey mapping, service blueprinting and card sorting.
+There is a large range of activities that can be conducted as part of a participatory design workshop. In fact, many of the methods covered in this playbook work well in a workshop session, such as [journey mapping](3-3-2-3-journey.md), [service blueprinting](3-3-2-4-blueprints.md) and [card sorting](3-4-1-2-ia.md).
 
 As your participants are largely not going to immediately be comfortable taking on the role of “designer,” it’s important that chosen activities grant them opportunities to participate in multiple ways. Further, the order of activities should prime your participants, such that they are introduced and immersed into the problem space, then subsequently given a chance to provide solutions.
 

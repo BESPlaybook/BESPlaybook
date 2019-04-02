@@ -50,6 +50,6 @@ Detailed diagrams that capture key processes in service delivery across all touc
 
 As simple descriptions of a user’s intent and the system’s desired responses to satisfy, use cases help quickly catalog all of a system’s necessary features and interactions.
 
-## References
+## Reference
 
-UX Without User Research Is Not UX – Nielsen Norman Group
+- UX Without User Research Is Not UX [https://www.nngroup.com/articles/ux-without-user-research](https://www.nngroup.com/articles/ux-without-user-research)

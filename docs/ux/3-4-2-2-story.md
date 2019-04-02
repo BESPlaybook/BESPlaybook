@@ -11,7 +11,7 @@ A typical user story starts with a statement in the format of “As a [user type
 
 From there, additional description can be included, as well as any already defined requirements, conceptual designs for fulfilling the identified user need, and known technological leverage or constraint.
 
-As the story matures as is prepped for execution, complete requirements, in the form of acceptance criteria, should be captured and included. These acceptance criteria should form the basis for later quality assurance, including acceptance testing.
+As the story matures as is prepped for execution, complete requirements, in the form of acceptance criteria, should be captured and included. These acceptance criteria should form the basis for later quality assurance, including [acceptance testing](3-6-support.md).
 
 ## Practical considerations
 

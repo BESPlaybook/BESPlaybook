@@ -6,7 +6,7 @@ In this method, study participants are asked to keep a diary and log specific in
 
 ## When to use
 
-Use to collect qualitative data about user behaviors, activities and experiences over time, especially when field study or “shadowing” is not possible, such as when the duration of the activities to be studied is longer than a day or two, or involves the user traveling to multiple geographic locations, or requires round-the-clock monitoring.
+Use to collect qualitative data about user behaviors, activities and experiences over time, especially when [field study](3-3-1-2-surveys.md) or “shadowing” is not possible, such as when the duration of the activities to be studied is longer than a day or two, or involves the user traveling to multiple geographic locations, or requires round-the-clock monitoring.
 
 ## Requirements
 
@@ -15,15 +15,7 @@ Use to collect qualitative data about user behaviors, activities and experiences
 
 ## Product/output
 
-[links] Depending on the types of input your study requested of its participants, the diary entries can be decomposed and categorized or aggregated into quantitative measures to inform and support personas, or can be used for qualitative inputs to populate personas, user scenarios, journey maps and service design blueprints.
-
-## Practical considerations
-
-- Consider distributing the survey to a couple test participants prior to wider distribution, to uncover questions that can be misinterpreted and should be rewritten, and to ensure you receive the types of responses you are expecting.
-- Ask questions that you have reason to believe your respondents are willing and able to answer sincerely.
-- Be aware that requiring respondent identification will reduce your response rate.
-- Avoid using Likert scales (i.e. 1-10 ratings) or similar structures for quantifying opinions. These tend to rely on subjective or arbitrary value assignments by your respondents, which devalues their responses.
-
+Depending on the types of input your study requested of its participants, the diary entries can be decomposed and categorized or aggregated into quantitative measures to inform and support personas, or can be used for qualitative inputs to populate [personas](3-3-2-1-personas.md), [user scenarios](3-3-2-2-scenarios.md), [journey maps](3-3-2-3-journey.md) and [service design blueprints](3-3-2-4-blueprints.md).
 
 ## Reference
 

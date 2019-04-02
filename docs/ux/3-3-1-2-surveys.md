@@ -15,7 +15,7 @@ Use to quickly gather shallow feedback from a large number of respondents, or fr
 
 ## Variations
 
-#### **Identified-response** versus **anonymous**
+### **Identified-response** versus **anonymous**
 
 With identified-response surveys, the responses are tied to the identify of the responder, either through requiring the responder to provide that information, or by issuing uniquely identified surveys to each responder. This level of control can have a suppressing effect on the survey, both in terms of total responses, and in amount of honest criticism offered in answers. On the other hand, slanderous or other malevolent responses will be largely avoided. Be mindful of your subject matter and its prevailing sentiment among your audience.
 
@@ -25,11 +25,11 @@ Anonymous surveys offer the ability to collect more honest responses when you ex
 
 ## Product/output
 
-[links] Categorizing responses to open-ended questions can provide rough quantitative measures around frequency of similar responses. (For example, answers like “Site is slow” and “Pages take too long to load” could both be categorized as “Site performance does not meet expectations.”)
+Categorizing responses to open-ended questions can provide rough quantitative measures around frequency of similar responses. (For example, answers like “Site is slow” and “Pages take too long to load” could both be categorized as “Site performance does not meet expectations.”)
 
-Close-ended questions frequently already lend themselves to this sort aggregate quantifying. This data can then provide support and evidence to personas and user scenarios, as well as help prioritize remediation efforts for major existing deficiencies.
+Close-ended questions frequently already lend themselves to this sort aggregate quantifying. This data can then provide support and evidence to [personas](3-3-2-1-personas.md) and [user scenarios](3-3-2-2-scenarios.md), as well as help prioritize remediation efforts for major existing deficiencies.
 
-The individual open-ended responses themselves can uncover topics for follow-up user interview sessions around intents, motivations, and frustrations, especially if your survey’s respondents allow their identities to be known and agree to participate further.
+The individual open-ended responses themselves can uncover topics for follow-up [user interview sessions](3-3-1-1-interviews.md) around intents, motivations, and frustrations, especially if your survey’s respondents allow their identities to be known and agree to participate further.
 
 ## Practical considerations
 
@@ -38,9 +38,12 @@ The individual open-ended responses themselves can uncover topics for follow-up 
 - Be aware that requiring respondent identification will reduce your response rate.
 - Avoid using Likert scales (i.e. 1-10 ratings) or similar structures for quantifying opinions. These tend to rely on subjective or arbitrary value assignments by your respondents, which devalues their responses.
 
-## References
+## References & Resources
 
+### References
 - Online Surveys [https://www.usability.gov/how-to-and-tools/methods/online-surveys.html](https://www.usability.gov/how-to-and-tools/methods/online-surveys.html)
 - Complete Beginner’s Guide to UX Research [https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research](https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research)
+
+### Resources
 - On Surveys [https://medium.com/mule-design/on-surveys-5a73dda5e9a0](https://medium.com/mule-design/on-surveys-5a73dda5e9a0)
 

@@ -17,7 +17,7 @@ Start validating with end users as soon as conceptual designs are mature enough 
 
 ## Practical considerations
 
-- See usability testing
+- See [usability testing](3-5-1-3-usability.md)
 
 ## Resources
 

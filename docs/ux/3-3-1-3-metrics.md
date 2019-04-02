@@ -16,8 +16,8 @@ When a pre-existing capability is available in a live environment, and has an in
 
 [Add links]
 Behavioral patterns discerned through metrics analysis can be used to:
-- Inform customer journeys and service design blueprints.
-- Provide quantitative support and evidence to personas or user scenarios.
+- Inform [customer journeys](3-3-2-3-journey.md) and [service design blueprints](3-3-2-4-blueprints.md).
+- Provide quantitative support and evidence to [personas](3-3-2-1-personas.md) or [user scenarios](3-3-2-2-scenarios.md).
 
 ## Practical considerations
 

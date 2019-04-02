@@ -6,7 +6,7 @@ Personas are realistic amalgamated representations of your key audience segments
 
 ## When to use
 
-Use to humanize your users, especially in order to create rich scenarios and journey maps. Referring back to a well-crafted persona that contains specific human concerns and feelings, can help identify opportunities for your system to better match their needs.
+Use to humanize your users, especially in order to create rich [scenarios](3-3-2-2-scenarios.md) and [journey maps](3-3-2-3-journey.md). Referring back to a well-crafted persona that contains specific human concerns and feelings, can help identify opportunities for your system to better match their needs.
 
 ## Requirements
 

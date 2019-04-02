@@ -9,11 +9,11 @@ A journey map is a narrative-driven graph that describes the typical journey of 
 
 ## When to use
 
-Use journey maps to explore how users might use your system as part of accomplishing the goals laid out in specific scenarios. This exploration should foster insight into ways to optimize the system’s design to best support these journeys, thus increasing the value your system offers its users.
+Use journey maps to explore how users might use your system as part of accomplishing the goals laid out in specific [scenarios](3-3-2-2-scenarios.md). This exploration should foster insight into ways to optimize the system’s design to best support these journeys, thus increasing the value your system offers its users.
 
 ## Requirements
 
-- An understanding of meaningful scenarios to map, and the user insights to map them, from user research (interviews in particular).
+- An understanding of meaningful scenarios to map, and the user insights to map them, from user research ([interviews](3-3-1-1-interviews.md) in particular).
 
 ## Product/output
 
@@ -21,7 +21,7 @@ The map product is a timeline-based chart, typically split into two primary sect
 
 ![3.3.2 output](../_assets/3.3.3.3_product_output.png){srcset="../../_assets/3.3.3.3_product_output@2x.png 2x"}
 
-The process of depicting a user journey will uncover insights and opportunities to better align the current experience with user needs, or introduce new capabilities to fill gaps in the experience. These ideas should next be explored in conceptual designs, evaluated for feasibility, and finally be roadmapped for implementation. If the journey occurs as part of a larger service offering from your system, a next step could be exploring the full details of the service execution in a service design blueprint.
+The process of depicting a user journey will uncover insights and opportunities to better align the current experience with user needs, or introduce new capabilities to fill gaps in the experience. These ideas should next be explored in [conceptual designs](3-4-conceptual.md), evaluated for feasibility, and finally be [roadmapped](3-4-2-1-roadmapping.md) for implementation. If the journey occurs as part of a larger service offering from your system, a next step could be exploring the full details of the service execution in a [service design blueprint](3-3-2-4-blueprints.md).
 
 ## Resource
 

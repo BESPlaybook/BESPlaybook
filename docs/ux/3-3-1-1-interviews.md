@@ -39,12 +39,15 @@ In unstructured interviews the topics are only broadly laid out. The interviewer
 
 ## Product/output
 
-[Add links] Findings and even direct quotes from user interviews become the backbone of personas, user scenarios and user journeys, and drive the definition of use cases.
-Input from subject matter experts and stakeholders form the primary depiction of staff/support actions and processes in service blueprints and user journeys.
+Findings and even direct quotes from user interviews become the backbone of [personas](3-3-2-1-personas.md), [user scenarios](3-3-2-2-scenarios.md) and [user journeys](3-3-2-3-journey.md), and drive the definition of [use cases](3-3-2-5-usecase.md).
+Input from subject matter experts and stakeholders form the primary depiction of staff/support actions and processes in [service blueprints](3-3-2-4-blueprints.md) and [user journeys](3-3-2-3-journey.md).
 
 
-## References
+## References & Resources
 
+### Reference
 - Complete Beginner’s Guide to UX Research [https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research](https://www.uxbooth.com/articles/complete-beginners-guide-to-design-research)
+
+### Resources
 - How to Conduct User Interviews [https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews](https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews)
 - Listening Tips [https://indiyoung.com/listening-tips/#more-7443](https://indiyoung.com/listening-tips/#more-7443)
