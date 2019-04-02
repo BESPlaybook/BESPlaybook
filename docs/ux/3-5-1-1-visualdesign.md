@@ -10,12 +10,12 @@ Visual design comps should offer presentation details such as how individual com
 
 ## Requirements
 
-- A determination of which conceptual design direction to pursue in detail.
-- A scope of design work to be detailed, in user stories or similar.
+- A determination of which [conceptual design](3-4-conceptual.md) direction to pursue in detail.
+- A scope of design work to be detailed, in [user stories](3-4-2-2-story.md) or similar.
 
 ## Product/output
 
-High-fidelity wireframes and comps serve as the foundation for communicating the final design. For lean documentation practices and usability testing, these artifacts will serve as the design source for a prototype. They also serve as the source material for writing full developer specifications.
+High-fidelity wireframes and comps serve as the foundation for communicating the final design. For lean documentation practices and [usability testing](3-5-1-3-usability.md), these artifacts will serve as the design source for a [prototype](3-5-1-2-prototyping.md). They also serve as the source material for writing full [developer specifications](3-5-1-4-annotating.md).
 
 _![3.5.1.1-1](../_assets/3.5.1.1_high_fidelity.jpg){srcset="../../_assets/3.5.1.1_high_fidelity@2x.jpg"}_
 _![3.5.1.1-2](../_assets/3.5.1.1_visual_design_comp.jpg){srcset="../../_assets/3.5.1.1_visual_design_comp@2x.jpg"}_

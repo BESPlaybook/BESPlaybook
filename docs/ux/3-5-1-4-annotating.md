@@ -6,7 +6,7 @@ In order to properly support development, all possible states of the interface s
 
 ## Requirements
 
-- High-fidelity wireframes or visual design comps to start from.
+- [High-fidelity wireframes or visual design comps](3-5-1-1-visualdesign.md) to start from.
 
 ## Product/output
 

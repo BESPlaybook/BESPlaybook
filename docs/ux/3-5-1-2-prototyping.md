@@ -6,13 +6,13 @@ A prototype is a simulation of the intended presentation and functionality of th
 
 ## Requirements
 
-- High-fidelity wireframes or comps to act as source material.
-- Use cases the prototype is meant to simulate.
-- User stories or similar for detailed requirements or acceptance criteria the prototype should follow.
+- [High-fidelity wireframes or comps](3-5-1-1-visualdesign.md) to act as source material.
+- [Use cases](3-3-2-5-usecase.md) the prototype is meant to simulate.
+- [User stories](3-4-2-2-story.md) or similar for detailed requirements or acceptance criteria the prototype should follow.
 
 ## Product/output
 
-A high-fidelity prototype should be digital and interactive, even if only for highly specific click-paths. The fidelity at this point should be close enough to an exact representation of the intended final product, that testing of the prototype should result in reasonably accurate user performance data (e.g. time to perform a given task).
+A high-fidelity prototype should be digital and interactive, even if only for highly specific click-paths. The fidelity at this point should be close enough to an exact representation of the intended final product, that [testing](3-5-1-3-usability.md) of the prototype should result in reasonably accurate user performance data (e.g. time to perform a given task).
 
 ## Practical considerations
 

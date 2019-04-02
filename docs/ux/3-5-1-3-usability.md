@@ -2,12 +2,12 @@
 
 # 3.5.1.3 Usability Testing
 
-Compared to earlier concept testing, the testing done at this phase should not be centered on exploring solutions so much as refining and optimizing specifics. In much the same fashion as earlier testing, however, participants should be given scenarios or tasks, and asked to complete them through use of the prototyped interfaces, while also thinking aloud to express their thoughts and feelings of the experience as they proceed.
+Compared to earlier [concept testing](3-4-1-4-concept.md), the testing done at this phase should not be centered on exploring solutions so much as refining and optimizing specifics. In much the same fashion as earlier testing, however, participants should be given scenarios or tasks, and asked to complete them through use of the prototyped interfaces, while also thinking aloud to express their thoughts and feelings of the experience as they proceed.
 
 ## Requirements
 
-- A test script based on real scenarios or use cases.
-- A prototype that allows for the completion of the tasks in the test script.
+- A test script based on real [scenarios](3-3-2-2-scenarios.md) or [use cases](3-3-2-5-usecase.md).
+- A [prototype](3-5-1-2-prototyping.md) that allows for the completion of the tasks in the test script.
 - The ability to recruit target end users to participate.
 - An ability to record the tests, or to take careful notes during the sessions.
 
