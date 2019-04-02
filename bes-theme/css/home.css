@@ -34,6 +34,7 @@
 }
 
 .bes-home-header p {
+  margin-top: 0;
   margin-bottom: 0;
   font-size: 26px;
   line-height: 1.6em
@@ -50,7 +51,7 @@
 
 .bes-playbook-grid__item {
   flex-basis: 33%;
-  padding: 20px;
+  padding: 20px 20px 60px;
 }
 
 .bes-playbook-grid__item h2 {
@@ -60,10 +61,20 @@
 }
 
 .bes-playbook-grid__item a {
-  display: inline-block;
-  padding: 5px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  height: 54px;
+  margin-top: 30px;
+  padding: 5px;
   background-color: #2F4CB3;
   color: #fff;
+}
+
+.bes-playbook-grid__item a:hover {
+  text-decoration: none;
+  background-color: #7099ED;
 }
 
 .bes-playbook-grid__item h2 img {
@@ -120,6 +131,26 @@
 
   .bes-home #bes-nav-toggle:checked + label + .bes-doc-nav-wrap {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bes-home .bes-header {
+    background: transparent;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+  }
+
+  .bes-home .bes-header.scrolled {
+    background-color: #24316C;
+  }
+
+  .bes-home .bes-content-wrap {
+    margin-top: 0;
+  }
+
+  .bes-home-header {
+    padding-top: 130px;
   }
 }
 
