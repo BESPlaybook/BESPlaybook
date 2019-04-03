@@ -202,3 +202,10 @@
     right: 0;
   }
 }
+
+
+@media screen and (max-width: 800px) {
+  .bes-doc-nav-wrap {
+    top: 80px;
+  }
+}

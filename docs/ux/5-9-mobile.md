@@ -2,7 +2,7 @@
 
 ## Mobile Requires Unique UI
 
-The small viewport and native operating systems of mobile devices require unique design considerations and, accordingly, unique UI elements. This section outlines the key components that differ from tablet / desktop, and their most common applications. For additional guidance on the theory and practice of designing for mobile, refer to elsewhere in this playbook: Key Mobile Standards and Content Modules.
+The small viewport and native operating systems of mobile devices require unique design considerations and, accordingly, unique UI elements. This section outlines the key components that differ from tablet / desktop, and their most common applications. For additional guidance on the theory and practice of designing for mobile, refer to elsewhere in this playbook: [Key Mobile Standards](4-12-mobile.md) and [Content Modules](5-5-modules.md).
 
 ## Considerations & Best Practices
 
@@ -20,7 +20,7 @@ Additionally, mobile designs should
 One of the most common differences in mobile UI is the navigation, which is most commonly collapsed into a three-line icon nicknamed the “hamburger menu.” While the hamburger treatment may wane in popularity, its intent to minimize the navigation into an interactive icon remains an important mobile requirement.
 
 _![5.9 navigation](../_assets/5.9_navigation_example.png){srcset="../../_assets/5.9_navigation_example@2x.png 2x"}_
-{.well .extended}
+{.well .extended .center}
 
 ## Other Mobile-Specific Components
 

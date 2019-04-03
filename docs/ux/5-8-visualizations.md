@@ -19,6 +19,8 @@ _![5.6 LCOP](../_assets/5.8_log_chart_sortie.png){srcset="../../_assets/5.8_log_
 
 _![5.8 map](../_assets/5.8_pic_pop_up.png){srcset="../../_assets/5.8_pic_pop_up@2x.png 2x"}_
 _![5.8 progress bar](../_assets/5.8_pic_progress_bar.png){srcset="../../_assets/5.8_pic_progress_bar@2x.png 2x"}_
+{.space-between}
+
 _![5.8 table](../_assets/5.8_pic_table.png){srcset="../../_assets/5.8_pic_table@2x.png 2x"}_
 {.float}
 
@@ -57,7 +59,7 @@ _![5.8 chart pattern](../_assets/5.8_chart_w_pattern.png){srcset="../../_assets/
 {.well .center}
 
 _Caption nullam id tincidunt libero. Vestibulum molestie venenatis odio, in porttitor sapien pulvinar non._
-{.caption-example}
+{.caption-example-5-8}
 
 _![5.8 progress bar](../_assets/5.8_as_progressbar.png){srcset="../../_assets/5.8_as_progressbar@2x.png 2x"}_
 _![5.8 pie chart](../_assets/5.8_as_pie_chart.png){srcset="../../_assets/5.8_as_pie_chart@2x.png 2x"}_
