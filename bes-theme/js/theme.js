@@ -8,7 +8,8 @@
      if our current page falls under the playbook
   */
   var navItems = document.querySelectorAll('.bes-playbook-nav li')
-  navItems.forEach(function (el) {
+
+  for (var i = 0; i < navItems.length; i++) {
     var isLocal = window.location.href.indexOf(mkdocs_base_url) === -1;
     var slug = ''
     if (isLocal) {
@@ -18,12 +19,12 @@
     }
 
     var section = slug.split('/')[1];
-    var linkSection = el.dataset.url && el.dataset.url.split('/')[1]
+    var linkSection = navItems[i].dataset.url && navItems[i].dataset.url.split('/')[1]
 
     if (section && linkSection === section) {
-      el.className += ' active'
+      navItems[i].className += ' active'
     }
-  });
+  };
 
   /* Apply random headers to the home page and section headers.
 
