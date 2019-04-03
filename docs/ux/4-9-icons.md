@@ -15,10 +15,13 @@ Icons are highly context-specific, but general best practices include:
 If you must design custom icons and they can’t be vector / SVG, design first in the largest viewport (desktop), giving your icon the appropriate level of detail. Subsequently, scale down for smaller viewports and remove details in order to keep icons scannable and understandable. Keep icons simple and schematic. Focusing on the basic characteristics of the object. Test them with neutral users for usability, recognizability, and memorability.
 
 _![4.9 Icons](../_assets/4.9_icons_light_bkgd.png){srcset="../../_assets/4.9_icons_light_bkgd@2x.png 2x"}_
-{.wide .well}
+{.wide .well .desktop-only}
 
 _![4.9 Icons](../_assets/4.9_icons_dark_bkgd.png){srcset="../../_assets/4.9_icons_dark_bkgd@2x.png 2x"}_
-{.wide .well .blue-well}
+{.wide .well .blue-well-4-9 .desktop-only}
+
+_![4.9 Icons](../_assets/4.9_icons_light_bkgd_m.png){srcset="../../_assets/4.9_icons_light_bkgd_m@2x.png 2x"}_
+{.wide .well .center .mobile-only}
 
 ## Icons and Button Labels
 
@@ -40,7 +43,10 @@ Icons to the left of a number usually indicate the intent of the data, whereas i
 - If the icons themselves are the subject, then they would appear at the start of the line, and everything else would follow thereafter.
 
 _![4.9 Table Icons](../_assets/4.9_table_icons.png){srcset="../../_assets/4.9_table_icons@2x.png 2x"}_
-{.wide .well .padded}
+{.wide .well .padded .desktop-only}
+
+_![4.9 Table Icons](../_assets/4.9_table_icons_m.png){srcset="../../_assets/4.9_table_icons_m@2x.png 2x"}_
+{.wide .well .padded .center .mobile-only}
 
 ## References
 

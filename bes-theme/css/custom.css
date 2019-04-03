@@ -1,7 +1,7 @@
 /* One-off rules for layouts */
 
-.bes-content > .blue-well {
-  margin-top: -20px;
+.bes-content > .blue-well-4-9 {
+  margin-top: -40px;
   background-color: #2F4CB3;
 }
 
@@ -34,10 +34,6 @@
 
 .caption-example-5-8 em {
   color: #494949;
-}
-
-.method-list-3-2 {
-  border: 1px solid blue;
 }
 
 .colors-4-8 em:last-child {
@@ -82,6 +78,10 @@
   margin: 0 0 60px;
   padding: 0 10px;
 }
+
+
+
+
 
 @media screen and (max-width: 800px) {
   .logo-row-4-4 {
