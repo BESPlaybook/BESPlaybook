@@ -23,7 +23,10 @@ The secondary palette extends the original colors to support new contexts, such 
 
 _![4.8 Colors](../_assets/4.8_colors_01.png){srcset="../../_assets/4.8_colors_01@2x.png 2x"}_
 _![4.8 Colors](../_assets/4.8_colors_02.png){srcset="../../_assets/4.8_colors_02@2x.png 2x"}_
-{.wide .well .space-between .extended .colors-4-8}
+{.wide .well .space-between .extended .colors-4-8 .desktop-only}
+
+_![4.8 Colors](../_assets/4.8_colors_mobile.png){srcset="../../_assets/4.8_colors_mobile@2x.png 2x"}_
+{.well .mobile-only}
 
 ### Colors for Accessibility 
 

@@ -8,7 +8,7 @@ Generally speaking, the layout of a page should prioritize content importance fr
 
 Studies have found that, in cultures that read from left to right, most people scan screens in an “F” pattern, with preference given to elements that are positioned at the top and left of the screen. Consider placing the most important elements at the top and left of your layout. The upper right of the page is considered secondary in importance due to its positioning at the top of the page, but the importance of the right side rapidly diminishes as you move further down the page.
 
-![4.6 F](../_assets/4.6_f_pattern_graphic.png){srcset="../../_assets/4.6_f_pattern_graphic@2x.png 2x"}
+_![4.6 F](../_assets/4.6_f_pattern_graphic.png){srcset="../../_assets/4.6_f_pattern_graphic@2x.png 2x"}_
 
 Other layout patterns support different densities of content and types of tasks to complete. They all acknowledge the way the user scans the page, tending to favor the top and left.
 

@@ -32,10 +32,10 @@ The following example component illustrates the best practices outlined previous
 **Disclaimer**: Please default to your application’s and USAF styles; the following component standards are to be used only if those assets are not applicable or not available
 
 
-![5.7 media controls](../_assets/5.7_as_media_and_table_controls.png){srcset="../../_assets/5.7_as_media_and_table_controls@2x.png 2x"}
+_![5.7 media controls](../_assets/5.7_as_media_and_table_controls.png){srcset="../../_assets/5.7_as_media_and_table_controls@2x.png 2x"}_
 
 
 
 _![5.7 carousel](../_assets/5.7_as_carousel_pagenation.png){srcset="../../_assets/5.7_as_carousel_pagenation@2x.png 2x"}_
 _![5.7 video](../_assets/5.7_as_video.png){srcset="../../_assets/5.7_as_video@2x.png 2x"}_
-{.float}
+{.space-between .narrow}

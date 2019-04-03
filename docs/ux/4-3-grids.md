@@ -13,7 +13,7 @@ As device display technology improves, the density of pixels has grown to differ
 It is highly recommended that designers work with their front-end developers to define target devices and pixel densities, and use resources that track changing display technology (like [https://vizdevices.yesviz.com/](https://vizdevices.yesviz.com/)).
 
 ![4.3](../_assets/4.3_grid_image@2x.png){srcset="../../_assets/4.3_grid_image@2x.png"}
-{.extended}
+{.extended .padded}
 
 ### Small Viewport
 

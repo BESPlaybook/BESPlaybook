@@ -7,6 +7,7 @@
 
 /* TODO: Check if this is needed */
 .logo-row-4-4 {
+  margin-top: 40px;
   padding: 30px 100px;
   background-color: #F1F3F9;
 }
@@ -42,6 +43,7 @@
 
 .common-colors-4-8 em:last-child {
   margin-left: 100px;
+  margin-top: 50px;
 }
 
 .layouts-6-2 {
@@ -79,8 +81,29 @@
   padding: 0 10px;
 }
 
+.type-4-7 em {
+  padding-top: 60px;
+}
 
+.type-4-7 em:first-of-type {
+ padding-right: 60px;
+ margin-right: 60px;
+ border-right: 1px solid #B8B5B5;
+}
 
+.nav-5-2 {
+  margin-top: 60px;
+}
+
+/* TODO check mobile */
+.bes-content > .columns-5-9 {
+  display: block;
+  columns: 2;
+}
+
+.bes-content > .columns-5-9 em {
+  margin-bottom: 40px;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -93,9 +116,22 @@
 
   .common-colors-4-8 em:last-child {
     margin-left: 10px;
+    margin-top: 20px;
   }
 
   .bes-content > .layouts-6-2 > em {
     flex-basis: 100%;
   }
+
+  .type-4-7 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .type-4-7 em:first-of-type {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0;
+   }
+   
 }

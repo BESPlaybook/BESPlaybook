@@ -98,7 +98,7 @@ _![5.9 content block](../_assets/5.9_cb_image_02.png){srcset="../../_assets/5.9_
 _![5.9 content block](../_assets/5.9_cb_image_03.png){srcset="../../_assets/5.9_cb_image_03@2x.png 2x"}_
 _![5.9 content block](../_assets/5.9_cb_image_04.png){srcset="../../_assets/5.9_cb_image_04@2x.png 2x"}_
 _![5.9 content block](../_assets/5.9_cb_image_05.png){srcset="../../_assets/5.9_cb_image_05@2x.png 2x"}_
-{.float}
+{.float .columns-5-9}
 
 ---
 

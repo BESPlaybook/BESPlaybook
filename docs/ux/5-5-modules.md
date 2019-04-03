@@ -7,13 +7,13 @@ When layouts are particularly content-heavy (such as in the case of an article p
 
 _![5.5 editorial content](../_assets/5.5_editorial_desktop_01.png){srcset="../../_assets/5.5_editorial_desktop_01@2x.png 2x"}_
 _![5.5 editorial content](../_assets/5.5_editorial_mobile_01.png){srcset="../../_assets/5.5_editorial_mobile_01@2x.png 2x"}_
-{.space-between}
+{.space-between .narrow}
 
 ---
 
 _![5.5 editorial content](../_assets/5.5_editorial_desktop_02.png){srcset="../../_assets/5.5_editorial_desktop_02@2x.png 2x"}_
 _![5.5 editorial content](../_assets/5.5_editorial_mobile_02.png){srcset="../../_assets/5.5_editorial_mobile_02@2x.png 2x"}_
-{.space-between}
+{.space-between .narrow}
 
 Your application will likely feature content modules specific to the style of your platform. For the sake of consistency and efficiency, first try re-purposing an existing design solution. Should one not exist within your style guide or front-end code, the following examples act as a guide for designing new components.
 

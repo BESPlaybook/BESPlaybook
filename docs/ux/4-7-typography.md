@@ -9,7 +9,7 @@ More than 95% of information on the web is in the form of written language. If t
 _![4.7 Legibility](../_assets/4.7_fundamental_aspects_typography_legibility.png){srcset="../../_assets/4.7_fundamental_aspects_typography_legibility@2x.png 2x"}_
 _![4.7 Legibility](../_assets/4.7_fundamental_aspects_typography_readability.png){srcset="../../_assets/4.7_fundamental_aspects_typography_readability@2x.png 2x"}_
 _![4.7 Legibility](../_assets/4.7_fundamental_aspects_typography_aesthetics.png){srcset="../../_assets/4.7_fundamental_aspects_typography_aesthetics@2x.png 2x"}_
-{.space-between .padded}
+{.space-between}
 
 Although in a non-technical sense “legible” and “readable” are often used synonymously, typographically they are separate but related concepts. Legibility is the ease with which a reader can recognize individual characters in text. Readability is the ease with which a reader can recognize words, sentences, and paragraphs comprised of characters. Aesthetics is the emotional property of the text, communicating everything from precision to speed to humor.
 
@@ -17,7 +17,7 @@ Typography as an art is nuanced; our primary concern is functional – the fluid
 
 _![4.7 Serif](../_assets/4.7_serif_comparison_mobile.png){srcset="../../_assets/4.7_serif_comparison_mobile@2x.png 2x"}_ 
 _![4.7 Sans Serif](../_assets/4.7_sansserif_comparison.png){srcset="../../_assets/4.7_sansserif_comparison@2x.png 2x"}_
-{.center .padded}
+{.center .padded .type-4-7}
 
 
 ### Font Type

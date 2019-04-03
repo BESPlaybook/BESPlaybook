@@ -12,7 +12,10 @@
 .bes-content .padded {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 0;
 }
+
+
 
 .bes-content > .space-between {
   display: flex;
@@ -23,6 +26,10 @@
 
 .bes-content > .align-bottom {
   align-items: flex-end;
+}
+
+.bes-content > .narrow {
+  max-width: 700px;
 }
 
 .bes-content > .float {
@@ -39,6 +46,7 @@
 }
 
 
+
 .bes-content > .well {
   display: flex;
   position: relative;
@@ -53,6 +61,10 @@
 .bes-content > .float > em {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.bes-content > .padded + hr {
+  margin-top: 0px;
 }
 
 /* Extend the full column widths */
@@ -78,7 +90,6 @@
   padding-left: 70px;
 }
 
-
 /* Align with content left, but stretch full width to right */
 .bes-content > .extended {
   max-width: 1000px;
@@ -93,14 +104,13 @@
 
 .bes-content > p:not(.well):not(.space-between) > em:only-child {
   display: block;
-  margin: 30px 0;
-}
+  margin: 40px 0;}
 
 @media screen and (max-width: 1200px) {
   .bes-content > .space-between,
   .bes-content > .float {
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 25px;
+    margin-left: 25px;
   }
 
 

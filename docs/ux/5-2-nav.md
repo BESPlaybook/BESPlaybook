@@ -7,7 +7,7 @@ Any element that, upon interaction, moves a user through an application or site 
 The vast majority of global navigation exists at the top of the screen, either within or adjacent to the page header. Some global navigation exists at the left or right side of the screen, and may also behave like a “drawer” of other user options. 
 
 ![5.2 Global Nav](../_assets/5.2_nav_example_01.png){srcset="../../_assets/5.2_nav_example_01@2x.png 2x"}
-{.wide}
+{.wide .nav-5-2}
 
 ![5.2 Global Nav](../_assets/5.2_nav_example_02.jpg){srcset="../../_assets/5.2_nav_example_02@2x.jpg 2x"}
 {.wide}

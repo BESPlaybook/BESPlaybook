@@ -67,11 +67,12 @@
   display: flex;
   justify-content: center;
   width: 160px;
-  padding: 5px 15px;
+  padding: 5px 15px 8px;
   border-bottom: 2px solid transparent;
   color: #fff;
   font-size: 13px;
   font-weight: 300;
+  line-height: 1.4em;
 }
 
 .bes-header-nav li.active a,

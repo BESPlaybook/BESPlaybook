@@ -10,7 +10,7 @@ best practices.
 _![5.6 Machine Learning](../_assets/5.6_ml_notification_warning.png){srcset="../../_assets/5.6_ml_notification_warning@2x.png 2x"}_
 _![5.6 Machine Learning](../_assets/5.6_ml_notification_status_green.png){srcset="../../_assets/5.6_ml_notification_status_green@2x.png 2x"}_
 _![5.6 Machine Learning](../_assets/5.6_ml_notification_status_red.png){srcset="../../_assets/5.6_ml_notification_status_red@2x.png 2x"}_
-{.space-between .padded}
+{.space-between}
 
 
 ---
@@ -19,10 +19,9 @@ _![5.6 Machine Learning](../_assets/5.6_ml_notification_status_red.png){srcset="
 
 _![5.6 Engines](../_assets/5.6_engine_health_management_warning.png){srcset="../../_assets/5.6_engine_health_management_warning@2x.png 2x"}_
 _![5.6 Engines](../_assets/5.6_engine_health_management_tooltip.png){srcset="../../_assets/5.6_engine_health_management_tooltip@2x.png 2x"}_
-{.space-between}
-
 _![5.6 Engines](../_assets/5.6_engine_health_management_error.png){srcset="../../_assets/5.6_engine_health_management_error@2x.png 2x"}_
-{.space-between}
+{.float}
+
 
 ---
 
@@ -51,11 +50,11 @@ _![5.6 PIC](../_assets/5.6_pic_results_alert.png){srcset="../../_assets/5.6_pic_
 
 _![5.6 PIC](../_assets/5.6_pic_error_link_notfound.png){srcset="../../_assets/5.6_pic_error_link_notfound@2x.png 2x"}_
 _![5.6 PIC](../_assets/5.6_pic_error_link_database_down.png){srcset="../../_assets/5.6_pic_error_link_database_down@2x.png 2x"}_
-{.space-between}
+{.space-between .narrow}
 
 _![5.6 PIC](../_assets/5.6_pic_assetslocation_no_matches.png){srcset="../../_assets/5.6_pic_assetslocation_no_matches@2x.png 2x"}_
 _![5.6 PIC](../_assets/5.6_pic_assetslocation_tool_tip.png){srcset="../../_assets/5.6_pic_assetslocation_tool_tip@2x.png 2x"}_
-{.space-between}
+{.space-between .narrow}
 
 
 
