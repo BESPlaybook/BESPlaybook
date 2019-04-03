@@ -4,28 +4,28 @@ Once the research and discovery work has provided a clear understanding of the p
 
 ## 3.4.1 Activities for Conceptual Design
 
-#### [Wireframing/sketching](3-4-1-1-wireframe.md)
+### [Wireframing/sketching](3-4-1-1-wireframe.md)
 
 Using quick, low-fidelity drawings helps explore a broader range of potential solutions in less time.
 
-#### [Information architecture](3-4-1-2-ia.md)
+### [Information architecture](3-4-1-2-ia.md)
 
 Create an organizational structure for your system’s features and content in ways that are most meaningful to your users.
 
-#### [Participatory design](3-4-1-3-participatory.md)
+### [Participatory design](3-4-1-3-participatory.md)
 
 Collaborating on initial design with subject matter experts and end users reduces risk and rework.
 
-#### [Concept testing](3-4-1-4-concept.md)
+### [Concept testing](3-4-1-4-concept.md)
 
 Test early concepts with actual users to gauge effectiveness.
 
 ## 3.4.2 Methods for Strategic Planning
 
-#### [Roadmapping](3-4-2-1-roadmapping.md)
+### [Roadmapping](3-4-2-1-roadmapping.md)
 
 A strategic roadmap provides the team alignment on a plan for implementation.
 
-#### [Story writing](3-4-2-2-story.md)
+### [Story writing](3-4-2-2-story.md)
 
 Break up requirements and conceptual designs into discrete, independently executable pieces.

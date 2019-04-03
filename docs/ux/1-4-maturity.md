@@ -22,20 +22,20 @@ Increasing your organization’s strategic alignment around design and adoption 
 
 Within each principle below are statements that, per InVision’s findings, hold true at least twice as often in Level 5 organizations as in Level 1.
 
-#### Top-down belief in the value of design
+### Top-down belief in the value of design
 - Executives talk about the value of design internally.
 - Design shares priorities and goals with key partners.
 - Executives prioritize decisions that lead to the best design/customer experience.
 
-#### Involve design throughout the software development process
+### Involve design throughout the software development process
 - Design is well-integrated in the product development process.
 - Design leaders are peers with product management and engineering leaders.
 
-#### Value user research
+### Value user research
 - Employees participate in user/customer research.
 - Employees understand why human-centered design is valuable.
 
-#### Share design research and decision-making across disciplines
+### Share design research and decision-making across disciplines
 - Design work is shared in all hands meetings, important executive meetings, and other influential gatherings.
 - Design has joint working sessions with key partners (e.g., workshops, stand-ups, etc.).
 - Product/feature ideas are jointly developed and owned between design and key partners.

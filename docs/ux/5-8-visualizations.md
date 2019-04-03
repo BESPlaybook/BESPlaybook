@@ -58,7 +58,7 @@ _![5.8 bar chart](../_assets/5.8_chart_without_pattern.png){srcset="../../_asset
 _![5.8 chart pattern](../_assets/5.8_chart_w_pattern.png){srcset="../../_assets/5.8_chart_w_pattern@2x.png 2x"}_
 {.well .center}
 
-_Caption nullam id tincidunt libero. Vestibulum molestie venenatis odio, in porttitor sapien pulvinar non._
+_Caption: You can place copy here to add further context to your charts or graphs._
 {.caption-example-5-8}
 
 _![5.8 progress bar](../_assets/5.8_as_progressbar.png){srcset="../../_assets/5.8_as_progressbar@2x.png 2x"}_

@@ -81,11 +81,9 @@ _![5.6 alpha](../_assets/5.6_as_form_field_error.png){srcset="../../_assets/5.6_
 {.float}
 
 
-(missing 2X)
 _![5.6 alpha](../_assets/5.6_example_alert.png){srcset="../../_assets/5.6_example_alert@2x.png 2x"}_
 _![5.6 alpha](../_assets/5.6_example_warning.png){srcset="../../_assets/5.6_example_warning@2x.png 2x"}_
 _![5.6 alpha](../_assets/5.6_example_checkmark.png){srcset="../../_assets/5.6_example_checkmark@2x.png 2x"}_
-_![5.6 alpha](../_assets/5.6_example_alert.png){srcset="../../_assets/5.6_example_alert@2x.png 2x"}_
 _![5.6 alpha](../_assets/5.6_example_error.png){srcset="../../_assets/5.6_example_error@2x.png 2x"}_
 _![5.6 alpha](../_assets/5.6_example_information.png){srcset="../../_assets/5.6_example_information@2x.png 2x"}_
 {.float}

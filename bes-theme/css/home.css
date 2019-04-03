@@ -62,8 +62,8 @@
 
 .bes-playbook-grid__item a {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 187px;
   height: 54px;
   margin-top: 30px;
@@ -73,8 +73,8 @@
 }
 
 .bes-playbook-grid__item a:hover {
-  text-decoration: none;
   background-color: #7099ED;
+  text-decoration: none;
 }
 
 .bes-playbook-grid__item h2 img {
@@ -136,9 +136,9 @@
 
 @media screen and (max-width: 800px) {
   .bes-home .bes-header {
-    background: transparent;
     -webkit-transition: background-color 1s;
     transition: background-color 1s;
+    background: transparent;
   }
 
   .bes-home .bes-header.scrolled {

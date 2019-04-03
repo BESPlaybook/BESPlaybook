@@ -12,41 +12,41 @@ Continue reading below to learn about some of the research methods most appropri
 
 ## 3.3.1 Methods for Gathering Information
 
-#### [Interviews](3-3-1-1-interviews.md)
+### [Interviews](3-3-1-1-interviews.md)
 
 Direct communication in the form of interviews is a reliable way to gather user and business needs.
 
-#### [Surveys](3-3-1-2-surveys.md)
+### [Surveys](3-3-1-2-surveys.md)
 
 Surveys are an easy way to gather a large amount of information in minimal time.
 
-#### [Site metrics analysis](3-3-1-3-metrics.md)
+### [Site metrics analysis](3-3-1-3-metrics.md)
 
 Data-driven analysis of site usage and user behavior can provide important context and theory validation.
 
-#### [Diary studies](3-3-1-4-diary.md)
+### [Diary studies](3-3-1-4-diary.md)
 
 Logs of activities by users as they occur offer insights like context and environment details, real-time needs and behaviors.
 
 ## 3.3.2 Methods for Synthesizing Insights
 
-#### [Personas](3-3-2-1-personas.md)
+### [Personas](3-3-2-1-personas.md)
 
 Personas are realistic amalgamated representations of your key audience segments. Their humanistic details offer your team the ability to better empathize with your user types.
 
-#### [User Scenarios](3-3-2-2-scenarios.md)
+### [User Scenarios](3-3-2-2-scenarios.md)
 
 These narratives explore why a specific user or user group would use your system within a narrow context and purpose, focusing on their motivations, goals, and concerns.
 
-#### [Journey maps](3-3-2-3-journey.md)
+### [Journey maps](3-3-2-3-journey.md)
 
 Visualizations that depict the typical journey for users accomplishing a task or going through a scenario, including their thoughts, system interactions, and reactions along the way.
 
-#### [Service design blueprints](3-3-2-4-blueprints.md)
+### [Service design blueprints](3-3-2-4-blueprints.md)
 
 Detailed diagrams that capture key processes in service delivery across all touchpoints, including the actions of the end user and the roles and tasks of any support personnel.
 
-#### [Use cases](3-3-2-5-usecase.md)
+### [Use cases](3-3-2-5-usecase.md)
 
 As simple descriptions of a user’s intent and the system’s desired responses to satisfy, use cases help quickly catalog all of a system’s necessary features and interactions.
 

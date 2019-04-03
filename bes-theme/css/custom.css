@@ -48,19 +48,39 @@
   margin-left: 100px;
 }
 
+.layouts-6-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .layouts-6-2 a {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
   font-size: 18px;
+  font-style: normal;
 }
 
 .layouts-6-2 a::after {
   content: attr(title);
+  margin-top: 20px;
 }
 
-.layouts-6-2 em {
-  margin-bottom: 20px;
+.layouts-6-2 img {
+  border: 2px solid transparent;
+}
+
+.layouts-6-2 a:hover {
+  text-decoration: none;
+}
+
+.layouts-6-2 a:hover img {
+  border-color: #2F4CB3;
+}
+
+.bes-content > .layouts-6-2 > em {
+  flex-basis: 50%;
+  margin: 0 0 60px;
+  padding: 0 10px;
 }
 
 @media screen and (max-width: 800px) {
@@ -74,5 +94,8 @@
   .common-colors-4-8 em:last-child {
     margin-left: 10px;
   }
-  
+
+  .bes-content > .layouts-6-2 > em {
+    flex-basis: 100%;
+  }
 }
