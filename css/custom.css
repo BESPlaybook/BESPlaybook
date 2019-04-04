@@ -42,8 +42,8 @@
 }
 
 .common-colors-4-8 em:last-child {
-  margin-left: 100px;
   margin-top: 50px;
+  margin-left: 100px;
 }
 
 .layouts-6-2 {
@@ -86,8 +86,8 @@
 }
 
 .type-4-7 em:first-of-type {
- padding-right: 60px;
  margin-right: 60px;
+ padding-right: 60px;
  border-right: 1px solid #B8B5B5;
 }
 
@@ -110,8 +110,14 @@
   .logo-row-4-4 {
     padding: 20px;
   }
+
   .logo-row-4-4 p {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-row-4-4 em {
+    margin: 20px;
   }
 
   .common-colors-4-8 em:last-child {
@@ -129,8 +135,8 @@
   }
 
   .type-4-7 em:first-of-type {
-    padding-right: 0;
     margin-right: 0;
+    padding-right: 0;
     border-right: 0;
    }
    
