@@ -1,6 +1,51 @@
 # BES Playbooks
 
+BES Playbooks is a project to display "Playbooks" or user guides for BES disciplines. All content is stored in markdown files and compiled to static html with `MkDocs`.
+
+## Scripts
+
+- `start`: Start local server
+- `css`: Bundles css to a single file. If editing files during development, run this in watch mode: `npm run css -- --watch`
+- `deploy`: Compiles current working tree in to static code, which is added to the `gh-pages` branch. This static code is then pushed to Github where it is served. By default this assumes your remote is named `origin`. If your remote is named differently use this flag `mkdocs gh-deploy --remote-name [remote-name]`
+- `stylelint`: Lint the css for errors. This can also fix certain errors `npm run stylelint -- --fix`
+
+
+## Setup
+
+Clone this repo.
+
+### Install MKDocs
+
+Follow the [install directions](https://www.mkdocs.org/#installation) for `MkDocs`.
+
+### Install Node.js & npm
+
+This project uses code from npm to lint and build the css. Follow the [instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) from npm if you do not have them installed.
+
+### Running Locally
+
+In 2 terminals:
+- Run `npm run css -- --watch`. This will watch the source `bes-theme/css` files and compile them to `bes-theme/main.css` when files change
+- Run `npm start` to run the local server. When any files change, including the compiled css, the web page will live reload.
+
+## Structure
+
+### `/bes-theme`
+
+This is the theme folder for the site. This project uses a custom theme, `bes-theme`. It is based off of the [readthedocs](https://github.com/mkdocs/mkdocs/tree/master/mkdocs/themes/readthedocs) theme.
+
+All of the css and js was removed from that project. The template files have been modified to suit this project. There are many vestigial items left in these templates unfortunately. Cleaning these templates should be looked at if this playbook is revisited.
+
+
+### `/docs`
+
+This folder contains all the content and images for the project. Each playbook has a folder for its markdown files. The `_assets` folder contains images.
+
+
 ## Authoring
+
+
+
 
 ### Custom extensions
 
@@ -21,9 +66,7 @@ http://jinja.pocoo.org/docs/2.10/
 
 ## Theme
 
-This project uses a custom theme, `bes-theme`. It is based off of the [readthedocs](https://github.com/mkdocs/mkdocs/tree/master/mkdocs/themes/readthedocs) theme.
 
-All of the css and js was removed from that project. The template files have been modified to suit this project. There are many vestigial items left in these templates unfortunately. Cleaning these templates should be looked at if this playbook is revisited.
 
 ### Branches
 

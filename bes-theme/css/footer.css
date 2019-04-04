@@ -20,6 +20,7 @@ footer::after {
 
 .bes-footer__link-group h4 {
   color: #fff;
+  font-weight: 500;
 }
 
 .bes-footer__link-group ul {

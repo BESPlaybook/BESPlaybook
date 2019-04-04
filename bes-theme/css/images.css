@@ -15,8 +15,6 @@
   margin-bottom: 0;
 }
 
-
-
 .bes-content > .space-between {
   display: flex;
   justify-content: space-between;
@@ -28,23 +26,20 @@
   align-items: flex-end;
 }
 
-.bes-content > .narrow {
-  max-width: 700px;
-}
+
 
 .bes-content > .float {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   /* 100px - item margin */
-  margin-right: 90px;
-  margin-left: 90px;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 .bes-content > .float > em {
   margin-bottom: 20px;
 }
-
 
 
 .bes-content > .well {
@@ -59,12 +54,16 @@
 .bes-content > .padded > em,
 .bes-content > .well > em,
 .bes-content > .float > em {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .bes-content > .padded + hr {
-  margin-top: 0px;
+  margin-top: 0;
+}
+
+.bes-content > .narrow {
+  max-width: 700px;
 }
 
 /* Extend the full column widths */
@@ -79,7 +78,6 @@
   width: 100%;
   margin: 0 auto;
 }
-
 
 .bes-content > .wide.well,
 .bes-content > .wide.well.float
@@ -131,6 +129,13 @@
   .bes-content > .well,
   .bes-content > .float {
     flex-wrap: wrap;
+  }
+
+  .bes-content > .space-between > em,
+  .bes-content > .padded > em,
+  .bes-content > .well > em,
+  .bes-content > .float > em {
+    margin: 20px;
   }
 
 }

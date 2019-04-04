@@ -45,11 +45,12 @@ Most government platforms are subject to the Revised Section 508 Standards and t
 - Color contrast for graphics and interactive UI components must be at least 3:1 so that different parts can be distinguished. 
 - When providing custom states for elements (e.g. hover, active, focus), color contrast for those states should be at least 3:1.
 
-![4.13 Contrast active](../_assets/4.13_contrast_active_btn.png){srcset="../../_assets/4.13_contrast_active_btn@2x.png 2x"}
-![4.13 Contrast disabled](../_assets/4.13_contrast_disabled.png){srcset="../../_assets/4.13_contrast_disabled@2x.png 2x"}
-![4.13 Contrast on image](../_assets/4.13_contrast_text_on_image.png){srcset="../../_assets/4.13_contrast_text_on_image@2x.png 2x"}
+_![4.13 Contrast buttons](../_assets/4.13_contrast_examples.png){srcset="../../_assets/4.13_contrast_examples@2x.png 2x"}_
+_![4.13 Contrast on image](../_assets/4.13_contrast_text_on_image.png){srcset="../../_assets/4.13_contrast_text_on_image@2x.png 2x"}_
+{.float}
 
-_![4.13 Charts](../_assets/4.13_contrast_charts.png){srcset="../../_assets/4.13_contrast_charts@2x.png 2x"}_
+_![4.13 Charts](../_assets/4.13_chart_wout_pattern.png){srcset="../../_assets/4.13_chart_wout_pattern@2x.png 2x"}_
+_![4.13 Charts](../_assets/4.13_chart_w_pattern.png){srcset="../../_assets/4.13_chart_w_pattern@2x.png 2x"}_
 {.well .center}
 
 

@@ -8,11 +8,10 @@
   },
   "scripts": {
     "start": "mkdocs serve",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "css": "postcss bes-theme/css/bes.css -u autoprefixer postcss-smart-import cssnano --o bes-theme/main.css",
-    "images": "http-server _asets",
-    "deploy": "mkdocs gh-deploy --remote-name isobar",
+    "deploy": "mkdocs gh-deploy",
     "deploy-array": "mkdocs gh-deploy --remote-name array",
+    "deploy-isobar": "mkdocs gh-deploy --remote-name isobar",
     "stylelint": "stylelint ./bes-theme/css"
   },
   "author": "Anne Demey",
