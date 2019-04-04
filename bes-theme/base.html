@@ -39,7 +39,7 @@
   {%- endblock %}
 </head>
 
-<body class="bes-body" role="document">
+<body class="bes-body {{ page.meta.page_name }}" role="document">
   <div class="bes-header">
     <a href="{{ nav.homepage.url|url }}" class="bes-header__logo"></a>
     <h1><a href="{{ nav.homepage.url|url }}"><b>BES</b> Playbooks</a></h1>
@@ -83,6 +83,7 @@
               </li>
             {%- endfor %}
         </ul>
+        {% block doc_nav %}
         <div class="bes-doc-nav" aria-label="navigation">
           {%- set navlevel = 1 %}
           {%- for nav_item in nav %}
@@ -97,6 +98,7 @@
               {%- endif %}
           {%- endfor %}
         </div>
+        {% endblock %}
     </nav><!-- /bes-doc-nav -->
 
     <section class="bes-content-wrap">

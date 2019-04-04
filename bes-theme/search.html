@@ -1,5 +1,8 @@
 {% extends "base.html" %}
 
+{% block doc_nav %}
+{% endblock %}
+
 {% block content %}
 
   <h1 id="search">Search Results</h1>
@@ -15,8 +18,9 @@
 
 {% endblock %}
 
+
 {%- block scripts %}
-    <script>var base_url = '{{ base_url }}';</script>
-    <script src="{{ 'js/search.js'|url }}" defer></script>
-    <script src="{{ 'js/theme.js'|url }}" defer></script>
-  {%- endblock %}
+  <script>var base_url = '{{ base_url }}';</script>
+  <script src="{{ 'js/search.js'|url }}" defer></script>
+  <script src="{{ 'js/theme.js'|url }}" defer></script>
+{%- endblock %}

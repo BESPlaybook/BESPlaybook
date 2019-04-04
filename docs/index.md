@@ -1,4 +1,5 @@
 template: home.html
+classname: home-page
 
 # BES Playbooks
 
