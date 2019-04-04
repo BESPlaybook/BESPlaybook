@@ -10,12 +10,13 @@
   var navItems = document.querySelectorAll('.bes-playbook-nav li')
 
   for (var i = 0; i < navItems.length; i++) {
-    var isLocal = window.location.href.toLowerCase().indexOf(mkdocs_base_url.toLowerCase()) === -1;
+    var href = window.location.href.toLowerCase()
+    var isLocal = href.indexOf(mkdocs_base_url.toLowerCase()) === -1;
     var slug = ''
     if (isLocal) {
-      slug = window.location.href.split('8000')[1]
+      slug = href.split('8000')[1]
     } else {
-      slug = window.location.href.split(mkdocs_base_url)[1];
+      slug = href.split(mkdocs_base_url)[1];
     }
 
     var section = slug.split('/')[1];
