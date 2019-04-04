@@ -16,7 +16,7 @@
     if (isLocal) {
       slug = href.split('8000')[1]
     } else {
-      slug = href.split(mkdocs_base_url)[1];
+      slug = href.split(mkdocs_base_url.toLowerCase())[1];
     }
 
     var section = slug.split('/')[1];
