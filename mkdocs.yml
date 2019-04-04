@@ -10,7 +10,6 @@ plugins:
   - search
 nav:
   - Home: index.md
-  - Styleguide: styleguide.md
   - Agile:
     - 1. Overview: agile/1-1-agile.md
   - Automated Testing:
