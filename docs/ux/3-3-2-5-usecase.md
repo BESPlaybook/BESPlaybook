@@ -15,7 +15,7 @@ Use cases are good building blocks for [user stories](3-4-2-2-story.md) and help
 
 ## Practical considerations
 
-• Use cases function most effectively when they are written simply, technology-free and implementation-agnostic. That is, they are written unaware of their eventual technical solutions. This keeps the focus on task accomplishment from the user’s perspective, and keeps the cases relevant even as the system’s technology and architecture change.
+- Use cases function most effectively when they are written simply, technology-free and implementation-agnostic. That is, they are written unaware of their eventual technical solutions. This keeps the focus on task accomplishment from the user’s perspective, and keeps the cases relevant even as the system’s technology and architecture change.
 
 ## Reference
 

@@ -90,11 +90,12 @@ nav:
     - 1. Overview: acquistions/1-1-acquistions.md
   
 extra:
-  # Updae the baseurl for the location of deployment.
+  # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
   baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
   # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-
+  
+  # This list 
   playbooks:
     - name: Agile
       url: /agile/1-1-agile
@@ -108,22 +109,22 @@ extra:
       url: /ux/1-1-purpose
       icon: _assets/0_home_page_icon_user_experience.svg
       desc: Delivering value requires delivering an experience that meets the needs of your users. Learn what UX is, how it benefits and enhances development efforts, methods for designing experiences, and best-practice visual design guidelines.
-    - name: DevSec Ops
-      url: /devops/1-1-devops
-      icon: _assets/0_home_page_icon_devsec.svg
-      desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus.
-    - name: Cyber Security
-      url: /cyber/1-1-cyber
-      icon: _assets/0_home_page_icon_security.svg
-      desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium.
-    - name: App Technology Refresh for Cloud
-      url: /cloud/1-1-cloud
-      icon: _assets/0_home_page_icon_cloud.svg
-      desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
-    - name: Agile Acquistions
-      url: /acquistions/1-1-acquistions
-      icon: _assets/0_home_page_icon_agile_acquistions.svg
-      desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus.
+    # - name: DevSec Ops
+    #   url: /devops/1-1-devops
+    #   icon: _assets/0_home_page_icon_devsec.svg
+    #   desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus.
+    # - name: Cyber Security
+    #   url: /cyber/1-1-cyber
+    #   icon: _assets/0_home_page_icon_security.svg
+    #   desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium.
+    # - name: App Technology Refresh for Cloud
+    #   url: /cloud/1-1-cloud
+    #   icon: _assets/0_home_page_icon_cloud.svg
+    #   desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
+    # - name: Agile Acquistions
+    #   url: /acquistions/1-1-acquistions
+    #   icon: _assets/0_home_page_icon_agile_acquistions.svg
+    #   desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus.
 
   footer:
     AFLCMC/BES:
