@@ -10,267 +10,262 @@
   
   <link rel="shortcut icon" href="img/favicon.ico">
   <title>BES Playbook</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="main.css" type="text/css" />
   
   <script>
     // Current page data
     var mkdocs_page_name = "Home";
     var mkdocs_page_input_path = "index.md";
     var mkdocs_page_url = null;
+    var mkdocs_base_url = "https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook"
+    var mkdocs_home_headers = ["_assets/0_home_page_header_01.jpg", "_assets/0_home_page_header_02.jpg", "_assets/0_home_page_header_03.jpg", "_assets/0_home_page_header_04.jpg"];
   </script>
-  
-  <script src="js/jquery-2.1.1.min.js" defer></script>
-  <script src="js/modernizr-2.8.3.min.js" defer></script> 
   
 </head>
 
-<body class="wy-body-for-nav" role="document">
-
-  <div class="wy-grid-for-nav">
-
-    
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
-      <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> BES Playbook</a>
+<body class="bes-body bes-home" role="document">
+  <div class="bes-header">
+    <a href="." class="bes-header__logo"></a>
+    <h1><a href="."><b>BES</b> Playbooks</a></h1>
+    <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
+    <label for="bes-search-toggle" class="bes-search-toggle__label">
+      <span class="bes-search-toggle__search"></span>
+      <span class="bes-search-toggle__x"></span>
+    </label>
+    <div class="bes-header-search">
         <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  <form class="bes-search-form" action="./search/index.html" method="get">
+    <input type="text" id="mkdocs-search-query" name="q" placeholder="Search all Playbooks" />
   </form>
 </div>
-      </div>
-
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <p class="caption"><span class="caption-text">Agile</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="agile/1-1-agile/">1. Overview</a>
-    <ul>
-    </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Automated Testing</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="testing/1-1-testing/">1. Overview</a>
-    <ul>
-    </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">User Experience</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="#">1. Overview</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="ux/1-1-purpose/">1.1 Purpose</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/1-2-audience/">1.2 Audience</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/1-3-benefits/">1.3 Benefits of UX</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/1-4-maturity/">1.4 Levels of Design Maturity</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">2. User Experience</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="ux/2-1-what-is-ux/">2.1 What is UX?</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/2-2-disciplines/">2.2 UX Disciplines & Project Roles</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/2-3-lifecycle/">2.3 UX in Software Lifecycle Methodologies</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">3. UX Principles & Methodology</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="ux/3-1-principles/">3.1 UX Principles</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/3-2-methodology/">3.2 UX Methodology</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="#">3.3 subpages</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/3-3-research/">3.3 Phase 1: Research & Discovery</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="#">3.4 subpages</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/3-4-conceptual/">3.4 Phase 2: Conceptual Design</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="#">3.5 subpages</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/3-5-detailed/">3.5 Phase 3: Detailed Design</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/3-6-support/">3.6 Phase 4: Support</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">4. Web Design Standards</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-1-introduction/">4.1 Introduction</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-2-guidelines/">4.2 General Interface Guidelines</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-3-grids/">4.3 Grids & Breakpoints</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-4-branding/">4.4 Branding/Logo</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-5-headers/">4.5 Global Headers & Footers</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-6-layouts/">4.6 Page Layouts</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-7-typography/">4.7 Typography</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-8-color/">4.8 Color</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-9-icons/">4.9 Iconography</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-10-imagery/">4.10 Imagery</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-11-buttons/">4.11 Buttons & Controls</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-12-mobile/">4.12 Key Mobile Standards</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/4-13-accessibility/">4.13 Accessibility</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">5. Component Library</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="ux/5-1-intro/">5.1 Introduction</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/5-2-nav/">5.2 Global Navigation</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/5-3-icons/">5.3 Icons</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/5-4-buttons/">5.4 Buttons & Labels</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/5-5-modules/">5.5 Content Modules</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/5-6-alerts/">5.6 Alerts & Messaging</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/5-7-forms/">5.7 Forms & Controls</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/5-8-visualizations/">5.8 Visualizations</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/5-9-mobile/">5.9 Key Mobile Components</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">6. Appendix</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="ux/6-1-appendix/">6.1 Additional Resources</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="ux/6-2-layouts/">6.2 Alpha Standard Layouts</a>
-                </li>
-    </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">DevSec Ops</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="devops/1-1-devops/">1. Overview</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Cyber Security</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="cyber/1-1-cyber/">1. Overview</a>
-    <ul>
-    </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">App Technology Refresh for Cloud</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="cloud/1-1-cloud/">1. Overview</a>
-    <ul>
-    </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Agile Acquistions</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="acquistions/1-1-acquistions/">1. Overview</a>
-    <ul>
-    </ul>
-                    </li>
-                </ul>
-      </div>
     </div>
-    </nav>
+    <ul class="bes-header-nav" aria-label="main navigation" data-baseurl="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook">
+          <li data-url="/agile/1-1-agile">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-agile">
+            Agile
+            </a>
+          </li>
+          <li data-url="/testing/1-1-testing">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-testing">
+            Automated Testing
+            </a>
+          </li>
+          <li data-url="/ux/1-1-purpose">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+            User Experience
+            </a>
+          </li>
+          <li data-url="/devops/1-1-devops">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/devops/1-1-devops">
+            DevSec Ops
+            </a>
+          </li>
+          <li data-url="/cyber/1-1-cyber">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/cyber/1-1-cyber">
+            Cyber Security
+            </a>
+          </li>
+          <li data-url="/cloud/1-1-cloud">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/cloud/1-1-cloud">
+            App Technology Refresh for Cloud
+            </a>
+          </li>
+          <li data-url="/acquistions/1-1-acquistions">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/acquistions/1-1-acquistions">
+            Agile Acquistions
+            </a>
+          </li>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">BES Playbook</a>
-      </nav>
-
-      
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href=".">Docs</a> &raquo;</li>
-    
-      
-    
-    <li>Home</li>
-    <li class="wy-breadcrumbs-aside">
-      
-    </li>
-  </ul>
-  
-  <hr/>
-</div>
-          <div role="main">
-            <div class="section">
-              
-                <h1 id="template-homehtml">template: home.html</h1>
-<h1 id="bes-playbooks">BES Playbooks</h1>
-<p>These playbooks are intended to support development and modernization efforts within the BES AFLCMC/HIA Logistic Division as it transforms its methodologies to procure, develop and implement specialized IT products using current best practices.</p>
-              
-            </div>
-          </div>
-          <footer>
-  
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-    
+    </ul>
   </div>
-
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
+  
+  <div class="bes-body-columns">
+    <input type="checkbox" id="bes-nav-toggle" name="bes-nav-toggle" />
+    <label for="bes-nav-toggle" class="bes-nav-toggle__label">
+      <span class="bes-nav-toggle__hamburger"></span>
+      <span class="bes-nav-toggle__x"></span>
+    </label>
+    <nav class="bes-doc-nav-wrap">
+        <ul class="bes-playbook-mobile-nav">
+              <li>
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-agile">
+                Agile
+                </a>
+              </li>
+              <li>
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-testing">
+                Automated Testing
+                </a>
+              </li>
+              <li>
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+                User Experience
+                </a>
+              </li>
+              <li>
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/devops/1-1-devops">
+                DevSec Ops
+                </a>
+              </li>
+              <li>
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/cyber/1-1-cyber">
+                Cyber Security
+                </a>
+              </li>
+              <li>
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/cloud/1-1-cloud">
+                App Technology Refresh for Cloud
+                </a>
+              </li>
+              <li>
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/acquistions/1-1-acquistions">
+                Agile Acquistions
+                </a>
+              </li>
+        </ul>
+    </nav><!-- /bes-doc-nav -->
+    <section class="bes-content-wrap">
       
+      <div class="bes-home-header">
+        <h1 id="bes-playbooks">BES Playbooks</h1>
+<p>These playbooks are intended to support development and modernization efforts within the BES AFLCMC/HIA Logistic Division as it transforms its methodologies to procure, develop and implement specialized IT products using current best practices.</p>
+      </div>
+      <div class="bes-content">
+
+        <div class="bes-playbook-grid">
+          <div class="bes-playbook-grid__item">
+            <h2><img src="_assets/0_home_page_icon_agile.svg" />Agile</h2>
+            <p>
+              Faster, more dynamic response to customers’ development needs requires a modern management approach. Learn what is necessary to establish those responsive process and management guidelines within the DoD environment.
+            </p>
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-agile">
+              View
+            </a>
+          </div>
+          <div class="bes-playbook-grid__item">
+            <h2><img src="_assets/0_home_page_icon_automatedtesting.svg" />Automated Testing</h2>
+            <p>
+              With the move towards more flexible approaches to software development comes the desire to implement faster, more reliable testing procedures. Learn practical, experienced-based methods and best practices for automating testing.
+            </p>
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-testing">
+              View
+            </a>
+          </div>
+          <div class="bes-playbook-grid__item">
+            <h2><img src="_assets/0_home_page_icon_user_experience.svg" />User Experience</h2>
+            <p>
+              Delivering value requires delivering an experience that meets the needs of your users. Learn what UX is, how it benefits and enhances development efforts, methods for designing experiences, and best-practice visual design guidelines.
+            </p>
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+              View
+            </a>
+          </div>
+          <div class="bes-playbook-grid__item">
+            <h2><img src="_assets/0_home_page_icon_devsec.svg" />DevSec Ops</h2>
+            <p>
+              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus.
+            </p>
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/devops/1-1-devops">
+              View
+            </a>
+          </div>
+          <div class="bes-playbook-grid__item">
+            <h2><img src="_assets/0_home_page_icon_security.svg" />Cyber Security</h2>
+            <p>
+              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium.
+            </p>
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/cyber/1-1-cyber">
+              View
+            </a>
+          </div>
+          <div class="bes-playbook-grid__item">
+            <h2><img src="_assets/0_home_page_icon_cloud.svg" />App Technology Refresh for Cloud</h2>
+            <p>
+              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
+            </p>
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/cloud/1-1-cloud">
+              View
+            </a>
+          </div>
+          <div class="bes-playbook-grid__item">
+            <h2><img src="_assets/0_home_page_icon_agile_acquistions.svg" />Agile Acquistions</h2>
+            <p>
+              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus.
+            </p>
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/acquistions/1-1-acquistions">
+              View
+            </a>
+          </div>
         </div>
       </div>
 
     </section>
 
+  </div><!-- /bes-body-colums -->
+
+  <footer>
+  <div class="bes-footer__link-group">
+    <h4>AFLCMC/BES</h4>
+    <ul>
+        <li><a href="https://www.wpafb.af.mil/aflcmc">Air Force Life Cycle Management Center (AFLCMC)</a></li>
+        <li><a href="https://www.airforcebes.af.mil">Air Force Business and Enterprise Systems (BES)</a></li>
+    </ul>
   </div>
 
-  <div class="rst-versions" role="note" aria-label="versions">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-      
-        <span style="margin-left: 15px"><a href="agile/1-1-agile/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
-</div>
+
+  <div class="bes-footer__link-group bes-footer__playbooks">
+    <h4>BES Playbooks</h4>
+    <ul>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-agile">
+          Agile
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-testing">
+          Automated Testing
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+          User Experience
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/devops/1-1-devops">
+          DevSec Ops
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/cyber/1-1-cyber">
+          Cyber Security
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/cloud/1-1-cloud">
+          App Technology Refresh for Cloud
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/acquistions/1-1-acquistions">
+          Agile Acquistions
+          </a>
+        </li>
+    </ul>
+  </div>
+  
+
+</footer>
     <script>var base_url = '.';</script>
     <script src="js/theme.js" defer></script>
-      <script src="search/main.js" defer></script>
-    <script type="text/javascript" defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(false);
-        };
-    </script>
+    <script src="js/home.js" defer></script>
 
 </body>
 </html>
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2019-04-04 15:52:14
+Build Date UTC : 2019-04-04 16:35:17
 -->
