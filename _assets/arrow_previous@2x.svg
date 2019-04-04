@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="77px" viewBox="0 0 58 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>arrow_previous@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.52773437,30 C8.03642578,30 7.54511719,29.8106061 7.1671875,29.4318182 C6.41132812,28.6742424 6.41132812,27.4242424 7.1671875,26.6666667 L18.8074219,15 L7.12939453,3.33333333 C6.37353516,2.57575758 6.37353516,1.32575758 7.12939453,0.568181818 C7.88525391,-0.189393939 9.13242187,-0.189393939 9.88828125,0.568181818 L22.9268555,13.6363636 C23.6827148,14.3939394 23.6827148,15.6439394 22.9268555,16.4015152 L9.88828125,29.4318182 C9.51035156,29.8106061 9.01904297,30 8.52773437,30 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.4.2.1-Roadmapping_subsection_spacing" transform="translate(-448.000000, -1858.000000)">
+            <g id="previous-and-next" transform="translate(448.000000, 1858.000000)">
+                <g id="arrow_previous">
+                    <circle id="Oval" fill="#2F4CB3" cx="29" cy="29" r="29"></circle>
+                    <g id="icon/pageRight" transform="translate(27.000000, 28.944853) rotate(-180.000000) translate(-27.000000, -28.944853) translate(12.000000, 14.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use fill="#010101" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <g id="color/#ffffff" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect x="0" y="0" width="30" height="30"></rect>
+                        </g>
+                    </g>
+                    <text id="Previous" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.3085714" fill="#2F4CB3">
+                        <tspan x="4.29305815" y="76">Previous</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
