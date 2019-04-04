@@ -11,7 +11,7 @@ plugins:
 nav:
   - Home: index.md
   - Agile:
-    - 1. Overview: agile/1-1-agile.md
+    - 1. Overview: agile/agile-1.md
   - Automated Testing:
     - 1. Overview: testing/1-1-testing.md
   - User Experience:

@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "mkdocs serve",
+    "start-admin": "python -m mkdocs serve",
     "css": "postcss bes-theme/css/bes.css -u autoprefixer postcss-smart-import cssnano --o bes-theme/main.css",
     "deploy": "mkdocs gh-deploy",
     "deploy-array": "mkdocs gh-deploy --remote-name array",
