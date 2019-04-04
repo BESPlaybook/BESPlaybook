@@ -4,12 +4,19 @@
 {% endblock %}
 
 {% block content %}
-
+  
   <h1 id="search">Search Results</h1>
 
-  <form id="content_search" action="search.html">
+  <form id="bes-content-search" action="{{ base_url }}/search/index.html" method="get">
     <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
-    <input name="q" id="mkdocs-search-query" type="text" class="search_input search-query ui-autocomplete-input" placeholder="Search the Docs" autocomplete="off" autofocus title="Type search term here">
+    <input
+      name="q"
+      id="mkdocs-search-query"
+      type="text"
+      placeholder="Search all Playbooks"
+      autocomplete="off"
+      autofocus
+    />
   </form>
 
   <div id="mkdocs-search-results" class="search-results">

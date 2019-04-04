@@ -30,7 +30,7 @@ _![5.6 Engines](../_assets/5.6_engine_health_management_error.png){srcset="../..
 
 _![5.6 LCOP](../_assets/5.6_log_modal_inv_add_res.png){srcset="../../_assets/5.6_log_modal_inv_add_res@2x.png 2x"}_
 _![5.6 LCOP](../_assets/5.6_log_error_notification.png){srcset="../../_assets/5.6_log_error_notification@2x.png 2x"}_
-{.space-between .padded}
+{.space-between}
 
 ---
 

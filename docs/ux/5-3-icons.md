@@ -4,7 +4,6 @@
 
 The following icons are an aggregate of USAF applications and labeled accordingly. When selecting new icons, choose only from a single “family” to retain consistency, or match the characteristics of your pre-existing icon set. An icon family is usually created by the same designer, and each icon will have similar complexity, line weight, repeating elements, and themes.
 
----
 
 _![5.3 App Logos](../_assets/5.3_application_styles_left.png){srcset="../../_assets/5.3_application_styles_left@2x.png 2x"}_
 _![5.3 App Logos](../_assets/5.3_application_styles_right.png){srcset="../../_assets/5.3_application_styles_right@2x.png 2x"}_

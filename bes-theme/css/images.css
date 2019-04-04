@@ -10,16 +10,16 @@
 }
 
 .bes-content .padded {
+  margin-bottom: 0;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 0;
 }
 
 .bes-content > .space-between {
   display: flex;
   justify-content: space-between;
-  margin-right: 90px;
-  margin-left: 90px;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 .bes-content > .align-bottom {

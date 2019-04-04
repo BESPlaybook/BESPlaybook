@@ -31,13 +31,14 @@ function displayResults (results) {
     search_results.removeChild(search_results.firstChild);
   }
   if (results.length > 0){
+    console.log('results:', results)
     for (var i=0; i < results.length; i++){
       var result = results[i];
       var html = formatResult(result.location, result.title, result.summary);
       search_results.insertAdjacentHTML('beforeend', html);
     }
   } else {
-    search_results.insertAdjacentHTML('beforeend', "<p>No results found</p>");
+    search_results.insertAdjacentHTML('beforeend', "<p class=\"bes-no-results\">No results found</p>");
   }
 }
 
