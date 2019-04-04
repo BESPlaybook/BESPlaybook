@@ -10,7 +10,7 @@
   var navItems = document.querySelectorAll('.bes-playbook-nav li')
 
   for (var i = 0; i < navItems.length; i++) {
-    var isLocal = window.location.href.indexOf(mkdocs_base_url) === -1;
+    var isLocal = window.location.href.toLowerCase().indexOf(mkdocs_base_url.toLowerCase()) === -1;
     var slug = ''
     if (isLocal) {
       slug = window.location.href.split('8000')[1]
