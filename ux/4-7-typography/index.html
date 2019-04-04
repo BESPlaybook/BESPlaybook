@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -464,12 +462,12 @@
 <h2 id="reinforcing-the-goals-of-typography">Reinforcing the Goals of Typography</h2>
 <p>More than 95% of information on the web is in the form of written language. If typography is done well, it goes unnoticed. If it’s not, it sticks out like a sore thumb and moreover disrupts the user experience. Typography holds an important place in any form of design that features text, and this is especially true for web and application design.</p>
 <h2 id="three-fundamental-aspects-of-typography">Three Fundamental Aspects of Typography</h2>
-<p class="space-between padded"><em><img alt="4.7 Legibility" src="../../_assets/4.7_fundamental_aspects_typography_legibility.png" srcset="../../_assets/4.7_fundamental_aspects_typography_legibility@2x.png 2x" /></em>
+<p class="space-between"><em><img alt="4.7 Legibility" src="../../_assets/4.7_fundamental_aspects_typography_legibility.png" srcset="../../_assets/4.7_fundamental_aspects_typography_legibility@2x.png 2x" /></em>
 <em><img alt="4.7 Legibility" src="../../_assets/4.7_fundamental_aspects_typography_readability.png" srcset="../../_assets/4.7_fundamental_aspects_typography_readability@2x.png 2x" /></em>
 <em><img alt="4.7 Legibility" src="../../_assets/4.7_fundamental_aspects_typography_aesthetics.png" srcset="../../_assets/4.7_fundamental_aspects_typography_aesthetics@2x.png 2x" /></em></p>
 <p>Although in a non-technical sense “legible” and “readable” are often used synonymously, typographically they are separate but related concepts. Legibility is the ease with which a reader can recognize individual characters in text. Readability is the ease with which a reader can recognize words, sentences, and paragraphs comprised of characters. Aesthetics is the emotional property of the text, communicating everything from precision to speed to humor.</p>
 <p>Typography as an art is nuanced; our primary concern is functional – the fluid communication of information by the written word. As such, we focus on core concepts for achieving legibility, readability, and context-appropriate aesthetics. </p>
-<p class="center padded"><em><img alt="4.7 Serif" src="../../_assets/4.7_serif_comparison_mobile.png" srcset="../../_assets/4.7_serif_comparison_mobile@2x.png 2x" /></em> 
+<p class="center padded type-4-7"><em><img alt="4.7 Serif" src="../../_assets/4.7_serif_comparison_mobile.png" srcset="../../_assets/4.7_serif_comparison_mobile@2x.png 2x" /></em> 
 <em><img alt="4.7 Sans Serif" src="../../_assets/4.7_sansserif_comparison.png" srcset="../../_assets/4.7_sansserif_comparison@2x.png 2x" /></em></p>
 <h3 id="font-type">Font Type</h3>
 <p>Of the many font categorizations, the two largest (and most common categories) are “serif” and “sans-serif” fonts (literally translating to “feet” and “without feet”). The “feet” to which they refer are the small visual elements that branch out at the end of a stroke. </p>

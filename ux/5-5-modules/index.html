@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -463,72 +461,72 @@
 </blockquote>
 <h2 id="designing-for-editorial-content">Designing for Editorial Content</h2>
 <p>When layouts are particularly content-heavy (such as in the case of an article page), they may require components that support copy, images, and other editorial elements. These components are called “content modules,” and can be used individually or stacked to create long-form content.</p>
-<p class="space-between"><em><img alt="5.5 editorial content" src="../../_assets/5.5_editorial_desktop_01.png" srcset="../../_assets/5.5_editorial_desktop_01@2x.png 2x" /></em>
+<p class="space-between narrow"><em><img alt="5.5 editorial content" src="../../_assets/5.5_editorial_desktop_01.png" srcset="../../_assets/5.5_editorial_desktop_01@2x.png 2x" /></em>
 <em><img alt="5.5 editorial content" src="../../_assets/5.5_editorial_mobile_01.png" srcset="../../_assets/5.5_editorial_mobile_01@2x.png 2x" /></em></p>
 <hr />
-<p class="space-between"><em><img alt="5.5 editorial content" src="../../_assets/5.5_editorial_desktop_02.png" srcset="../../_assets/5.5_editorial_desktop_02@2x.png 2x" /></em>
+<p class="space-between narrow"><em><img alt="5.5 editorial content" src="../../_assets/5.5_editorial_desktop_02.png" srcset="../../_assets/5.5_editorial_desktop_02@2x.png 2x" /></em>
 <em><img alt="5.5 editorial content" src="../../_assets/5.5_editorial_mobile_02.png" srcset="../../_assets/5.5_editorial_mobile_02@2x.png 2x" /></em></p>
 <p>Your application will likely feature content modules specific to the style of your platform. For the sake of consistency and efficiency, first try re-purposing an existing design solution. Should one not exist within your style guide or front-end code, the following examples act as a guide for designing new components.</p>
 <h2 id="full-width-content-modules">Full-Width Content Modules</h2>
-<p>Full-width content modules span the width of the viewport at any breakpoint, split and stack as the layout responds down. Particularly in the mobile viewport, these modules should follow best practices of content reordering (section 4.6) and degradation of individual elements like images, nav elements, and longer copy blocks (section 4.12).</p>
-<h4 id="global-navigation">Global Navigation</h4>
+<p>Full-width content modules span the width of the viewport at any breakpoint, split and stack as the layout responds down. Particularly in the mobile viewport, these modules should follow best practices of content reordering <a href="../4-6-layouts/">(section 4.6)</a> and degradation of individual elements like images, nav elements, and longer copy blocks <a href="../4-12-mobile/">(section 4.12)</a>.</p>
+<h3 id="global-navigation-see-section-52">Global Navigation <a href="../5-2-nav/">(See section 5.2)</a></h3>
 <p class="well padded"><em><img alt="5.5 desktop nav" src="../../_assets/5.5_globalnavigation_desktop.png" srcset="../../_assets/5.5_globalnavigation_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 mobile nav" src="../../_assets/5.5_globalnavigation_mobile.png" srcset="../../_assets/5.5_globalnavigation_mobile@2x.png 2x" /></em></p>
-<h4 id="branded-header">Branded Header</h4>
+<h3 id="branded-header">Branded Header</h3>
 <p>A header for major content categories (generally those items featured in top-level navigation); generally reserved for more editorial (and less functional) pages. Can support large calls-to-action that drive to elsewhere on the page, or other pages entirely.</p>
 <p class="well padded"><em><img alt="5.5 branded header" src="../../_assets/5.5_brandedheader_desktop.png" srcset="../../_assets/5.5_globalnavigation_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 branded header" src="../../_assets/5.5_brandedheader_mobile.png" srcset="../../_assets/5.5_brandedheader_mobile@2x.png 2x" /></em></p>
-<h4 id="inline-introduction-search">Inline Introduction / Search</h4>
+<h3 id="inline-introduction-search">Inline Introduction / Search</h3>
 <p>Combining both introductory text and a search element, this component is useful for guiding the user through long-form content (articles, FAQs, etc.) via search.</p>
 <p class="well padded"><em><img alt="5.5 search" src="../../_assets/5.5_inline_introduction_search_desktop.png" srcset="../../_assets/5.5_inline_introduction_search_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 search" src="../../_assets/5.5_inline_introduction_search_mobile.png" srcset="../../_assets/5.5_inline_introduction_search_mobile@2x.png 2x" /></em></p>
-<h4 id="content-block-short-form-copy">Content Block: Short Form Copy</h4>
+<h3 id="content-block-short-form-copy">Content Block: Short Form Copy</h3>
 <p>A simple inline content block supporting short-form copy, branded images, and a call-to-action.</p>
 <p class="well padded"><em><img alt="5.5 short form copy" src="../../_assets/5.5_content_block_copy_desktop.png" srcset="../../_assets/5.5_content_block_copy_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 short form copy" src="../../_assets/5.5_content_block_copy_mobile.png" srcset="../../_assets/5.5_content_block_copy_mobile@2x.png 2x" /></em></p>
-<h4 id="content-block-video">Content Block: Video</h4>
+<h3 id="content-block-video">Content Block: Video</h3>
 <p>A simple inline content block supporting quoted text and a video player; the video can play either 
 inline or within a modal.</p>
 <p class="well padded"><em><img alt="5.5 video" src="../../_assets/5.5_content_block_video_desktop.png" srcset="../../_assets/5.5_content_block_video_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 video" src="../../_assets/5.5_content_block_video_mobile.png" srcset="../../_assets/5.5_content_block_video_mobile@2x.png 2x" /></em></p>
-<h4 id="content-block-brand-call-out">Content Block: Brand Call Out</h4>
+<h3 id="content-block-brand-call-out">Content Block: Brand Call Out</h3>
 <p>A simple inline content block supporting brand taglines, images, and a call-to-action.</p>
 <p class="well padded"><em><img alt="5.5 brandcallout" src="../../_assets/5.5_content_block_brandcallout_desktop.png" srcset="../../_assets/5.5_content_block_brandcallout_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 brandcallout" src="../../_assets/5.5_content_block_brandcallout_mobile.png" srcset="../../_assets/5.5_content_block_brandcallout_mobile@2x.png 2x" /></em></p>
-<h4 id="content-block-headline-and-image">Content Block: Headline and Image</h4>
+<h3 id="content-block-headline-and-image">Content Block: Headline and Image</h3>
 <p>This variant on Editorial Block A introduces a headline element; useful for linking to articles and major content sections, or employing near the top of the layout in lieu of a branded header.</p>
 <p class="well padded"><em><img alt="5.5 headline_image" src="../../_assets/5.5_content_block_headline_image_desktop.png" srcset="../../_assets/5.5_content_block_headline_image_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 headline_image" src="../../_assets/5.5_content_block_headline_image_mobile.png" srcset="../../_assets/5.5_content_block_headline_image_mobile@2x.png 2x" /></em></p>
-<h4 id="content-block-numberbullet-list">Content Block: Number/Bullet List</h4>
+<h3 id="content-block-numberbullet-list">Content Block: Number/Bullet List</h3>
 <p>Another variant on Editorial Block A refactors the copy to support a numbered or bulleted list. Inline links provide additional details without disrupting the sequence of content.</p>
 <p class="well padded"><em><img alt="5.5 bulletedlist" src="../../_assets/5.5_content_block_bulletedlist_desktop.png" srcset="../../_assets/5.5_content_block_bulletedlist_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 bulletedlist" src="../../_assets/5.5_content_block_bulletedlist_mobile.png" srcset="../../_assets/5.5_content_block_bulletedlist_mobile@2x.png 2x" /></em></p>
-<h4 id="content-block-image-carousel">Content Block: Image Carousel</h4>
+<h3 id="content-block-image-carousel">Content Block: Image Carousel</h3>
 <p>Appropriate for galleries of five or fewer images, this inline carousel can rotate automatically after a few 
 seconds, or based on user click.</p>
 <p class="well padded"><em><img alt="5.5 imagecarousel" src="../../_assets/5.5_content_block_imagecarousel_desktop.png" srcset="../../_assets/5.5_content_block_imagecarousel_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 imagecarousel" src="../../_assets/5.5_content_block_imagecarousel_mobile.png" srcset="../../_assets/5.5_content_block_imagecarousel_mobile@2x.png 2x" /></em></p>
-<h4 id="content-block-data-visualization">Content Block: Data Visualization</h4>
+<h3 id="content-block-data-visualization">Content Block: Data Visualization</h3>
 <p>A chart, table, or graph – in part or whole – featuring either inline interactivity or a call-to-action linking to the interactive data. Dependent upon your application, this module may exist within a summary article or on an “dashboard” view.</p>
 <p class="well padded"><em><img alt="5.5 datavisualization" src="../../_assets/5.5_content_block_datavisualization_desktop.png" srcset="../../_assets/5.5_content_block_datavisualization_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 datavisualization" src="../../_assets/5.5_content_block_datavisualization_mobile.png" srcset="../../_assets/5.5_content_block_datavisualization_mobile@2x.png 2x" /></em></p>
-<h4 id="content-block-data-callout">Content Block: Data Callout</h4>
+<h3 id="content-block-data-callout">Content Block: Data Callout</h3>
 <p>“Big idea” callouts focus on important, singular data points and support headlines, body copy, and branded images; useful for providing an executive view into data without overwhelming with data visualizations.</p>
 <p class="well padded"><em><img alt="5.5 datacallout" src="../../_assets/5.5_content_block_datacallout_desktop.png" srcset="../../_assets/5.5_content_block_datacallout_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 datacallout" src="../../_assets/5.5_content_block_datacallout_mobile.png" srcset="../../_assets/5.5_content_block_datacallout_mobile@2x.png 2x" /></em></p>
-<h4 id="global-footer-see-section-52">Global Footer (see section 5.2)</h4>
+<h3 id="global-footer-see-section-52">Global Footer <a href="../5-2-nav/">(see section 5.2)</a></h3>
 <p><img alt="5.5 desktop nav" src="../../_assets/5.5_globalfooterdark_desktop.png" srcset="../../_assets/5.5_globalfooterdark_desktop@2x.png 2x" /></p>
 <h2 id="half-width-2-up-content-modules">Half-Width (2-Up) Content Modules</h2>
 <p>Half-width (or 2-up) content modules split the viewport down the middle, and are useful for shorter-form content, callouts, and links to other pages / sections. They are to be avoided in the mobile viewport, were instead they span full-width.</p>
-<h4 id="copy-2-up">Copy 2-Up</h4>
+<h3 id="copy-2-up">Copy 2-Up</h3>
 <p>This simple copy module supports short-form text and a call-to action; given its visual dominance it is appropriate for content of lower priority.</p>
-<p class="well padded"><em><img alt="5.5 desktop nav" src="../../_assets/5.5_content_module_2up_image_desktop.png" srcset="../../_assets/5.5_content_module_2up_image_desktop@2x.png 2x" /></em>
-<em><img alt="5.5 mobile nav" src="../../_assets/5.5_content_module_2up_image_mobile.png" srcset="../../_assets/5.5_content_module_2up_image_mobile@2x.png 2x" /></em></p>
-<h4 id="image-2-up">Image 2-Up</h4>
+<p class="well padded"><em><img alt="5.5 desktop nav" src="../../_assets/5.5_content_module_2up_desktop.png" srcset="../../_assets/5.5_content_module_2up_desktop@2x.png 2x" /></em>
+<em><img alt="5.5 mobile nav" src="../../_assets/5.5_content_module_2up_mobile.png" srcset="../../_assets/5.5_content_module_2up_mobile@2x.png 2x" /></em></p>
+<h3 id="image-2-up">Image 2-Up</h3>
 <p>A simple static element supporting an image, caption / body copy, and call-to-action. Can also support inline animation or video.</p>
 <p class="well padded"><em><img alt="5.5 image 2-up" src="../../_assets/5.5_content_module_2up_image_desktop.png" srcset="../../_assets/5.5_content_module_2up_image_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 image 2-up" src="../../_assets/5.5_content_module_2up_image_mobile.png" srcset="../../_assets/5.5_content_module_2up_image_mobile@2x.png 2x" /></em></p>
-<h4 id="data-2-up">Data 2-Up</h4>
+<h3 id="data-2-up">Data 2-Up</h3>
 <p>So named because of its half-width nature in desktop view, this component supports a data visualization preview and caption, though most often links to a full scale data display.</p>
 <p class="well padded"><em><img alt="5.5 data 2-up" src="../../_assets/5.5_content_module_2up_data_desktop.png" srcset="../../_assets/5.5_content_module_2up_data_desktop@2x.png 2x" /></em>
 <em><img alt="5.5 data 2-up" src="../../_assets/5.5_content_module_2up_data_mobile.png" srcset="../../_assets/5.5_content_module_2up_data_mobile@2x.png 2x" /></em></p>

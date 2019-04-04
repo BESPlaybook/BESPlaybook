@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -462,7 +460,7 @@
 <h1 id="59-key-mobile-components"><strong>5.9</strong> Key Mobile Components</h1>
 </blockquote>
 <h2 id="mobile-requires-unique-ui">Mobile Requires Unique UI</h2>
-<p>The small viewport and native operating systems of mobile devices require unique design considerations and, accordingly, unique UI elements. This section outlines the key components that differ from tablet / desktop, and their most common applications. For additional guidance on the theory and practice of designing for mobile, refer to elsewhere in this playbook: Key Mobile Standards and Content Modules.</p>
+<p>The small viewport and native operating systems of mobile devices require unique design considerations and, accordingly, unique UI elements. This section outlines the key components that differ from tablet / desktop, and their most common applications. For additional guidance on the theory and practice of designing for mobile, refer to elsewhere in this playbook: <a href="../4-12-mobile/">Key Mobile Standards</a> and <a href="../5-5-modules/">Content Modules</a>.</p>
 <h2 id="considerations-best-practices">Considerations &amp; Best Practices</h2>
 <p>As a reminder, the core consideration of the mobile context is that the <strong>device is in-hand</strong> and <strong>the user is on-the-go</strong>. When translating desktop designs to mobile, don’t just miniaturize it – consider how the device and context should influence changes.</p>
 <p>Additionally, mobile designs should</p>
@@ -474,7 +472,7 @@
 </ul>
 <h2 id="navigation">Navigation</h2>
 <p>One of the most common differences in mobile UI is the navigation, which is most commonly collapsed into a three-line icon nicknamed the “hamburger menu.” While the hamburger treatment may wane in popularity, its intent to minimize the navigation into an interactive icon remains an important mobile requirement.</p>
-<p class="well extended"><em><img alt="5.9 navigation" src="../../_assets/5.9_navigation_example.png" srcset="../../_assets/5.9_navigation_example@2x.png 2x" /></em></p>
+<p class="well extended center"><em><img alt="5.9 navigation" src="../../_assets/5.9_navigation_example.png" srcset="../../_assets/5.9_navigation_example@2x.png 2x" /></em></p>
 <h2 id="other-mobile-specific-components">Other Mobile-Specific Components</h2>
 <p>Certain mobile-specific elements satisfy the best practices of small viewport design, which other leverage the functionality of the phone itself. Below are common examples.</p>
 <hr />

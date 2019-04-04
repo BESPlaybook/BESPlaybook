@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -459,7 +457,7 @@
       <div class="bes-content">
         
           <p><a href="../3-3-research/">Back to Phase 1: Research &amp; Discovery</a></p>
-<h1 id="3324-diary-studies">3.3.2.4 Diary Studies</h1>
+<h1 id="3314-diary-studies">3.3.1.4 Diary Studies</h1>
 <p>In this method, study participants are asked to keep a diary and log specific information over time about activities being studied. The diary itself can range from a simple paper journal to a digital recording device, and the input to be collected in the log entries can range from highly structured responses (like duration of the activity in seconds) to open-ended responses like detailed depictions of thoughts or emotions.</p>
 <h2 id="when-to-use">When to use</h2>
 <p>Use to collect qualitative data about user behaviors, activities and experiences over time, especially when <a href="../3-3-1-2-surveys/">field study</a> or “shadowing” is not possible, such as when the duration of the activities to be studied is longer than a day or two, or involves the user traveling to multiple geographic locations, or requires round-the-clock monitoring.</p>

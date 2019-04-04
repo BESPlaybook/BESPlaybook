@@ -34,6 +34,7 @@
 }
 
 .bes-home-header p {
+  margin-top: 0;
   margin-bottom: 0;
   font-size: 26px;
   line-height: 1.6em
@@ -50,19 +51,30 @@
 
 .bes-playbook-grid__item {
   flex-basis: 33%;
-  padding: 20px;
+  padding: 20px 20px 60px;
 }
 
 .bes-playbook-grid__item h2 {
   display: flex;
   align-items: center;
+  height: 65px;
 }
 
 .bes-playbook-grid__item a {
-  display: inline-block;
-  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 187px;
+  height: 54px;
+  margin-top: 30px;
+  padding: 5px;
   background-color: #2F4CB3;
   color: #fff;
+}
+
+.bes-playbook-grid__item a:hover {
+  background-color: #24316C;
+  text-decoration: none;
 }
 
 .bes-playbook-grid__item h2 img {
@@ -122,6 +134,27 @@
   }
 }
 
+
+@media screen and (max-width: 800px) {
+  .bes-home .bes-header {
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    background: transparent;
+  }
+
+  .bes-home .bes-header.scrolled {
+    background-color: #24316C;
+  }
+
+  .bes-home .bes-content-wrap {
+    margin-top: 0;
+  }
+
+  .bes-home-header {
+    padding-top: 130px;
+  }
+}
+
 @media screen and (max-width: 600px) {
  
   .bes-playbook-grid {
@@ -129,14 +162,16 @@
   }
 
   .bes-playbook-grid__item {
+    display: flex;
     flex-basis: 100%;
+    flex-direction: column;
     padding-right: 30px;
     padding-left: 30px;
   }
 
   .bes-playbook-grid__item a {
-    display: block;
-    text-align: center;
+    display: flex;
+    width: auto;
   }
 
   .bes-home-header p {

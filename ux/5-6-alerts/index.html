@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -465,14 +463,14 @@
 <p>Alerts &amp; messaging are specific to applications, though their triggers, appearance, and behaviors should follow 
 best practices.</p>
 <h4 id="machine-learning">Machine Learning</h4>
-<p class="space-between padded"><em><img alt="5.6 Machine Learning" src="../../_assets/5.6_ml_notification_warning.png" srcset="../../_assets/5.6_ml_notification_warning@2x.png 2x" /></em>
+<p class="space-between"><em><img alt="5.6 Machine Learning" src="../../_assets/5.6_ml_notification_warning.png" srcset="../../_assets/5.6_ml_notification_warning@2x.png 2x" /></em>
 <em><img alt="5.6 Machine Learning" src="../../_assets/5.6_ml_notification_status_green.png" srcset="../../_assets/5.6_ml_notification_status_green@2x.png 2x" /></em>
 <em><img alt="5.6 Machine Learning" src="../../_assets/5.6_ml_notification_status_red.png" srcset="../../_assets/5.6_ml_notification_status_red@2x.png 2x" /></em></p>
 <hr />
 <h4 id="engines-health-management">Engines Health Management</h4>
-<p class="space-between padded"><em><img alt="5.6 Engines" src="../../_assets/5.6_engine_health_management_warning.png" srcset="../../_assets/5.6_engine_health_management_warning@2x.png 2x" /></em>
-<em><img alt="5.6 Engines" src="../../_assets/5.6_engine_health_management_tooltip.png" srcset="../../_assets/5.6_engine_health_management_tooltip@2x.png 2x" /></em></p>
-<p class="space-between padded"><em><img alt="5.6 Engines" src="../../_assets/5.6_engine_health_management_error.png" srcset="../../_assets/5.6_engine_health_management_error@2x.png 2x" /></em></p>
+<p class="float"><em><img alt="5.6 Engines" src="../../_assets/5.6_engine_health_management_warning.png" srcset="../../_assets/5.6_engine_health_management_warning@2x.png 2x" /></em>
+<em><img alt="5.6 Engines" src="../../_assets/5.6_engine_health_management_tooltip.png" srcset="../../_assets/5.6_engine_health_management_tooltip@2x.png 2x" /></em>
+<em><img alt="5.6 Engines" src="../../_assets/5.6_engine_health_management_error.png" srcset="../../_assets/5.6_engine_health_management_error@2x.png 2x" /></em></p>
 <hr />
 <h4 id="log-common-operating-picture">Log Common Operating Picture</h4>
 <p class="space-between padded"><em><img alt="5.6 LCOP" src="../../_assets/5.6_log_modal_inv_add_res.png" srcset="../../_assets/5.6_log_modal_inv_add_res@2x.png 2x" /></em>
@@ -483,11 +481,11 @@ best practices.</p>
 <em><img alt="5.6 PIC" src="../../_assets/5.6_pic_install_step_error_02.png" srcset="../../_assets/5.6_pic_install_step_error_02@2x.png 2x" /></em></p>
 <p class="float"><em><img alt="5.6 PIC" src="../../_assets/5.6_pic_modal_add_comments.png" srcset="../../_assets/5.6_pic_modal_add_comments@2x.png 2x" /></em>
 <em><img alt="5.6 PIC" src="../../_assets/5.6_pic_modal_loading.png" srcset="../../_assets/5.6_pic_modal_loading@2x.png 2x" /></em></p>
-<p class="float"><em><img alt="5.6 PIC" src="../../_assets/5.6_pic_results_warning.png" srcset="../../_assets/5.6_pic_results_warning@2x.png 2x" /></em>
+<p class="space-between"><em><img alt="5.6 PIC" src="../../_assets/5.6_pic_results_warning.png" srcset="../../_assets/5.6_pic_results_warning@2x.png 2x" /></em>
 <em><img alt="5.6 PIC" src="../../_assets/5.6_pic_results_alert.png" srcset="../../_assets/5.6_pic_results_alert@2x.png 2x" /></em></p>
-<p class="float"><em><img alt="5.6 PIC" src="../../_assets/5.6_pic_error_link_notfound.png" srcset="../../_assets/5.6_pic_error_link_notfound@2x.png 2x" /></em>
+<p class="space-between narrow"><em><img alt="5.6 PIC" src="../../_assets/5.6_pic_error_link_notfound.png" srcset="../../_assets/5.6_pic_error_link_notfound@2x.png 2x" /></em>
 <em><img alt="5.6 PIC" src="../../_assets/5.6_pic_error_link_database_down.png" srcset="../../_assets/5.6_pic_error_link_database_down@2x.png 2x" /></em></p>
-<p class="float"><em><img alt="5.6 PIC" src="../../_assets/5.6_pic_assetslocation_no_matches.png" srcset="../../_assets/5.6_pic_assetslocation_no_matches@2x.png 2x" /></em>
+<p class="space-between narrow"><em><img alt="5.6 PIC" src="../../_assets/5.6_pic_assetslocation_no_matches.png" srcset="../../_assets/5.6_pic_assetslocation_no_matches@2x.png 2x" /></em>
 <em><img alt="5.6 PIC" src="../../_assets/5.6_pic_assetslocation_tool_tip.png" srcset="../../_assets/5.6_pic_assetslocation_tool_tip@2x.png 2x" /></em></p>
 <h2 id="alpha-standard">Alpha Standard</h2>
 <p>The following example component illustrates the best practices outlined previously, with the practical choices that make it so.</p>
@@ -501,11 +499,9 @@ best practices.</p>
 <em><img alt="5.6 alpha" src="../../_assets/5.6_as_form_field_symbol_and_color_01.png" srcset="../../_assets/5.6_as_form_field_symbol_and_color_01@2x.png 2x" /></em></p>
 <p class="float"><em><img alt="5.6 alpha" src="../../_assets/5.6_as_form_field_confirmation.png" srcset="../../_assets/5.6_as_form_field_confirmation@2x.png 2x" /></em>
 <em><img alt="5.6 alpha" src="../../_assets/5.6_as_form_field_error.png" srcset="../../_assets/5.6_as_form_field_error@2x.png 2x" /></em></p>
-<p class="float">(missing 2X)
-<em><img alt="5.6 alpha" src="../../_assets/5.6_example_alert.png" srcset="../../_assets/5.6_example_alert@2x.png 2x" /></em>
+<p class="float"><em><img alt="5.6 alpha" src="../../_assets/5.6_example_alert.png" srcset="../../_assets/5.6_example_alert@2x.png 2x" /></em>
 <em><img alt="5.6 alpha" src="../../_assets/5.6_example_warning.png" srcset="../../_assets/5.6_example_warning@2x.png 2x" /></em>
 <em><img alt="5.6 alpha" src="../../_assets/5.6_example_checkmark.png" srcset="../../_assets/5.6_example_checkmark@2x.png 2x" /></em>
-<em><img alt="5.6 alpha" src="../../_assets/5.6_example_alert.png" srcset="../../_assets/5.6_example_alert@2x.png 2x" /></em>
 <em><img alt="5.6 alpha" src="../../_assets/5.6_example_error.png" srcset="../../_assets/5.6_example_error@2x.png 2x" /></em>
 <em><img alt="5.6 alpha" src="../../_assets/5.6_example_information.png" srcset="../../_assets/5.6_example_information@2x.png 2x" /></em></p>
 <p class="float"><em><img alt="5.6 alpha" src="../../_assets/5.6_as_banner_alert.png" srcset="../../_assets/5.6_as_banner_alert@2x.png 2x" /></em>

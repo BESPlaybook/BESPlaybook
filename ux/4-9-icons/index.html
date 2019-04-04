@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -471,8 +469,9 @@
 <li><strong>Employ icon fonts or open-source font families when possible</strong>, use .SVG (scalable vector graphics) when possible for optimal versatility and filesize</li>
 </ul>
 <p>If you must design custom icons and they can’t be vector / SVG, design first in the largest viewport (desktop), giving your icon the appropriate level of detail. Subsequently, scale down for smaller viewports and remove details in order to keep icons scannable and understandable. Keep icons simple and schematic. Focusing on the basic characteristics of the object. Test them with neutral users for usability, recognizability, and memorability.</p>
-<p class="wide well"><em><img alt="4.9 Icons" src="../../_assets/4.9_icons_light_bkgd.png" srcset="../../_assets/4.9_icons_light_bkgd@2x.png 2x" /></em></p>
-<p class="wide well blue-well"><em><img alt="4.9 Icons" src="../../_assets/4.9_icons_dark_bkgd.png" srcset="../../_assets/4.9_icons_dark_bkgd@2x.png 2x" /></em></p>
+<p class="wide well desktop-only"><em><img alt="4.9 Icons" src="../../_assets/4.9_icons_light_bkgd.png" srcset="../../_assets/4.9_icons_light_bkgd@2x.png 2x" /></em></p>
+<p class="wide well blue-well-4-9 desktop-only"><em><img alt="4.9 Icons" src="../../_assets/4.9_icons_dark_bkgd.png" srcset="../../_assets/4.9_icons_dark_bkgd@2x.png 2x" /></em></p>
+<p class="wide well center mobile-only"><em><img alt="4.9 Icons" src="../../_assets/4.9_icons_light_bkgd_m.png" srcset="../../_assets/4.9_icons_light_bkgd_m@2x.png 2x" /></em></p>
 <h2 id="icons-and-button-labels">Icons and Button Labels</h2>
 <p>Icons accompanied by labels make information easier to find and scan, as long as they’re placed in the right spot. Place icons according to the natural reading order. There are two important factors in an icon’s location:</p>
 <ul>
@@ -488,7 +487,8 @@
 <li>Status icons would appear at the end of the line. As seen in the example below, the user will see the subject first, then the value associated with the subject and, finally, the status of the value.</li>
 <li>If the icons themselves are the subject, then they would appear at the start of the line, and everything else would follow thereafter.</li>
 </ul>
-<p class="wide well padded"><em><img alt="4.9 Table Icons" src="../../_assets/4.9_table_icons.png" srcset="../../_assets/4.9_table_icons@2x.png 2x" /></em></p>
+<p class="wide well padded desktop-only"><em><img alt="4.9 Table Icons" src="../../_assets/4.9_table_icons.png" srcset="../../_assets/4.9_table_icons@2x.png 2x" /></em></p>
+<p class="wide well padded center mobile-only"><em><img alt="4.9 Table Icons" src="../../_assets/4.9_table_icons_m.png" srcset="../../_assets/4.9_table_icons_m@2x.png 2x" /></em></p>
 <h2 id="references">References</h2>
 <ul>
 <li>Smashing Magazine; perspectives on icons <a href="https://www.smashingmagazine.com/2016/10/icons-as-part-of-a-great-user-experience">https://www.smashingmagazine.com/2016/10/icons-as-part-of-a-great-user-experience</a></li>

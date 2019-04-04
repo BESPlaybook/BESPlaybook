@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -480,7 +478,8 @@
 <li><strong>Provide Proactive and Immediate Feedback</strong>. Obvious labels, content categorization, and color cues create a proactive shorthand for users. Button hover states and dynamic rollovers allow them to “peek behind the curtain” and know better what comes after their click (see Buttons &amp; Controls). </li>
 <li><strong>Progressively Reveal</strong>. Only display – through truncated content and other components – what the user absolutely needs to know in order to make their next, informed choice. There is a good reason the web is so rife with “Learn More” buttons – this saves on both page weight and cognitive load.  </li>
 </ul>
-<p class="well"><em><img alt="4.3 progressive reveal" src="../../_assets/4.2_progressive_reveal_image.png" srcset="../../_assets/4.2_progressive_reveal_image@2x.png 2x" /></em></p>
+<p class="well center"><em><img alt="4.3 progressive reveal" src="../../_assets/4.2_progressive_reveal_image_truncated.png" srcset="../../_assets/4.2_progressive_reveal_image_truncated@2x.png 2x" /></em>
+<em><img alt="4.3 progressive reveal" src="../../_assets/4.2_progressive_reveal_image_revealed.png" srcset="../../_assets/4.2_progressive_reveal_image_revealed@2x.png 2x" /></em></p>
 <ul>
 <li><strong>Differentiate Clicks/Taps, Hover, and Scroll</strong>. Every time the user interacts with the application, they tell us something about their intent. While a hover is exploratory, a click is committal. Scrolling down a page says “I haven’t found what I’m looking for.” Consider how your design choices respond to the nuanced behaviors of 
 the user. </li>

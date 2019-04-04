@@ -27,6 +27,10 @@
   padding-left: 15px;
 }
 
+.bes-doc-nav__list a {
+  font-weight: 300;
+}
+
 .bes-doc-nav__list a:hover,
 .bes-doc-nav__list a.current {
   color: #2F4CB3;
@@ -89,6 +93,7 @@
   border-right: 4px solid transparent;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   color: #fff;
+  font-weight: 300;
 }
 
 #bes-nav-toggle {
@@ -140,6 +145,7 @@
   }
 
   .bes-doc-nav {
+    width: 300px;
     padding-top: 30px;
     padding-left: 30px;
   }
@@ -187,11 +193,19 @@
   
   .bes-doc-nav {
     flex-grow: 1;
+    width: auto;
     padding: 20px;
     overflow-y: auto;
   }
 
   .bes-playbook-mobile-nav {
     right: 0;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .bes-doc-nav-wrap {
+    top: 80px;
   }
 }

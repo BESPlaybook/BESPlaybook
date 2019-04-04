@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -465,7 +463,7 @@
 <p>Generally speaking, the layout of a page should prioritize content importance from top to bottom, providing orientation (wayfinding and labels) to components throughout. Layouts should also follow the natural flow of task completion; users completing a number of form fields on a long vertical page might encounter the “submit” button – the primary call-to-action – beneath the original viewport and offscreen. This is permissible because the form fields are the prerequisite for completing the task of the page, and should thus be prioritized in the visual hierarchy.</p>
 <h3 id="f-pattern">F Pattern</h3>
 <p>Studies have found that, in cultures that read from left to right, most people scan screens in an “F” pattern, with preference given to elements that are positioned at the top and left of the screen. Consider placing the most important elements at the top and left of your layout. The upper right of the page is considered secondary in importance due to its positioning at the top of the page, but the importance of the right side rapidly diminishes as you move further down the page.</p>
-<p><img alt="4.6 F" src="../../_assets/4.6_f_pattern_graphic.png" srcset="../../_assets/4.6_f_pattern_graphic@2x.png 2x" /></p>
+<p><em><img alt="4.6 F" src="../../_assets/4.6_f_pattern_graphic.png" srcset="../../_assets/4.6_f_pattern_graphic@2x.png 2x" /></em></p>
 <p>Other layout patterns support different densities of content and types of tasks to complete. They all acknowledge the way the user scans the page, tending to favor the top and left.</p>
 <p class="extended space-between"><em><img alt="4.6 Zig Zag" src="../../_assets/4.6_zigzagpattern.png" srcset="../../_assets/4.6_zigzagpattern@2x.png 2x" /></em>
 <em><img alt="4.6 F" src="../../_assets/4.6_z_pattern.png" srcset="../../_assets/4.6_z_pattern@2x.png 2x" /></em>

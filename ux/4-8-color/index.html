@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -475,13 +473,14 @@
 <p>The primary palette should be applied in marketing communications and application design. The darker palette lends sophistication and polish has been designed to give a bold and exciting direction to the brand. Percentage tints can be used in any of these colors.</p>
 <h3 id="secondary-colors">Secondary Colors</h3>
 <p>The secondary palette extends the original colors to support new contexts, such as color-coded categorization, complex data visualization, and interactive color cues.</p>
-<p class="wide well space-between extended"><em><img alt="4.8 Colors" src="../../_assets/4.8_colors_01.png" srcset="../../_assets/4.8_colors_01@2x.png 2x" /></em>
+<p class="wide well space-between extended colors-4-8 desktop-only"><em><img alt="4.8 Colors" src="../../_assets/4.8_colors_01.png" srcset="../../_assets/4.8_colors_01@2x.png 2x" /></em>
 <em><img alt="4.8 Colors" src="../../_assets/4.8_colors_02.png" srcset="../../_assets/4.8_colors_02@2x.png 2x" /></em></p>
+<p class="well mobile-only"><em><img alt="4.8 Colors" src="../../_assets/4.8_colors_mobile.png" srcset="../../_assets/4.8_colors_mobile@2x.png 2x" /></em></p>
 <h3 id="colors-for-accessibility">Colors for Accessibility</h3>
 <p>WCAG (Web Content Accessibility Guidelines) ensure that content is accessible by everyone, regardless of disability or user device. To meet the highest standards, text and interactive elements should have a color contrast ratio of at least 4.5:1. The contrast ratio is the comparison of luminance between two adjacent colors, one darker and one lighter. An appropriate ensures that viewers who cannot see the full color spectrum are able to read the text. </p>
 <p>The options below offer color palette combinations that fall within the range of Section 508 compliant foreground/background color contrast ratios. To ensure that text remains readable and accessible, use only these permitted color combinations. </p>
 <p>If you choose to customize beyond this palette, https://webaim.org/resources/contrastchecker/ is a useful resource for testing the compliance of any color combination. </p>
-<p class="wide well space-between extended"><em><img alt="4.8 Common Colors" src="../../_assets/4.8_common_ui_colors_01.png" srcset="../../_assets/4.8_common_ui_colors_01@2x.png 2x" /></em>
+<p class="wide well extended common-colors-4-8"><em><img alt="4.8 Common Colors" src="../../_assets/4.8_common_ui_colors_01.png" srcset="../../_assets/4.8_common_ui_colors_01@2x.png 2x" /></em>
 <em><img alt="4.8 Common Colors" src="../../_assets/4.8_common_ui_colors_02.png" srcset="../../_assets/4.8_common_ui_colors_02@2x.png 2x" /></em></p>
 <p>Colors should be used to denote the type of component or content being displayed. Large blocks of passive, read-only text should be colored to achieve maximum readability, whereas interactive links within that text should be colored with a more eye-catching “call-to-action" (CTA) standard. Reds and greens should be used sparingly, as they are often reserved for “alert colors,” or stylized system notifications (for when a form field is filled incorrectly, for instance). A color that indicates a disabled state could be the same as one that indicates active, but applied at 50% opacity. </p>
 <p class="wide well space-between extended"><em><img alt="4.8 Color Usage" src="../../_assets/4.8_color_usage_cta.png" srcset="../../_assets/4.8_color_usage_cta@2x.png 2x" /></em>

@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -466,8 +464,8 @@
 <p>A thoughtful grid is particularly helpful in responsive design. This type of design is a collaboration with front-end development, and programmatically scales down the layout to be most appropriate for the device / viewport in use. As the browser window shrinks horizontally, the point at which a grid “breaks” to a fewer-column grid is called the breakpoint.</p>
 <h2 id="defining-pixels">Defining Pixels</h2>
 <p>As device display technology improves, the density of pixels has grown to differ across devices. Names like HD and 4k indicate different numbers of pixels per inch – all in pursuit of a crisper image. To retain predictability and consistency, designers and developers rely on <strong>CSS pixels</strong>, which provide a standard definition of pixel size for the web that does not vary based on the device’s pixel density.</p>
-<p>It is highly recommended that designers work with their front-end developers to define target devices and pixel densities, and use resources that track changing display technology (like https://vizdevices.yesviz.com/).</p>
-<p class="extended"><img alt="4.3" src="../../_assets/4.3_grid_image@2x.png" srcset="../../_assets/4.3_grid_image@2x.png" /></p>
+<p>It is highly recommended that designers work with their front-end developers to define target devices and pixel densities, and use resources that track changing display technology (like <a href="https://vizdevices.yesviz.com/">https://vizdevices.yesviz.com/</a>).</p>
+<p class="extended padded"><img alt="4.3" src="../../_assets/4.3_grid_image@2x.png" srcset="../../_assets/4.3_grid_image@2x.png" /></p>
 <h3 id="small-viewport">Small Viewport</h3>
 <p>The Small Viewport grid is intended to accommodate portrait-view smartphones (approx. 320 px) and many landscape view smartphones. On these devices, the 8-column grid switches to a 4-column structure to create a more comfortable layout on a handheld, as well as to allow for larger tap-targets. This format equates to a <strong>maximum width of 767 px</strong>, with a <strong>minimum width of 320 px</strong>.</p>
 <h2 id="medium-viewport">Medium Viewport</h2>

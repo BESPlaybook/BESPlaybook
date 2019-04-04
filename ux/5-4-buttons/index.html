@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -462,15 +460,15 @@
 <h1 id="54-buttons-labels"><strong>5.4</strong> Buttons &amp; Labels</h1>
 </blockquote>
 <h2 id="usaf-application-styles">USAF Application Styles</h2>
-<p>Buttons styles are specific to applications, though button behaviors should follow best practices laid out in Buttons &amp; Controls.</p>
+<p>Buttons styles are specific to applications, though button behaviors should follow best practices laid out in <a href="4-11-buttons">Buttons &amp; Controls</a> (4.11).</p>
 <h4 id="machine-learning">Machine Learning</h4>
-<p><img alt="5.4 ML" src="../../_assets/5.4_machine_learning.png" srcset="../../_assets/5.4_machine_learning@2x.png 2x" /></p>
+<p class="padded"><img alt="5.4 ML" src="../../_assets/5.4_machine_learning.png" srcset="../../_assets/5.4_machine_learning@2x.png 2x" /></p>
 <hr />
 <h4 id="engines-health">Engines Health</h4>
-<p><img alt="5.4 ML" src="../../_assets/5.4_engines.png" srcset="../../_assets/5.4_engines@2x.png 2x" /></p>
+<p class="padded"><img alt="5.4 ML" src="../../_assets/5.4_engines.png" srcset="../../_assets/5.4_engines@2x.png 2x" /></p>
 <hr />
 <h4 id="positive-inventory-control">Positive Inventory Control</h4>
-<p><img alt="5.4 ML" src="../../_assets/5.4_positive_inventory_control.png" srcset="../../_assets/5.4_positive_inventory_control@2x.png 2x" /></p>
+<p class="padded"><img alt="5.4 ML" src="../../_assets/5.4_positive_inventory_control.png" srcset="../../_assets/5.4_positive_inventory_control@2x.png 2x" /></p>
 <h2 id="alpha-standard">Alpha Standard</h2>
 <p>The following example component illustrates the best practices outlined previously, with the practical choices that make it so.</p>
 <ul>
@@ -480,7 +478,9 @@
 <li><strong>Contrast</strong>. The spacing and color ratios of the element provide adequate legibility and scannability.</li>
 </ul>
 <p><strong>Disclaimer</strong>: Please default to your application’s and USAF styles; the following component standards are to be used only if those assets are not applicable or not available.</p>
-<p>[img]</p>
+<p class="space-between"><em><img alt="5.4 button primary" src="../../_assets/5.4_alpha_standard_primary.png" srcset="../../_assets/5.4_alpha_standard_primary@2x.png 2x" /></em>
+<em><img alt="5.4 button seconday" src="../../_assets/5.4_alpha_standard_secondary.png" srcset="../../_assets/5.4_alpha_standard_secondary@2x.png 2x" /></em>
+<em><img alt="5.4 button" src="../../_assets/5.4_alpha_standard_text_link.png" srcset="../../_assets/5.4_alpha_standard_text_link@2x.png 2x" /></em></p>
 <hr />
 <p class="space-between"><em><img alt="5.4 button" src="../../_assets/5.4_button_state_active.png" srcset="../../_assets/5.4_button_state_active@2x.png 2x" /></em>
 <em><img alt="5.4 button" src="../../_assets/5.4_button_state_hover.png" srcset="../../_assets/5.4_button_state_hover@2x.png 2x" /></em>

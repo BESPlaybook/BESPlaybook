@@ -20,6 +20,7 @@ footer::after {
 
 .bes-footer__link-group h4 {
   color: #fff;
+  font-weight: 500;
 }
 
 .bes-footer__link-group ul {
@@ -35,6 +36,7 @@ footer::after {
 
 .bes-footer__link-group a {
   color: #fff;
+  font-weight: 100;
 }
 
 .bes-footer__playbooks ul {

@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -461,7 +459,8 @@
           <blockquote>
 <h1 id="57-forms-controls"><strong>5.7</strong> Forms &amp; Controls</h1>
 </blockquote>
-<p>Form controls are specific to applications, though their triggers, appearance, and behaviors should follow best practices (see Buttons &amp; Controls in section 4.11). Note that many form controls are defined by the user’s browser, and thus should be presumed to default to that design.</p>
+<h2 id="usaf-application-styles">USAF Application Styles</h2>
+<p>Form controls are specific to applications, though their triggers, appearance, and behaviors should follow best practices (<a href="../4-11-buttons/">see Buttons &amp; Controls in section 4.11</a>). Note that many form controls are defined by the user’s browser, and thus should be presumed to default to that design.</p>
 <h4 id="engines-health-management">Engines Health Management</h4>
 <p class="padded"><img alt="5.7 date picker" src="../../_assets/5.7_engines_datepicker.png" srcset="../../_assets/5.7_engines_datepicker@2x.png 2x" /></p>
 <p><img alt="5.7 radio on" src="../../_assets/5.7_engines_radio_on.png" srcset="../../_assets/5.7_engines_radio_on@2x.png 2x" />
@@ -478,8 +477,8 @@
 <li><strong>Predictable</strong>. Context, form label, and control label give the user a clear understanding of what will occur when they’ve interacted with the component.</li>
 </ul>
 <p><strong>Disclaimer</strong>: Please default to your application’s and USAF styles; the following component standards are to be used only if those assets are not applicable or not available</p>
-<p><img alt="5.7 media controls" src="../../_assets/5.7_as_media_and_table_controls.png" srcset="../../_assets/5.7_as_media_and_table_controls@2x.png 2x" /></p>
-<p class="float"><em><img alt="5.7 carousel" src="../../_assets/5.7_as_carousel_pagenation.png" srcset="../../_assets/5.7_as_carousel_pagenation@2x.png 2x" /></em>
+<p><em><img alt="5.7 media controls" src="../../_assets/5.7_as_media_and_table_controls.png" srcset="../../_assets/5.7_as_media_and_table_controls@2x.png 2x" /></em></p>
+<p class="space-between narrow"><em><img alt="5.7 carousel" src="../../_assets/5.7_as_carousel_pagenation.png" srcset="../../_assets/5.7_as_carousel_pagenation@2x.png 2x" /></em>
 <em><img alt="5.7 video" src="../../_assets/5.7_as_video.png" srcset="../../_assets/5.7_as_video@2x.png 2x" /></em></p>
         
       </div>

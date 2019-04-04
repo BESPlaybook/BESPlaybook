@@ -20,17 +20,14 @@
     var mkdocs_page_input_path = "index.md";
     var mkdocs_page_url = null;
     var mkdocs_base_url = "https://isobar-us.github.io/USAF-2212-A4UX-Playbook"
-    var mkdocs_home_headers = ["../_assets/0_home_page_header_01.jpg", "../_assets/0_home_page_header_02.jpg", "../_assets/0_home_page_header_03.jpg", "../_assets/0_home_page_header_04.jpg"];
-
+    var mkdocs_home_headers = ["_assets/0_home_page_header_01.jpg", "_assets/0_home_page_header_02.jpg", "_assets/0_home_page_header_03.jpg", "_assets/0_home_page_header_04.jpg"];
   </script>
   
-  <script src="js/jquery-2.1.1.min.js" defer></script>
-  <script src="js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body bes-home" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="." class="bes-header__logo"></a>
     <h1><a href="."><b>BES</b> Playbooks</a></h1>
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
     <label for="bes-search-toggle" class="bes-search-toggle__label">
@@ -39,8 +36,8 @@
     </label>
     <div class="bes-header-search">
         <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="./search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -132,7 +129,7 @@
     <section class="bes-content-wrap">
       
       <div class="bes-home-header">
-        <h1 id="bes-playbooks"><strong>BES</strong> Playbooks</h1>
+        <h1 id="bes-playbooks">BES Playbooks</h1>
 <p>These playbooks are intended to support development and modernization efforts within the BES AFLCMC/HIA Logistic Division as it transforms its methodologies to procure, develop and implement specialized IT products using current best practices.</p>
       </div>
       <div class="bes-content">
@@ -168,7 +165,7 @@
           <div class="bes-playbook-grid__item">
             <h2><img src="_assets/0_home_page_icon_devsec.svg" />DevSec Ops</h2>
             <p>
-              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
+              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus.
             </p>
             <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/devops/1-1-devops">
               View
@@ -177,7 +174,7 @@
           <div class="bes-playbook-grid__item">
             <h2><img src="_assets/0_home_page_icon_security.svg" />Cyber Security</h2>
             <p>
-              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
+              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium.
             </p>
             <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cyber/1-1-cyber">
               View
@@ -186,7 +183,7 @@
           <div class="bes-playbook-grid__item">
             <h2><img src="_assets/0_home_page_icon_cloud.svg" />App Technology Refresh for Cloud</h2>
             <p>
-              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
+              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
             </p>
             <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/cloud/1-1-cloud">
               View
@@ -195,7 +192,7 @@
           <div class="bes-playbook-grid__item">
             <h2><img src="_assets/0_home_page_icon_agile_acquistions.svg" />Agile Acquistions</h2>
             <p>
-              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo. Aliquam semper id enim accumsan euismod. Vivamus vitae accumsan urna, quis condimentum nibh. Nulla justo ex, commodo ac purus vitae, euismod ultricies tortor.
+              Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus.
             </p>
             <a href="https://isobar-us.github.io/USAF-2212-A4UX-Playbook/acquistions/1-1-acquistions">
               View
@@ -263,11 +260,12 @@
 </footer>
     <script>var base_url = '.';</script>
     <script src="js/theme.js" defer></script>
+    <script src="js/home.js" defer></script>
 
 </body>
 </html>
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2019-04-02 19:07:57
+Build Date UTC : 2019-04-04 15:16:14
 -->

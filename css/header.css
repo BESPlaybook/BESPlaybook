@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: flex-end;
   height: 140px;
-  padding: 20px 40px 20px 120px;
+  padding: 15px 40px 15px 120px;
   background-color: #24316C;
 }
 
@@ -33,10 +33,11 @@
 
 .bes-header h1 a {
   color: #fff;
+  font-weight: 100;
 }
 .bes-header h1 a:hover {
+  color: #b6d3f3;
   text-decoration: none;
-  color: #b6d3f3
 }
 
 
@@ -66,10 +67,12 @@
   display: flex;
   justify-content: center;
   width: 160px;
-  padding: 5px 15px;
+  padding: 5px 15px 8px;
   border-bottom: 2px solid transparent;
   color: #fff;
   font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4em;
 }
 
 .bes-header-nav li.active a,
@@ -84,7 +87,7 @@
 
 .bes-header-search {
   position: absolute;
-  top: 15px;
+  top: 30px;
   right: 40px;
 }
 
@@ -115,7 +118,7 @@
   font-weight: 100;
 }
 
-
+/* Checkbox hack to toggle header search */
 #bes-search-toggle {
   display: none;
 }
@@ -125,9 +128,7 @@
   position: fixed;
   z-index: 100; /* top */
   top: 15px;
-  right: 35px;
-  width: 0;
-  height: 0;
+  right: 15px;
 }
 
 .bes-search-toggle__search {
@@ -182,13 +183,23 @@
 
 @media screen and (max-width: 1200px) {
   .bes-header-search {
+    top: 15px;
     right: 15px;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .bes-header {
+    height: 80px;
+  }
+
   .bes-header h1 {
     display: none;
+  }
+
+  .bes-header__logo {
+    width: 56px;
+    height: 50px;
   }
 
   .bes-header-search {
@@ -198,7 +209,7 @@
     top: 0;
     right: 0;
     left: 0;
-    height: 60px;
+    height: 80px;
     padding: 13px 60px;
     background-color: #24316c;
   }

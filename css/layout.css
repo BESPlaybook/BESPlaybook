@@ -3,7 +3,7 @@
 
 body {
   margin: 0;
-  color: #323A45;
+  color: #1A0C28;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 1.5em;
@@ -42,7 +42,7 @@ body {
 }
 
 .bes-content > h2 {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .bes-content > h3 {
@@ -112,13 +112,13 @@ body {
   margin-left: 100px;
   color: #fff;
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1em;
 }
 
 .bes-content > blockquote:first-child  strong {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /*
@@ -133,29 +133,6 @@ body {
   font-style: italic;
 }
 
-
-.overflow-row {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  padding: 30px 100px;
-  background-color: #F5F5F5;
-}
-
-.overflow-row em {
-  flex-shrink: 1;
-  margin: 0 10px;
-}
-
-.overflow-row em img {
-  max-width: 100%;
-}
-
-.overflow-row p {
-  display: flex;
-  justify-content: space-between;
-  margin-top: -10%;
-  margin-bottom: -13%;
-}
 
 #reference + ul li,
 #references + ul li,
@@ -172,19 +149,6 @@ body {
   display: block;
 }
 
-@media screen and (max-width: 1000px) {
-
-  .overflow-row {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-
-  .overflow-row p {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  }
-}
 
 @media screen and (max-width: 1200px) {
   /* Account for fixed header */
@@ -219,6 +183,11 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+
+  .bes-content-wrap {
+    margin-top: 80px;
+  }
+
   .bes-content > blockquote:first-child  h1 {
     font-size: 40px;
   }
@@ -263,4 +232,14 @@ body {
   #resources + ul a {
     word-wrap: break-word;
   }
+
+  .bes-content > .mobile-only {
+    display: flex;
+  }
+
+  .bes-content-wrap .bes-content > .desktop-only { display: none; }
+}
+
+@media screen and (min-width: 800px) {
+  .bes-content-wrap .bes-content > .mobile-only { display: none; }
 }

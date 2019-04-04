@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -462,22 +460,8 @@
 <h1 id="32-ux-methodology"><strong>3.2</strong> UX Methodology</h1>
 </blockquote>
 <p>Successful user experience design requires accomplishing a number of successive, iterative steps, each helping drive towards a higher level of specificity and fidelity than the prior.</p>
-<p><img alt="3.2-2 flow" src="../../_assets/2.3_graphic.png" srcset="../../_assets/2.3_graphic@2x.png 2x" /></p>
-<p class="method-list-3-2 space-between">
-  <div>
-    - Interviews
-    - Surveys
-    - Personas
-    - User Scenarios
-    - Journey Maps
-  </div>
-  <div>
-    • Information 
-  Architecture
-• Wireframing/Sketching
-• Design Validation
-• Strategic Planning
-  </div></p>
+<p class="desktop-only"><em><img alt="3.2-2 flow" src="../../_assets/3.2_ux_methodology.png" srcset="../../_assets/3.2_ux_methodology@2x.png 2x" /></em></p>
+<p class="mobile-only center"><em><img alt="3.2-2 flow" src="../../_assets/3.2_ux_methodology_mobile.png" srcset="../../_assets/3.2_ux_methodology_mobile@2x.png 2x" /></em></p>
 <p><img alt="3.2-2 specificity" src="../../_assets/3.2_specificity_and_fidelity.png" srcset="../../_assets/3.2_specificity_and_fidelity@2x.png 2x" /></p>
         
       </div>

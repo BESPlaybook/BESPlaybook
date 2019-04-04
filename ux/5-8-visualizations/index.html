@@ -23,13 +23,11 @@
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
 </head>
 
 <body class="bes-body" role="document">
   <div class="bes-header">
-    <div class="bes-header__logo"></div>
+    <a href="../.." class="bes-header__logo"></a>
     <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
@@ -39,8 +37,8 @@
     </label>
     <div class="bes-header-search">
           <div role="search">
-  <form id ="rtd-search-form" class="bes-search-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search all Playbooks" title="Type search term here" />
+  <form class="bes-search-form" action="../../search.html" method="get">
+    <input type="text" id="mkdocs-search-query" placeholder="Search all Playbooks" />
   </form>
 </div>
     </div>
@@ -471,9 +469,9 @@
 <em><img alt="5.6 LCOP" src="../../_assets/5.8_log_chart_sortie.png" srcset="../../_assets/5.8_log_chart_sortie@2x.png 2x" /></em></p>
 <hr />
 <h4 id="positive-inventory-control">Positive Inventory Control</h4>
-<p class="float"><em><img alt="5.8 map" src="../../_assets/5.8_pic_pop_up.png" srcset="../../_assets/5.8_pic_pop_up@2x.png 2x" /></em>
-<em><img alt="5.8 progress bar" src="../../_assets/5.8_pic_progress_bar.png" srcset="../../_assets/5.8_pic_progress_bar@2x.png 2x" /></em>
-<em><img alt="5.8 table" src="../../_assets/5.8_pic_table.png" srcset="../../_assets/5.8_pic_table@2x.png 2x" /></em></p>
+<p class="space-between"><em><img alt="5.8 map" src="../../_assets/5.8_pic_pop_up.png" srcset="../../_assets/5.8_pic_pop_up@2x.png 2x" /></em>
+<em><img alt="5.8 progress bar" src="../../_assets/5.8_pic_progress_bar.png" srcset="../../_assets/5.8_pic_progress_bar@2x.png 2x" /></em></p>
+<p class="float"><em><img alt="5.8 table" src="../../_assets/5.8_pic_table.png" srcset="../../_assets/5.8_pic_table@2x.png 2x" /></em></p>
 <hr />
 <h4 id="machine-learning">Machine Learning</h4>
 <p class="float"><em><img alt="5.8 line chart" src="../../_assets/5.8_ml_linechart.png" srcset="../../_assets/5.8_ml_linechart@2x.png 2x" /></em>
@@ -498,7 +496,7 @@
 </ul>
 <p class="well center"><em><img alt="5.8 bar chart" src="../../_assets/5.8_chart_without_pattern.png" srcset="../../_assets/5.8_chart_without_pattern@2x.png 2x" /></em>
 <em><img alt="5.8 chart pattern" src="../../_assets/5.8_chart_w_pattern.png" srcset="../../_assets/5.8_chart_w_pattern@2x.png 2x" /></em></p>
-<p class="caption-example"><em>Caption nullam id tincidunt libero. Vestibulum molestie venenatis odio, in porttitor sapien pulvinar non.</em></p>
+<p class="caption-example-5-8"><em>Caption: You can place copy here to add further context to your charts or graphs.</em></p>
 <p class="float"><em><img alt="5.8 progress bar" src="../../_assets/5.8_as_progressbar.png" srcset="../../_assets/5.8_as_progressbar@2x.png 2x" /></em>
 <em><img alt="5.8 pie chart" src="../../_assets/5.8_as_pie_chart.png" srcset="../../_assets/5.8_as_pie_chart@2x.png 2x" /></em>
 <em><img alt="5.8 chart" src="../../_assets/5.8_as_chart.png" srcset="../../_assets/5.8_as_chart@2x.png 2x" /></em>
