@@ -17,6 +17,7 @@
 
 .search-results {
   padding-top: 60px;
+  word-break: break-word;
 }
 
 .search-results article {
@@ -64,11 +65,7 @@
   font-weight: 100;
 }
 
-.bes-searching-message {
-  font-size: 18px;
-}
-
-
+.bes-searching-message,
 .bes-no-results {
   font-size: 24px;
 }
@@ -78,6 +75,10 @@
 
   #bes-content-search {
     width: auto;
+  }
+
+  .bes-search .bes-content {
+    padding: 0 25px 100px;
   }
 }
 
