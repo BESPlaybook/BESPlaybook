@@ -19,8 +19,11 @@ Naturally, images should also follow best practices of contrast, composition, an
 design guidelines.
 
 
-_![4.9 Icons](../_assets/4.10_image_examples.jpg){srcset="../../_assets/4.10_image_examples@2x.jpg 2x"}_
-{.padded}
+_![4.10 Image Examples](../_assets/4.10_image_examples.jpg){srcset="../../_assets/4.10_image_examples@2x.jpg 2x"}_
+{.padded .desktop-only}
+
+_![4.10 Image Examples](../_assets/4.10_imagery_mobile.png){srcset="../../_assets/4.10_imagery_mobile@2x.png 2x"}_
+{.padded .center .mobile-only}
 
 ## Formatting and Optimizing
 

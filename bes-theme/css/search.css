@@ -23,6 +23,14 @@
   margin-bottom: 60px;
 }
 
+.search-results article h3 {
+  margin-bottom: 0;
+}
+
+.search-results article h3 + a {
+  font-size: 14px;
+}
+
 #bes-content-search {
   position: relative;
   max-width: 500px;
@@ -60,16 +68,21 @@
   font-size: 18px;
 }
 
+
 .bes-no-results {
-  font-size: 18px;
+  font-size: 24px;
 }
 
+
 @media screen and (max-width: 800px) {
-  .bes-search .bes-content {
-    
-  }
 
   #bes-content-search {
     width: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bes-search .bes-doc-nav-wrap {
+    display: none;
   }
 }

@@ -1,3 +1,8 @@
+/*
+ * https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/js/base.js
+ */
+
+
 function getSearchTermFromLocation() {
   var sPageURL = window.location.search.substring(1);
   var sURLVariables = sPageURL.split('&');
@@ -22,7 +27,7 @@ function joinUrl (base, path) {
 }
 
 function formatResult (location, title, summary) {
-  return '<article><h3><a href="' + joinUrl(base_url, location) + '">'+ title + '</a></h3><p>' + summary +'</p></article>';
+  return '<article><h3><a href="' + joinUrl(base_url, location) + '">'+ title + '</a></h3><a href="' + joinUrl(base_url, location) + '">'+ location + '</a><p>' + summary +'</p></article>';
 }
 
 function displayResults (results) {
@@ -31,7 +36,6 @@ function displayResults (results) {
     search_results.removeChild(search_results.firstChild);
   }
   if (results.length > 0){
-    console.log('results:', results)
     for (var i=0; i < results.length; i++){
       var result = results[i];
       var html = formatResult(result.location, result.title, result.summary);

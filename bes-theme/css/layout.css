@@ -88,7 +88,8 @@ body {
 
 
 /* Content Header
- * Styling for main h1 on a content page. Applies a blue background and image
+ * Styling for main h1 on a content page. Applies a blue background.
+ * Images are added via JS
  *
  * Markdown:
  * > # **1.2** Audience
@@ -121,9 +122,6 @@ body {
   font-weight: 500;
 }
 
-/*
- Is this a blockquote? 
-*/
 .bes-content > .quote {
   margin-top: 20px;
   padding-left: 60px;
