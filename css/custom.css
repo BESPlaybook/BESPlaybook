@@ -5,7 +5,7 @@
   background-color: #2F4CB3;
 }
 
-/* TODO: Check if this is needed */
+
 .logo-row-4-4 {
   margin-top: 40px;
   padding: 30px 100px;
@@ -93,16 +93,6 @@
 
 .nav-5-2 {
   margin-top: 60px;
-}
-
-/* TODO check mobile */
-.bes-content > .columns-5-9 {
-  display: block;
-  columns: 2;
-}
-
-.bes-content > .columns-5-9 em {
-  margin-bottom: 40px;
 }
 
 

@@ -27,6 +27,10 @@
   padding-left: 15px;
 }
 
+.bes-doc-nav__list > li {
+  margin-bottom: 30px;
+}
+
 .bes-doc-nav__list a {
   font-weight: 300;
 }

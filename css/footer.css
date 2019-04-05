@@ -39,9 +39,11 @@ footer::after {
   font-weight: 100;
 }
 
+/* When more playbooks are added, make columns
 .bes-footer__playbooks ul {
   columns: 2;
 }
+*/
 
 @media screen and (max-width: 1024px) {
   .bes-footer__playbooks ul {
