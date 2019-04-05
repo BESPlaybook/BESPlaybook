@@ -6,9 +6,6 @@ static_templates:
 include_search_page: false
 search_index_only: false
 
-highlightjs: true
-hljs_languages: []
-
 include_homepage_in_sidebar: false
 prev_next_buttons_location: bottom
 navigation_depth: 4
