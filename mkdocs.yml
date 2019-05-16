@@ -14,55 +14,55 @@ nav:
       - 1. Overview: agile/agile-1.md
   - Agile Model-Driven Functionality Improvement:
       - 1. Plays:
-          - a. Overview: agile-model/1-a-plays.md
+          - 1.1 Overview: agile-model/1-1-plays.md
       - 2. Overview:
-          - a. Introduction: agile-model/2-a-intro.md
-          - b. Problem Statement: agile-model/2-b-problem.md
-          - c. Purpose: agile-model/2-c-purpose.md
-          - d. Scope: agile-model/2-d-scope.md
-          - e. Intended Audience: agile-model/2-e-audience.md
-          - f. Benefits: agile-model/2-f-benefits.md
+          - 2.1 Introduction: agile-model/2-1-intro.md
+          - 2.2 Problem Statement: agile-model/2-2-problem.md
+          - 2.3 Purpose: agile-model/2-3-purpose.md
+          - 2.4 Scope: agile-model/2-4-scope.md
+          - 2.5 Intended Audience: agile-model/2-5-audience.md
+          - 2.6 Benefits: agile-model/2-6-benefits.md
       - 3. Agile Model-Driven Functionality Improvement:
-          - a. Standards: agile-model/3-a-standards.md
-          - b. Methodologies: agile-model/3-b-methodologies.md
-          - c. Common Use Case: agile-model/3-c-usecases.md
-          - d. Lessons: agile-model/3-d-lessons.md
-          - e. Limitations: agile-model/3-e-limitations.md
-          - f. Recommendations: agile-model/3-f-recommendations.md
+          - 3.1 Standards: agile-model/3-1-standards.md
+          - 3.2 Methodologies: agile-model/3-2-methodologies.md
+          - 3.3 Common Use Case: agile-model/3-3-usecases.md
+          - 3.4 Lessons: agile-model/3-4-lessons.md
+          - 3.5 Limitations: agile-model/3-5-limitations.md
+          - 3.6 Recommendations: agile-model/3-6-recommendations.md
       - 4. Organization and Support:
-          - a. Key Stakeholders: agile-model/4-a-stakeholders.md
-          - b. Team Structure: agile-model/4-b-1-management.md
-            # - i. Project Management Team: agile-model/4-b-2-tech.md
-            # - ii. Technical Team: agile-model/4-b-3-business.md
-            # - iii. Business Analyst SME's: agile-model/4-b-team.md
-          - c. Support: agile-model/4-c-support.md
+          - 4.1 Key Stakeholders: agile-model/4-1-stakeholders.md
+          - 4.2 Team Structure: agile-model/4-2-team.md
+            - 4.2.1 Project Management Team: agile-model/4-2-1-management.md
+            - 4.2.2 Technical Team: agile-model/4-2-2-tech.md
+            - 4.2.3 Business Analyst SME's: agile-model/4-2-3-business.md
+          - 4.3 Support: agile-model/4-3-support.md
       - 5. Lifecycle Process:
-          - a. Best Practices: agile-model/5-a-bestpractices.md
+          - 5.1 Best Practices: agile-model/5-1-bestpractices.md
       - 6. Project Guidance:
-          - a. Phases: agile-model/6-a-phases.md
-          - b. Risk Identification and Management: agile-model/6-b-risk.md
+          - 6.1 Phases: agile-model/6-1-phases.md
+          - 6.2 Risk Identification and Management: agile-model/6-2-risk.md
       - 7. Management and Metrics:
-          - a. Define KPI's: agile-model/7-a-definekpi.md
+          - 7.1 Define KPI's: agile-model/7-1-definekpi.md
       - 8. Solution Design:
-          - a. Requirements Analysis: agile-model/8-a-requirements.md
-          - b. Technical Design: agile-model/8-b-techdesign.md
-          - c. Cybersecurity Considerations: agile-model/8-c-cybersecurity.md
+          - 8.1 Requirements Analysis: agile-model/8-1-requirements.md
+          - 8.2 Technical Design: agile-model/8-2-techdesign.md
+          - 8.3 Cybersecurity Considerations: agile-model/8-3-cybersecurity.md
       - 9. Determining the Best "Low-Code" Solution Process:
-          - a. Identifying Viable Solutions: agile-model/9-a-solutions.md
-          - b. Conducting Analysis: agile-model/9-b-analysis.md
+          - 9.1 Identifying Viable Solutions: agile-model/9-1-solutions.md
+          - 9.2 Conducting Analysis: agile-model/9-2-analysis.md
             # - : agile-model/9-b-1-besttools.md
-          - c. subpages:
-              - i. Pega Platform: agile-model/9-c-1-pega.md
-              - ii. Appian Low-Code Platform: agile-model/9-c-2-appian.md
-              - iii. Mendix Low-Code Platform: agile-model/9-c-3-mendix.md
-              - iv. Microsoft PowerApps: agile-model/9-c-4-microsoft.md
-              - v. OutSystems Low-Code Platform: agile-model/9-c-5-outsystems.md
-              - vi. Kony Quantum: agile-model/9-c-6-kony.md
-          - c. Help COTS Too Is Available - Example List: agile-model/9-c-cots.md
+          - 9.3 subpages:
+              - 9.3.1 Pega Platform: agile-model/9-3-1-pega.md
+              - 9.3.2 Appian Low-Code Platform: agile-model/9-3-2-appian.md
+              - 9.3.3 Mendix Low-Code Platform: agile-model/9-3-3-mendix.md
+              - 9.3.4 Microsoft PowerApps: agile-model/9-3-4-microsoft.md
+              - 9.3.5 OutSystems Low-Code Platform: agile-model/9-3-5-outsystems.md
+              - 9.3.6 Kony Quantum: agile-model/9-3-6-kony.md
+          - 9.3 Help COTS Too Is Available - Example List: agile-model/9-3-cots.md
       - 10. Appendix:
-          - 'a. Appendix A: Sample Design 1': agile-model/10-appendix-a.md
-          - 'b. Appendix B: Sample Design 2': agile-model/10-appendix-b.md
-          - 'b. Appendix C: Checklists and Templates': agile-model/10-appendix-c.md
+          - '10.1 Appendix A: Sample Design 1': agile-model/10-appendix-a.md
+          - '10.2 Appendix B: Sample Design 2': agile-model/10-appendix-b.md
+          - '10.3 Appendix C: Checklists and Templates': agile-model/10-appendix-c.md
   - Automated Testing:
       - 1. Overview: testing/1-1-testing.md
   - User Experience:
@@ -162,11 +162,11 @@ extra:
       icon: _assets/0_home_page_icon_user_experience.svg
       desc: Delivering value requires delivering an experience that meets the needs of your users. Learn what UX is, how it benefits and enhances development efforts, methods for designing experiences, and best-practice visual design guidelines.
     - name: Agile Model-Driven Functionality Improvement
-      url: /agile-model/1-a-plays
+      url: /agile-model/1-1-plays
       icon: _assets/0_home_page_icon_agile_Model-Driven.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
     - name: Automated Application Modernization
-      url: /modern/1-a-plays
+      url: /modern/1-1-plays
       icon: _assets/0_home_page_icon_automated_App_modern.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
 
