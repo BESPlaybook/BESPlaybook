@@ -31,10 +31,11 @@ nav:
           - 3.6 Recommendations: agile-model/3-6-recommendations.md
       - 4. Organization and Support:
           - 4.1 Key Stakeholders: agile-model/4-1-stakeholders.md
+          - 4.2 subpages:
+              - 4.2.1 Project Management Team: agile-model/4-2-1-management.md
+              - 4.2.2 Technical Team: agile-model/4-2-2-tech.md
+              - 4.2.3 Business Analyst SME's: agile-model/4-2-3-business.md
           - 4.2 Team Structure: agile-model/4-2-team.md
-            - 4.2.1 Project Management Team: agile-model/4-2-1-management.md
-            - 4.2.2 Technical Team: agile-model/4-2-2-tech.md
-            - 4.2.3 Business Analyst SME's: agile-model/4-2-3-business.md
           - 4.3 Support: agile-model/4-3-support.md
       - 5. Lifecycle Process:
           - 5.1 Best Practices: agile-model/5-1-bestpractices.md
@@ -139,13 +140,60 @@ nav:
       - 1. Overview: cloud/1-1-cloud.md
   - Agile Acquistions:
       - 1. Overview: acquistions/1-1-acquistions.md
+  - Automated Application Management:
+      - 1. Plays:
+          - 1.1 Overview: modern/1-1-overview.md
+      - 2. Overview:
+          - 2.1 Introduction: modern/2-1-intro.md
+          - 2.2 Problem Statement: modern/2-2-problem.md
+          - 2.3 Purpose: modern/2-3-purpose.md
+          - 2.4 Scope: modern/2-4-scope.md
+          - 2.5 Audience: modern/2-5-audience.md
+          - 2.6 Benefits: modern/2-6-benefits.md
+      - 3. Automated Application Modernization:
+          - 3.1 Guidance: modern/3-1-guidance.md
+          - 3.2 Standards: modern/3-2-standards.md
+          - 3.3 Common Use Case: modern/3-3-common.md
+          - 3.4 Approaches: modern/3-4-approaches.md
+          - 3.5 Methodologies: modern/3-5-methodologies.md
+          - 3.6 Patterns: modern/3-6-patterns.md
+          - 3.7 Barriers and Challenges: modern/3-7-barriers.md
+          - 3.8 Recommendations: modern/3-8-recommendations.md
+          - 3.9 Lessons: modern/3-9-lessons.md
+          - 3.10 Limitations: modern/3-10-limitations.md
+      - 4. Modernization Tools:
+          - 4.1 Tool Types: modern/4-1-tooltypes.md
+          - 4.2 Tool Matrix: modern/4-2-toolmatrix.md
+      - 5. Lifecycle Processes:
+          - 5.1 Best Practices: modern/5-1-best.md
+      - 6. Organization and Support:
+          - 6.1 Project Team: modern/6-1-project.md
+          - 6.2 Technical Team: modern/6-2-tech.md
+          - 6.3 Support: modern/6-3-support.md
+          - 6.4 Stakeholders: modern/6-4-stakeholders.md
+      - 7. Determining the Best Modernization Solution:
+          - 7.1 Identifying Viable Solutions: modern/7-1-solutions.md
+          - 7.2 Analysis of Alternatives (AoA) Guidance: modern/7-2-alternatives.md
+      - 8. Solution Design:
+          - 8.1 Requirements: modern/8-1-requirements.md
+          - 8.2 Technical Design: modern/8-2-tech.md
+          - 8.3 Cybersecurity: modern/8-3-cybersecurity.md
+      - 9. Project Guidance:
+          - 9.1 Phases: modern/9-1-phases.md
+          - 9.2 Risk Identification and Management: modern/9-2-risk.md
+      - 10. Measurement and Metrics:
+          - 10.1 Define KPIs: modern/10-1-definekpi.md
+      - 11. Appendix:
+          - '11.1 Appendix A: Sample Design 1': modern/11-appendix-a.md
+          - '11.2 Appendix B: Sample Design 2': modern/11-appendix-b.md
+          - '11.3 Appendix C: Checklists and Templates': modern/11-appendix-c.md
 
 extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
-  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-  baseurl: http://localhost:8000
+  baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  # baseurl: http://localhost:8000
 
   # This list
   playbooks:
@@ -166,7 +214,7 @@ extra:
       icon: _assets/0_home_page_icon_agile_Model-Driven.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
     - name: Automated Application Modernization
-      url: /modern/1-1-plays
+      url: /modern/1-1-overview
       icon: _assets/0_home_page_icon_automated_App_modern.svg
       desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
 
