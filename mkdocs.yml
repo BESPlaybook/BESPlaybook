@@ -212,12 +212,9 @@ extra:
     - name: Agile Model-Driven Functionality Improvement
       url: /agile-model/1-1-plays
       icon: _assets/0_home_page_icon_agile_Model-Driven.svg
-      desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
     - name: Automated Application Modernization
       url: /modern/1-1-overview
       icon: _assets/0_home_page_icon_automated_App_modern.svg
-      desc: Proin eu erat felis. Integer cursus consequat metus at dictum. Mauris rhoncus placerat sem. Maecenas bibendum laoreet bibendum. Proin maximus facilisis magna eu egestas. Curabitur feugiat, leo non rhoncus pretium, dolor ex scelerisque purus, id ornare lectus. purus non justo.
-
     # - name: DevSec Ops
     #   url: /devops/1-1-devops
     #   icon: _assets/0_home_page_icon_devsec.svg
