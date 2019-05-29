@@ -11,7 +11,12 @@ plugins:
 nav:
   - Home: index.md
   - Agile:
-      - 1. Overview: agile/agile-1.md
+      - 1. Overview: agile/1-overview.md
+      - 2. Agile Transformation: agile/2-transformation.md
+      - 3. Applying Agile Methods and Mindset Within The Air Force: agile/3-mindset.md
+      - 4. Agile Architecture: agile/4-architecture.md
+      - 5. Agile Framework: agile/5-framework.md
+
   - Agile Model-Driven Functionality Improvement:
       - 1. Plays:
           - 1.1 Overview: agile-model/1-1-plays.md
@@ -192,17 +197,17 @@ extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
-  baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-  # baseurl: http://localhost:8000
+  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  baseurl: http://localhost:8000
 
   # This list
   playbooks:
     - name: Agile
-      url: /agile/agile-1
+      url: /agile/1-overview
       icon: _assets/0_home_page_icon_agile.svg
       desc: Faster, more dynamic response to customers’ development needs requires a modern management approach. Learn what is necessary to establish those responsive process and management guidelines within the DoD environment.
     - name: Automated Testing
-      url: /testing/1-1-testing
+      url: e/testing/1-1-testing
       icon: _assets/0_home_page_icon_automatedtesting.svg
       desc: With the move towards more flexible approaches to software development comes the desire to implement faster, more reliable testing procedures. Learn practical, experienced-based methods and best practices for automating testing.
     - name: User Experience

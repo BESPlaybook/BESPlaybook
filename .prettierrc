@@ -1,5 +1,6 @@
 {
   "singleQuote": true,
   "printWidth": 80,
-  "semi": false
+  "semi": false,
+  "indent": 4
 }
