@@ -61,7 +61,7 @@
   the proper active section.
  */
 .bes-doc-nav__list .subsection {
-  /* display: none; */
+  display: none;
 }
 
 .bes-doc-nav__list .subsection.current + li a {

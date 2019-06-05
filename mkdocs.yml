@@ -2,7 +2,7 @@ site_name: BES Playbook
 theme:
   name: null
   custom_dir: 'bes-theme'
-  navigation_depth: 3
+  navigation_depth: 2
 markdown_extensions:
   - attr_list
   - extra
@@ -202,8 +202,8 @@ extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
-  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-  baseurl: http://localhost:8000
+  baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  # baseurl: http://localhost:8000
 
   # This list
   playbooks:
@@ -212,7 +212,7 @@ extra:
       icon: _assets/0_home_page_icon_agile.svg
       desc: Faster, more dynamic response to customers’ development needs requires a modern management approach. Learn what is necessary to establish those responsive process and management guidelines within the DoD environment.
     - name: Automated Testing
-      url: e/testing/1-1-testing
+      url: /testing/1-1-testing
       icon: _assets/0_home_page_icon_automatedtesting.svg
       desc: With the move towards more flexible approaches to software development comes the desire to implement faster, more reliable testing procedures. Learn practical, experienced-based methods and best practices for automating testing.
     - name: User Experience
