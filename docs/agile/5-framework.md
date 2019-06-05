@@ -18,7 +18,7 @@ to remain value relevant. As the PB will generally follow a rolling-wave plannin
 as it becomes available or necessary, it can initially be setup with larger organizational elements (epics and features)
 which will be iteratively refined later. A recommended nested organization for these components include:
 
-![pb](pb.jpg)
+![pb](images/pb.jpg)
 
 - Epics - These include functionality which can take one or more releases to complete. For government contracts,
   these can be linked to a Contract Line Item Number for easier reference to cost tracking and earned value metrics.
@@ -122,7 +122,7 @@ and are consistent with cost (program budget), risk and other system constraints
     - Identified system-level CDRLs to update for design reviews based on PB contents.
     - Identified features for design reviews (Preliminary Design Review [PDR] and Critical Design Review [CDR])
     
-![output](output.jpg)
+![output](images/output.jpg)
 
 ### 5.1.3 Release Management
 
@@ -152,7 +152,7 @@ those features.
 - Update Release Roadmap (Use information from session to update the release roadmap)
 - Discuss any release process improvement steps (Continuous Improvement)
 
-  ![roadmap](roadmap.jpg)
+  ![roadmap](images/roadmap.jpg)
 
 ### 5.1.4 System Engineering Design Reviews
 
@@ -206,7 +206,7 @@ A secondary advantage of implementing a pro-active release management system is 
             - Review Feature size estimates (establishes metric for estimating duration) - update based on additional information 
         - Revise Release Roadmap as necessary based on updated information
   
-![extendroadmap](extendroadmap.jpg)
+![extendroadmap](images/extendroadmap.jpg)
 
 ### 5.1.5 Refine the Product Backlog (Features -> Initial PBIs)
 
@@ -239,7 +239,7 @@ Three questions to guide Feature Refinement Discussion and what they are attempt
 2. What are the high-level steps to get there? (Logic)
 3. What are the sub-steps for each of the high-level steps? (PBIs)
 
-![hugeroadmap](hugeroadmap.jpg)
+![hugeroadmap](images/hugeroadmap.jpg)
 
 ### 5.1.6 Prioritize the Product Backlog
 
@@ -256,7 +256,7 @@ the value they provide. There are multiple considerations in evaluating the valu
 
 It is the responsibility of the PO, as the representative of the government to continuously reprioritize the PB to provide the most value to the government based on the current environment (especially as new PBIs are added or removed from the PB).
 
-![product](product.jpg)
+![product](images/product.jpg)
 
 Prioritization considerations to avoid (as they are normally short-term perspectives which may reduce long-term value):
 
@@ -347,7 +347,7 @@ This section provides a template for the scrum process. As it is a template, gov
 
 Scrum Methodology:
 
-![scrummethod](scrummethod.jpg)
+![scrummethod](images/scrummethod.jpg)
 
 **Scrum Events**
 
@@ -462,7 +462,7 @@ Key points in Kanban:
 While Scrum focuses on a cross-functional team, Kanban focuses more on aligning the resources with the policies. A simple representation of a Kanban Board
 (this also provides a quick start-up template for HIA products) is:
 
-![kanbanboard](kanbanboard.jpg)
+![kanbanboard](images/kanbanboard.jpg)
 
 Templated steps / policies for an initial Development Team Kanban board:
 
@@ -487,7 +487,7 @@ would be the cybersecurity team handling the implementation of required TCNO/IAV
 
 ### 5.3.1 Kanban Cadences
 
-![kanbancadence](kanbancadence.jpg)
+![kanbancadence](images/kanbancadence.jpg)
 
 While Scrum Events focus on execution of the time-boxed process, the key Kanban events (cadences - named for their formal rhythm) focus on organizing, optimizing,
 and tracking the development process. The cadences indicated below are interdependent as represented in the figure above - some meetings inform others, while feedback
@@ -670,7 +670,7 @@ As with Continuous Integration, Test-First Programming reduces the feedback cycl
 
 ### 5.4.1 XP Process Cycle
 
-![extremeprogramming](extremeprogramming.jpg)
+![extremeprogramming](images/extremeprogramming.jpg)
 
 ### 5.4.2 XP Events (Similar to Scrum - minor revisions, associated engineering practices)
 

@@ -7,7 +7,7 @@
 While the environment is established by stakeholder management and contractual obligations, it is also necessary to establish the physical infrastructure
 (toolset) necessary to enable agile. With that in mind, this section will focus on the provisioning of an infrastructure that supplies 4 general functions:
 
-![agilearch](agilearch.jpg)
+![agilearch]](images/agilearch.jpg)
 
 - **Backlog Management** - the tools necessary to capture and refine requirements as well as allows the PO to prioritize the different work efforts to provide the most value. <br /> <br /> This is the tool that maintains a prioritized and organized listing of the work items which need to be done for the project.
 
@@ -29,7 +29,7 @@ One note - the infrastructure tools used by the HIA community are on the Atlassi
 
 The table below shows a quick overview of the differences and similarities between the two in reference to enabling an agile framework.
 
-![archchart](archchart.jpg)
+![archchart](images/archchart.jpg)
 
 Links describing how to enable the management systems below within the VSTS/TFS and the Atlassian Products are found in Appendix C - Key Links.
 
@@ -66,7 +66,7 @@ Recommend functions include the ability to produce the following:
 
 ### 4.1.5 Continuous Integration Architecture and Management
 
-![coderepos](coderepos.jpg)
+![coderepos](images/coderepos.jpg)
 
 Recommended functionality for enabling continuous integration in any toolset:
 

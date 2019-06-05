@@ -158,7 +158,7 @@ metrics are used to measure and manage performance. The PMP describes the series
 from initiation to closure. The PMP also describes the Agile development management approach; i.e. Agile iteration-based (Scrum/XP), flow-based (Kanban)
 or a hybrid model. **Figure 1** describes the hierarchal structure of the Agile project work effort. Notice that this view of the project work hierarchy is
 similar to the WBS in predictive (Waterfall) projects.
-![plan](plan.jpg)
+![plan](images/plan.jpg)
 
 One additional consideration is that the above hierarchy promotes a multi-team or "scaled" agile approach. While methodologies exist to support
 the scaling of agile (i.e. Scaled Agile Framework (SAFe), Scrum of Scrums, Disciplined Agile Delivery (DAD), etc), these will not be presented in this
@@ -285,7 +285,7 @@ help the team better understand their development process, making releasing soft
 story points they can finish during a sprint. A sprint burndown report (Figure 2) then tracks the completion of work during the sprint. The x-axis
 represents time, and the y-axis refers to the amount of story points left to complete. The goal is to have all the forecasted work completed by the end of the sprint.
 
-![burndown](burndown.jpg)
+![burndown](images/burndown.jpg)
 
 A team that consistently meets its forecast is a compelling advertisement for Agile in their organization, however, it may be too good to be true if the team is inflating the numbers by declaring an item complete before it really is. In the long run cheating hampers learning and improvement.
 
@@ -300,7 +300,7 @@ There are several anti-patterns to watch for in team performance:
 from the prior section to forecast a release schedule. The product owner can use velocity to predict how quickly a team can work through the product
 backlog, since the velocity chart report tracks the forecasted and completed work over several iteration-the more iterations, the more accurate the forecast.
 
-![velocity](velocity.jpg)
+![velocity](images/velocity.jpg)
 
 Each team's velocity is unique. If team A has a velocity of 25 story points and team B has a velocity of 50 story points, it doesn't mean that team B has higher throughput. Because each team's story point estimation technique is unique, their sprint velocity will be as well. Organizations should resist the temptation to compare velocity across teams. Instead, Program Management should measure the level of effort and output of work based on each team's unique interpretation of story points.
 
@@ -310,7 +310,7 @@ Each team's velocity is unique. If team A has a velocity of 25 story points and 
 to customer, cycle time for completion of a task on the Kanban Board, and response time - the amount of time the item waits until work begins. **Figure 4** shows
 an example of an Agile team's initial Kanban board, which captures their current workflow states: analyze, review, build, and integrate and test.
 
-![kanban](kanban.jpg)
+![kanban](images/kanban.jpg)
 
 After defining the initial process and Work in Process (WIP) limits and executing for a while, the Kanban team's bottlenecks should surface. If this is the case, the Kanban Team refines the workflow process step where the bottleneck occurred or reduces some WIP limits until it becomes evident that a workflow state is 'starving' or is too full. In this manner the Kanban Team continually adjusts the process workflows to optimize their flow. For example, changing WIP limits
 and merging, splitting, or redefining workflow states.
@@ -319,7 +319,7 @@ and merging, splitting, or redefining workflow states.
 With number of issues on the Y axis, time on the X axis, and colors to indicate the various workflow states, it visually points out shortages and bottlenecks
 and works in conjunction with Work in Process (WIP) limits.
 
-![cumulative](cumulative.jpg)
+![cumulative](images/cumulative.jpg)
 
 The cumulative flow diagram should look smooth(ish) from left to right. Bubbles or gaps in any one color indicate shortages and bottlenecks, so when the Agile
 Team sees one, they should look for ways to smooth out color bands across the chart. Anti-patterns to look for are:

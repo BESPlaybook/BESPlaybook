@@ -15,7 +15,7 @@ traditional waterfall method.
 The Agile Manifesto describes the overarching beliefs of Agile software development as follows (http://agilemanifesto.org): 
 
 We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:<br/>
-![Agile](agile.jpg)<br/>
+![Agile](images/agile.jpg)<br/>
 That is, while there is value in the items on the right, we value the items on the left more.
 
 ###2.2.2 Benefits of Agile over Traditional Methods
@@ -31,7 +31,7 @@ mirrored-appropriately).
 5.	Ability to balance technical debt and new functionality, thereby decreasing technical debt over time. 
 
 ###2.2.3 High-Level Differences
-![vschart](vschart.jpg)<br/>
+![vschart](images/vschart.jpg)<br/>
 
 ###2.2.4 Friction Points with Waterfall
 
