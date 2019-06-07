@@ -1,0 +1,3 @@
+># **2.1** Introduction
+
+The Agile Model-Driven Functionality Improvement Playbook provides the Air Force (AF) with methods for improving functionality within applications using business process modeling graphical tools that subject matter experts (SMEs) can understand and use.  These models can be used to improve and extend application functionality using process modeling tools.  This is accomplished by creating functional process models of the components from existing application code and by creating models for new application components.  In some respects, this digital model of the application is a “digital clone” that can be manipulated to improve the actual application. 

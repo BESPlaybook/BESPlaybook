@@ -97,7 +97,7 @@ body {
 .bes-content > blockquote:first-child {
   display: flex;
   align-items: center;
-  height: 180px;
+  min-height: 180px;
   margin: 0;
   margin-bottom: 50px;
   background-color: #24316C;

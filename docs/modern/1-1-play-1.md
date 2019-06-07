@@ -12,7 +12,7 @@ Before modernizing any legacy application, it is crucial to understand how long 
         - If not documented, document these requirements in a formal manner, have it reviewed by the application or product owner, and place under configuration management.
 
             - This application modernization requirements document should contain: application portfolio information, application rationalization information, application lifespan forecast including dates, requirements list, requirements analysis, other pertinent information that will help when determining the best modernization course of action (COA).
-- 
+
 - Develop a (lean) communication plan to keep application owner, product owner, and stakeholders apprised of important project and related information.
 
 ## Key Questions
