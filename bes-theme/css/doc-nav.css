@@ -37,8 +37,11 @@
 .bes-doc-nav__list a:hover,
 .bes-doc-nav__list a.current {
   color: #2f4cb3;
-  font-weight: 500;
   text-decoration: none;
+}
+
+.bes-doc-nav__list a.current {
+  font-weight: 500;
 }
 
 /*

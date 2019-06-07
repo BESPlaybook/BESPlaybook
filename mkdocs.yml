@@ -152,7 +152,13 @@ nav:
       - 1. Overview: acquistions/1-1-acquistions.md
   - Automated Application Management:
       - 1. Plays:
-          - 1.1 Overview: modern/1-1-overview.md
+          - 1.1 Applications Future Lifespan: modern/1-1-play-1.md
+          - 1.2 Technical Baseline: modern/1-2-play-2.md
+          - 1.3 Modernization Options: modern/1-3-play-3.md
+          - 1.4 Target Application Solution: modern/1-4-play-4.md
+          - 1.5 Modernization and Migration Plan: modern/1-5-play-5.md
+          - 1.6 Executing the Plan: modern/1-6-play-6.md
+
       - 2. Overview:
           - 2.1 Introduction: modern/2-1-intro.md
           - 2.2 Problem Statement: modern/2-2-problem.md
@@ -202,8 +208,8 @@ extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
-  baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-  # baseurl: http://localhost:8000
+  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  baseurl: http://localhost:8000
 
   # This list
   playbooks:
@@ -223,7 +229,7 @@ extra:
       url: /agile-model/1-1-plays
       icon: _assets/0_home_page_icon_agile_Model-Driven.svg
     - name: Automated Application Modernization
-      url: /modern/1-1-overview
+      url: /modern/modern/1-1-play-1
       icon: _assets/0_home_page_icon_automated_App_modern.svg
     # - name: DevSec Ops
     #   url: /devops/1-1-devops
