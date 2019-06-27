@@ -1,4 +1,4 @@
-> # **9** APPENDIX D - AGILE TERMINOLOGY
+> # **9.1** AGILE TERMINOLOGY
 
 Source: https://www.agilealliance.org/agile101/agile-glossary/
 

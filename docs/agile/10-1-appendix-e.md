@@ -1,2 +1,3 @@
-#10 APPENDIX E - GLOSSARY
+> # **10.1** GLOSSARY
+
 ![glossary](images/glossary.jpg)

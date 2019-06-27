@@ -11,16 +11,44 @@ plugins:
 nav:
   - Home: index.md
   - Agile:
-      - 1. Overview: agile/1-overview.md
-      - 2. Agile Transformation: agile/2-transformation.md
-      - 3. Applying Agile Methods and Mindset Within The Air Force: agile/3-mindset.md
-      - 4. Agile Architecture: agile/4-architecture.md
-      - 5. Agile Framework: agile/5-framework.md
-      - 6. Appendix A - Key Event Plays: agile/6-appendix-a.md
-      - 7. Appendix B - Key Personal Plays: agile/7-appendix-b.md
-      - 8. Appendix C - Key Links: agile/8-appendix-c.md
-      - 9. Appendix D - Agile Terminology: agile/9-appendix-d.md
-      - 10. Appendix E - Glossary: agile/10-appendix-e.md
+      - 1. Overview:
+          - 1.1 Purpose: agile/1-1-purpose.md
+          - 1.2 Audience: agile/1-2-audience.md
+          - 1.3 References: agile/1-3-references.md
+      - 2. Agile Transformation:
+          - 2.1 Waterfall Background: agile/2-1-waterfall.md
+          - 2.2 Introduction: agile/2-2-introduction.md
+      - 3. Applying Agile Methods and Mindset Within The Air Force:
+          - 3.0 Overview: agile/3-0-overview.md
+          - 3.1 Agile Contracting: agile/3-1-contracting.md
+          - 3.2 Agile Stakeholder: agile/3-2-stakeholder.md
+          - 3.3 Project Management: agile/3-3-projectmanagement.md
+          - 3.4 Agile CDRLs and Delivery: agile/3-4-delivery.md
+          - 3.5 Status Reporting: agile/3-5-metrics.md
+      - 4. Agile Architecture:
+          - 4.1 Agile Management Tools: agile/4-1-architecture.md
+      - 5. Agile Framework:
+          - 5.1 Part I - Establish the Product Backlog (PB) and Constraints: agile/5-1-backlog.md
+          - 5.2 Part II - Establish the Methodology: agile/5-2-methodology.md
+          - 5.3 Kanban: agile/5-3-kanban.md
+          - 5.4 Extreme Programming: agile/5-4-xp.md
+          - 5.5 Part III - Establish the Team: agile/5-5-team.md
+      - 6. Appendix A - Key Event Plays:
+          - 6.1 Scrum: agile/6-1-scrum.md
+          - 6.2 Kanban: agile/6-2-kanban.md
+          - 6.3 Extreme Programming: agile/6-3-xp.md
+      - 7. Appendix B - Key Personal Plays:
+          - 7.1 Agile Lead: agile/7-1-lead.md
+          - 7.2 Product Owner: agile/7-2-owner.md
+          - 7.3 Business Analyst: agile/7-3-analyst.md
+
+      - 8. Appendix C - Key Links:
+          - 8.1 Agile in General: agile/8-1-general.md
+          - 8.2 Agile Tools: agile/8-2-tools.md
+      - 9. Appendix D - Agile Terminology: 
+          - 9.1 Agile Terminology: agile/9-1-appendix-d.md
+      - 10. Appendix E - Glossary:
+          - 10.1 Glossary: agile/10-1-appendix-e.md
 
   - Agile Model-Driven Functionality Improvement:
       - 1. Plays:
@@ -213,7 +241,7 @@ extra:
   # This list
   playbooks:
     - name: Agile
-      url: /agile/1-overview
+      url: /agile/1-1-purpose
       icon: _assets/0_home_page_icon_agile.svg
       desc: Faster, more dynamic response to customers’ development needs requires a modern management approach. Learn what is necessary to establish those responsive process and management guidelines within the DoD environment.
     - name: Automated Testing

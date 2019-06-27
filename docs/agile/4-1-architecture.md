@@ -1,13 +1,11 @@
-> # **4** Agile Architecture
+> # **4.1** Agile Management Tools (AMT)
 
-## 4.1 Agile Management Tools (AMT)
-
-### 4.1.1 Purpose:
+## 4.1.1 Purpose:
 
 While the environment is established by stakeholder management and contractual obligations, it is also necessary to establish the physical infrastructure
 (toolset) necessary to enable agile. With that in mind, this section will focus on the provisioning of an infrastructure that supplies 4 general functions:
 
-![agilearch]](images/agilearch.jpg)
+![agilearch](images/agilearch.jpg)
 
 - **Backlog Management** - the tools necessary to capture and refine requirements as well as allows the PO to prioritize the different work efforts to provide the most value. <br /> <br /> This is the tool that maintains a prioritized and organized listing of the work items which need to be done for the project.
 
@@ -33,7 +31,7 @@ The table below shows a quick overview of the differences and similarities betwe
 
 Links describing how to enable the management systems below within the VSTS/TFS and the Atlassian Products are found in Appendix C - Key Links.
 
-### 4.1.2 Backlog Management
+## 4.1.2 Backlog Management
 
 When considering which tool to use, the following functionalities should be provided:
 
@@ -41,7 +39,7 @@ When considering which tool to use, the following functionalities should be prov
 - Organize and prioritize those requirements
 - Provide a reporting capability to show necessary details to understand the status of those Product Backlog Items
 
-### 4.1.3 Work Management (i.e. Release Roadmap/Scrum Boards/Kanban Boards)
+## 4.1.3 Work Management (i.e. Release Roadmap/Scrum Boards/Kanban Boards)
 
 The following functionalities should be provided:
 
@@ -64,7 +62,7 @@ Recommend functions include the ability to produce the following:
 - Release Roadmaps - These will be discussed later in the methodology, but the release roadmap provides an overview of when features are expected to be complete.<br /><br />
   In terms of project management, the release roadmap can be used to establish the schedule for the project.
 
-### 4.1.5 Continuous Integration Architecture and Management
+## 4.1.5 Continuous Integration Architecture and Management
 
 ![coderepos](images/coderepos.jpg)
 

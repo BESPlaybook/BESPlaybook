@@ -1,12 +1,6 @@
-> # **8** APPENDIX C - KEY LINKS
+> # **8.2** Agile Tools
 
-The following links are intended to provide further clarification on some of the prevailing concepts within this playbook.
-
-## 8.1 Agile in General
-![agilelinks](images/agilelinks.jpg)
-## 8.2 Agile Tools:
-
-### 8.2.1 VSTS / TFS
+## 8.2.1 VSTS / TFS
 
 Overview: https://msdn.microsoft.com/en-us/library/ms364062(v=vs.80).aspx
 
@@ -22,7 +16,7 @@ Communication Management:
 Continuous Integration:
 ![contintegration](images/contintegration.jpg)
 
-###8.2.2 Atlassian (JIRA)
+## 8.2.2 Atlassian (JIRA)
 
 Overview: https://confluence.atlassian.com/jirasoftwarecloud/jira-software-overview-779293724.html 
 
@@ -37,23 +31,3 @@ Communication Management:
 
 Continuous Integration:
 ![contintegrationjira](images/contintegrationjira.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
