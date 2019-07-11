@@ -103,7 +103,48 @@ nav:
           - '10.2 Appendix B: Sample Design 2': agile-model/10-appendix-b.md
           - '10.3 Appendix C: Checklists and Templates': agile-model/10-appendix-c.md
   - Automated Testing:
-      - 1. Overview: testing/1-1-testing.md
+      - 1. Overview:
+        - 1.1 Purpose: testing/1-1-purpose.md
+        - 1.2 Audience: testing/1-2-audience.md
+        - 1.3 Benfits of Automated Testing: testing/1-3-benefits.md
+      - 2. Test Automation:
+        - 2.1 What is Automation?: testing/2-1-what.md
+        - 2.2 Automation in Software Lifecycle Methodologies: testing/2-2-lifecycle.md
+        - 2.3 Benefits to AF: testing/2-3-benefits.md
+        - 2.4 Avoiding Pitfalls: testing/2-4-pitfalls.md
+      - 3. Roles in Test Automation:
+        - 3.1 Acquisitions: testing/3-1-acquisitions.md
+        - 3.2 Management Support: testing/3-2-management.md
+        - 3.3 Technical Support: testing/3-3-technical.md
+        - 3.4 Domain Support: testing/3-4-domain.md
+        - 3.5 Automation Team Members: testing/3-5-team.md
+      - 4. Scope of Test Automation:
+        - 4.1 Tools Target Areas: testing/4-1-tools.md
+        - 4.2 Test Levels: testing/4-2-levels.md
+        - 4.3 Test Types: testing/4-3-types.md
+      - 5. Developing A Test Automation Solution:
+        - 5.1 Approaches to Test Automation: testing/5-1-approach.md
+        - 5.2 Overall Architectural Considerations: testing/5-2-architecture.md
+        - 5.3 Evaluation and Selection of Test Tools: testing/5-3-evaluation.md
+      - 6. Migrating From Manual to Automated Testing:
+        - 6.1 What Makes Sense to Automate: testing/6-1-what.md
+        - 6.2 When Should Automation Occur: testing/6-2-when.md
+        - 6.3 Criteria for Creating New Automated Tests: testing/6-3-newtests.md
+        - 6.4 Criteria for Converting Manual Tests to Automation: testing/6-4-manualtests.md
+        - 6.5 Transitioning Staff to Automation: testing/6-5-transition.md
+      - 7. Test Automation Development Lifecycle:
+        - 7.1 Phases in Automation Development: testing/7-1-phases.md
+        - 7.2 Similarities to Application Development: testing/7-2-appdev.md
+        - 7.3 Similarities to Manual Testing: testing/7-3-manualtests.md
+      - 8. Effectiveness Measurements:
+        - 8.1 Effectiveness Measurements: testing/8-1-measurements.md
+      - 9. Reporting:
+        - 9.1 Reporting: testing/9-1-reporting.md
+      - 10. Looking Ahead:
+        - 10.1 Building Momentum in Test Automation: testing/10-1-momentum.md
+        - 10.2 Keeping Abreast of the Technology Landscape: testing/10-2-landscape.md
+        - 10.3 Continuous Improvement Activities: testing/10-3-improvements.md
+        - 10.4 Making the Process Repeatable: testing/10-4-process.md
   - User Experience:
       - 1. Overview:
           - 1.1 Purpose: ux/1-1-purpose.md
@@ -235,8 +276,8 @@ extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
-  baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-  # baseurl: http://localhost:8000
+  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  baseurl: http://localhost:8000
 
   # This list
   playbooks:
@@ -245,7 +286,7 @@ extra:
       icon: _assets/0_home_page_icon_agile.svg
       desc: Faster, more dynamic response to customers’ development needs requires a modern management approach. Learn what is necessary to establish those responsive process and management guidelines within the DoD environment.
     - name: Automated Testing
-      url: /testing/1-1-testing
+      url: /testing/1-1-purpose
       icon: _assets/0_home_page_icon_automatedtesting.svg
       desc: With the move towards more flexible approaches to software development comes the desire to implement faster, more reliable testing procedures. Learn practical, experienced-based methods and best practices for automating testing.
     - name: User Experience
