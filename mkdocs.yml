@@ -145,6 +145,9 @@ nav:
         - 10.2 Keeping Abreast of the Technology Landscape: testing/10-2-landscape.md
         - 10.3 Continuous Improvement Activities: testing/10-3-improvements.md
         - 10.4 Making the Process Repeatable: testing/10-4-process.md
+      - 11. Appendix:
+        - '11.1 Appendix A: Resources': testing/11-1-resources.md
+        - '11.2 Appendix B: Test Tools': testing/11-2-tools.md
   - User Experience:
       - 1. Overview:
           - 1.1 Purpose: ux/1-1-purpose.md
