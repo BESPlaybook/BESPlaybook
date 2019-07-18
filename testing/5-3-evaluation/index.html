@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>5.3 Evaluation and Selection of Test Tools - BES Playbook</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../../main.css" type="text/css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "5.3 Evaluation and Selection of Test Tools";
+    var mkdocs_page_input_path = "testing/5-3-evaluation.md";
+    var mkdocs_page_url = null;
+    var mkdocs_base_url = "https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook";
+    var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
+  </script>
+  
+</head>
+
+<body class="bes-body " role="document">
+  <div class="bes-header">
+    <a href="../.." class="bes-header__logo"></a>
+    <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
+    
+    <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
+    <label for="bes-search-toggle" class="bes-search-toggle__label">
+      <span class="bes-search-toggle__search"></span>
+      <span class="bes-search-toggle__x"></span>
+    </label>
+    <div class="bes-header-search">
+          <div role="search">
+  <form class="bes-search-form" action="../../search/index.html" method="get">
+    <input type="text" name="q" placeholder="Search all Playbooks" />
+  </form>
+</div>
+    </div>
+    <ul class="bes-header-nav bes-playbook-nav" aria-label="main navigation">
+          <li data-url="/agile/1-1-purpose">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-purpose">
+            Agile
+            </a>
+          </li>
+          <li data-url="/testing/1-1-purpose">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-purpose">
+            Automated Testing
+            </a>
+          </li>
+          <li data-url="/ux/1-1-purpose">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+            User Experience
+            </a>
+          </li>
+          <li data-url="/agile-model/1-1-plays">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile-model/1-1-plays">
+            Agile Model-Driven Functionality Improvement
+            </a>
+          </li>
+          <li data-url="/modern/1-1-play-1">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
+            Automated Application Modernization
+            </a>
+          </li>
+    </ul>
+  </div>
+  
+  <div class="bes-body-columns">
+    
+    
+    <input type="checkbox" id="bes-nav-toggle" name="bes-nav-toggle" />
+    <label for="bes-nav-toggle" class="bes-nav-toggle__label">
+      <span class="bes-nav-toggle__hamburger"></span>
+      <span class="bes-nav-toggle__x"></span>
+    </label>
+    <nav class="bes-doc-nav-wrap">
+        <ul class="bes-playbook-mobile-nav bes-playbook-nav">
+              <li data-url="/agile/1-1-purpose">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-purpose">
+                Agile
+                </a>
+              </li>
+              <li data-url="/testing/1-1-purpose">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-purpose">
+                Automated Testing
+                </a>
+              </li>
+              <li data-url="/ux/1-1-purpose">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+                User Experience
+                </a>
+              </li>
+              <li data-url="/agile-model/1-1-plays">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile-model/1-1-plays">
+                Agile Model-Driven Functionality Improvement
+                </a>
+              </li>
+              <li data-url="/modern/1-1-play-1">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
+                Automated Application Modernization
+                </a>
+              </li>
+        </ul>
+        
+        <div class="bes-doc-nav" aria-label="navigation">
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<span>1. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/1-1-purpose/">
+  1.1 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/1-2-audience/">
+  1.2 Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/1-3-references/">
+  1.3 References
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. Agile Transformation</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/2-1-waterfall/">
+  2.1 Waterfall Background
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/2-2-introduction/">
+  2.2 Introduction
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. Applying Agile Methods and Mindset Within The Air Force</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-0-overview/">
+  3.0 Overview
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-1-contracting/">
+  3.1 Agile Contracting
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-2-stakeholder/">
+  3.2 Agile Stakeholder
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-3-projectmanagement/">
+  3.3 Project Management
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-4-delivery/">
+  3.4 Agile CDRLs and Delivery
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-5-metrics/">
+  3.5 Status Reporting
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Agile Architecture</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/4-1-architecture/">
+  4.1 Agile Management Tools
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>5. Agile Framework</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-1-backlog/">
+  5.1 Part I - Establish the Product Backlog (PB) and Constraints
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-2-methodology/">
+  5.2 Part II - Establish the Methodology
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-3-kanban/">
+  5.3 Kanban
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-4-xp/">
+  5.4 Extreme Programming
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-5-team/">
+  5.5 Part III - Establish the Team
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix A - Key Event Plays</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/6-1-scrum/">
+  6.1 Scrum
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/6-2-kanban/">
+  6.2 Kanban
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/6-3-xp/">
+  6.3 Extreme Programming
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>7. Appendix B - Key Personal Plays</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/7-1-lead/">
+  7.1 Agile Lead
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/7-2-owner/">
+  7.2 Product Owner
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/7-3-analyst/">
+  7.3 Business Analyst
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>8. Appendix C - Key Links</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/8-1-general/">
+  8.1 Agile in General
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/8-2-tools/">
+  8.2 Agile Tools
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>9. Appendix D - Agile Terminology</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/9-1-appendix-d/">
+  9.1 Agile Terminology
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>10. Appendix E - Glossary</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/10-1-appendix-e/">
+  10.1 Glossary
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<span>1. Plays</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/1-1-plays/">
+  1.1 Overview
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/2-1-intro/">
+  2.1 Introduction
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/2-2-problem/">
+  2.2 Problem Statement
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/2-3-purpose/">
+  2.3 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/2-4-scope/">
+  2.4 Scope
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/2-5-audience/">
+  2.5 Intended Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/2-6-benefits/">
+  2.6 Benefits
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. Agile Model-Driven Functionality Improvement</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/3-1-standards/">
+  3.1 Standards
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/3-2-methodologies/">
+  3.2 Methodologies
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/3-3-usecases/">
+  3.3 Common Use Case
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/3-4-lessons/">
+  3.4 Lessons
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/3-5-limitations/">
+  3.5 Limitations
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/3-6-recommendations/">
+  3.6 Recommendations
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Organization and Support</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/4-1-stakeholders/">
+  4.1 Key Stakeholders
+</a>
+                </li>
+                <li class=" subsection">
+<span>4.2 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/4-2-team/">
+  4.2 Team Structure
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/4-3-support/">
+  4.3 Support
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>5. Lifecycle Process</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/5-1-bestpractices/">
+  5.1 Best Practices
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Project Guidance</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/6-1-phases/">
+  6.1 Phases
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/6-2-risk/">
+  6.2 Risk Identification and Management
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>7. Management and Metrics</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/7-1-definekpi/">
+  7.1 Define KPI's
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>8. Solution Design</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/8-1-requirements/">
+  8.1 Requirements Analysis
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/8-2-techdesign/">
+  8.2 Technical Design
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/8-3-cybersecurity/">
+  8.3 Cybersecurity Considerations
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>9. Determining the Best "Low-Code" Solution Process</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/9-1-solutions/">
+  9.1 Identifying Viable Solutions
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/9-2-analysis/">
+  9.2 Conducting Analysis
+</a>
+                </li>
+                <li class=" subsection">
+<span>9.3 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/9-3-cots/">
+  9.3 Help COTS Too Is Available - Example List
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>10. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/10-appendix-a/">
+  10.1 Appendix A: Sample Design 1
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/10-appendix-b/">
+  10.2 Appendix B: Sample Design 2
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile-model/10-appendix-c/">
+  10.3 Appendix C: Checklists and Templates
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list  bes-doc-nav__list--active ">
+                      <li class="">
+<span>1. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../1-1-purpose/">
+  1.1 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-2-audience/">
+  1.2 Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-3-benefits/">
+  1.3 Benfits of Automated Testing
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. Test Automation</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../2-1-what/">
+  2.1 What is Automation?
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../2-2-lifecycle/">
+  2.2 Automation in Software Lifecycle Methodologies
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../2-3-benefits/">
+  2.3 Benefits to AF
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../2-4-pitfalls/">
+  2.4 Avoiding Pitfalls
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. Roles in Test Automation</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../3-1-acquisitions/">
+  3.1 Acquisitions
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-2-management/">
+  3.2 Management Support
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-3-technical/">
+  3.3 Technical Support
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-4-domain/">
+  3.4 Domain Support
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-5-team/">
+  3.5 Automation Team Members
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Scope of Test Automation</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../4-1-tools/">
+  4.1 Tools Target Areas
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../4-2-levels/">
+  4.2 Test Levels
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../4-3-types/">
+  4.3 Test Types
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="current">
+<span>5. Developing A Test Automation Solution</span>
+    <ul class="current">
+                <li class="">
+<a class="reference internal"\
+  href="../5-1-approach/">
+  5.1 Approaches to Test Automation
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../5-2-architecture/">
+  5.2 Overall Architectural Considerations
+</a>
+                </li>
+                <li class="current">
+<a class="reference internal current"\
+  href="./">
+  5.3 Evaluation and Selection of Test Tools
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Migrating From Manual to Automated Testing</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../6-1-what/">
+  6.1 What Makes Sense to Automate
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-2-when/">
+  6.2 When Should Automation Occur
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-3-newtests/">
+  6.3 Criteria for Creating New Automated Tests
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-4-manualtests/">
+  6.4 Criteria for Converting Manual Tests to Automation
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-5-transition/">
+  6.5 Transitioning Staff to Automation
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>7. Test Automation Development Lifecycle</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../7-1-phases/">
+  7.1 Phases in Automation Development
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../7-2-appdev/">
+  7.2 Similarities to Application Development
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../7-3-manualtests/">
+  7.3 Similarities to Manual Testing
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>8. Effectiveness Measurements</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../8-1-measurements/">
+  8.1 Effectiveness Measurements
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>9. Reporting</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../9-1-reporting/">
+  9.1 Reporting
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>10. Looking Ahead</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../10-1-momentum/">
+  10.1 Building Momentum in Test Automation
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../10-2-landscape/">
+  10.2 Keeping Abreast of the Technology Landscape
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../10-3-improvements/">
+  10.3 Continuous Improvement Activities
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../10-4-process/">
+  10.4 Making the Process Repeatable
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>11. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../11-1-resources/">
+  11.1 Appendix A: Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../11-2-tools/">
+  11.2 Appendix B: Test Tools
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<span>1. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/1-1-purpose/">
+  1.1 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/1-2-audience/">
+  1.2 Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/1-3-benefits/">
+  1.3 Benefits of UX
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/1-4-maturity/">
+  1.4 Levels of Design Maturity
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. User Experience</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/2-1-what-is-ux/">
+  2.1 What is UX?
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/2-2-disciplines/">
+  2.2 UX Disciplines & Project Roles
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/2-3-lifecycle/">
+  2.3 UX in Software Lifecycle Methodologies
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. UX Principles & Methodology</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-1-principles/">
+  3.1 UX Principles
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-2-methodology/">
+  3.2 UX Methodology
+</a>
+                </li>
+                <li class=" subsection">
+<span>3.3 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-3-research/">
+  3.3 Phase 1: Research & Discovery
+</a>
+                </li>
+                <li class=" subsection">
+<span>3.4 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-4-conceptual/">
+  3.4 Phase 2: Conceptual Design
+</a>
+                </li>
+                <li class=" subsection">
+<span>3.5 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-5-detailed/">
+  3.5 Phase 3: Detailed Design
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-6-support/">
+  3.6 Phase 4: Support
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Web Design Standards</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-1-introduction/">
+  4.1 Introduction
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-2-guidelines/">
+  4.2 General Interface Guidelines
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-3-grids/">
+  4.3 Grids & Breakpoints
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-4-branding/">
+  4.4 Branding/Logo
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-5-headers/">
+  4.5 Global Headers & Footers
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-6-layouts/">
+  4.6 Page Layouts
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-7-typography/">
+  4.7 Typography
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-8-color/">
+  4.8 Color
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-9-icons/">
+  4.9 Iconography
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-10-imagery/">
+  4.10 Imagery
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-11-buttons/">
+  4.11 Buttons & Controls
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-12-mobile/">
+  4.12 Key Mobile Standards
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-13-accessibility/">
+  4.13 Accessibility
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>5. Component Library</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-1-intro/">
+  5.1 Introduction
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-2-nav/">
+  5.2 Global Navigation
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-3-icons/">
+  5.3 Icons
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-4-buttons/">
+  5.4 Buttons & Labels
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-5-modules/">
+  5.5 Content Modules
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-6-alerts/">
+  5.6 Alerts & Messaging
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-7-forms/">
+  5.7 Forms & Controls
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-8-visualizations/">
+  5.8 Visualizations
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-9-mobile/">
+  5.9 Key Mobile Components
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/6-1-appendix/">
+  6.1 Additional Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/6-2-layouts/">
+  6.2 Alpha Standard Layouts
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../devops/1-1-devops/">
+  1. Overview
+</a>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cyber/1-1-cyber/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cloud/1-1-cloud/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../acquistions/1-1-acquistions/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<span>1. Plays</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-1-play-1/">
+  1.1 Applications Future Lifespan
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-2-play-2/">
+  1.2 Technical Baseline
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-3-play-3/">
+  1.3 Modernization Options
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-4-play-4/">
+  1.4 Target Application Solution
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-5-play-5/">
+  1.5 Modernization and Migration Plan
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-6-play-6/">
+  1.6 Executing the Plan
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-1-intro/">
+  2.1 Introduction
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-2-problem/">
+  2.2 Problem Statement
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-3-purpose/">
+  2.3 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-4-scope/">
+  2.4 Scope
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-5-audience/">
+  2.5 Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-6-benefits/">
+  2.6 Benefits
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. Automated Application Modernization</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-1-guidance/">
+  3.1 Guidance
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-2-standards/">
+  3.2 Standards
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-3-common/">
+  3.3 Common Use Case
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-4-approaches/">
+  3.4 Approaches
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-5-methodologies/">
+  3.5 Methodologies
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-6-patterns/">
+  3.6 Patterns
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-7-barriers/">
+  3.7 Barriers and Challenges
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-8-recommendations/">
+  3.8 Recommendations
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-9-lessons/">
+  3.9 Lessons
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-10-limitations/">
+  3.10 Limitations
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Modernization Tools</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/4-1-tooltypes/">
+  4.1 Tool Types
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/4-2-toolmatrix/">
+  4.2 Tool Matrix
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>5. Lifecycle Processes</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/5-1-best/">
+  5.1 Best Practices
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Organization and Support</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/6-1-project/">
+  6.1 Project Team
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/6-2-tech/">
+  6.2 Technical Team
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/6-3-support/">
+  6.3 Support
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/6-4-stakeholders/">
+  6.4 Stakeholders
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>7. Determining the Best Modernization Solution</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/7-1-solutions/">
+  7.1 Identifying Viable Solutions
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/7-2-alternatives/">
+  7.2 Analysis of Alternatives (AoA) Guidance
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>8. Solution Design</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/8-1-requirements/">
+  8.1 Requirements
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/8-2-tech/">
+  8.2 Technical Design
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/8-3-cybersecurity/">
+  8.3 Cybersecurity
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>9. Project Guidance</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/9-1-phases/">
+  9.1 Phases
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/9-2-risk/">
+  9.2 Risk Identification and Management
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>10. Measurement and Metrics</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/10-1-definekpi/">
+  10.1 Define KPIs
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>11. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/11-appendix-a/">
+  11.1 Appendix A: Sample Design 1
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/11-appendix-b/">
+  11.2 Appendix B: Sample Design 2
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/11-appendix-c/">
+  11.3 Appendix C: Checklists and Templates
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+        </div>
+        
+    </nav><!-- /bes-doc-nav -->
+
+    <section class="bes-content-wrap">
+      
+      <div class="bes-content">
+        
+          <blockquote>
+<h1 id="53-evaluation-and-selection-of-test-tools"><strong>5.3</strong> Evaluation and Selection of Test Tools</h1>
+</blockquote>
+<h5 id="531-tool-choices">5.3.1 Tool choices</h5>
+<p>Testing tools are available from a number of sources. These include: commercial vendors, open source, and custom built. Each source brings with it possible 
+benefits and limitations. For example, a commercial test tool may be rich in features and offer good support, but require a significant initial and ongoing 
+financial investment for license, maintenance, and support. An open source solution may provide the functionality needed at a given moment, but may lack the 
+ability to expand to meet future needs. Custom solutions, which are either contracted out or developed by the government, will be purpose-built and target key 
+areas needing automation.  However, the burden of maintaining, correcting, and expanding such a solution will fall to the government to direct either through 
+internal resources or through additional contractor funding.</p>
+<p>Appendix B: Test Tools provides a listing of tools frequently found to perform well. Each project will have its own needs and will need to evaluate the fit to a 
+given requirement.</p>
+<p><strong>Open Source Software (OSS)</strong><br/>
+The OSS category of software products has many options available for the various functional and non-functional requirements for test automation 
+(as described in Chapter 4 Scope of test automation). OSS test tools are updated by a community of contributors, and keeping abreast of the changes ensures that 
+the tool is functioning optimally. Many OSS test tools are have been developed to support a specific environment. For example, there are tools to support browser 
+based testing and tools for mobile application testing. A few tools may provide support for multiple environments, but that is more commonly seen in commercial 
+test tools. (see Defense Acquisition Policy, DoD Instruction 5000.75)</p>
+<p>OSS test tools have expanded rapidly over the years and can meet many enterprise testing needs. The U.S. Government supports the use of OSS solutions to meet 
+information technology needs, as addressed in the Federal Source Code Policy (https://sourcecode.cio.gov/).</p>
+<p><strong>Commercial off the Shelf (COTS)</strong><br/>
+Commercial software testing tools developed and supported by vendors have been around for many years. These tools tend to be fully featured and often support 
+multiple environments (e.g., browsers, terminals, API, mobile, etc.). Ideally, there would be one tool that offers the tester capabilities to test all software. 
+In reality, even those tools that cover a wide range of environments may support some better than others. So when evaluating a tool across multiple environments, 
+a separate evaluation will need to be made to see how well each environment is supported. By using a paid license and maintenance model, COTS tools provide for 
+research and development to fund a steady stream of improvements, feature additions, and defect patching. A well-funded organization has the resources to do this 
+and keep the tools current.</p>
+<p>COTS vendors often have multiple test tools in their catalog to support various testing activity (e.g. functional testing, load testing, test management). These 
+tools are often integrated with one another, such as keeping all test artifacts under configuration version control through a test management module.</p>
+<p><strong>Government of-the-shelf (GOTS)</strong>
+The GOTS solution is one that has been engineered to meet a specific need. Most often this level of effort is only undertaken when an exhaustive evaluation of 
+existing COTS and OSS solutions shows no matches. The GOTS solution Government directed and can be developed internally with technical staff or via subcontract 
+to an external entity. These solutions vary in scope and features and it is often difficult to know what may be available as no centralized catalog exists that 
+lists them.</p>
+<p>See Appendix B: Test Tools for commonly used test tools by government and industry.</p>
+<h6 id="532-test-tool-evaluation">5.3.2 Test tool evaluation</h6>
+<p>In order to properly evaluate test automation tools we need to make sure we identify the correct quality criteria that will help identify the proper fit for the 
+project or program. </p>
+<p><strong>Environment</strong></p>
+<p>Each environment presents unique opportunities and challenges for the implementation of test automation tools. Environments may include multiple platforms to 
+support workstations, laptops, and mobile tables and phones. Each of these platforms often will run a different operating system and the software implementation, 
+whether native or through a browser (which are also native to the device), will dictate the functionality to that platform. When evaluating test automation tools, 
+we need to be aware of our complete needs for the environment, including all platforms and devices that ultimately might be required. Be aware that tools perform 
+differently across devices so a prioritization of which device testing should be automated first will help ensure that those most critical platforms can be 
+implemented successfully.</p>
+<p><strong>Test Types</strong></p>
+<p>Types and test levels are discussed in sections 4.2 and 4.3 and need to be considering when evaluating test automation tools. This includes defining the types 
+of tests that are candidates for automation across test levels. Tools are purpose built, and each combination of test type/test level may require re-evaluation 
+of a given test tool selected for a prior test type/test level pairing.</p>
+<p><strong>Technology</strong></p>
+<p>Test tools exist to support a variety of older and current technologies (e.g. terminals, text UIs, graphical UIs, browsers, etc.) Some tools support many 
+technologies within one product suite. These are most often COTS tools (see section 6.3.1) where a vendor's tools evolve technology to meet continuing technology needs.</p>
+<p>However, a bundled solution suite may not necessarily contain "best-in-class" for each technology that is supported. An a-la-carte approach to find a specific tool for 
+each technology stack that needs testing may ultimately provide a more satisfactory solution, even where integration amongst disparate tools may be required. </p>
+<p><strong>Language</strong></p>
+<p>Most tools provide customization through programmability. In this way they are similar to Interactive Development Environments (IDEs) used by developers to design 
+and build applications. With automation we are building an application too, one that when run automates the execution of testing. Common languages used by test tools 
+include Java, Python, C#, C++, VBScript, etc., with some tools supporting multiple languages. Languages offer a range of features and flexibility and a range of effort 
+to learn them. Identifying tools with the right balance of features and flexibility as they pertain to the knowledge and skills in the organization are key to using 
+a specified tool effectively.</p>
+<p><strong>Reporting</strong></p>
+<p>When we look at the reporting features of tools we want evaluate both test reporting and logging functionality.</p>
+<p>The logging function which is often undervalued or not evaluated and is important in determining if errors occurred specific to the automation of tests. The logging 
+function is an audit trail that can be examined to know exactly what occurred doing execution, irrespective of any application criteria being examined. Often the 
+logging function can be customizable to provide specific information that may be required for analysis.</p>
+<p>For reporting,  features should include meaningful displays of data and analysis from which decisions can be made. These may require additional test runs in order to 
+show varying parameters or cumulative data. Most tools have a basic level of on-demand reporting but the better tools will allow for the customization of reporting. 
+Dashboards also provide reporting, most often in a graphical or table based approach where application health is readily displayed. Where other reporting systems 
+exist, exporting data from the tool may be necessary in order to integrate the results with project-level metrics required by project management for planning and 
+reporting purposes.</p>
+<p><strong>Ease of Use</strong></p>
+<p>Test tools should be intuitive and easy to understand and use. They should be well documented so that common answers to questions and techniques can be quickly 
+identified. For example, one may need to know what function is used to verify the content on a calendar widget or how to export a test report in csv format.</p>
+<p>Although some test tools may claim that there is no need to use scripting for test development, most medium to complex test requirements will likely require a 
+level of scripting that makes the test perform to meet standards and requirements. Therefore, "ease of use" is a relative term. For those automators with strong 
+programming skills it will be easy to develop scripts with a test tool. However, for the traditional manual tester, the requirement to write program code may be 
+difficult and counterproductive to their domain-specific skills.</p>
+<p><strong>Sourcing</strong></p>
+<p>As defined in section 6.3.1 tools are available form a variety of sources. These can include COTS, GOTS, and OSS. Each category may have very good solutions. 
+The solution needs to include the sourcing of the tool, the training required for the tool, the ongoing maintenance requirements to the tool, and the support 
+available for the tool (in the form of technical support, product updates, etc.)</p>
+<p><strong>Support</strong></p>
+<p>Support for test tools can be available from many sources. Vendors often have dedicated support sites that allow logging of issues. These are normally restricted 
+to customers paying for support, either directly or indirectly via maintenance contracts. Additionally forums exist on the internet that focus specifically on 
+particular testing tools. These forums may not be a reliable place for answers as contributions are made by volunteers who may or may not have the knowledge to 
+answer correctly.</p>
+<p><strong>Investment</strong></p>
+<p>Test tools from commercial entities have a variety of licensing fees structures. These can include individual, per seat, and floating, among others. Understanding 
+the intended usage by your team will help define which license structure that is best for you. Additionally, commercial entities have support and maintenance fees. 
+Support allows for technical questions or issues to be submitted and responded to, while maintenance usually provides for minor and major updates to the testing 
+tool. Working with the most recent version of a tool will often help resolve technical issues (e.g., compatibility, defects, etc.). Training should also be included 
+as a cost, both for vendor and open source solutions.</p>
+<p><strong>EVALUATION TABLES</strong></p>
+<p>Evaluation of the above criteria can be reduced to a table indicating the relative importance for each category, with a total weight at 100%. As tools are 
+evaluated, completing the table helps to compare one tool against another tool objectively.
+<img alt="weight" src="weight.jpg" /><br/>
+<em>(sample values for illustration)</em></p>
+<p>Categories should be rated for how closely they meet the intended requirements. A score allows the category to show a strength or weakness in meeting the 
+category requirement. Use of a scoring system ranging from 0 to 5 where each value indicates alignment to the requirement score.
+<img alt="score" src="score.jpg" /><br/>
+Finally, no tool evaluation is complete without trying the tool out in the intended environment where there is a need to automate. This will ensure that 
+the tool really does work as intended.</p>
+<h5 id="533-proof-of-concept">5.3.3 Proof-of-concept</h5>
+<p>A proof of concept (PoC) is the first step in understanding if a given test tool meets the anticipated needs of the project. With a PoC we want to ensure that 
+the technology that we've provisionally selected actually works in the intended environment. This is key as any prior demonstration of the tool, however capable, 
+needs to now show the same capability in the intended environment.</p>
+<h5 id="534-test-tool-prototypes">5.3.4 Test tool prototypes</h5>
+<p>A prototype takes the PoC further along by automating a narrowly defined set of functionality from a system where automation is to take hold. The prototype helps 
+the project team understand the complexities of implementation in a timeframe that will not drain excessive resources or funding. The prototype shows the way ahead 
+and serves to realign expectations of how long it actually takes to get test built for automation. The lessons learned from the prototype will bring greater efficiency 
+to the next phase of automation.</p>
+<h5 id="535-tool-training-and-support">5.3.5 Tool training and support</h5>
+<p>Success in automation requires an overall understanding of testing, technology, and the features and functions of specific testing tools in meeting the stated 
+requirements. Appendix B: Test Tools provides a listing of tools that have been shown to be successful across projects and programs. Appendix A: Resources provides 
+additional resources that cover education and certification around testing best practices and test tools.</p>
+<p>Combining education and certification with hands-on test tool knowledge empowers the test team to develop purpose-built solutions that align with project and program 
+needs.</p>
+        
+      </div>
+
+    </section>
+
+  </div><!-- /bes-body-colums -->
+
+  <footer>
+  <div class="bes-footer__link-group">
+    <h4>AFLCMC/BES</h4>
+    <ul>
+        <li><a href="https://www.wpafb.af.mil/aflcmc">Air Force Life Cycle Management Center (AFLCMC)</a></li>
+        <li><a href="https://www.airforcebes.af.mil">Air Force Business and Enterprise Systems (BES)</a></li>
+    </ul>
+  </div>
+
+
+  <div class="bes-footer__link-group bes-footer__playbooks">
+    <h4>BES Playbooks</h4>
+    <ul>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-purpose">
+          Agile
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-purpose">
+          Automated Testing
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+          User Experience
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile-model/1-1-plays">
+          Agile Model-Driven Functionality Improvement
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
+          Automated Application Modernization
+          </a>
+        </li>
+    </ul>
+  </div>
+  
+
+</footer>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+
+</body>
+</html>
