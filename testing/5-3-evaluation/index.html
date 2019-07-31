@@ -58,14 +58,14 @@
             User Experience
             </a>
           </li>
-          <li data-url="/agile-model/1-1-plays">
-            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile-model/1-1-plays">
-            Agile Model-Driven Functionality Improvement
-            </a>
-          </li>
           <li data-url="/modern/1-1-play-1">
             <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
             Automated Application Modernization
+            </a>
+          </li>
+          <li data-url="/agile-model/1-1-plays">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile-model/1-1-plays">
+            Agile Model-Driven Functionality Improvement
             </a>
           </li>
     </ul>
@@ -96,14 +96,14 @@
                 User Experience
                 </a>
               </li>
-              <li data-url="/agile-model/1-1-plays">
-                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile-model/1-1-plays">
-                Agile Model-Driven Functionality Improvement
-                </a>
-              </li>
               <li data-url="/modern/1-1-play-1">
                 <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
                 Automated Application Modernization
+                </a>
+              </li>
+              <li data-url="/agile-model/1-1-plays">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile-model/1-1-plays">
+                Agile Model-Driven Functionality Improvement
                 </a>
               </li>
         </ul>
@@ -1425,7 +1425,7 @@
           <blockquote>
 <h1 id="53-evaluation-and-selection-of-test-tools"><strong>5.3</strong> Evaluation and Selection of Test Tools</h1>
 </blockquote>
-<h5 id="531-tool-choices">5.3.1 Tool choices</h5>
+<h2 id="531-tool-choices">5.3.1 Tool choices</h2>
 <p>Testing tools are available from a number of sources. These include: commercial vendors, open source, and custom built. Each source brings with it possible 
 benefits and limitations. For example, a commercial test tool may be rich in features and offer good support, but require a significant initial and ongoing 
 financial investment for license, maintenance, and support. An open source solution may provide the functionality needed at a given moment, but may lack the 
@@ -1434,16 +1434,16 @@ areas needing automation.  However, the burden of maintaining, correcting, and e
 internal resources or through additional contractor funding.</p>
 <p>Appendix B: Test Tools provides a listing of tools frequently found to perform well. Each project will have its own needs and will need to evaluate the fit to a 
 given requirement.</p>
-<p><strong>Open Source Software (OSS)</strong><br/>
-The OSS category of software products has many options available for the various functional and non-functional requirements for test automation 
+<h3 id="open-source-software-oss">Open Source Software (OSS)</h3>
+<p>The OSS category of software products has many options available for the various functional and non-functional requirements for test automation 
 (as described in Chapter 4 Scope of test automation). OSS test tools are updated by a community of contributors, and keeping abreast of the changes ensures that 
 the tool is functioning optimally. Many OSS test tools are have been developed to support a specific environment. For example, there are tools to support browser 
 based testing and tools for mobile application testing. A few tools may provide support for multiple environments, but that is more commonly seen in commercial 
 test tools. (see Defense Acquisition Policy, DoD Instruction 5000.75)</p>
 <p>OSS test tools have expanded rapidly over the years and can meet many enterprise testing needs. The U.S. Government supports the use of OSS solutions to meet 
 information technology needs, as addressed in the Federal Source Code Policy (https://sourcecode.cio.gov/).</p>
-<p><strong>Commercial off the Shelf (COTS)</strong><br/>
-Commercial software testing tools developed and supported by vendors have been around for many years. These tools tend to be fully featured and often support 
+<h3 id="commercial-off-the-shelf-cots">Commercial off the Shelf (COTS)</h3>
+<p>Commercial software testing tools developed and supported by vendors have been around for many years. These tools tend to be fully featured and often support 
 multiple environments (e.g., browsers, terminals, API, mobile, etc.). Ideally, there would be one tool that offers the tester capabilities to test all software. 
 In reality, even those tools that cover a wide range of environments may support some better than others. So when evaluating a tool across multiple environments, 
 a separate evaluation will need to be made to see how well each environment is supported. By using a paid license and maintenance model, COTS tools provide for 
@@ -1451,38 +1451,38 @@ research and development to fund a steady stream of improvements, feature additi
 and keep the tools current.</p>
 <p>COTS vendors often have multiple test tools in their catalog to support various testing activity (e.g. functional testing, load testing, test management). These 
 tools are often integrated with one another, such as keeping all test artifacts under configuration version control through a test management module.</p>
-<p><strong>Government of-the-shelf (GOTS)</strong>
-The GOTS solution is one that has been engineered to meet a specific need. Most often this level of effort is only undertaken when an exhaustive evaluation of 
+<h3 id="government-of-the-shelf-gots">Government of-the-shelf (GOTS)</h3>
+<p>The GOTS solution is one that has been engineered to meet a specific need. Most often this level of effort is only undertaken when an exhaustive evaluation of 
 existing COTS and OSS solutions shows no matches. The GOTS solution Government directed and can be developed internally with technical staff or via subcontract 
 to an external entity. These solutions vary in scope and features and it is often difficult to know what may be available as no centralized catalog exists that 
 lists them.</p>
 <p>See Appendix B: Test Tools for commonly used test tools by government and industry.</p>
-<h6 id="532-test-tool-evaluation">5.3.2 Test tool evaluation</h6>
+<h2 id="532-test-tool-evaluation">5.3.2 Test tool evaluation</h2>
 <p>In order to properly evaluate test automation tools we need to make sure we identify the correct quality criteria that will help identify the proper fit for the 
 project or program. </p>
-<p><strong>Environment</strong></p>
+<h4 id="environment">Environment</h4>
 <p>Each environment presents unique opportunities and challenges for the implementation of test automation tools. Environments may include multiple platforms to 
 support workstations, laptops, and mobile tables and phones. Each of these platforms often will run a different operating system and the software implementation, 
 whether native or through a browser (which are also native to the device), will dictate the functionality to that platform. When evaluating test automation tools, 
 we need to be aware of our complete needs for the environment, including all platforms and devices that ultimately might be required. Be aware that tools perform 
 differently across devices so a prioritization of which device testing should be automated first will help ensure that those most critical platforms can be 
 implemented successfully.</p>
-<p><strong>Test Types</strong></p>
+<h4 id="test-types">Test Types</h4>
 <p>Types and test levels are discussed in sections 4.2 and 4.3 and need to be considering when evaluating test automation tools. This includes defining the types 
 of tests that are candidates for automation across test levels. Tools are purpose built, and each combination of test type/test level may require re-evaluation 
 of a given test tool selected for a prior test type/test level pairing.</p>
-<p><strong>Technology</strong></p>
+<h4 id="technology">Technology</h4>
 <p>Test tools exist to support a variety of older and current technologies (e.g. terminals, text UIs, graphical UIs, browsers, etc.) Some tools support many 
 technologies within one product suite. These are most often COTS tools (see section 6.3.1) where a vendor's tools evolve technology to meet continuing technology needs.</p>
 <p>However, a bundled solution suite may not necessarily contain "best-in-class" for each technology that is supported. An a-la-carte approach to find a specific tool for 
 each technology stack that needs testing may ultimately provide a more satisfactory solution, even where integration amongst disparate tools may be required. </p>
-<p><strong>Language</strong></p>
+<h4 id="language">Language</h4>
 <p>Most tools provide customization through programmability. In this way they are similar to Interactive Development Environments (IDEs) used by developers to design 
 and build applications. With automation we are building an application too, one that when run automates the execution of testing. Common languages used by test tools 
 include Java, Python, C#, C++, VBScript, etc., with some tools supporting multiple languages. Languages offer a range of features and flexibility and a range of effort 
 to learn them. Identifying tools with the right balance of features and flexibility as they pertain to the knowledge and skills in the organization are key to using 
 a specified tool effectively.</p>
-<p><strong>Reporting</strong></p>
+<h4 id="reporting">Reporting</h4>
 <p>When we look at the reporting features of tools we want evaluate both test reporting and logging functionality.</p>
 <p>The logging function which is often undervalued or not evaluated and is important in determining if errors occurred specific to the automation of tests. The logging 
 function is an audit trail that can be examined to know exactly what occurred doing execution, irrespective of any application criteria being examined. Often the 
@@ -1492,48 +1492,48 @@ show varying parameters or cumulative data. Most tools have a basic level of on-
 Dashboards also provide reporting, most often in a graphical or table based approach where application health is readily displayed. Where other reporting systems 
 exist, exporting data from the tool may be necessary in order to integrate the results with project-level metrics required by project management for planning and 
 reporting purposes.</p>
-<p><strong>Ease of Use</strong></p>
+<h4 id="ease-of-use">Ease of Use</h4>
 <p>Test tools should be intuitive and easy to understand and use. They should be well documented so that common answers to questions and techniques can be quickly 
 identified. For example, one may need to know what function is used to verify the content on a calendar widget or how to export a test report in csv format.</p>
 <p>Although some test tools may claim that there is no need to use scripting for test development, most medium to complex test requirements will likely require a 
 level of scripting that makes the test perform to meet standards and requirements. Therefore, "ease of use" is a relative term. For those automators with strong 
 programming skills it will be easy to develop scripts with a test tool. However, for the traditional manual tester, the requirement to write program code may be 
 difficult and counterproductive to their domain-specific skills.</p>
-<p><strong>Sourcing</strong></p>
+<h4 id="sourcing">Sourcing</h4>
 <p>As defined in section 6.3.1 tools are available form a variety of sources. These can include COTS, GOTS, and OSS. Each category may have very good solutions. 
 The solution needs to include the sourcing of the tool, the training required for the tool, the ongoing maintenance requirements to the tool, and the support 
 available for the tool (in the form of technical support, product updates, etc.)</p>
-<p><strong>Support</strong></p>
+<h4 id="support">Support</h4>
 <p>Support for test tools can be available from many sources. Vendors often have dedicated support sites that allow logging of issues. These are normally restricted 
 to customers paying for support, either directly or indirectly via maintenance contracts. Additionally forums exist on the internet that focus specifically on 
 particular testing tools. These forums may not be a reliable place for answers as contributions are made by volunteers who may or may not have the knowledge to 
 answer correctly.</p>
-<p><strong>Investment</strong></p>
+<h4 id="investment">Investment</h4>
 <p>Test tools from commercial entities have a variety of licensing fees structures. These can include individual, per seat, and floating, among others. Understanding 
 the intended usage by your team will help define which license structure that is best for you. Additionally, commercial entities have support and maintenance fees. 
 Support allows for technical questions or issues to be submitted and responded to, while maintenance usually provides for minor and major updates to the testing 
 tool. Working with the most recent version of a tool will often help resolve technical issues (e.g., compatibility, defects, etc.). Training should also be included 
 as a cost, both for vendor and open source solutions.</p>
-<p><strong>EVALUATION TABLES</strong></p>
+<h4 id="evaluation-tables">EVALUATION TABLES</h4>
 <p>Evaluation of the above criteria can be reduced to a table indicating the relative importance for each category, with a total weight at 100%. As tools are 
-evaluated, completing the table helps to compare one tool against another tool objectively.
-<img alt="weight" src="weight.jpg" /><br/>
+evaluated, completing the table helps to compare one tool against another tool objectively.</p>
+<p><img alt="weight" src="../images/weight.jpg" /><br/>
 <em>(sample values for illustration)</em></p>
 <p>Categories should be rated for how closely they meet the intended requirements. A score allows the category to show a strength or weakness in meeting the 
-category requirement. Use of a scoring system ranging from 0 to 5 where each value indicates alignment to the requirement score.
-<img alt="score" src="score.jpg" /><br/>
-Finally, no tool evaluation is complete without trying the tool out in the intended environment where there is a need to automate. This will ensure that 
+category requirement. Use of a scoring system ranging from 0 to 5 where each value indicates alignment to the requirement score.</p>
+<p><img alt="score" src="../images/score.jpg" /><br/></p>
+<p>Finally, no tool evaluation is complete without trying the tool out in the intended environment where there is a need to automate. This will ensure that 
 the tool really does work as intended.</p>
-<h5 id="533-proof-of-concept">5.3.3 Proof-of-concept</h5>
+<h2 id="533-proof-of-concept">5.3.3 Proof-of-concept</h2>
 <p>A proof of concept (PoC) is the first step in understanding if a given test tool meets the anticipated needs of the project. With a PoC we want to ensure that 
 the technology that we've provisionally selected actually works in the intended environment. This is key as any prior demonstration of the tool, however capable, 
 needs to now show the same capability in the intended environment.</p>
-<h5 id="534-test-tool-prototypes">5.3.4 Test tool prototypes</h5>
+<h2 id="534-test-tool-prototypes">5.3.4 Test tool prototypes</h2>
 <p>A prototype takes the PoC further along by automating a narrowly defined set of functionality from a system where automation is to take hold. The prototype helps 
 the project team understand the complexities of implementation in a timeframe that will not drain excessive resources or funding. The prototype shows the way ahead 
 and serves to realign expectations of how long it actually takes to get test built for automation. The lessons learned from the prototype will bring greater efficiency 
 to the next phase of automation.</p>
-<h5 id="535-tool-training-and-support">5.3.5 Tool training and support</h5>
+<h2 id="535-tool-training-and-support">5.3.5 Tool training and support</h2>
 <p>Success in automation requires an overall understanding of testing, technology, and the features and functions of specific testing tools in meeting the stated 
 requirements. Appendix B: Test Tools provides a listing of tools that have been shown to be successful across projects and programs. Appendix A: Resources provides 
 additional resources that cover education and certification around testing best practices and test tools.</p>
@@ -1575,13 +1575,13 @@ needs.</p>
           </a>
         </li>
         <li>
-          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile-model/1-1-plays">
-          Agile Model-Driven Functionality Improvement
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
+          Automated Application Modernization
           </a>
         </li>
         <li>
-          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
-          Automated Application Modernization
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile-model/1-1-plays">
+          Agile Model-Driven Functionality Improvement
           </a>
         </li>
     </ul>
