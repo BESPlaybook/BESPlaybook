@@ -11,23 +11,22 @@ The role of management, at all levels, is key to the success of test automation 
 -	Adopt cross-enterprise "Best Practices" for sharing of test automation methods and technology
 -	Define contract structures and CLINs that promote use of automation
 
-#####3.2.1 Identifying and Funding Resources
+## 3.2.1 Identifying and Funding Resources
 
 From a funding perspective, there are three areas a manager should consider when planning for test automation. 
 
-**People**<br/>
-Who will be tasked to do the automation? And who will be implementing the testing tools framework? Government staff? Contractors? A combination? This needs to be 
-decided on up front as it will affect the process by which these resources are identified and the timeframe under which they can be brought in to accomplish the 
-work, including any training time required prior to project start.<br/> 
+### People
+Who will be tasked to do the automation? And who will be implementing the testing tools framework? Government staff? Contractors? A combination? This needs to be decided on up front as it will affect the process by which these resources are identified and the timeframe under which they can be brought in to accomplish the work, including any training time required prior to project start. 
+
 If the automation skillset is not easily found within government, a first step might be to contract the work out to an organization with expertise in this area. 
 This will save time and money, and avoid missteps.
 
-**Test Tools**<br/>
+### Test Tools
 Software test tools have costs associated with licenses, maintenance, training, and support. Even tools that are open source software will require maintenance, 
 training, and possibly support. However, the absence of an initial license fee may provide a significant cost savings (see section 6.3). This playbook will 
 describe industry standard testing tools and the trade-offs between open source versus Commercial-Off-The-Shelf (COTS) software.
 
-**Test Environments**<br/>
+### Test Environments
 Test environments where automated tools reside can include:
 -	An individual tester's workstation 
 -	A test lab with specific computers dedicated to automation

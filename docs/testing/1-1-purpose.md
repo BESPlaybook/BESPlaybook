@@ -16,8 +16,8 @@ There continues to be strong interest across the Services to investigate ways in
 DoD Instruction 5000.02 and 5000.75 through AFMAN 63-144 contain language that encourages the use of automated testing. With the move towards more flexible and 
 agile approaches to software development comes a greater urgency to implement test automation. This playbook addresses the desire to adopt test automation 
 with practical, experienced-based methods and best practices. 
-
-**Automation Playbook Benefits**
+ 
+### Automation Playbook Benefits
 
 -	Defines a common understanding of automation processes and terminology
 -	Establishes automation best practices to facilitate adoption by AF community 

@@ -6,5 +6,5 @@ KEY:<br/>
 **P** - Performance Testing/Monitoring<br/>
 **S** - Security Testing<br/>
 
-![tools](tool1.jpg)
-![tools2](tool2.jpg)
+![tools](images/tool1.jpg)
+![tools2](images/tool2.jpg)

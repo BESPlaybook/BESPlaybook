@@ -1,4 +1,4 @@
-###6.2 When Should Automation Occur
+> # **6.2** When Should Automation Occur
 
 Ideally, automation of tests should occur once we have a strong understanding of what needs to be tested, when have defined test cases, and when we've developed 
 test data for those test cases.
