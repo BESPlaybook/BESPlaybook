@@ -50,58 +50,58 @@ nav:
       - 10. Appendix E - Glossary:
           - 10.1 Glossary: agile/10-1-appendix-e.md
 
-  - Agile Model-Driven Functionality Improvement:
+  - Low-Code:
       - 1. Plays:
-          - 1.1 Overview: agile-model/1-1-plays.md
+          - 1.1 Overview: low-code/1-1-plays.md
       - 2. Overview:
-          - 2.1 Introduction: agile-model/2-1-intro.md
-          - 2.2 Problem Statement: agile-model/2-2-problem.md
-          - 2.3 Purpose: agile-model/2-3-purpose.md
-          - 2.4 Scope: agile-model/2-4-scope.md
-          - 2.5 Intended Audience: agile-model/2-5-audience.md
-          - 2.6 Benefits: agile-model/2-6-benefits.md
+          - 2.1 Introduction: low-code/2-1-intro.md
+          - 2.2 Problem Statement: low-code/2-2-problem.md
+          - 2.3 Purpose: low-code/2-3-purpose.md
+          - 2.4 Scope: low-code/2-4-scope.md
+          - 2.5 Intended Audience: low-code/2-5-audience.md
+          - 2.6 Benefits: low-code/2-6-benefits.md
       - 3. Agile Model-Driven Functionality Improvement:
-          - 3.1 Standards: agile-model/3-1-standards.md
-          - 3.2 Methodologies: agile-model/3-2-methodologies.md
-          - 3.3 Common Use Case: agile-model/3-3-usecases.md
-          - 3.4 Lessons: agile-model/3-4-lessons.md
-          - 3.5 Limitations: agile-model/3-5-limitations.md
-          - 3.6 Recommendations: agile-model/3-6-recommendations.md
+          - 3.1 Standards: low-code/3-1-standards.md
+          - 3.2 Methodologies: low-code/3-2-methodologies.md
+          - 3.3 Common Use Case: low-code/3-3-usecases.md
+          - 3.4 Lessons: low-code/3-4-lessons.md
+          - 3.5 Limitations: low-code/3-5-limitations.md
+          - 3.6 Recommendations: low-code/3-6-recommendations.md
       - 4. Organization and Support:
-          - 4.1 Key Stakeholders: agile-model/4-1-stakeholders.md
+          - 4.1 Key Stakeholders: low-code/4-1-stakeholders.md
           - 4.2 subpages:
-              - 4.2.1 Project Management Team: agile-model/4-2-1-management.md
-              - 4.2.2 Technical Team: agile-model/4-2-2-tech.md
-              - 4.2.3 Business Analyst SME's: agile-model/4-2-3-business.md
-          - 4.2 Team Structure: agile-model/4-2-team.md
-          - 4.3 Support: agile-model/4-3-support.md
+              - 4.2.1 Project Management Team: low-code/4-2-1-management.md
+              - 4.2.2 Technical Team: low-code/4-2-2-tech.md
+              - 4.2.3 Business Analyst SME's: low-code/4-2-3-business.md
+          - 4.2 Team Structure: low-code/4-2-team.md
+          - 4.3 Support: low-code/4-3-support.md
       - 5. Lifecycle Process:
-          - 5.1 Best Practices: agile-model/5-1-bestpractices.md
+          - 5.1 Best Practices: low-code/5-1-bestpractices.md
       - 6. Project Guidance:
-          - 6.1 Phases: agile-model/6-1-phases.md
-          - 6.2 Risk Identification and Management: agile-model/6-2-risk.md
+          - 6.1 Phases: low-code/6-1-phases.md
+          - 6.2 Risk Identification and Management: low-code/6-2-risk.md
       - 7. Management and Metrics:
-          - 7.1 Define KPI's: agile-model/7-1-definekpi.md
+          - 7.1 Define KPI's: low-code/7-1-definekpi.md
       - 8. Solution Design:
-          - 8.1 Requirements Analysis: agile-model/8-1-requirements.md
-          - 8.2 Technical Design: agile-model/8-2-techdesign.md
-          - 8.3 Cybersecurity Considerations: agile-model/8-3-cybersecurity.md
+          - 8.1 Requirements Analysis: low-code/8-1-requirements.md
+          - 8.2 Technical Design: low-code/8-2-techdesign.md
+          - 8.3 Cybersecurity Considerations: low-code/8-3-cybersecurity.md
       - 9. Determining the Best "Low-Code" Solution Process:
-          - 9.1 Identifying Viable Solutions: agile-model/9-1-solutions.md
-          - 9.2 Conducting Analysis: agile-model/9-2-analysis.md
-            # - : agile-model/9-b-1-besttools.md
+          - 9.1 Identifying Viable Solutions: low-code/9-1-solutions.md
+          - 9.2 Conducting Analysis: low-code/9-2-analysis.md
+            # - : low-code/9-b-1-besttools.md
           - 9.3 subpages:
-              - 9.3.1 Pega Platform: agile-model/9-3-1-pega.md
-              - 9.3.2 Appian Low-Code Platform: agile-model/9-3-2-appian.md
-              - 9.3.3 Mendix Low-Code Platform: agile-model/9-3-3-mendix.md
-              - 9.3.4 Microsoft PowerApps: agile-model/9-3-4-microsoft.md
-              - 9.3.5 OutSystems Low-Code Platform: agile-model/9-3-5-outsystems.md
-              - 9.3.6 Kony Quantum: agile-model/9-3-6-kony.md
-          - 9.3 Help COTS Too Is Available - Example List: agile-model/9-3-cots.md
+              - 9.3.1 Pega Platform: low-code/9-3-1-pega.md
+              - 9.3.2 Appian Low-Code Platform: low-code/9-3-2-appian.md
+              - 9.3.3 Mendix Low-Code Platform: low-code/9-3-3-mendix.md
+              - 9.3.4 Microsoft PowerApps: low-code/9-3-4-microsoft.md
+              - 9.3.5 OutSystems Low-Code Platform: low-code/9-3-5-outsystems.md
+              - 9.3.6 Kony Quantum: low-code/9-3-6-kony.md
+          - 9.3 Help COTS Too Is Available - Example List: low-code/9-3-cots.md
       - 10. Appendix:
-          - '10.1 Appendix A: Sample Design 1': agile-model/10-appendix-a.md
-          - '10.2 Appendix B: Sample Design 2': agile-model/10-appendix-b.md
-          - '10.3 Appendix C: Checklists and Templates': agile-model/10-appendix-c.md
+          - '10.1 Appendix A: Sample Design 1': low-code/10-appendix-a.md
+          - '10.2 Appendix B: Sample Design 2': low-code/10-appendix-b.md
+          - '10.3 Appendix C: Checklists and Templates': low-code/10-appendix-c.md
   - Automated Testing:
       - 1. Overview:
         - 1.1 Purpose: testing/1-1-purpose.md
@@ -279,8 +279,8 @@ extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
-  baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-  # baseurl: http://localhost:8000
+  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  baseurl: http://localhost:8000
 
   # This list
   playbooks:
@@ -299,8 +299,8 @@ extra:
     - name: Automated Application Modernization
       url: /modern/1-1-play-1
       icon: _assets/0_home_page_icon_automated_App_modern.svg
-    - name: Agile Model-Driven Functionality Improvement
-      url: /agile-model/1-1-plays
+    - name: Low-Code
+      url: /low-code/1-1-plays
       icon: _assets/0_home_page_icon_agile_Model-Driven.svg
     # - name: DevSec Ops
     #   url: /devops/1-1-devops
