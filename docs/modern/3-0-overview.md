@@ -1,0 +1,3 @@
+> # **3.** Automated Application Modernization
+
+AAM is a system and software engineering approach that uses automated tools to efficiently modernize applications.  AAM relies on software baseline configuration discovery tools, software code and database conversion tools, and re-platforming tools to perform the actual application software transformation.  For these tools to produce high quality results, functional and technical subject matter experts must work together to ensure the translation rules are properly identified and included in the AAM tools.

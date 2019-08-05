@@ -1,16 +1,13 @@
 ># **2.4** Scope
 
-- Concept of Operations (CONOPs)
-- Survey of state of the art and practice within industry and DoD
-- Conditions for Applications to use Model Driven Improvements
-- Business Value and Return on Investment (ROI)
-- Recommended Business Process Management (BPM) Architecture
-- Model Driven Functionality Improvement Guidance
-- Limitations of Model Driven Functionality Improvement
-- Survey of Best Available Tools and Methods 
-- Tool Recommendations for AF Logistics
-- Processes and Templates
-- Recommended Team Organization by Project Phase
-- Results and Examples of applying tools to AF pathfinder Java application
-- Findings and Recommendations
-- Recommended Way Forward
+The Low-Code Playbook Chapter describes approaches and methods to apply visual model-driven software development constructs to modernize legacy applications or develop new systems to enable digital transformation strategies using agile processes.  
+
+This playbook chapter includes:
+- Description of Low-Code application development core concepts
+- Benefits of Low-Code framework implementation
+- Limitations of Low-Code frameworks
+- Low-Code project guidance using Agile processes
+- Low-Code systems architecture considerations
+- Low-Code tools overview and evaluation criteria guidance
+- Air Force Low-Code pathfinder application analysis
+- Conclusions and Recommendations

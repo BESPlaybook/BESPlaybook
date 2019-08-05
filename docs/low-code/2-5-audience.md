@@ -1,11 +1,8 @@
 ># **2.5** Intended Audience
 
-The primary audience for this document is government project management teams and solutions architects determining how to enable an Agile Model-Driven Development approach utilizing “Low Code” platforms to modernize and integrate AF applications.
+While this playbook can provide value to all personnel involved in a software development project, the primary audience for this playbook are those individuals who are responsible for the planning, development, and management of strategic digital transformation projects that employ or might benefit from an Agile Low-Code approach to systems modernization and development projects.
 
-## Authors Notes: (Need to elaborate on)
+For Program Managers and those in similar roles, this playbook will provide a foundation of knowledge to enable more effective planning and support for programs where Business Process Automation (BPA), Robotic Processes Automation (RPA), or Web Enablement & Mobile Application Development concepts might be required. 
 
-- Program Managers
-- Project Managers using Agile concepts to manage “Low Code” platform deliveries
-- Solutions Architects – Design considerations for “Low Code” platforms
-- Business Analysists (Business Process SME’s) – “Functionals” – Enabling them to use “Low Code” GUI based platform to rapidly implement new requirements to reduce development cycles.
-- Developers – Their role in producing integration modules that can be easily implemented by Business Analysts 
+For software engineers and those in similar roles, this playbook will provide a valuable resource for design patterns and guidelines from which applications can be efficiently developed, enabling faster design decisions and more rapid deployment while ensuring consistency and quality across all digital experiences delivered by Logistics Information Systems.
+

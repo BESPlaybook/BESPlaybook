@@ -1,0 +1,3 @@
+> # **5.1** Agreement Processes
+
+The PEO BES PMOs are producers of software application systems on behalf of users. The PMOs (acting as an acquirer) can task contractors (acting as a supplier) for products or services. This is achieved using agreements (i.e. Task Order Contracts). Agreements allow both acquirers and suppliers to realize value and support business strategies for their organizations. The Agreement processes are organizational acquisition processes defined in the PEO BES Business Process directory (BPD) that apply outside of the span of a project’s life, as well as for a project’s lifespan. **Figure 5-1** lists the processes contained in this process group.
