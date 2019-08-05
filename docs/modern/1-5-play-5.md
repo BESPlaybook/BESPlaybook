@@ -1,14 +1,25 @@
 ># **1.5** Play 5: Formulate the application modernization and migration plan (how to move from “As-Is” to “To-Be” state)
 
-This play develops the plan for migrating the application from the legacy (determined in Play 2) to modernized (determined in Play 3, 4) state using automated tools.
+This play develops the plan for migrating the application from the legacy (determined in Play 2) to modernized (determined in Play 3, 4) state using automation.
 
 ## Checklist
-- Create a work plan and project schedule to perform the technical modernization tasks discussed in Play 4.  Choose the best project methodology for the unique requirements of this project (ie: agile, DAD, waterfall, etc; note: hybrid models such as DAD have been used with success within DoD).
-- Develop a risk management plan.  Identify and manage risks.
+- Create the development environment.
+    - Create proper networking solution (consistent with production solution).
+    - Allow network access to the enterprise computing services (PaaS) needed (ie: IDAM, ESB, others).
+    - Install COTS products to be used.
+
+- Map business logic components from the legacy to modernized application.
+    - Use automated software conversion tools to do the bulk of the work.  Note: these tools are specialized, and the right tool(s) must be used for the task at hand.  More about these tools are included in the complete playbook.
+
+- Choose a data store (database) that best meets the applications needs.
+    - Map data structures from the legacy to modernized application.
+    - Migrate the data from the legacy to modernized data store (database).
+
+- Transform interfaces if necessary.  Ensure interfaces can be tested from development and test environments.
+
+- Create plan for lean documentation using automated and digital means (to maximum extent possible) for: system design, application design, database design, interface design, test cases, operator’s manual, help/service desk guides 
+
 
 ## Key Questions
-- Is this plan realistic?  Have all tasks been scoped and bounded with success (done) criteria?
-- What is the basis of estimate?
-- What are the key execution risks?  How are they being mitigated?  How are they reported to stakeholders?
-- How will status be collected and communicated to stakeholders?
-- Has management reserve / margin been properly added to the plan?
+- Are all lifecycle processes defined and documented?
+- What activities are not using automation?  Why?

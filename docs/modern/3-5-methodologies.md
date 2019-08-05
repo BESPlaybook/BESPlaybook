@@ -18,4 +18,10 @@ Once it has been determined by the application owner that the application needs 
     - Re-platforming is a type of refactoring that simply migrates an application from one platform to another.  This is usually done to get off legacy platform and onto modern cloud type platforms.
     - Re-platforming moves an application from one platform to another.  For example, consider moving an application off the GCSS-AF platform to a cloud provided Platform as a Service (PaaS).  In this example, the application may be migrated to a new operating system (ie: Solaris to Linux), the application’s database may be migrated from on-premise hosted Oracle RDBMS to a cloud Database as a Service (DBaaS).
 
-[table here]
+
+| Methodology | Benefits | Drawbacks |
+| --- | --- | --- |
+| Agile Methodology (SAFe) | - Provides an Agile contracts acquisition approach that implements iterative, timeboxed Agile development methodologies of Scrum, Kanban and XP. | - Requires specialized SAFe training to support Agile Teams, programs, and Program Portfolio Management. |
+| Application Analysis and Assessment | - Provides true view of application and challenges | - Takes time (~4 - 8 weeks)<br/> - Requires specialized Discovery tools and skills |
+| Automated Code Conversion | - Retains and reuses valuable legacy business logic<br/> -Use iterative conversions to improve code baseline and app architecture | - Does not address underlying app architecture issues, deeper refactoring required |
+| Re-Platforming | - Migrate to new platform quickly<br/> -Perhaps migrate to cloud<br/> -Likely reduce cost via migration to cloud and use of “as-a-services” | - Only re-platforms application, additional refactoring is required to correct architectural and other defects |

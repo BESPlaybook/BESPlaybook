@@ -4,18 +4,24 @@ Building on the knowledge gained in the previous plays, this play begins the sol
 
 ## Checklist
 - Perform Solution Discovery and Design and identify viable solution options.
-- Perform an analysis of alternatives (AoA) for viable solution options to determine the best option.
+    
+    - Solution Options should align with BES BPD best practices, Air Force preferred technology roadmap, standard hosting (such as CIE and CCE models) and take into account enterprise license agreements and terms.
+    - If Mainframe Legacy System, identify UNISYS (or IBM) Mainframe Modernization Solutions Options; i.e. code transformation and refactoring, open architecture mainframe transaction processing emulators, Mainframe Cloud Frameworks, replacement with Low Code COTS package, and database migration connectors 
+   - If Oracle Solaris or HP-UX legacy Systems identify open architecture Cloud Architecture Reference Models, automated code refactoring and database migration connectors.
 
+- Perform an analysis of alternatives (AoA) for viable solution options to determine the best option.
+    
     - Begin by creating a scoring matrix and evaluation method that measures the key solution parameters as objectively as possible.
     - Ensure the matrix and method appropriately focuses on the value of applying automated tools over manual labor tasks.
     - Analyze and score each of the viable solution options using the matrix and method.
     - Report findings and recommendations to the appropriate stakeholders.
+
 - Perform Proof of Concept (POC) projects to validate options and assumptions especially with respect to the use of automated software modernization and engineering tools for the solution options that scored the highest.
-- Identify automated tools and methods to modernize the application.  Work with vendors and see demonstrations of the most encouraging tools.
-- Recommend the best solution option and gain concurrence from the application owner.  This will likely be an iterative process. 
+- Identify automated tools (see Section 4) and methods to modernize the application.  Work with vendors and see demonstrations of the most encouraging tools.  
 
 ## Key Questions
-- What are the preferred enterprise IT technologies that should be considered for the modernized application?
+- What are the BES preferred enterprise IT technologies that should be considered for the modernized application?
 - What IT licenses does the enterprise invest in?  What will future licensing agreements be?
 - Does the enterprise desire to move to open source products?  Under what conditions?
 - What environments must the modernized application operate in?  Consider: development, test, pre-production, production and other environments.
+
