@@ -1,4 +1,4 @@
-> # **5.3** Technical Management processes
+> # **5.3** Technical Management Processes
 
 The Technical Management processes are concerned with managing the resources and assets allocated by organization management and with applying them to fulfill the agreements into which the organization or organizations enter. The Technical Management processes relate to the technical effort of projects, in particular to project planning in terms of cost, schedule and outcome achievements, to the assessment of actions to help ensure that they comply with plans and performance criteria and to the identification and selection of corrective actions that recover shortfalls in progress and achievement. These processes are used to establish and perform technical plans for the project, manage information across the technical team, assess technical progress against the plans for the software system, products, or services, control technical tasks through to completion, and aid in decision‐making.
 

@@ -3,6 +3,7 @@
 The Low-Code Playbook Chapter describes approaches and methods to apply visual model-driven software development constructs to modernize legacy applications or develop new systems to enable digital transformation strategies using agile processes.  
 
 This playbook chapter includes:
+
 - Description of Low-Code application development core concepts
 - Benefits of Low-Code framework implementation
 - Limitations of Low-Code frameworks

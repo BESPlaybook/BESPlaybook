@@ -1,6 +1,7 @@
 > # **5.** Software Life Cycle Processes
 
-The BES BPD provides a directory of standardized life cycle management processes, templates, guides, forms and checklists artifacts the BES PMOs can apply to their acquisition projects. However, these standardized processes have not kept pace with the rapidly evolving changes in systems and software engineering and preferred Agile development methodologies. To simplify selection of the life cycle processes needed for AAM project contract acquisitions, the IEEE 12207:2017 Systems and software engineering—Software life cycle processes standard is the recommended for BES PMOs to adopt as best practices.  Many current Air Force PMOs currently use the IEEE 12207 standard in their application software development acquisitions to define their required life cycle processes in the Performance Work Statement (PWS).  This is because IEEE 12207:2017 has evolved to address changes in systems and software engineering, including: 
+The BES BPD provides a directory of standardized life cycle management processes, templates, guides, forms and checklists artifacts the BES PMOs can apply to their acquisition projects. However, these standardized processes have not kept pace with the rapidly evolving changes in systems and software engineering and preferred Agile development methodologies. To simplify selection of the life cycle processes needed for AAM project contract acquisitions, the IEEE 12207:2017 Systems and software engineering—Software life cycle processes standard is the recommended for BES PMOs to adopt as best practices.  Many current Air Force PMOs currently use the IEEE 12207 standard in their application software development acquisitions to define their required life cycle processes in the Performance Work Statement (PWS).  This is because IEEE 12207:2017 has evolved to address changes in systems and software engineering, including:
+
 - Internet, big data, software as a service, the cloud, virtual systems
 - Highly complex integrated systems of systems
 - Software construction through object-oriented, encapsulated, containerized methods
@@ -15,7 +16,7 @@ The 12207:2017 software life cycle processes describe the activities that can be
 
 These recommended IEEE 12207:2017 life cycle processes are not intended to preclude or discourage the use of additional processes that organizations find useful (i.e. BES BPD, CMMI-DEV and ITIL v3 processes) nor to determine the order in which the processes are performed during the system life cycle or any of its stages. The intent is to focus the life cycle processes used in an AAM acquisition to the minimum set required for AAM project success.  These processes will be reflected in the BES BPD Tailoring Worksheet for AAM Projects Template which will be an Appendix to this document and can be used by PMOs to quickly develop their acquisition PWS Description of Services and required CDRL artifacts focused on an Agile contract acquisition.  
 
-[image here]
+![lifecycle](images/lifecycle.png)
 
 **Figure 5-1. Software Life Cycle Processes (Excerpted from IEEE 12207:2017)**
 

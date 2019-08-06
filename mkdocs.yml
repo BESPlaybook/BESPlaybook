@@ -223,9 +223,9 @@ nav:
       - 1. Overview: cloud/1-1-cloud.md
   - Agile Acquistions:
       - 1. Overview: acquistions/1-1-acquistions.md
-  - Automated Application Management:
+  - Automated Application Modernization:
       - 1. Plays:
-          - 1.1 Applications Future Lifespan: modern/1-1-play-1.md
+          - "1.1 Application's Future Lifespan": modern/1-1-play-1.md
           - 1.2 Technical Baseline: modern/1-2-play-2.md
           - 1.3 Modernization Options: modern/1-3-play-3.md
           - 1.4 Target Application Solution: modern/1-4-play-4.md
@@ -239,6 +239,7 @@ nav:
           - 2.5 Audience: modern/2-5-audience.md
           - 2.6 Benefits: modern/2-6-benefits.md
       - 3. Automated Application Modernization:
+          - 3.0 Overview: modern/3-0-overview.md
           - 3.1 Guidance: modern/3-1-guidance.md
           - 3.2 Standards: modern/3-2-standards.md
           - 3.3 Common Use Case: modern/3-3-common.md
@@ -255,11 +256,11 @@ nav:
       - 5. Lifecycle Processes:
           - 5.0 Overview: modern/5-0-overview.md
           - 5.1 Agreement Processes: modern/5-1-best.md
-          - 5.2 Organizational Project-enabling Processes: modern /5-2-organizational.md
-          - 5.3 Technical Management processes: modern /5-3-techmanage.md
-          - 5.4 Technical processes: modern/5-4-tech.md
+          - 5.2 Organizational Project-enabling Processes: modern/5-2-organizational.md
+          - 5.3 Technical Management processes: modern/5-3-techmanage.md
+          - 5.4 Technical Processes: modern/5-4-tech.md
           - 5.5 Process Application: modern/5-5-application.md
-          - 5.6 Application of Life Cycle Processes to Agile Evolutionary and Iterative Life Cycle Models: modern /5-6-agile.md
+          - 5.6 Application of Life Cycle Processes to Agile Evolutionary and Iterative Life Cycle Models: modern/5-6-agile.md
       - 6. Organization and Support:
           - 6.0 Overview: modern/6-0-overview.md
           - 6.1 Project Team: modern/6-1-project.md
@@ -287,8 +288,8 @@ extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
-  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-  baseurl: http://localhost:8000
+  baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  #  baseurl: http://localhost:8000
 
   # This list
   playbooks:

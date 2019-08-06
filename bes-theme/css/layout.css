@@ -158,8 +158,8 @@ table thead {
 }
 
 table th {
-  white-space: nowrap;
   padding: 5px;
+  white-space: nowrap;
 }
 
 table td {
