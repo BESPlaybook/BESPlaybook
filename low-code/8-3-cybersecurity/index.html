@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>8.3 Cybersecurity Considerations - BES Playbook</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../../main.css" type="text/css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "8.3 Cybersecurity Considerations";
+    var mkdocs_page_input_path = "low-code/8-3-cybersecurity.md";
+    var mkdocs_page_url = null;
+    var mkdocs_base_url = "https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook";
+    var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
+  </script>
+  
+</head>
+
+<body class="bes-body " role="document">
+  <div class="bes-header">
+    <a href="../.." class="bes-header__logo"></a>
+    <h1><a href="../.."><b>BES</b> Playbooks</a></h1>
+    
+    <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
+    <label for="bes-search-toggle" class="bes-search-toggle__label">
+      <span class="bes-search-toggle__search"></span>
+      <span class="bes-search-toggle__x"></span>
+    </label>
+    <div class="bes-header-search">
+          <div role="search">
+  <form class="bes-search-form" action="../../search/index.html" method="get">
+    <input type="text" name="q" placeholder="Search all Playbooks" />
+  </form>
+</div>
+    </div>
+    <ul class="bes-header-nav bes-playbook-nav" aria-label="main navigation">
+          <li data-url="/agile/1-1-purpose">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-purpose">
+            Agile
+            </a>
+          </li>
+          <li data-url="/testing/1-1-purpose">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-purpose">
+            Automated Testing
+            </a>
+          </li>
+          <li data-url="/ux/1-1-purpose">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+            User Experience
+            </a>
+          </li>
+          <li data-url="/modern/1-1-play-1">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
+            Automated Application Modernization
+            </a>
+          </li>
+          <li data-url="/low-code/1-1-plays">
+            <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/low-code/1-1-plays">
+            Low-Code
+            </a>
+          </li>
+    </ul>
+  </div>
+  
+  <div class="bes-body-columns">
+    
+    
+    <input type="checkbox" id="bes-nav-toggle" name="bes-nav-toggle" />
+    <label for="bes-nav-toggle" class="bes-nav-toggle__label">
+      <span class="bes-nav-toggle__hamburger"></span>
+      <span class="bes-nav-toggle__x"></span>
+    </label>
+    <nav class="bes-doc-nav-wrap">
+        <ul class="bes-playbook-mobile-nav bes-playbook-nav">
+              <li data-url="/agile/1-1-purpose">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-purpose">
+                Agile
+                </a>
+              </li>
+              <li data-url="/testing/1-1-purpose">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-purpose">
+                Automated Testing
+                </a>
+              </li>
+              <li data-url="/ux/1-1-purpose">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+                User Experience
+                </a>
+              </li>
+              <li data-url="/modern/1-1-play-1">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
+                Automated Application Modernization
+                </a>
+              </li>
+              <li data-url="/low-code/1-1-plays">
+                <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/low-code/1-1-plays">
+                Low-Code
+                </a>
+              </li>
+        </ul>
+        
+        <div class="bes-doc-nav" aria-label="navigation">
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<span>1. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/1-1-purpose/">
+  1.1 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/1-2-audience/">
+  1.2 Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/1-3-references/">
+  1.3 References
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. Agile Transformation</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/2-1-waterfall/">
+  2.1 Waterfall Background
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/2-2-introduction/">
+  2.2 Introduction
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. Applying Agile Methods and Mindset Within The Air Force</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-0-overview/">
+  3.0 Overview
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-1-contracting/">
+  3.1 Agile Contracting
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-2-stakeholder/">
+  3.2 Agile Stakeholder
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-3-projectmanagement/">
+  3.3 Project Management
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-4-delivery/">
+  3.4 Agile CDRLs and Delivery
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/3-5-metrics/">
+  3.5 Status Reporting
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Agile Architecture</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/4-1-architecture/">
+  4.1 Agile Management Tools
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>5. Agile Framework</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-1-backlog/">
+  5.1 Part I - Establish the Product Backlog (PB) and Constraints
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-2-methodology/">
+  5.2 Part II - Establish the Methodology
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-3-kanban/">
+  5.3 Kanban
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-4-xp/">
+  5.4 Extreme Programming
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/5-5-team/">
+  5.5 Part III - Establish the Team
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix A - Key Event Plays</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/6-1-scrum/">
+  6.1 Scrum
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/6-2-kanban/">
+  6.2 Kanban
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/6-3-xp/">
+  6.3 Extreme Programming
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>7. Appendix B - Key Personal Plays</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/7-1-lead/">
+  7.1 Agile Lead
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/7-2-owner/">
+  7.2 Product Owner
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/7-3-analyst/">
+  7.3 Business Analyst
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>8. Appendix C - Key Links</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/8-1-general/">
+  8.1 Agile in General
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/8-2-tools/">
+  8.2 Agile Tools
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>9. Appendix D - Agile Terminology</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/9-1-appendix-d/">
+  9.1 Agile Terminology
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>10. Appendix E - Glossary</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../agile/10-1-appendix-e/">
+  10.1 Glossary
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list  bes-doc-nav__list--active ">
+                      <li class="">
+<span>1. Plays</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../1-1-plays/">
+  1.1 Overview
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../2-1-intro/">
+  2.1 Introduction
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../2-2-problem/">
+  2.2 Problem Statement
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../2-3-purpose/">
+  2.3 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../2-4-scope/">
+  2.4 Scope
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../2-5-audience/">
+  2.5 Intended Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../2-6-benefits/">
+  2.6 Benefits
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. Agile Model-Driven Functionality Improvement</span>
+    <ul>
+                <li class="">
+<a class=""\
+  href="../3-0-overview.md">
+  3.0 Overview
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-1-standards/">
+  3.1 Standards
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-2-methodologies/">
+  3.2 Methodologies
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-3-usecases/">
+  3.3 Common Use Case
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-4-lessons/">
+  3.4 Lessons
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-5-limitations/">
+  3.5 Limitations
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../3-6-recommendations/">
+  3.6 Recommendations
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Organization and Support</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../4-1-stakeholders/">
+  4.1 Key Stakeholders
+</a>
+                </li>
+                <li class=" subsection">
+<span>4.2 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../4-2-team/">
+  4.2 Team Structure
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../4-3-support/">
+  4.3 Support
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>5. Lifecycle Process</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../5-1-bestpractices/">
+  5.1 Best Practices
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Project Guidance</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../6-1-phases/">
+  6.1 Phases
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../6-2-risk/">
+  6.2 Risk Identification and Management
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>7. Management and Metrics</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../7-1-definekpi/">
+  7.1 Define KPI's
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="current">
+<span>8. Solution Design</span>
+    <ul class="current">
+                <li class="">
+<a class="reference internal"\
+  href="../8-1-requirements/">
+  8.1 Requirements Analysis
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../8-2-techdesign/">
+  8.2 Technical Design
+</a>
+                </li>
+                <li class="current">
+<a class="reference internal current"\
+  href="./">
+  8.3 Cybersecurity Considerations
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>9. Determining the Best "Low-Code" Solution Process</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../9-1-solutions/">
+  9.1 Identifying Viable Solutions
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../9-2-analysis/">
+  9.2 Conducting Analysis
+</a>
+                </li>
+                <li class=" subsection">
+<span>9.3 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../9-3-cots/">
+  9.3 Help COTS Too Is Available - Example List
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>10. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../10-appendix-a/">
+  10.1 Appendix A: Sample Design 1
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../10-appendix-b/">
+  10.2 Appendix B: Sample Design 2
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../10-appendix-c/">
+  10.3 Appendix C: Checklists and Templates
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<span>1. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/1-1-purpose/">
+  1.1 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/1-2-audience/">
+  1.2 Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/1-3-benefits/">
+  1.3 Benfits of Automated Testing
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. Test Automation</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/2-1-what/">
+  2.1 What is Automation?
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/2-2-lifecycle/">
+  2.2 Automation in Software Lifecycle Methodologies
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/2-3-benefits/">
+  2.3 Benefits to AF
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/2-4-pitfalls/">
+  2.4 Avoiding Pitfalls
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. Roles in Test Automation</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/3-1-acquisitions/">
+  3.1 Acquisitions
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/3-2-management/">
+  3.2 Management Support
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/3-3-technical/">
+  3.3 Technical Support
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/3-4-domain/">
+  3.4 Domain Support
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/3-5-team/">
+  3.5 Automation Team Members
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Scope of Test Automation</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/4-1-tools/">
+  4.1 Tools Target Areas
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/4-2-levels/">
+  4.2 Test Levels
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/4-3-types/">
+  4.3 Test Types
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>5. Developing A Test Automation Solution</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/5-1-approach/">
+  5.1 Approaches to Test Automation
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/5-2-architecture/">
+  5.2 Overall Architectural Considerations
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/5-3-evaluation/">
+  5.3 Evaluation and Selection of Test Tools
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Migrating From Manual to Automated Testing</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/6-1-what/">
+  6.1 What Makes Sense to Automate
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/6-2-when/">
+  6.2 When Should Automation Occur
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/6-3-newtests/">
+  6.3 Criteria for Creating New Automated Tests
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/6-4-manualtests/">
+  6.4 Criteria for Converting Manual Tests to Automation
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/6-5-transition/">
+  6.5 Transitioning Staff to Automation
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>7. Test Automation Development Lifecycle</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/7-1-phases/">
+  7.1 Phases in Automation Development
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/7-2-appdev/">
+  7.2 Similarities to Application Development
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/7-3-manualtests/">
+  7.3 Similarities to Manual Testing
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>8. Effectiveness Measurements</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/8-1-measurements/">
+  8.1 Effectiveness Measurements
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>9. Reporting</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/9-1-reporting/">
+  9.1 Reporting
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>10. Looking Ahead</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/10-1-momentum/">
+  10.1 Building Momentum in Test Automation
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/10-2-landscape/">
+  10.2 Keeping Abreast of the Technology Landscape
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/10-3-improvements/">
+  10.3 Continuous Improvement Activities
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/10-4-process/">
+  10.4 Making the Process Repeatable
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>11. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/11-1-resources/">
+  11.1 Appendix A: Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../testing/11-2-tools/">
+  11.2 Appendix B: Test Tools
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<span>1. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/1-1-purpose/">
+  1.1 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/1-2-audience/">
+  1.2 Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/1-3-benefits/">
+  1.3 Benefits of UX
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/1-4-maturity/">
+  1.4 Levels of Design Maturity
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. User Experience</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/2-1-what-is-ux/">
+  2.1 What is UX?
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/2-2-disciplines/">
+  2.2 UX Disciplines & Project Roles
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/2-3-lifecycle/">
+  2.3 UX in Software Lifecycle Methodologies
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. UX Principles & Methodology</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-1-principles/">
+  3.1 UX Principles
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-2-methodology/">
+  3.2 UX Methodology
+</a>
+                </li>
+                <li class=" subsection">
+<span>3.3 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-3-research/">
+  3.3 Phase 1: Research & Discovery
+</a>
+                </li>
+                <li class=" subsection">
+<span>3.4 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-4-conceptual/">
+  3.4 Phase 2: Conceptual Design
+</a>
+                </li>
+                <li class=" subsection">
+<span>3.5 subpages</span>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-5-detailed/">
+  3.5 Phase 3: Detailed Design
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/3-6-support/">
+  3.6 Phase 4: Support
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Web Design Standards</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-1-introduction/">
+  4.1 Introduction
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-2-guidelines/">
+  4.2 General Interface Guidelines
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-3-grids/">
+  4.3 Grids & Breakpoints
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-4-branding/">
+  4.4 Branding/Logo
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-5-headers/">
+  4.5 Global Headers & Footers
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-6-layouts/">
+  4.6 Page Layouts
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-7-typography/">
+  4.7 Typography
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-8-color/">
+  4.8 Color
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-9-icons/">
+  4.9 Iconography
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-10-imagery/">
+  4.10 Imagery
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-11-buttons/">
+  4.11 Buttons & Controls
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-12-mobile/">
+  4.12 Key Mobile Standards
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/4-13-accessibility/">
+  4.13 Accessibility
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>5. Component Library</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-1-intro/">
+  5.1 Introduction
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-2-nav/">
+  5.2 Global Navigation
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-3-icons/">
+  5.3 Icons
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-4-buttons/">
+  5.4 Buttons & Labels
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-5-modules/">
+  5.5 Content Modules
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-6-alerts/">
+  5.6 Alerts & Messaging
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-7-forms/">
+  5.7 Forms & Controls
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-8-visualizations/">
+  5.8 Visualizations
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/5-9-mobile/">
+  5.9 Key Mobile Components
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/6-1-appendix/">
+  6.1 Additional Resources
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../ux/6-2-layouts/">
+  6.2 Alpha Standard Layouts
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../devops/1-1-devops/">
+  1. Overview
+</a>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cyber/1-1-cyber/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../cloud/1-1-cloud/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<a class="reference internal"\
+  href="../../acquistions/1-1-acquistions/">
+  1. Overview
+</a>
+    <ul>
+    </ul>
+                      </li>
+                  </ul>
+                  <ul class="bes-doc-nav__list ">
+                      <li class="">
+<span>1. Plays</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-1-play-1/">
+  1.1 Application's Future Lifespan
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-2-play-2/">
+  1.2 Technical Baseline
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-3-play-3/">
+  1.3 Modernization Options
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-4-play-4/">
+  1.4 Target Application Solution
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-5-play-5/">
+  1.5 Modernization and Migration Plan
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/1-6-play-6/">
+  1.6 Executing the Plan
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>2. Overview</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-1-intro/">
+  2.1 Introduction
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-2-problem/">
+  2.2 Problem Statement
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-3-purpose/">
+  2.3 Purpose
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-4-scope/">
+  2.4 Scope
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-5-audience/">
+  2.5 Audience
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/2-6-benefits/">
+  2.6 Benefits
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>3. Automated Application Modernization</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-0-overview/">
+  3.0 Overview
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-1-guidance/">
+  3.1 Guidance
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-2-standards/">
+  3.2 Standards
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-3-common/">
+  3.3 Common Use Case
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-4-approaches/">
+  3.4 Approaches
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-5-methodologies/">
+  3.5 Methodologies
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-6-patterns/">
+  3.6 Patterns
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-7-barriers/">
+  3.7 Barriers and Challenges
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-8-recommendations/">
+  3.8 Recommendations
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-9-lessons/">
+  3.9 Lessons
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/3-10-limitations/">
+  3.10 Limitations
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>4. Modernization Tools</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/4-1-tooltypes/">
+  4.1 Tool Types
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/4-2-toolmatrix/">
+  4.2 Tool Matrix
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>5. Lifecycle Processes</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/5-0-overview/">
+  5.0 Overview
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/5-1-best/">
+  5.1 Agreement Processes
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/5-2-organizational/">
+  5.2 Organizational Project-enabling Processes
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/5-3-techmanage/">
+  5.3 Technical Management processes
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/5-4-tech/">
+  5.4 Technical Processes
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/5-5-application/">
+  5.5 Process Application
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/5-6-agile/">
+  5.6 Application of Life Cycle Processes to Agile Evolutionary and Iterative Life Cycle Models
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>6. Organization and Support</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/6-0-overview/">
+  6.0 Overview
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/6-1-project/">
+  6.1 Project Team
+</a>
+                </li>
+                <li class="">
+<a class=""\
+  href="../../modern/6-2-tech.md">
+  6.2 Technical Team
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/6-3-support/">
+  6.3 Support
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/6-4-stakeholders/">
+  6.4 Stakeholders
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>7. Determining the Best Modernization Solution</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/7-1-solutions/">
+  7.1 Identifying Viable Solutions
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/7-2-alternatives/">
+  7.2 Analysis of Alternatives (AoA) Guidance
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>8. Solution Design</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/8-1-requirements/">
+  8.1 Requirements
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/8-2-tech/">
+  8.2 Technical Design
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/8-3-cybersecurity/">
+  8.3 Cybersecurity
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>9. Project Guidance</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/9-1-phases/">
+  9.1 Phases
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/9-2-risk/">
+  9.2 Risk Identification and Management
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>10. Measurement and Metrics</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/10-1-definekpi/">
+  10.1 Define KPIs
+</a>
+                </li>
+    </ul>
+                      </li>
+                      <li class="">
+<span>11. Appendix</span>
+    <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/11-appendix-a/">
+  11.1 Appendix A: Sample Design 1
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/11-appendix-b/">
+  11.2 Appendix B: Sample Design 2
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../modern/11-appendix-c/">
+  11.3 Appendix C: Checklists and Templates
+</a>
+                </li>
+    </ul>
+                      </li>
+                  </ul>
+        </div>
+        
+    </nav><!-- /bes-doc-nav -->
+
+    <section class="bes-content-wrap">
+      
+      <div class="bes-content">
+        
+          
+        
+      </div>
+
+    </section>
+
+  </div><!-- /bes-body-colums -->
+
+  <footer>
+  <div class="bes-footer__link-group">
+    <h4>AFLCMC/BES</h4>
+    <ul>
+        <li><a href="https://www.wpafb.af.mil/aflcmc">Air Force Life Cycle Management Center (AFLCMC)</a></li>
+        <li><a href="https://www.airforcebes.af.mil">Air Force Business and Enterprise Systems (BES)</a></li>
+    </ul>
+  </div>
+
+
+  <div class="bes-footer__link-group bes-footer__playbooks">
+    <h4>BES Playbooks</h4>
+    <ul>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/agile/1-1-purpose">
+          Agile
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/testing/1-1-purpose">
+          Automated Testing
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/ux/1-1-purpose">
+          User Experience
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/modern/1-1-play-1">
+          Automated Application Modernization
+          </a>
+        </li>
+        <li>
+          <a href="https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook/low-code/1-1-plays">
+          Low-Code
+          </a>
+        </li>
+    </ul>
+  </div>
+  
+
+</footer>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+
+</body>
+</html>

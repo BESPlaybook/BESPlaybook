@@ -34,7 +34,8 @@ body {
 .bes-content > ul,
 .bes-content > ol,
 .bes-content > hr,
-.bes-content > .quote
+.bes-content > .quote,
+.bes-content > table
 {
   max-width: 800px;
   margin-right: 100px;
@@ -145,6 +146,28 @@ body {
 #resource + ul a,
 #resources + ul a {
   display: block;
+}
+
+table tbody {
+  font-size: 14px;
+}
+
+table thead {
+  background-color: #24316c;
+  color: white;
+}
+
+table th {
+  padding: 5px;
+  white-space: nowrap;
+}
+
+table td {
+  padding: 5px;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
 }
 
 
