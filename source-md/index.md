@@ -1,8 +1,8 @@
-# BES Playbooks
+# BES Playbook
 
-![playbooks](playbooks.jpg)<br/>
+![playbook](playbooks.jpg)<br/>
 
-The Playbooks will support development and modernization efforts within the BES AFLCMC/HIA Logistic Division as it transforms its methodologies to 
+The Playbook will support development and modernization efforts within the BES AFLCMC/HIA Logistic Division as it transforms its methodologies to 
 procure, develop and implement specialized IT products using Agile methodology and best practices as specified via Enterprise Logistics IT.
 
 

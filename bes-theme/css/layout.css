@@ -170,6 +170,36 @@ table tbody tr:nth-child(odd) {
   background-color: #f1f1f1;
 }
 
+.bes-feedback {
+  position: fixed;
+  z-index: 100;
+  right: 30px;
+  bottom: 30px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  background-color: #24316C;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bes-feedback a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 8px;
+  color: #fff;
+}
+
+.bes-feedback a::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background: url(./img/speech.svg) no-repeat;
+}
+
 
 @media screen and (max-width: 1200px) {
   /* Account for fixed header */

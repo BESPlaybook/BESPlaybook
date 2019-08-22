@@ -42,7 +42,7 @@
 <body class="bes-body {{ page.meta.page_name }}" role="document">
   <div class="bes-header">
     <a href="{{ nav.homepage.url|url }}" class="bes-header__logo"></a>
-    <h1><a href="{{ nav.homepage.url|url }}"><b>BES</b> Playbooks</a></h1>
+    <h1><a href="{{ nav.homepage.url|url }}"><b>BES</b> Playbook</a></h1>
     
     <input type="checkbox" id="bes-search-toggle" name="bes-search-toggle" />
     <label for="bes-search-toggle" class="bes-search-toggle__label">
@@ -108,6 +108,14 @@
           {{ page.content }}
         {% endblock %}
       </div>
+      <div class="bes-feedback">
+          {%- for nav_item in nav %}
+            {%- if nav_item.is_section and nav_item.active %}
+             <a href="mailto:anne.demey@isobar.com?subject=BES Playbook Feedback: {{ nav_item.title }} - {{ page.title }}">feedback</a>
+            {%- endif %}
+          {%- endfor %}
+      </div>
+
 
 
       {% if page and (page.next_page or page.previous_page) %}
