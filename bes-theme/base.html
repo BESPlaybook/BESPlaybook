@@ -109,9 +109,20 @@
         {% endblock %}
       </div>
 
+
+      {% if page and (page.next_page or page.previous_page) %}
+        <div class="bes-page-nav" role="navigation" aria-label="footer navigation">
+          {% if page.previous_page %}
+            <a href="{{ page.previous_page.url|url }}" class="bes-page-nav__button bes-page-nav__button--prev" title="{{ page.previous_page.title }}">Previous</a>
+          {% endif %}
+          {% if page.next_page %}
+            <a href="{{ page.next_page.url|url }}" class="bes-page-nav__button bes-page-nav__button--next" title="{{ page.next_page.title }}">Next</a>
+          {% endif %}
+        </div>
+      {% endif %}
     </section>
 
-  </div><!-- /bes-body-colums -->
+  </div><!-- /bes-body-columns -->
 
   {% include "footer.html" %}
 

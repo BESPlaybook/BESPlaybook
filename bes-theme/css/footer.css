@@ -45,6 +45,60 @@ footer::after {
 }
 */
 
+.bes-page-nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  margin: 30px 100px;
+}
+
+.bes-page-nav__button,
+.bes-page-nav__button:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 187px;
+  height: 54px;
+  padding: 5px;
+  background-color: #2f4cb3;
+  color: #fff;
+}
+
+.bes-page-nav__button:first-child {
+  margin-right: 20px;
+}
+
+.bes-page-nav__button:hover {
+  background-color: #24316c;
+  text-decoration: none;
+}
+
+.bes-page-nav__button--prev::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  margin-right: 10px;
+  background: url(./img/back-white.svg) no-repeat;
+}
+
+.bes-page-nav__button--next::after {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  margin-left: 10px;
+  transform: rotate(180deg);
+  background: url(./img/back-white.svg) no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+  .bes-page-nav {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .bes-footer__playbooks ul {
     columns: 1;
@@ -56,6 +110,10 @@ footer::after {
     display: flex;
     flex-direction: column;
     padding: 20px 0;
+  }
+
+  .bes-page-nav {
+    margin: 20px;
   }
 
   .bes-footer__link-group li {

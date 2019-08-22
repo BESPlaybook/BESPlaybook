@@ -1,6 +1,6 @@
 template: home.html
 classname: home-page
 
-# BES Playbooks
+# BES Playbook
 
-These playbooks are intended to support development and modernization efforts within the BES AFLCMC/HIA Logistic Division as it transforms its methodologies to procure, develop and implement specialized IT products using current best practices.
+These chapters are intended to support development and modernization efforts within the BES AFLCMC/HIA Logistic Division as it transforms its methodologies to procure, develop and implement specialized IT products using current best practices.
