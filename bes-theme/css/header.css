@@ -66,7 +66,8 @@
 .bes-header-nav li a {
   display: flex;
   justify-content: center;
-  width: 160px;
+  min-width: 160px;
+  max-width: 200px;
   padding: 5px 15px 8px;
   border-bottom: 2px solid transparent;
   color: #fff;

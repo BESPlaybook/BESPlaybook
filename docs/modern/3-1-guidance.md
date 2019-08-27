@@ -1,0 +1,3 @@
+> # **3.1** Guidance
+
+AAM is commonly used when an application portfolio owner needs to keep a legacy application in service and the application requires an overhaul to comply with DoD and Air Force consolidation, technical, cyber, and other requirements.  In the AF, functional domain portfolio application rationalization has led to identification of applications that need consolidation, rehost, refactor, redevelopment, retirement, and so on.  When an application is identified for transformation through the rationalization process, AAM should be considered as a solution option
