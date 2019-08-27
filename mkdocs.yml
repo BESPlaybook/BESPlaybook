@@ -272,8 +272,8 @@ extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
-  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-  baseurl: http://localhost:8000
+  baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  # baseurl: http://localhost:8000
 
   # This list
   playbooks:
