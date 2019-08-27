@@ -11,6 +11,7 @@
     "start-admin": "python -m mkdocs serve",
     "css": "postcss bes-theme/css/bes.css -u postcss-smart-import autoprefixer cssnano --o bes-theme/main.css",
     "deploy": "mkdocs gh-deploy",
+    "deploy:bes": "mkdocs gh-deploy --remote-name bes",
     "stylelint": "stylelint ./bes-theme/css"
   },
   "author": "Anne Demey",

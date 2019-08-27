@@ -277,7 +277,8 @@ extra:
   # This list 
 =======
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
-  baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
+  baseurl: https://BESPlaybooks.github.io/BESPlaybook
   # baseurl: http://localhost:8000
 
   # This list
