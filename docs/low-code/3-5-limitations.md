@@ -1,0 +1,5 @@
+> # **3.5** Low-Code Limitations
+
+Low-code development frameworks have limits to the complexity of the functionality that can be built using visual drag and drop modeling and point and click. When these limitations are reached, low-code developers may need to drop out of the low-code visual development environment and build the complex functionality using a hand-coding Integrated Development Environment (IDE) and APIs accessible from within the low-code app development framework.
+
+Modern low-code development frameworks have now evolved to allow low-code developers to choose to work in either hand-coding or declarative scripting tools. Embedded IDEs, code editors and APIs free developers to build features outside of the low-code platform’s framework but manage that code within the low-code framework project tools. “Code behind” approaches allow low-code developers to swap back and forth between graphical and hand-coding views of their apps and take advantage of visual design tools—like visual drag-and-drop modelers and point-and-click interface creation—to enable the rapid creation, launch, operations and change control of a business app portfolio.

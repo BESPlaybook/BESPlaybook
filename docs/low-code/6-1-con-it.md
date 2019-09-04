@@ -13,7 +13,20 @@ Contracting professionals provide contracting support capabilities to a wide spe
 
 AF CON-IT Program Management Office (PMO)
 
-[grid here]
+
+| POC                 | Role                                                                                                                                           |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Major General Holt  | AF Functional (Customer) System Owner                                                                                                          |
+| Mr. Michael Allen   | Program Manager                                                                                                                                |
+| Mr. Ted Blonk       | Deputy Program Manager                                                                                                                         |
+| Mr. Bob Harts       | Chief Engineer (Owner of DevSecOps & entire Architecture)                                                                                      |
+| Mr. Nathan Hay      | Lead Engineer (deputy owner of all DevSecOps, Networking, Infrastructure, architecture)                                                        |
+| Mr. Jake Haney      | ISSM (ATO package and Security compliance management)                                                                                          |
+| Mr. Dave Mitchell   | Data Interface Product Owner (all Data Interfaces for Ingress and Egress for CON-IT)                                                           |
+| Mr. Patrick Knepper | Function Owner/Requirements AQCI – Program Manager                                                                                             |
+| Mrs. Lara Emmons    | Deputy Function/Requirements Owner AQCI – Program Manager                                                                                      |
+| Mr. Bill Woods      | Function customer interface and Functional requirements representative. (Bill is the hands-on functional liaison to AF PMO and AQCI customers) |
+
 
 
 ## 6.1.3 Platform Selection Process
