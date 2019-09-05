@@ -6,7 +6,7 @@ AAM Agile project teams are formed from development specialists who are cross-tr
 
 **Figure 5-3** overviews the structure of a small AAM agile team best suited for re-hosting (transform lite, lift and shift) projects. The Project Management leadership team and a team of developers, led by the team lead, works closely with a government PMO product owner and stakeholders to build high-quality working system features using iterative sprints with support on a just-in-time basis from the Engineering Support team members.
 
-[image here]
+![Agile Team](images/6-1-agile-team.png)
 **Figure 5-3. Small agile Team organization Structure**
 
 The small agile project team common agile roles are:
@@ -23,7 +23,7 @@ The small agile project team common agile roles are:
 
 - **Stakeholder.**  A stakeholder is anyone who is a direct user, indirect user, manager of users, senior manager, operations staff member, the "PMO" who funds the project, support (help desk) staff member, auditors, program/portfolio manager, and developers working on other systems that integrate or interact with the one under development, or maintenance professionals potentially affected by the development and/or deployment of a software project.
 
-[image here]
+![Stakeholders](images/6-1-stakeholders.png)
 **Figure 5-4. Product Owner Represents a Large Range of Stakeholders.**
 
 **Engineering Support Team:**  The development team often requires technical specialists to help modernize, design, transform, build and refactor applications. The common Engineering Support Team roles are: 
@@ -39,7 +39,7 @@ The small agile project team common agile roles are:
 
 When the size of an AAM agile development team gets to be more than twenty, which may be required for a complex re-platform (transformation and refactor) project, program/project managers need to take a “team of teams” approach. The strategy is to organize the larger team into a collection of smaller teams organized around the architecture of the system. Each subteam is responsible for one or more subsystems, enabling them to work as a small agile team responsible for delivering working software on a timely basis. **Figure 5-5** describes the organization of large agile teams.
 
-[image here]
+![Large Team](images/6-1-large-team.png)
 **Figure 5-5. Large agile Project Team**
 
 The additional roles on agile teams at larger scale include:

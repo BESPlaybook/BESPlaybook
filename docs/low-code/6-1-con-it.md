@@ -41,11 +41,13 @@ CON-IT was assessed against an existing DISA contracting system that is based on
 
 CON-IT is based on the Appian N-tier architecture engineered to have the processing, data management, and presentation tiers physically and logically separated.  The processing, data management and presentation components are hosted on compute clusters configured in a high availability configuration, ensuring the services provides limiting physical resources sharing. Each service is built to deliver maximum capacity and scalability with only planned outages.
 
-[image here]
+![High Level Architecture](images/6-1-high-level.png)
+
+
 
 _High Level Architecture – Shows Appian N-Tier CON-IT application_
 
-[image here]
+![Low-Code Engine Layer](images/6-1-engine-layer.png)
 
 _This view is a detailed architectural view of Appian Low-Code Engine Layer_
 

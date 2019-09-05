@@ -1,4 +1,4 @@
-> # **6.** Organization and Support
+> # **6.** Project Guidance
 
 Agile development methods are recommended for AAM projects. There are several key differences between the agile approach to project team organization and the traditional project team approach described in the BPD Roles and Project Organization Guide, dated 24 Sept 2018. Agile teams are "whole teams" that have sufficient skills within the team itself to perform agile AAM contracts successfully. The implication is that the AAM agile development team has the requisite development skills, language skills, user interface skills, integration skills and testing skills and does not rely on external experts or teams of experts to perform development sprints.
 
