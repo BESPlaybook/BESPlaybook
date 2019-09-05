@@ -9,15 +9,15 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>8.2 Technical Design - BES Playbook</title>
+  <title>8.4 Implementation - BES Playbook</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet" />
 
   <link rel="stylesheet" href="../../main.css" type="text/css" />
   
   <script>
     // Current page data
-    var mkdocs_page_name = "8.2 Technical Design";
-    var mkdocs_page_input_path = "modern/8-2-tech.md";
+    var mkdocs_page_name = "8.4 Implementation";
+    var mkdocs_page_input_path = "modern/8-4-implementation.md";
     var mkdocs_page_url = null;
     var mkdocs_base_url = "https://BESPlaybook.github.io/BESPlaybook";
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
@@ -416,26 +416,32 @@
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-1-structure/">
-  4.1 Team Structure
+  href="../../low-code/4-1-strategy/">
+  4.1 BES Digital Strategy
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-2-management-process/">
-  4.2 Project Management Processes
+  href="../../low-code/4-2-dev-lifecycle/">
+  4.2 Low-Code Software Development Lifecycle
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-3-dev-lifecycle/">
-  4.3 Low-Code Software Development Lifecycle
+  href="../../low-code/4-3-team/">
+  4.3 Team Structure
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-4-kpi/">
-  4.4 Key Project Metrics – KPI’s
+  href="../../low-code/4-4-management-process/">
+  4.4 Project Management Processes
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../low-code/4-5-kpi/">
+  4.5 Key Project Metrics – KPI’s
 </a>
                 </li>
     </ul>
@@ -1305,7 +1311,7 @@
     </ul>
                       </li>
                       <li class="">
-<span>6. Organization and Support</span>
+<span>6. Project Guidance</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
@@ -1320,21 +1326,21 @@
 </a>
                 </li>
                 <li class="">
-<a class=""\
-  href="../6-2-tech.md">
-  6.2 Technical Team
+<a class="reference internal"\
+  href="../6-2-personnel/">
+  6.2 Key Personnel
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../6-3-support/">
-  6.3 Support
+  href="../6-3-project-phases/">
+  6.3 AAM Project Phases and Work Items
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../6-4-stakeholders/">
-  6.4 Stakeholders
+  href="../6-4-risk/">
+  6.4 Risk Identification and Mitigation Strategy
 </a>
                 </li>
     </ul>
@@ -1342,6 +1348,12 @@
                       <li class="">
 <span>7. Determining the Best Modernization Solution</span>
     <ul>
+                <li class="">
+<a class="reference internal"\
+  href="../7-0-overview/">
+  7.0 Overview
+</a>
+                </li>
                 <li class="">
 <a class="reference internal"\
   href="../7-1-solutions/">
@@ -1357,52 +1369,47 @@
     </ul>
                       </li>
                       <li class="current">
-<span>8. Solution Design</span>
+<span>8. Solution Design and Implementation</span>
     <ul class="current">
                 <li class="">
 <a class="reference internal"\
-  href="../8-1-requirements/">
-  8.1 Requirements
+  href="../8-0-overview/">
+  8.0 Overview
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../8-1-planning/">
+  8.1 Project Planning and Discovery
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../8-2-design-principles/">
+  8.2 Design Principles
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../8-3-design/">
+  8.3 Design
 </a>
                 </li>
                 <li class="current">
 <a class="reference internal current"\
   href="./">
-  8.2 Technical Design
-</a>
-                </li>
-                <li class="">
-<a class="reference internal"\
-  href="../8-3-cybersecurity/">
-  8.3 Cybersecurity
+  8.4 Implementation
 </a>
                 </li>
     </ul>
                       </li>
                       <li class="">
-<span>9. Project Guidance</span>
+<span>9. Measurement and Metrics</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../9-1-phases/">
-  9.1 Phases
-</a>
-                </li>
-                <li class="">
-<a class="reference internal"\
-  href="../9-2-risk/">
-  9.2 Risk Identification and Management
-</a>
-                </li>
-    </ul>
-                      </li>
-                      <li class="">
-<span>10. Measurement and Metrics</span>
-    <ul>
-                <li class="">
-<a class="reference internal"\
-  href="../10-1-definekpi/">
-  10.1 Define KPIs
+  href="../9-0-overview/">
+  9.0 Overview
 </a>
                 </li>
     </ul>
@@ -1439,11 +1446,35 @@
       
       <div class="bes-content">
         
-          
+          <blockquote>
+<h1 id="84-implementation"><strong>8.4</strong> Implementation</h1>
+</blockquote>
+<p>The Build, Integrate, and Validate phases are performed in tandem in multiple Development Sprints. The legacy code modules undergo Transformation, Refactoring, Testing and Release Integration tasks. Cutover is performed after all development tests have been completed and the modernized application is ready for government acceptance testing.</p>
+<h2 id="841-build">8.4.1 Build</h2>
+<p>In the Build phase the legacy code modules in the product backlog are assigned to Sprint Teams to undergo Transformation, Refactoring, and Testing tasks.</p>
+<h3 id="transformation-task">Transformation Task</h3>
+<p>The Transformation Engine automatically rewrites the legacy application from the source into object-oriented platform-specific code.  This code also couples the generated code to the relational databases.  The Transformation generates object-oriented code in the agreed modern implementation languages (typically Java or C#.NET).  It also accurately converts all internal and external interfaces in accordance with the Target Architecture Design by means of external interface resolution or enhancement of the Deployment Cloud Architecture.  Resolution of these external interfaces involves writing code that replaces the functionality of the original legacy services with modernized application logic and replacement services on the target platform middleware (e.g. .NET, JSP or ASP framework services).  The implementation of the replacement APIs is undertaken by the sprint team developers. Deployment-Ready Compilation assures that the functionally equivalent modernized code module cleanly compiles and links in the target language with the target side framework classes and with API s whose implementations interface with target side framework classes. Unit tests are performed on the completed code.</p>
+<h3 id="refactoring-task">Refactoring Task</h3>
+<p>The sprint team developers refactor the transformed code modules to improve the modernized App’s design, architecture, maintainability and enhance its performance.  All semi-automated and automated refactoring operations are carried out to generate redesigned code modules and re-architected application tiers.  The design and architecture of the application is captured as it evolves and the series of refactoring operations are applied.</p>
+<p>Automatic Re-Factoring identifies and remove dead and redundant code by the automated Transformation Engine toolset to improve system maintainability without changing the customer’s legacy system’s functionality. Semi-Automatic and Custom Re-Factoring is used to identify further opportunities for code performance optimization and refinements and enhancements to improve design and architecture.  These refactoring work items are specified by the customer’s Product Owner and subject matter experts, and are used to make improvements in a uniform and traceable manner. The sprint team developers are supported by the Transformation SME who assists in the set up and adaptation of the Transformation Engine tool set and hand-coding refactoring process to the customer-specific requirements. The Transformation SME also supports integration of the system with data base and middle tier software components and provides training to the sprint team developers on the tool set.</p>
+<p>The sprint team developers and Transformation SME runs The Transformation Engine refactoring rule on the target source code modules of the modernized application. The code is regression tested after application of each refactoring operation to verify that the refactoring operation has been applied without loss or distortion of functionality. The Developers perform defect and issue resolution on the refactored modules.</p>
+<h2 id="842-integrate">8.4.2 Integrate</h2>
+<p>The output from the Transformation Engine generate default facade pattern objects, (or application programmer interface -APIs) with classes and methods (function prototypes) that are similar in form to the legacy application’s original external interfaces. External interface resolution tasks set up the Transformation Engine to replace default APIs with native APIs implemented in the target architecture host environment interfaces.  This task typically involves the Transformation Engine SME working with sprint team developers to build specialized transformation rule sets to replace legacy operating system services interfaces with native framework classes in the target architecture host environment. </p>
+<p>The database conversion is accomplished by converting legacy database schema into SQL (Oracle Database or SQL Server) relational database structures, adaptation of the modernized application to use the transformed schema, extraction of metadata and data from the database and adaptation and export of this metadata and data into the target data set, with roundtrip validation to prove the equivalence to the original data base.</p>
+<p>Integration, Functional and Regression Tests are performed on completed target code modules or components to demonstrate ‘definition of done’ for the target code components interfaces. Any Continuous Integration/Continuous Deployment (CI/CD) pipeline testing process which executes from a non-mainframe platform (such as from a T27 client platform) can be kept unchanged and follow DevSecOps best practices and use the Air Force Common Computing Environment (CCE) DevSecOps Toolchain. </p>
+<h2 id="843-validate">8.4.3 Validate</h2>
+<p>The final Development Sprint iteration merges the latest baseline of the code at the end of the modernization process create the final release integration.  All delta areas are identified and regression tests are performed on the needed areas that have changed.  The “modernized” system documentation is generated and a final Transformation Blueprint is delivered to the customer.  During the final release integration, the sprint team demonstrates the modernized system to the Product Owner and stakeholders who validate that ‘definition of done’ and “minimum viable product’ checklist criteria have been completed. The sprint team supports transitioning the system into production.  For complex modernized systems the release integration may require several iterations, more exhaustive testing and additional refactoring to achieve final customer acceptance.</p>
+<h2 id="844-cutover">8.4.4 Cutover</h2>
+<h3 id="final-testing">Final Testing</h3>
+<p>During this phase the project sprint team Developers and Testers support User Acceptance Testing and Security Testing (to achieve ATO) of the modernized system in the Staging environment with a subset of the eventual end users or super users. During this phase the sprint team developers and testers will support system rework or Priority 1 and Priority 2 defects and recycle the modernized system release back to Staging environment for validation the defects have been fixed. </p>
+<h3 id="documentation">Documentation</h3>
+<p>During Cutover the sprint team and technical support team support finalization of any system and user documentation.  Some documentation is written during Development Sprint iterations, but it typically isn't finalized until the system release itself has been finalized to avoid unnecessary rework.  Documentation is treated like any other work item requirement.  It is priced, prioritized, and placed in the sprint backlog as a task supported by the Product Owner and Stakeholders.  </p>
+<h3 id="knowledge-transfer">Knowledge Transfer</h3>
+<p>Training of end users, operations staff, and technical support staff is conducted to enable users to work effectively with the modernized system. The final task in Cutover phase is Data migration and then the system is deployed to Production for a shakedown period. The AAM contractor’s Sprint team and technical support team provides support to the operations staff as they place the system into production and resolve any Post-Production issues that may arise.</p>
         
       </div>
       <div class="bes-feedback">
-             <a href="mailto:anne.demey@isobar.com?subject=BES Playbook Feedback: Automated Application Modernization (in progress) - 8.2 Technical Design">feedback</a>
+             <a href="mailto:anne.demey@isobar.com?subject=BES Playbook Feedback: Automated Application Modernization (in progress) - 8.4 Implementation">feedback</a>
       </div>
 
 
@@ -1451,10 +1482,10 @@
       
         <div class="bes-page-nav" role="navigation" aria-label="footer navigation">
           
-            <a href="../8-1-requirements/" class="bes-page-nav__button bes-page-nav__button--prev" title="8.1 Requirements">Previous</a>
+            <a href="../8-3-design/" class="bes-page-nav__button bes-page-nav__button--prev" title="8.3 Design">Previous</a>
           
           
-            <a href="../8-3-cybersecurity/" class="bes-page-nav__button bes-page-nav__button--next" title="8.3 Cybersecurity">Next</a>
+            <a href="../9-0-overview/" class="bes-page-nav__button bes-page-nav__button--next" title="9.0 Overview">Next</a>
           
         </div>
       

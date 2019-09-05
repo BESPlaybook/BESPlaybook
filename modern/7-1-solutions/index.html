@@ -416,26 +416,32 @@
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-1-structure/">
-  4.1 Team Structure
+  href="../../low-code/4-1-strategy/">
+  4.1 BES Digital Strategy
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-2-management-process/">
-  4.2 Project Management Processes
+  href="../../low-code/4-2-dev-lifecycle/">
+  4.2 Low-Code Software Development Lifecycle
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-3-dev-lifecycle/">
-  4.3 Low-Code Software Development Lifecycle
+  href="../../low-code/4-3-team/">
+  4.3 Team Structure
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-4-kpi/">
-  4.4 Key Project Metrics – KPI’s
+  href="../../low-code/4-4-management-process/">
+  4.4 Project Management Processes
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../low-code/4-5-kpi/">
+  4.5 Key Project Metrics – KPI’s
 </a>
                 </li>
     </ul>
@@ -1305,7 +1311,7 @@
     </ul>
                       </li>
                       <li class="">
-<span>6. Organization and Support</span>
+<span>6. Project Guidance</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
@@ -1320,21 +1326,21 @@
 </a>
                 </li>
                 <li class="">
-<a class=""\
-  href="../6-2-tech.md">
-  6.2 Technical Team
+<a class="reference internal"\
+  href="../6-2-personnel/">
+  6.2 Key Personnel
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../6-3-support/">
-  6.3 Support
+  href="../6-3-project-phases/">
+  6.3 AAM Project Phases and Work Items
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../6-4-stakeholders/">
-  6.4 Stakeholders
+  href="../6-4-risk/">
+  6.4 Risk Identification and Mitigation Strategy
 </a>
                 </li>
     </ul>
@@ -1342,6 +1348,12 @@
                       <li class="current">
 <span>7. Determining the Best Modernization Solution</span>
     <ul class="current">
+                <li class="">
+<a class="reference internal"\
+  href="../7-0-overview/">
+  7.0 Overview
+</a>
+                </li>
                 <li class="current">
 <a class="reference internal current"\
   href="./">
@@ -1357,52 +1369,47 @@
     </ul>
                       </li>
                       <li class="">
-<span>8. Solution Design</span>
+<span>8. Solution Design and Implementation</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../8-1-requirements/">
-  8.1 Requirements
+  href="../8-0-overview/">
+  8.0 Overview
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../8-2-tech/">
-  8.2 Technical Design
+  href="../8-1-planning/">
+  8.1 Project Planning and Discovery
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../8-3-cybersecurity/">
-  8.3 Cybersecurity
+  href="../8-2-design-principles/">
+  8.2 Design Principles
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../8-3-design/">
+  8.3 Design
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../8-4-implementation/">
+  8.4 Implementation
 </a>
                 </li>
     </ul>
                       </li>
                       <li class="">
-<span>9. Project Guidance</span>
+<span>9. Measurement and Metrics</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../9-1-phases/">
-  9.1 Phases
-</a>
-                </li>
-                <li class="">
-<a class="reference internal"\
-  href="../9-2-risk/">
-  9.2 Risk Identification and Management
-</a>
-                </li>
-    </ul>
-                      </li>
-                      <li class="">
-<span>10. Measurement and Metrics</span>
-    <ul>
-                <li class="">
-<a class="reference internal"\
-  href="../10-1-definekpi/">
-  10.1 Define KPIs
+  href="../9-0-overview/">
+  9.0 Overview
 </a>
                 </li>
     </ul>
@@ -1439,7 +1446,19 @@
       
       <div class="bes-content">
         
-          
+          <blockquote>
+<h1 id="71-identifying-viable-solutions"><strong>7.1</strong> Identifying Viable Solutions</h1>
+</blockquote>
+<p>In this section we address the top four alternative application modernization solutions: Code Rewrite, Lift &amp; Shift, Code Transformation, and Replacement with a COTS package. </p>
+<h3 id="code-rewrite">Code Rewrite</h3>
+<p>Rewriting code means re-implementing all application functionality in a newer programming language. It results in a new system that is strongly aligned with the BES PMO’s application owner business requirements. However, it is a time consuming and labor-intensive alternative, especially when the rewrite is done from scratch using modern Integrated Development Environments or Low Code/No Code Platforms are used to minimize code development and test. Outsourcing to off shore countries like India and Pakistan lowers rewriting costs for commercial customers, however, because of national security implications of the Air Force PEO BES logistics and business systems the outsourcing solution must be must be in CONUS and executed by US citizens. In an effort to manage the high risk of failure for these projects, implementation of changes needs to be halted during the Code Rewrite, which seriously impacts the AF PMO application owner’s mission and user base. Code Rewrite requires a full specification of the business functional, technical and non-functional requirements. Business operations, underlying technology stacks, Air Force RMF and Assessment and Authorization Cybersecurity policies and procedures, end user functionality and UI/UX look and feel are all subject to change. Testing is therefore incredibly complex. Code Rewrites come with a high risk of introducing new bugs, security flaws, and regression of previously fixed bugs. When rewriting legacy applications cost increases enormously in the short term (3-5 years), business alignment is improved but only in the longer term (3+ years).</p>
+<h3 id="lift-shift">Lift &amp; Shift</h3>
+<p>Lift &amp; Shift transfers the legacy application to an open system Windows or Linux environment. The application stays as is, with all functionality and underlying software infrastructure safely preserved. Only the underlying hardware is changed from proprietary chip sets (i.e. IBM or UNISYS mainframe, SPARC, PowerPC or Itanium platforms) to open systems x86 platforms. If Code Transformation is used (e.g. mainframe COBOL to Micro Focus COBOL (x86), there are minimal code changes and refactoring. In comparison to Code Rewrite, Lift &amp; Shift is considerably quicker and cheaper. However, the legacy source code underneath stays the same and an emulator is used to enable running the legacy application in the new environment. This does not solve the initial problem but instead prolongs the inevitable. Lift &amp; Shift brings significantly lower project risk than Code Rewrite. Cost decrease is realized in short term with typical positive ROI in around 2.5 years. The preservation of the customer’s legacy application has no impact on business alignment and risk reduction is not achieved due to the same dependency on legacy language skills. This results in limited flexibility in adapting new technology such as mobile and Cloud. To improve innovation another migration is needed to a new environment. As most cost reduction has already been realized with the first migration, building a business case for a second migration will be much harder.</p>
+<h3 id="code-transformation-and-refactoring">Code Transformation and Refactoring</h3>
+<p>Legacy code automated transformation generates a new code base based on the legacy application which is refactored to use modern architecture design patterns and open system components. Semantically equivalent to the original, the new application is native, readable and maintainable in old and new languages. Similar to Lift &amp; Shift, Code Transformation preserves all the business functionality and applications as is. The difference lies in the replacement of the underlying legacy technology with open systems components. Code Transformation and refactoring eliminates legacy lock-in and legacy language skills dependency and significantly increases the ability to adopt new developments such as Cloud, mobile and microservices.</p>
+<p>Code Transformation and refactoring offers about the same cost structure and a longer implementation time than Lift &amp; Shift. The replacement of the underlying system results in a lower infrastructure TCO. Development in the legacy system is fully supported, offering an optional stepping stone to modern programming languages. Since Code Transformation does not change the business functionality, interfaces and end user functions, organizational impact is limited to IT change and regression testing. Business alignment and agility is considerably improved as new technologies allow for faster development, testing and deployment. Code Transformation allows for competitive innovation at the cost and speed of Lift &amp; Shift.</p>
+<h3 id="replacement-with-cots-package">Replacement with COTS Package</h3>
+<p>Replacing a current, tailor made mainframe application by a commercial off the shelf application sounds easy. Just purchase a turnkey application (i.e. IBM TRIRIGA, Oracle eBusiness Suite, SAP ERP), configure the App for the use cases, migrate all the data and off you go. However, how standard is the application? How much RICE-W code is required? What mission advantage does the legacy application bring to BES logistics and business operations? How easy is the transition considering this is a migration that will only be done once: for a PMO’s specific business applications, workflows and support environment? At the very least, a package replacement requires a business functional requirements specification, technical specifications and a gap analysis between the current system and the package. In terms of organizational change, this approach is very similar to a rewrite in that every aspect of the organization changes with a significant test effort as a result. A COTS replacement only makes sense when the mainframe application you want to replace is non-differentiating and industry-standard. Extensive customization as RICE-W will drastically increase costs as well as risk. These projects often go over budget and take much longer than expected.</p>
         
       </div>
       <div class="bes-feedback">
@@ -1451,7 +1470,7 @@
       
         <div class="bes-page-nav" role="navigation" aria-label="footer navigation">
           
-            <a href="../6-4-stakeholders/" class="bes-page-nav__button bes-page-nav__button--prev" title="6.4 Stakeholders">Previous</a>
+            <a href="../7-0-overview/" class="bes-page-nav__button bes-page-nav__button--prev" title="7.0 Overview">Previous</a>
           
           
             <a href="../7-2-alternatives/" class="bes-page-nav__button bes-page-nav__button--next" title="7.2 Analysis of Alternatives (AoA) Guidance">Next</a>

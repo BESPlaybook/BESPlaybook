@@ -416,26 +416,32 @@
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-1-structure/">
-  4.1 Team Structure
+  href="../../low-code/4-1-strategy/">
+  4.1 BES Digital Strategy
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-2-management-process/">
-  4.2 Project Management Processes
+  href="../../low-code/4-2-dev-lifecycle/">
+  4.2 Low-Code Software Development Lifecycle
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-3-dev-lifecycle/">
-  4.3 Low-Code Software Development Lifecycle
+  href="../../low-code/4-3-team/">
+  4.3 Team Structure
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../../low-code/4-4-kpi/">
-  4.4 Key Project Metrics – KPI’s
+  href="../../low-code/4-4-management-process/">
+  4.4 Project Management Processes
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../../low-code/4-5-kpi/">
+  4.5 Key Project Metrics – KPI’s
 </a>
                 </li>
     </ul>
@@ -1305,7 +1311,7 @@
     </ul>
                       </li>
                       <li class="">
-<span>6. Organization and Support</span>
+<span>6. Project Guidance</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
@@ -1320,21 +1326,21 @@
 </a>
                 </li>
                 <li class="">
-<a class=""\
-  href="../6-2-tech.md">
-  6.2 Technical Team
+<a class="reference internal"\
+  href="../6-2-personnel/">
+  6.2 Key Personnel
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../6-3-support/">
-  6.3 Support
+  href="../6-3-project-phases/">
+  6.3 AAM Project Phases and Work Items
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../6-4-stakeholders/">
-  6.4 Stakeholders
+  href="../6-4-risk/">
+  6.4 Risk Identification and Mitigation Strategy
 </a>
                 </li>
     </ul>
@@ -1342,6 +1348,12 @@
                       <li class="current">
 <span>7. Determining the Best Modernization Solution</span>
     <ul class="current">
+                <li class="">
+<a class="reference internal"\
+  href="../7-0-overview/">
+  7.0 Overview
+</a>
+                </li>
                 <li class="">
 <a class="reference internal"\
   href="../7-1-solutions/">
@@ -1357,52 +1369,47 @@
     </ul>
                       </li>
                       <li class="">
-<span>8. Solution Design</span>
+<span>8. Solution Design and Implementation</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../8-1-requirements/">
-  8.1 Requirements
+  href="../8-0-overview/">
+  8.0 Overview
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../8-2-tech/">
-  8.2 Technical Design
+  href="../8-1-planning/">
+  8.1 Project Planning and Discovery
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../8-3-cybersecurity/">
-  8.3 Cybersecurity
+  href="../8-2-design-principles/">
+  8.2 Design Principles
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../8-3-design/">
+  8.3 Design
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../8-4-implementation/">
+  8.4 Implementation
 </a>
                 </li>
     </ul>
                       </li>
                       <li class="">
-<span>9. Project Guidance</span>
+<span>9. Measurement and Metrics</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../9-1-phases/">
-  9.1 Phases
-</a>
-                </li>
-                <li class="">
-<a class="reference internal"\
-  href="../9-2-risk/">
-  9.2 Risk Identification and Management
-</a>
-                </li>
-    </ul>
-                      </li>
-                      <li class="">
-<span>10. Measurement and Metrics</span>
-    <ul>
-                <li class="">
-<a class="reference internal"\
-  href="../10-1-definekpi/">
-  10.1 Define KPIs
+  href="../9-0-overview/">
+  9.0 Overview
 </a>
                 </li>
     </ul>
@@ -1439,7 +1446,127 @@
       
       <div class="bes-content">
         
-          
+          <blockquote>
+<h1 id="72-analysis-of-alternatives-aoa-guidance"><strong>7.2</strong> Analysis of Alternatives (AoA) Guidance</h1>
+</blockquote>
+<p>An Analysis of Alternatives needs to performed due to the impact of the application modernization solution strategy on the life cycle costs, project timeline, system performance, RMF/A &amp; A process, security controls compliance, authority to operate (ATO), FAIR and FISCAM auditing. A high-level AoA comparison of the application modernization key objectives using the CMMI-DEV ML3 formal Decision Analysis and Resolution (DAR) process is provided in the following table. </p>
+<table>
+<thead>
+<tr>
+<th>Key Objectives</th>
+<th>Code Rewrite</th>
+<th>Lift &amp; Shift</th>
+<th>Code Transformation</th>
+<th>Standard package</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cost increase</td>
+<td>Huge increase on short term (3 – 5 years)</td>
+<td>Short term increase with typical ROI in 2.5 years</td>
+<td>Short term increase with typical ROI in 2.5 years</td>
+<td>High increase on short term (3 years)</td>
+</tr>
+<tr>
+<td>Business alignment</td>
+<td>Improved on longer term (3+ years)</td>
+<td>Not improved since legacy code is preserved</td>
+<td>Improved on shorter term (1+ years)</td>
+<td>Improved on longer term (3+ years)</td>
+</tr>
+<tr>
+<td>Cost avoidance</td>
+<td>Not achieved due to long term project execution time line</td>
+<td>Achieved due to 1 year project execution time line</td>
+<td>Achieved due to 2 year project execution time line</td>
+<td>Not achieved due to long term project execution time line</td>
+</tr>
+<tr>
+<td>Risk reduction</td>
+<td>Not achieved due to long term project execution</td>
+<td>Not achieved as legacy Code is preserved</td>
+<td>Achieved as legacy dependency is removed</td>
+<td>Not achieved due to long term project execution</td>
+</tr>
+</tbody>
+</table>
+<p>A detailed AoA comparison of the impact of each modernization solution on the BES PMO Application Project Metrics is presented in the table below. (1 is very low and 5 is very high)</p>
+<table>
+<thead>
+<tr>
+<th>Project Metric</th>
+<th>Code Rewrite</th>
+<th>Lift &amp; Shift</th>
+<th>Code Transformation</th>
+<th>Standard package</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TCO reduction</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Time to Market (TTM) impact</td>
+<td>5</td>
+<td>1</td>
+<td>2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>IT Security Risk</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr>
+<td>IT Agility</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>3</td>
+</tr>
+<tr>
+<td>IT Cost</td>
+<td>5</td>
+<td>2</td>
+<td>1</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Project Risk</td>
+<td>5</td>
+<td>1</td>
+<td>3</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Project Cost</td>
+<td>5</td>
+<td>2</td>
+<td>3</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Project Duration</td>
+<td>5</td>
+<td>1</td>
+<td>2</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>From this high level AoA and further more detailed trade-off comparisons, we see the modernization strategy of “lift and shift” to IaaS services is more cost-effective than on-premises, however, it can be more costly to run applications in the cloud with IaaS services than if organizations were to transform, refactor and re-platform the application to use cloud native PaaS services. The “code transformation (and refactoring)” modernization strategy is time-consuming and resource-intensive, yet it can offer the lowest monthly spend of the four approaches, since organizations that refactor are able to modify their applications and infrastructure to take full advantage of cloud-native PaaS service features and to maximize operational cost efficiency in the cloud to offer the lowest total recurring monthly cost.</p>
+<p>Code Rewrite and COTS Standard Packages are the least cost effective, are more resource intensive, have the longest project durations and highest record of modernization project failure. These approaches are not recommended for BES PMOs application modernization projects. Therefore, legacy application modernization use cases amenable to AAM solutions are:</p>
+<h3 id="appendix-a-sample-design-1">Appendix A: Sample Design 1</h3>
+<p>Re-host (transform, lift and shift) i.e. legacy COBOL (mainframe) to modern COBOL (X86 processor) code transformation and emulation of the mainframe transaction processing environment on a modern Cloud Windows or Linux infrastructure and RDBMS to achieve portability of the Legacy System as is with minimal refactoring.</p>
+<h3 id="appendix-b-sample-design-2">Appendix B: Sample Design 2</h3>
+<p>Re-platform (transform and refactor to new platform) i.e. legacy COBOL to modern Java code transformation preserving all the business processes and business rules and architecting the application to run on an open systems Windows or Linux Cloud infrastructure and RDBMS.</p>
         
       </div>
       <div class="bes-feedback">
@@ -1454,7 +1581,7 @@
             <a href="../7-1-solutions/" class="bes-page-nav__button bes-page-nav__button--prev" title="7.1 Identifying Viable Solutions">Previous</a>
           
           
-            <a href="../8-1-requirements/" class="bes-page-nav__button bes-page-nav__button--next" title="8.1 Requirements">Next</a>
+            <a href="../8-0-overview/" class="bes-page-nav__button bes-page-nav__button--next" title="8.0 Overview">Next</a>
           
         </div>
       
