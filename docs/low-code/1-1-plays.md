@@ -1,4 +1,4 @@
-> # Low-Code Famework Plays
+> # Low-Code Framework Plays
 
 1.	What the heck is Low-Code
 2.	Delight the User, They are the real customer
