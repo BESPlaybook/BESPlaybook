@@ -1,0 +1,3 @@
+> # **7.0** Determining the Best Application Modernization Solution
+
+In Section 3.4 Migration Approaches the 6R strategies for application modernization were briefly described. In this section, the top four application modernization solutions are identified and described; the Analysis of Alternatives (AoA) main objectives and principle trade off project metrics for each alternative are set forth; and each application modernization solution was assessed with respect to these objectives and metrics to give BES PMOs the perspective needed to select an application modernization solution that best fits their mission requirements, timelines, budget constraints and technical risk tolerance.

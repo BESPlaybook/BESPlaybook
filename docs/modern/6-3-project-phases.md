@@ -52,3 +52,21 @@ A Target Language Transformation Blueprint document is developed to provide a de
 3. Test Plans
 4. Test Cases
 5. Test Scripts – automated to the extent practical
+
+## 6.3.5 Validate
+
+In the Validate stage at the end of the final Development Sprint, Release Integration tasks are performed whereby the application goes through the CI/CD pipeline series of specific tests in the Staging environment (i.e. build verification, functional, security, performance, disaster recovery, and business continuity tests) are demonstrated to the Product Owner and Stakeholders before being finalized and released for the Cutover stage. Test teams evaluate release integration, verify rollout and rollback plans, data migration plans and evaluate performance baselines. Rollback procedures are defined by application within a rollback playbook, which consists of an operations communication plan for users that defines integration, data migration, application, and performance impacts. Testers complete business acceptance criteria by running parallel testing for pre-migrated and migrated applications. Minimum Viable Product validation is performed by the Product Owner and Stakeholders. Validate work items deliverables include:
+
+1. Rollout Plans
+2. Data Migration Plans
+3. Training Plans and Materials
+4. Rollback Procedures
+5. Cutover Plan
+6. User Acceptance Test (UAT) Plan
+7. UAT Test Scripts (automated as much as practical)
+8. Security Test Scripts (automated as much as practical)
+9. Test Reports
+
+## 6.3.6 Cutover
+
+In the Cutover stage, the cutover plan that was agreed upon by the migration team and application product owner is executed. Data Migration and any updated User Training tasks are performed at this stage. A User Acceptance Test and Security Testing for ATO are performed in the CD pipeline Staging environment at this stage to support a successful cutover. Following successful government UAT and Security testing and correction of all Priority 1 and 2 defects, the application release is deployed to the production environment and rolled out to users. In the event of a release failure during cutover, rollback procedures in the cutover plan are executed. Defects causing the release failure are corrected by developers in the CI pipeline and the App release is recycled through the CD pipeline Staging environment before release to Production and Cutover.

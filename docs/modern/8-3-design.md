@@ -1,0 +1,20 @@
+> # **8.3**	Design
+
+In this section we describe design guidance for AAM projects use cases that are targeted for automated application modernization and migration to the Cloud.
+
+## 8.3.1 Technical Design
+
+In the Design stage, the target architecture is developed and documented. The target architecture includes application architecture, and supporting operational components and processes. Members of the sprint team and contractor engineering support team use the information collected during the Discover stage (see Section 8.1) to design the application for the targeted cloud environment. This work depends on the migration pattern and includes a cloud infrastructure architecture document that outlines what services to use. The document also includes information about data flow, foundational elements, database migration, monitoring design, and how the application will consume external resources.
+
+In a typical design phase workflow, the “legacy” Application Blueprint report generated in the Discover phase is used to enable a detailed evaluation of the existing system’s design and architecture.  The following tasks are performed:
+
+1. Baseline Transformation (Developer-ready): The Application modules are run through the Transformation Engine toolset to generate a detailed initial or baseline transformation of the modernized application.  The legacy code is automatically rewritten into the target code with all external operating system calls “stubbed out”.  The Application Blueprint and Baseline Transformation Blueprint allow inspection of the baseline App modernization rule set and provide a detailed understanding of the design and architecture of the target system.  This is necessary to support planning of the Target Architecture Design, which will guide subsequent steps in the refinement of the AAM process.
+2. Target Architecture Design: Definition and development of a detailed plan for implementing the new system’s architecture.  This architecture design activity is conducted with the customer’s Product Owner and engineering support Team of architects and analysts and the AAM contractor project engineering team cloud architects and application developers. The deliverable is the Infrastructure Architecture Document.
+3. Internal and External Dependency Analysis: This is a detailed analysis of all internal dependencies to aid in iterative development and testing of subsystems of the application in Development Sprints.
+4. Transformation Blueprint (Baseline Documentation): A detailed presentation of the structure and flow of the modernized code that supports future code maintenance and any system restructuring and/or enhancement.  As defined, the presentation includes Transformed Code and Design Metrics, Navigation Indices, Control Flow Diagrams, Structure Charts, Data Element Tables, State Machine Models, State Transition Tables, Cause Effect Graphs, and hyper-linked source and target code in HTML format.
+
+## 8.3.2 Cybersecurity Considerations
+
+It is considered a best practice to run Static Application Security Test (SAST) tools and Dynamic Application Security Test (DAST) tools on the modernized code to validate developers have applied secure coding standards and the required security controls are properly implemented.  DAST tools provide penetration testing and verify that cybersecurity vulnerabilities (i.e. the OWASP Top 10) have been tested for and remediated. 
+
+The Air Force Common Computing Environment program worked with Amazon AWS and Microsoft Azure to implement the Defense Information System Agency (DISA) add on cloud security features to AWS GovCloud and Azure Government. These add-ons consist of Virtual Data Center Security Stack (VDSS) which provides traditional DMZ security for web applications and a next generation firewall for VPN access to protect cloud hosted workloads. Also implemented in the cloud were DISA’s Virtual Data Center Managed Services (VDMS) to provide cloud connected management and security tools and privileged user access and management for DoD networks and users.  

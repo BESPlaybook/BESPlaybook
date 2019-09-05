@@ -251,14 +251,18 @@ nav:
           - 6.1 Project Team: modern/6-1-project.md
           - 6.2 Key Personnel: modern/6-2-personnel.md
           - 6.3 AAM Project Phases and Work Items: modern/6-3-project-phases.md
-          - 6.4 Stakeholders: modern/6-4-stakeholders.md
+          - 6.4 Risk Identification and Mitigation Strategy: modern/6-4-risk.md
       - 7. Determining the Best Modernization Solution:
+          - 7.0 Overview: modern/7-0-overview.md
           - 7.1 Identifying Viable Solutions: modern/7-1-solutions.md
           - 7.2 Analysis of Alternatives (AoA) Guidance: modern/7-2-alternatives.md
       - 8. Solution Design:
-          - 8.1 Requirements: modern/8-1-requirements.md
-          - 8.2 Technical Design: modern/8-2-tech.md
-          - 8.3 Cybersecurity: modern/8-3-cybersecurity.md
+          - 8.0 Overview: modern/8-0-overview.md
+          - 8.1 Project Planning and Discovery: modern/8-1-planning.md
+          - 8.2 Design Principles: modern/8-2-design-principles.md
+          - 8.3 Design: modern/8-3-design.md
+          - 8.4 Implementation: modern/8-4-implementation.md
+
       - 9. Project Guidance:
           - 9.1 Phases: modern/9-1-phases.md
           - 9.2 Risk Identification and Management: modern/9-2-risk.md
