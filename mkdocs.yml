@@ -48,7 +48,10 @@ nav:
       - 9. Appendix D - Agile Terminology: 
           - 9.1 Agile Terminology: agile/9-1-appendix-d.md
       - 10. Appendix E - Glossary:
-          - 10.1 Glossary: agile/10-1-appendix-e.md
+          - 10.1 Glossary: agile/10-1-appendix-e.md 
+      - 11. Appendix F - CRDLs:
+          - 11.1 CDRLS: agile/11-1-appendix-f.md
+
 
   - Low-Code (in progress):
       - 1. Plays:
