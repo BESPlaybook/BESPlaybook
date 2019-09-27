@@ -270,8 +270,9 @@ nav:
       - 10. Appendix:
           - '10.1 Appendix A: Sample Design 1': modern/10-appendix-a.md
           - '10.2 Appendix B: Sample Design 2': modern/10-appendix-b.md
-          - '10.3 Appendix C: Checklists and Templates': modern/10-appendix-c.md
-
+      - '11. Appendix C: Checklists and Templates':
+          - Checklist for successful application modernization: modern/11-checklist.md
+          - SANS Security Roadmap: modern/11-3-security.md
 extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
