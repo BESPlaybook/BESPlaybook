@@ -1,6 +1,6 @@
 > # **9.0** Measurement and Metrics
 
-Service level metrics recommended for a modernized application Service Desk (or Help Desk) are provided in Figure xx.
+Service level metrics recommended for a modernized application Service Desk (or Help Desk) are provided in **Figure 9.1**.
 
 | SLA Metrics Description                                                               | SLA KPI     |
 | ------------------------------------------------------------------------------------- | ----------- |
@@ -19,7 +19,7 @@ Service level metrics recommended for a modernized application Service Desk (or 
 | SLA Compliance Rate (% by month)                                                      | Trend Graph |
 
 
-**Figure xx. Proposed Service Desk SLA Metrics (Tier 2 and 3).**
+**Figure 9.1. Proposed Service Desk SLA Metrics (Tier 2 and 3).**
 
 
-We recommend the Service Desk tool be configure to provide critical incident management notification and workflows to manage a critical incident; for example, an App release failure into production – an event which disrupts one or more App services. We recommend standardizing incident status and reporting mechanisms via a Service Desk tool Dashboard based on the KPIs in Figure xx above. The tool’s Applications Dashboard will enable PMO development and sustainment contractor project teams to manage, monitor, coordinate and communicate status of application performance to PMO stakeholders in a centralized, government-approved format. 
+We recommend the Service Desk tool be configured to provide critical incident management notification and workflows to manage a critical incident; for example, an App release failure into production – an event which disrupts one or more App services. We recommend standardizing incident status and reporting mechanisms via a Service Desk tool Dashboard based on the KPIs in **Figure 9-1**. The tool’s Applications Dashboard will enable PMO development and sustainment contractor project teams to manage, monitor, coordinate and communicate status of application performance to PMO stakeholders in a centralized, government-approved format. 
