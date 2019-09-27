@@ -271,8 +271,10 @@ nav:
           - '10.1 Appendix A: Sample Design 1': modern/10-appendix-a.md
           - '10.2 Appendix B: Sample Design 2': modern/10-appendix-b.md
       - '11. Appendix C: Checklists and Templates':
-          - Checklist for successful application modernization: modern/11-checklist.md
-          - SANS Security Roadmap: modern/11-3-security.md
+          - 11.1 Checklist for successful application modernization: modern/11-checklist.md
+          - 11.2 Legacy System Application Portfolio Assessment Framework: modern/11-3-security.md
+          - 11.3 SANS Security Roadmap: modern/11-3-security.md
+          - 11.4 BPD Tailoring Worksheet: modern/11-4-worksheet.md
 extra:
   # Update the baseurl for the location of deployment.
   # This value is combined with the playbook urls to build the inter-playbook nav
