@@ -24,7 +24,7 @@
     var mkdocs_page_name = "9.0 Overview";
     var mkdocs_page_input_path = "modern/9-0-overview.md";
     var mkdocs_page_url = null;
-    var mkdocs_base_url = "https://BESPlaybook.github.io/BESPlaybook";
+    var mkdocs_base_url = "http://localhost:8000";
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
@@ -49,27 +49,27 @@
     </div>
     <ul class="bes-header-nav bes-playbook-nav" aria-label="main navigation">
       <li data-url="/agile/1-1-purpose">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/agile/1-1-purpose">
+        <a href="http://localhost:8000/agile/1-1-purpose">
           Agile
         </a>
       </li>
       <li data-url="/testing/1-1-purpose">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/testing/1-1-purpose">
+        <a href="http://localhost:8000/testing/1-1-purpose">
           Automated Testing
         </a>
       </li>
       <li data-url="/ux/1-1-purpose">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/ux/1-1-purpose">
+        <a href="http://localhost:8000/ux/1-1-purpose">
           User Experience
         </a>
       </li>
       <li data-url="/modern/1-1-play-1">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/modern/1-1-play-1">
+        <a href="http://localhost:8000/modern/1-1-play-1">
           Automated Application Modernization (in progress)
         </a>
       </li>
       <li data-url="/low-code/1-1-plays">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-1-plays">
+        <a href="http://localhost:8000/low-code/1-1-plays">
           Low-Code (in progress)
         </a>
       </li>
@@ -87,27 +87,27 @@
     <nav class="bes-doc-nav-wrap">
       <ul class="bes-playbook-mobile-nav bes-playbook-nav">
         <li data-url="/agile/1-1-purpose">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/agile/1-1-purpose">
+          <a href="http://localhost:8000/agile/1-1-purpose">
             Agile
           </a>
         </li>
         <li data-url="/testing/1-1-purpose">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/testing/1-1-purpose">
+          <a href="http://localhost:8000/testing/1-1-purpose">
             Automated Testing
           </a>
         </li>
         <li data-url="/ux/1-1-purpose">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/ux/1-1-purpose">
+          <a href="http://localhost:8000/ux/1-1-purpose">
             User Experience
           </a>
         </li>
         <li data-url="/modern/1-1-play-1">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/modern/1-1-play-1">
+          <a href="http://localhost:8000/modern/1-1-play-1">
             Automated Application Modernization (in progress)
           </a>
         </li>
         <li data-url="/low-code/1-1-plays">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-1-plays">
+          <a href="http://localhost:8000/low-code/1-1-plays">
             Low-Code (in progress)
           </a>
         </li>
@@ -1431,24 +1431,47 @@
     </ul>
           </li>
           <li class="">
-<span>11. Appendix</span>
+<span>10. Appendix</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../11-appendix-a/">
-  11.1 Appendix A: Sample Design 1
+  href="../10-appendix-a/">
+  10.1 Appendix A: Sample Design 1
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../11-appendix-b/">
-  11.2 Appendix B: Sample Design 2
+  href="../10-appendix-b/">
+  10.2 Appendix B: Sample Design 2
+</a>
+                </li>
+    </ul>
+          </li>
+          <li class="">
+<span>11. Appendix C: Checklists and Templates</span>
+    <ul>
+                <li class="">
+<a class=""\
+  href="../11-checklist.md">
+  11.1 Checklist for successful application modernization
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../11-appendix-c/">
-  11.3 Appendix C: Checklists and Templates
+  href="../11-3-security/">
+  11.2 Legacy System Application Portfolio Assessment Framework
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../11-3-security/">
+  11.3 SANS Security Roadmap
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../11-4-worksheet/">
+  11.4 BPD Tailoring Worksheet
 </a>
                 </li>
     </ul>
@@ -1465,7 +1488,7 @@
         <blockquote>
 <h1 id="90-measurement-and-metrics"><strong>9.0</strong> Measurement and Metrics</h1>
 </blockquote>
-<p>Service level metrics recommended for a modernized application Service Desk (or Help Desk) are provided in Figure xx.</p>
+<p>Service level metrics recommended for a modernized application Service Desk (or Help Desk) are provided in <strong>Figure 9.1</strong>.</p>
 <table>
 <thead>
 <tr>
@@ -1528,8 +1551,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Figure xx. Proposed Service Desk SLA Metrics (Tier 2 and 3).</strong></p>
-<p>We recommend the Service Desk tool be configure to provide critical incident management notification and workflows to manage a critical incident; for example, an App release failure into production – an event which disrupts one or more App services. We recommend standardizing incident status and reporting mechanisms via a Service Desk tool Dashboard based on the KPIs in Figure xx above. The tool’s Applications Dashboard will enable PMO development and sustainment contractor project teams to manage, monitor, coordinate and communicate status of application performance to PMO stakeholders in a centralized, government-approved format. </p>
+<p><strong>Figure 9.1. Proposed Service Desk SLA Metrics (Tier 2 and 3).</strong></p>
+<p>We recommend the Service Desk tool be configured to provide critical incident management notification and workflows to manage a critical incident; for example, an App release failure into production – an event which disrupts one or more App services. We recommend standardizing incident status and reporting mechanisms via a Service Desk tool Dashboard based on the KPIs in <strong>Figure 9-1</strong>. The tool’s Applications Dashboard will enable PMO development and sustainment contractor project teams to manage, monitor, coordinate and communicate status of application performance to PMO stakeholders in a centralized, government-approved format. </p>
         
       </div>
       <div class="bes-feedback">
@@ -1546,8 +1569,8 @@
           title="8.4 Implementation">Previous</a>
         
         
-        <a href="../11-appendix-a/" class="bes-page-nav__button bes-page-nav__button--next"
-          title="11.1 Appendix A: Sample Design 1">Next</a>
+        <a href="../10-appendix-a/" class="bes-page-nav__button bes-page-nav__button--next"
+          title="10.1 Appendix A: Sample Design 1">Next</a>
         
       </div>
       
@@ -1569,27 +1592,27 @@
     <h4>BES Playbooks</h4>
     <ul>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/agile/1-1-purpose">
+          <a href="http://localhost:8000/agile/1-1-purpose">
           Agile
           </a>
         </li>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/testing/1-1-purpose">
+          <a href="http://localhost:8000/testing/1-1-purpose">
           Automated Testing
           </a>
         </li>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/ux/1-1-purpose">
+          <a href="http://localhost:8000/ux/1-1-purpose">
           User Experience
           </a>
         </li>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/modern/1-1-play-1">
+          <a href="http://localhost:8000/modern/1-1-play-1">
           Automated Application Modernization (in progress)
           </a>
         </li>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-1-plays">
+          <a href="http://localhost:8000/low-code/1-1-plays">
           Low-Code (in progress)
           </a>
         </li>

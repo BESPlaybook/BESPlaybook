@@ -24,7 +24,7 @@
     var mkdocs_page_name = "3.5 Methodologies";
     var mkdocs_page_input_path = "modern/3-5-methodologies.md";
     var mkdocs_page_url = null;
-    var mkdocs_base_url = "https://BESPlaybook.github.io/BESPlaybook";
+    var mkdocs_base_url = "http://localhost:8000";
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
   </script>
   
@@ -49,27 +49,27 @@
     </div>
     <ul class="bes-header-nav bes-playbook-nav" aria-label="main navigation">
       <li data-url="/agile/1-1-purpose">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/agile/1-1-purpose">
+        <a href="http://localhost:8000/agile/1-1-purpose">
           Agile
         </a>
       </li>
       <li data-url="/testing/1-1-purpose">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/testing/1-1-purpose">
+        <a href="http://localhost:8000/testing/1-1-purpose">
           Automated Testing
         </a>
       </li>
       <li data-url="/ux/1-1-purpose">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/ux/1-1-purpose">
+        <a href="http://localhost:8000/ux/1-1-purpose">
           User Experience
         </a>
       </li>
       <li data-url="/modern/1-1-play-1">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/modern/1-1-play-1">
+        <a href="http://localhost:8000/modern/1-1-play-1">
           Automated Application Modernization (in progress)
         </a>
       </li>
       <li data-url="/low-code/1-1-plays">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-1-plays">
+        <a href="http://localhost:8000/low-code/1-1-plays">
           Low-Code (in progress)
         </a>
       </li>
@@ -87,27 +87,27 @@
     <nav class="bes-doc-nav-wrap">
       <ul class="bes-playbook-mobile-nav bes-playbook-nav">
         <li data-url="/agile/1-1-purpose">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/agile/1-1-purpose">
+          <a href="http://localhost:8000/agile/1-1-purpose">
             Agile
           </a>
         </li>
         <li data-url="/testing/1-1-purpose">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/testing/1-1-purpose">
+          <a href="http://localhost:8000/testing/1-1-purpose">
             Automated Testing
           </a>
         </li>
         <li data-url="/ux/1-1-purpose">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/ux/1-1-purpose">
+          <a href="http://localhost:8000/ux/1-1-purpose">
             User Experience
           </a>
         </li>
         <li data-url="/modern/1-1-play-1">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/modern/1-1-play-1">
+          <a href="http://localhost:8000/modern/1-1-play-1">
             Automated Application Modernization (in progress)
           </a>
         </li>
         <li data-url="/low-code/1-1-plays">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-1-plays">
+          <a href="http://localhost:8000/low-code/1-1-plays">
             Low-Code (in progress)
           </a>
         </li>
@@ -1431,24 +1431,47 @@
     </ul>
           </li>
           <li class="">
-<span>11. Appendix</span>
+<span>10. Appendix</span>
     <ul>
                 <li class="">
 <a class="reference internal"\
-  href="../11-appendix-a/">
-  11.1 Appendix A: Sample Design 1
+  href="../10-appendix-a/">
+  10.1 Appendix A: Sample Design 1
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../11-appendix-b/">
-  11.2 Appendix B: Sample Design 2
+  href="../10-appendix-b/">
+  10.2 Appendix B: Sample Design 2
+</a>
+                </li>
+    </ul>
+          </li>
+          <li class="">
+<span>11. Appendix C: Checklists and Templates</span>
+    <ul>
+                <li class="">
+<a class=""\
+  href="../11-checklist.md">
+  11.1 Checklist for successful application modernization
 </a>
                 </li>
                 <li class="">
 <a class="reference internal"\
-  href="../11-appendix-c/">
-  11.3 Appendix C: Checklists and Templates
+  href="../11-3-security/">
+  11.2 Legacy System Application Portfolio Assessment Framework
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../11-3-security/">
+  11.3 SANS Security Roadmap
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../11-4-worksheet/">
+  11.4 BPD Tailoring Worksheet
 </a>
                 </li>
     </ul>
@@ -1466,14 +1489,10 @@
 <h1 id="35-methodologies"><strong>3.5</strong> Methodologies</h1>
 </blockquote>
 <p>Once it has been determined by the application owner that the application needs to be modernized by refactoring and/or re-architecting to meet requirements or regulations, there are several methodologies to consider:</p>
-<ul>
-<li>
 <h3 id="agile-methodology-safe">Agile Methodology (SAFe):</h3>
 <ul>
 <li>See Chapter 5 – Software Life Cycle Processes</li>
 </ul>
-</li>
-<li>
 <h3 id="application-analysis-and-assessment">Application Analysis and Assessment:</h3>
 <ul>
 <li>Before undertaking any AAM project, ensure the application is fully analyzed and understood.  This is necessary to make decisions about how to proceed with the design of the application’s future state and how to achieve the required future state:<ul>
@@ -1482,8 +1501,6 @@
 </ul>
 </li>
 </ul>
-</li>
-<li>
 <h3 id="automated-code-conversion">Automated Code Conversion:</h3>
 <ul>
 <li>Automated Code Conversion is a type of refactoring that transforms an existing code baseline into a new and improved code baseline.</li>
@@ -1494,13 +1511,13 @@
 </ul>
 </li>
 </ul>
-</li>
-<li>
 <h3 id="re-platforming">Re-platforming:</h3>
 <ul>
-<li>Re-platforming is a type of refactoring that simply migrates an application from one platform to another.  This is usually done to get off legacy platform and onto modern cloud type platforms.</li>
-<li>Re-platforming moves an application from one platform to another.  For example, consider moving an application off the GCSS-AF platform to a cloud provided Platform as a Service (PaaS).  In this example, the application may be migrated to a new operating system (ie: Solaris to Linux), the application’s database may be migrated from on-premise hosted Oracle RDBMS to a cloud Database as a Service (DBaaS).</li>
-</ul>
+<li>
+<p>Re-platforming is a type of refactoring that simply migrates an application from one platform to another.  This is usually done to get off legacy platform and onto modern cloud type platforms.</p>
+</li>
+<li>
+<p>Re-platforming moves an application from one platform to another.  For example, consider moving an application off the GCSS-AF platform to a cloud provided Platform as a Service (PaaS).  In this example, the application may be migrated to a new operating system (ie: Solaris to Linux), the application’s database may be migrated from on-premise hosted Oracle RDBMS to a cloud Database as a Service (DBaaS).</p>
 </li>
 </ul>
 <table>
@@ -1573,27 +1590,27 @@
     <h4>BES Playbooks</h4>
     <ul>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/agile/1-1-purpose">
+          <a href="http://localhost:8000/agile/1-1-purpose">
           Agile
           </a>
         </li>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/testing/1-1-purpose">
+          <a href="http://localhost:8000/testing/1-1-purpose">
           Automated Testing
           </a>
         </li>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/ux/1-1-purpose">
+          <a href="http://localhost:8000/ux/1-1-purpose">
           User Experience
           </a>
         </li>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/modern/1-1-play-1">
+          <a href="http://localhost:8000/modern/1-1-play-1">
           Automated Application Modernization (in progress)
           </a>
         </li>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-1-plays">
+          <a href="http://localhost:8000/low-code/1-1-plays">
           Low-Code (in progress)
           </a>
         </li>
