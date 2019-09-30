@@ -64,7 +64,7 @@ nav:
           - 2.5 Audience: low-code/2-5-audience.md
           - 2.6 Benefits: low-code/2-6-benefits.md
       - 3. Low-Code Application Development:
-          - 3.1 What is Low-Code?: low-code/3-1-what-is.md
+          - 3.1 What is Low-Code?: low-code/3-1-what-i%s.md
           - 3.2 Low-Code vs. No-Code Frameworks: low-code/3-2-vs-no-code.md
           - 3.3 Low-Code Use Cases: low-code/3-3-use-cases.md
           - 3.4 Low-Code Benefits: low-code/3-4-benefits.md
@@ -84,14 +84,12 @@ nav:
           - 6.1 Air Force Contracting Information Technology (CON-IT): low-code/6-1-con-it.md
       - 7. Appendix B – Low-Code Platform Evaluation Criteria Template:
           - 7.1 Evaluation Template: low-code/7-1-evaluation.md
-      - 8. Appendix C – Low-Code Terminology:
-          - 8.1 Low-Code Terminology: low-code/8-1-terminology.md
-      - 9. Appendix D – Glossary:
-          - 9.1 Glossary: low-code/9-1-glossary.md
-      - 10. Appendix E – References:
-          - 10.1 References: low-code/10-1-references.md
-      - 11. Appendix F – Chapter 5 Key Contributors:
-          - 11.1 Chapter 5 Low-Code Playbook Contributors: low-code/11-1-contributors.md
+      - 8. Appendix C – Acronyms:
+          - 8.1 Acronyms: low-code/8-1-terminology.md
+      - 9. Appendix D – References:
+          - 9.1 References: low-code/9-1-references.md
+      - 10. Appendix E – Chapter 5 Key Contributors:
+          - 10.1 Chapter 5 Low-Code Playbook Contributors: low-code/10-1-contributors.md
 
   - Automated Testing:
       - 1. Overview:

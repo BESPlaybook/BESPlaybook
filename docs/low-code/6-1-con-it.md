@@ -197,22 +197,22 @@ For example, a Java Enterprise Edition (JEE) application requires a skilled team
 ## 6.1.7 Lessons Learned
 
 ### Ensure the engineering and management teams fully understands the Architectural impacts of Low-Code implementation and processing requirements. 
-1.	How much compute and system resource processing in terms of CPU, Memory and storage are required based on concurrent user counts. (Performance)
-2.	Ensure the Low-Code system can support concurrent development; more than one developer working on same part of the code or application base. (can more than one person work on the same code at the same time and each person’s code is not overwritten with last person to check-in code) 
-    1.	Each developer pulls and pushes to origin. But besides the centralized push-pull relationships, each developer may also pull changes from other peers to form sub teams. For example, this might be useful to work together with two or more developers on a big new feature, before pushing the work in progress to origin prematurely
-    2.	When the source code in the develop branch reaches a stable point and is ready to be released, all of the changes should be merged back into master somehow and then tagged with a release number. 
-    3.	Therefore, each time when changes are merged back into master, this is a new production release by definition.
+1. How much compute and system resource processing in terms of CPU, Memory and storage are required based on concurrent user counts. (Performance)
+2. Ensure the Low-Code system can support concurrent development; more than one developer working on same part of the code or application base. (can more than one person work on the same code at the same time and each person’s code is not overwritten with last person to check-in code) 
+    1. Each developer pulls and pushes to origin. But besides the centralized push-pull relationships, each developer may also pull changes from other peers to form sub teams. For example, this might be useful to work together with two or more developers on a big new feature, before pushing the work in progress to origin prematurely
+    2. When the source code in the develop branch reaches a stable point and is ready to be released, all of the changes should be merged back into master somehow and then tagged with a release number. 
+    3. Therefore, each time when changes are merged back into master, this is a new production release by definition.
 
 ### Ensure engineering and program management teams define, understand and agree to the development life cycle. 
-1.	Use of concurrent development where members following development models using distributed or centralized repository(s) and set expectation with defined and documented process flow for check-in, build and release process. (CI/CD process)
-2.	Define Code repository and how the developers will check-in code to maximize the most end-user requirements are completed within each story. Ensure on the developers are quality code checking each other’s work. To successfully check in code to the repository the author sends in the code for review and a peer developer will quality check and commit the code to the branch and repository. (ensure code quality)
-3.	Ensure there are safeguards in place account for a deviation for releases to support end-user emergency requirements or zero-day security threats. (Change Control Board (CCB) Wavier process)
+1. Use of concurrent development where members following development models using distributed or centralized repository(s) and set expectation with defined and documented process flow for check-in, build and release process. (CI/CD process)
+2. Define Code repository and how the developers will check-in code to maximize the most end-user requirements are completed within each story. Ensure on the developers are quality code checking each other’s work. To successfully check in code to the repository the author sends in the code for review and a peer developer will quality check and commit the code to the branch and repository. (ensure code quality)
+3. Ensure there are safeguards in place account for a deviation for releases to support end-user emergency requirements or zero-day security threats. (Change Control Board (CCB) Wavier process)
 
 ### Define Agile approach and release schedule communicate with all parties to ensure expectations are all aligned. 
-1.	Selection of program management process using industry-based tooling and standards. 
-    1.	CON-IT uses Atlassian Suite to manage Epics, Stories, Spikes, backlog, and documents. (JIRA & Confluence)
-    2.	CON-IT uses SCRUM with five-week release cycles. The developers develop weekly code drops and present the updates weekly to the functional community to show what was built. This approach allows for rapid correction or adjustments to the requirements. 
-    2.	Ensure Functional customers understand the process and the points where they are required to support to keep the continuous delivery model operating efficiently. (Everyone has a role and responsibility to make the approach successful)  
+1. Selection of program management process using industry-based tooling and standards. 
+    1. CON-IT uses Atlassian Suite to manage Epics, Stories, Spikes, backlog, and documents. (JIRA & Confluence)
+    2. CON-IT uses SCRUM with five-week release cycles. The developers develop weekly code drops and present the updates weekly to the functional community to show what was built. This approach allows for rapid correction or adjustments to the requirements. 
+    2. Ensure Functional customers understand the process and the points where they are required to support to keep the continuous delivery model operating efficiently. (Everyone has a role and responsibility to make the approach successful)  
 
 ## 6.1.8 Demonstrations / Samples
 
@@ -267,4 +267,5 @@ _Details on the modification the user can see and interact to make the modificat
 
 [image here]
 
-_As you can see the complexity of the process model is more detailed with the modification of the award. These models are all based on the business rules set forth by laws, policy and goverenance of the contracting community._
+_As you can see the complexity of the process model is more detailed with the modification of the award. These models are all based on the business rules set forth by laws, policy and governance of the contracting community._
+
