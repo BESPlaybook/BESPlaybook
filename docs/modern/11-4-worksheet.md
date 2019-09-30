@@ -54,6 +54,8 @@ The following table prescribes work item products that are recommended for an AA
 | 11      | N/A         | Configuration Control Directive (CCD)                                                                                                                             | CCD Form                                           | Replaced with CI/CD Pipeline Processes                                                                                   |
 | 12      | N/A         | Functional Review Board (FRB) and minutes                                                                                                                         | FRB Procedure                                      | Replaced by Product Owner and designated Stakeholders providing engineering support                                      |
 
+## Engineering and Manufacturing Development Iteration – Begin
+
 | Row No. | ✔, * or N/A | Product                                                                                                                                                                                                | References                                                                                            | Justification for Tailoring                                                                                                                                                                                                        |
 | ------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 13      | N/A         | Software Development Plan (SDP)                                                                                                                                                                        | SDP Template                                                                                          | Tailor out if PDR occurs before Milestone B                                                                                                                                                                                        |
@@ -187,3 +189,91 @@ The following table prescribes work item products that are recommended for an AA
 | 109     | ✔           | Products from continual customer support (i.e., resolved customer requests, Deficiency Reports (DRs), maintained Problem Management System database, and required or requested reports) | Continual Customer Support Procedure                                    | Government PMO and Post production sustainment support contractor. |
 | 110     | ✔           | In-Service Review (ISR) and Minutes                                                                                                                                                     | In-Service Review                                                       | Government PMO.                                                    |
 | 111     | ✔           | Lessons Learned                                                                                                                                                                         | Lessons Learned, Good Practices, Opportunities and Assistance Procedure | Government PMO.                                                    |
+
+
+## List of Acronyms
+
+| Acronyms  | Definition                                           |
+| --------- | ---------------------------------------------------- |
+| A&A       | Assessment & Authorization                           |
+| AAM       | Automated Application Automation                     |
+| AF        | Air Force                                            |
+| AoA       | Analysis of Alternatives                             |
+| AMDD      | Agile Model-Driven Development                       |
+| APIs      | Application Programming Interfaces                   |
+| ASP       | Active Server Pages                                  |
+| ATO       | Authority to Operate                                 |
+| AWS       | Amazon Web Services                                  |
+| BPA       | Business Process Automation                          |
+| BPMS      | Business Process Management System                   |
+| BPD       | Business Process Directory                           |
+| BES       | Business Enterprise Systems                          |
+| CASE      | Computer Aided Software Engineering                  |
+| CD        | Continuous Delivery                                  |
+| CI        | Continuous Integration                               |
+| CCE       | Common Computing Environment                         |
+| CEI       | Capability Integration Environment                   |
+| CMS       | Content Management System                            |
+| CCoE      | Cloud Center of Excellence                           |
+| CoE       | Center of Excellence                                 |
+| CONOPs    | Concept of Operations                                |
+| COTS      | Commercial of the Shelf                              |
+| CRM       | Customer Relationship Management                     |
+| DAST      | Dynamic Application Security Test                    |
+| DBaaS     | Database as a Service                                |
+| DevOps    | Development Operations                               |
+| DevSecOps | Development Security Operations                      |
+| DECC      | DISA Enterprise Computing Center                     |
+| DISA      | Defense Information Systems Agency                   |
+| DMZ       | Demilitarized Zone                                   |
+| ELIT      | Enterprise Logistics IT                              |
+| ELFP      | US Air Force Enterprise Logistics Flight Plan v2.0   |
+| ELTA      | Enterprise Logistics Technology Annex                |
+| EUD       | End-User Development                                 |
+| EUP       | End-User Programming                                 |
+| FIAR      | Financial Improvement and Audit Readiness            |
+| FISCAM    | Federal Information System Controls Audit Manual     |
+| HCI       | Human-Computer Interaction                           |
+| IaC       | Infrastructure as Code                               |
+| IDAM      | Identity and Access Management                       |
+| IEEE      | Institute of Electrical and Electronics Engineers    |
+| IMDS      | Integrated Maintenance Data System                   |
+| ILS-S     | Integrated Logistics System – Supply                 |
+| IOC       | Initial Operational Capability                       |
+| IMS       | Information Management System                        |
+| JSF       | JavaServer Faces                                     |
+| JSP       | JavaServer Pages                                     |
+| LCDP      | Low-Code Development Platform                        |
+| MVC       | Model View Controller                                |
+| NCDP      | No-Code Development Platform                         |
+| POC       | Proof of Concept                                     |
+| PaaS      | Platform as a Service                                |
+| PEO       | Program Executive Office                             |
+| PM        | Program Manager                                      |
+| PMO       | Program Management Office                            |
+| PWS       | Performance work Statement                           |
+| RAD       | Rapid Application Development                        |
+| RDBMS     | Relational Database Management System                |
+| RDS       | Relational Database Service                          |
+| RHEL      | Red Hat enterprise Linux                             |
+| RICE-W    | Reports Interfaces Conversions Extensions - Workflow |
+| RPA       | Robotic Process Automation                           |
+| RMF       | Risk Management Framework                            |
+| ROI       | Return on Investment                                 |
+| SAFe      | Scaled Agile Framework                               |
+| SBSS      | Standard Base Supply System                          |
+| SCCA      | Secure Cloud Computing Architecture                  |
+| SDLC      | Software Development Life Cycle                      |
+| SLOC      | Source Lines of Code                                 |
+| SME       | Subject Matter Expert                                |
+| SOA       | Services Oriented Architecture                       |
+| SAST      | Static Application Security Test                     |
+| SysOps    | System Operations                                    |
+| SQL       | Structured Query Language                            |
+| UAT       | User Acceptance Testing                              |
+| UI/UX     | User Interface/User Experience                       |
+| VDSS      | Virtual Data Center Security Stack                   |
+| VDMS      | Virtual Data Center Managed Services                 |
+| VM        | Virtual Machine                                      |
+| VPL       | Visual Programming Language                          |
+| XP        | eXtreme Programming                                  |
