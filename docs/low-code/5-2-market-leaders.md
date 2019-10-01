@@ -18,7 +18,7 @@ The Now Platform, offered since 2013, is a stand-alone Low-Code hpaPaaS solution
 
 Gartner defines Low-Code Application Development Platforms as high-productivity application Platform as a service (hpaPaaS) solutions for declarative, model-driven applications design, development and simplified software deployments.  Gartner selected 18 vendors for inclusion in their hpaPaaS assessment. Garner’s vendor inclusion criteria stated, “Only vendors providing “enterprise” hpaPaaS – as a public cloud service - are considered in this ©Gartner Magic Quadrant for July 2019” (see **Figure 7**).
 
-[image here]
+_![Figure 7](images/5-2-7.png)_
 
 **Figure 7. Low-Code Application Development Platform Leaders are in the upper right quadrant.**
 
@@ -46,7 +46,9 @@ Forrester selected vendors that take on a wide range of use cases, including web
 
 Forrester selected vendors who server enterprise scale customers having revenues in excess of $1 billion in multiple geographic regions.
 
-[image here]
+_![Figure 8](images/5-7-8.png)_
+
+**Figure 8. Forrester WaveTM Low-Code Development Platforms For 1st Quarter 2019.**
 
 According to PCMag, one area in which all these tools are weak is change management. Feature enhancements are sorely needed around the ability to stage a release to a subset of users plus the ability to roll back a release in case of an error or release failure. Mendix and OutSystems have one-click deployment and rollback, but there are still some issues that they need to work out in syncing data model changes to the UI/UX.
 

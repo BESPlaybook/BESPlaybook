@@ -7,7 +7,7 @@ Contracting Information Technology System (CON-IT) provides a single contract wr
 Contracting professionals provide contracting support capabilities to a wide spectrum of missions, including (but not limited to) weapons systems, research & development, logistics and sustainment, installation and mission support, and contingency operations which includes supporting other federal agencies during natural disasters. The Air Force Contracting Strategic Plan 2009-2013 outline these capabilities. Specifically, Goal 3 states “We will posture the Air Force as a demanding customer to our suppliers and ensure our Air Force Contracting processes and systems are able to meet the challenges of today and tomorrow.” Objective 3.2 further states that “technology offers significant possibilities for improvement” through “two technical upgrades: (1) implementing a single contract writing system and (2) developing a web-based capability for decentralized ordering.” The goal of CON-IT is to become the Air Force’s single contract writing system. CON-IT shall provide contracting professionals with a seamless workspace that supports all requirements defined in the CON-IT Bounded User Requirements.
 CON-IT is a Low-Code mission application directly supporting AF-Contracting. AF Contracting’s mission is to deliver responsive information systems to support more efficient and effective contracting operations worldwide in any environment - supporting all domains that form a foundation for sovereign operation of the USAF.  CON-IT supports over 4,700 registered users in the production system and 105 geographic locations worldwide. CON-IT consumes external mission applications using various secure transfer methods.  
 
-[image here]
+_![User count](images/6-1-1.png)_
 
 The following 13 external interfaces are used with the CON-IT system to support the contracting mission requirements: 
 
@@ -39,7 +39,7 @@ The following 13 external interfaces are used with the CON-IT system to support 
 
 ### AF Program Management Office Key Personnel that are part of the Agile management process.
 
-[image here]
+_![PMO](images/6-1-pmo.png)_
 
 
 ### AF CON-IT Functional (Customer) 
@@ -57,36 +57,41 @@ The following 13 external interfaces are used with the CON-IT system to support 
 
 Using an agile approach uses like concept e.g. requirements, design, build, test and deploy to production with key differences on when each concept is addressed. The pitfall is customers are engaged at the end of the process normally having an adverse effect. Customers looks at what was built based on documented requirements however the total solution was not in alignment with customer expectations. With a traditional waterfall approach each topic is serial. Each step is completed in totality of the full application lifecycle versus agile with automation breaking the lifecycle into smaller quick deliverables address the requirements, design, test, build and deployment to production.  
 
-[image here]
+_![scrum](images/Waterfall vs. Agile.PNG)_
 
-_Agile versus a standard Waterfall program management approach with focus on continuous delivery._
+**Agile versus a standard Waterfall program management approach with focus on continuous delivery.**
 
 
 ### Agile and Scrum
 
 Using Agile methodology further breakdown into the “how” or execution management of the program lifecycle. CON-IT uses Scrum; Scrum is an agile process that focuses on delivering the business value in the quickest time possible meeting the business requirement(s). Scrum rapidly and repeatedly inspects actual working software and the end customers are shown the built software to validate the software address the business requirement(s) in three- or four-week sprints (collection of work that can fit within the time schedule). Scrum emphasizes accountability, teamwork, and iterative progress toward a well-defined goal. The Scrum Framework usually deals with the fact that the requirements are likely to change or most of the time not known at the start of the project.
 
-[image here]
 
-_The diagram shows an Industry Standard Software Development Scrum Overview Process_
+_![scrum](images/Agile and Scrum_Image 1.PNG)_
 
-[image here]
+**The diagram shows an Industry Standard Software Development Scrum Overview Process**
+
+_![scrum](images/Agile and Scrum_Image 2.PNG)_
+
+**CON_IT Agile Schedule Roadmap shows delivery capability by type**
+
 
 CON-IT has defined the process based on five-week time block or sprints. Each sprint contains the most valuable business requirement that is agreed on with the product teams. Using the approach allows for the CON-IT program to establish a schedule road map.
 
-*CON_IT Agile Schedule Roadmap shows delivery capability by type*
+_![scrum](images/Agile and Scrum_Image 3.PNG)_
 
-[image here]
+**Sprint Release process with Schedule showing detailed level steps of each release and the schedule with decision points.**
 
-_Sprint Release process with Schedule showing detailed level steps of each realease and the schedule with decision points._
 
-[image here]
+_![scrum](images/Agile and Scrum_Image 4.PNG)_
 
-_Change Control Board (CCB) Process for CON-IT and Team Members – USDA is the System Integrator for CON-IT_
+**Change Control Board (CCB) Process for CON-IT and Team Members – USDA is the System Integrator for CON-IT**
 
-[image here]
 
-_Sprint Review expectation deliver with Inputs and Decision Points._
+_![scrum](images/Agile and Scrum_Image 5.PNG)_
+
+
+**Sprint Review expectation deliver with Inputs and Decision Points.**
 
 ## 6.1.4 High Level Design
 
@@ -108,21 +113,21 @@ The PDS was developed under the guidance of the Defense Procurement and Acquisit
 
 The CON-IT program will deploy system capabilities as a series of development / test / delivery capability increments and releases following an agile approach to both acquisition and development. CON-IT provides the key contracting tool towards meeting the Air Force’s requirement for improved contracting effectiveness and efficiencies, as directed by SAF/AQC.
 
-[image here]
+_![Strategic Vision](images/6-4-1-1.png)_
 
-_CON-IT Strategic Vision showing key metrics of the program and approach to managing an Agile progam._
+_CON-IT Strategic Vision showing key metrics of the program and approach to managing an Agile program._
 
-_CON-IT Production Architecture following Indrustry N-Tier Application Model_
+_CON-IT Production Architecture following Industry N-Tier Application Model_
 
-[image here]
+_![N-Tier Application](images/6-4-1-2.png)_
 
 _Architecture – Shows Industry Standard N-Tier Application Design for Production CON-IT Mission Application._
 
-[image here]
+_![PRODUCTION](images/6-4-1-3.png)_
 
 _**Table 1.0** CON-IT PRODUCTION - Performance Objectives The table above describes the contracting availability measurements used to measure the production system in support of the CON-IT user base._
 
-[image here]
+_![Cumulative Measurement](images/6-4-1-4.png)_
 
 _Cumulative Measurement of Production CON-IT Availability_
 
@@ -137,9 +142,10 @@ Unlike many programs, CON-IT existed in various forms since initiation in 2001 a
 
 CON-IT used the effort and energy applied from the Defense Information Systems Agency (DISA) business case. CON-IT was able to generate a cost avoidance saving taxpayers $83M through the reuse of IDEAS software code base. 
 
-_CON-IT Program Specific Cost Advoidance through reuse and lessons learned from DISA IDEAS._
+_CON-IT Program Specific Cost Avoidance through reuse and lessons learned from DISA IDEAS._
 
-[image here]
+_![Cost Avoidance](images/6-1-5-1.png)_
+
 
 ### Business Problem
 
@@ -218,54 +224,35 @@ For example, a Java Enterprise Edition (JEE) application requires a skilled team
 
 The following screen captures show CON-IT mission application. Each screen will show a representation of how to award a contract, how to modify a contract and the details that are available within the CON-IT application.
 
-[image here]
-
-_This is the home page for a contracting officer. It shows ‘what actions are assigned to me and the actions I can take based on the role assigned’._
+_![home page](images/6-1-8-1.png)_
 
 
 The following screen show the Purchase Request dashboard and details required for a contracting professional to perform his or her duties. 
 
-[image here]
+_![Purchase Request](images/6-1-8-2.png)_
 
-_Purchase Request for this record A11134568, showing an example of what information is on the consistent customer experience._
+_![Create an Award](images/6-1-8-3.png)_
 
-[image here]
+_![basic data](images/6-1-8-4.png)_
 
-_Create an Award from the PR – Consistent User Experience_
+_![additional details](images/6-1-8-5.png)_
 
-[image here]
+_![Additional](images/6-1-8-6.png)_
 
-_This is the basic data available to create an award_
+The following screen shows how the create award was “developed” using a process flow within the Appian Low-Code frame work. 
 
-[image here]
-
-_The additional details associated with the Create Award process._
-
-[image here]
-
-_The address and submission of the created award._
-
-The following screen shows how the create aware was “developed” using a process flow within the Appian Low-Code frame work. 
-
-[image here]
-
-_This is Appian Process Modeler the tool used to create the business work flows._
+_![Appian Process Modeler](images/6-1-8-7.png)_
 
 This screen show the Appian Process Modeler for the “Create Award Process” (screens from above that awarded a Purchase Request)
 
-[image here]
+_![designer view](images/6-1-8-8.png)_
 
-_This is the designer view and how the Appian objects are linked together to create the screens and workflow process._
 
-[image here]
+_![modification](images/6-1-8-9.png)_
 
-_This screen now shows how to make a modification to an award._
 
-[image here]
+_![Details on the modification](images/6-1-8-10.png)_
 
-_Details on the modification the user can see and interact to make the modification._
 
-[image here]
-
-_As you can see the complexity of the process model is more detailed with the modification of the award. These models are all based on the business rules set forth by laws, policy and governance of the contracting community._
+As you can see the complexity of the process model is more detailed with the modification of the award. These models are all based on the business rules set forth by laws, policy and governance of the contracting community.
 

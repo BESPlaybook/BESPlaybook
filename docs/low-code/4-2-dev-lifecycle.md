@@ -6,7 +6,7 @@ In this section we describe how the Low-Code App development project is broken d
 
 No new project management framework would be complete without consideration of the development processes that need to be modified or established to support Low-Code software delivery. The process dimension of digital business project management prescribes how different parts of an organization should interact, where Low-Code fits with agile development, and how business (represented by the BES PMO and its stakeholders) and IT (represented by the App development contractor) work together to ensure success. The contractor project team, consisting of the project leadership team and the development team Tech lead, will drive the implementation of innovative solutions that solve complex technical and business issues. The Tech Lead uses an iterative agile methodology (for example see **Figure 1**) to establish the connection between business and technical teams and harness the promise cross-functional agile teams can realize on Low-Code product delivery. 
 
-[image here]
+_![Figure 1](images/4-2-1.png)_
 
 **Figure 1. Typical Agile Scrum Development Framework for an App Release.**
 
@@ -34,14 +34,11 @@ Government App Release Testing is performed in the CD pipeline Staging environme
 
 The following table in **Figure 2** maps the agile activity to the Low-Code activity and work items.
 
-| Agile Activity Phase                             | Low-Code Activity Phase  | Work Item                        |
-| ------------------------------------------------ | ------------------------ | -------------------------------- |
-| Vision and Product Portfolio Management          | Executive Sponsor Vision | Strategy Map                     |
-| Sprint 0 – Product Planning and Features Mapping | Setup                    | Backlog Analysis & App Selection |
+_![Figure 2](images/4-2-2.png)_
 
 **Figure 2. Mapping Agile Practices to No-Code Process Phases and Work Items.**
 
-Work item details and project team roles are provided in Section 4.4 – Project Management Processes.
+Work item details and project team roles are provided in  Section 4.4 – Project Management Processes.
 For more in-depth details on Agile Project Management please review the “Agile” BES Playbook Chapter found here: [https://besplaybook.github.io/BESPlaybook/agile/1-1-purpose/](/agile/1-1-purpose/)
 
 

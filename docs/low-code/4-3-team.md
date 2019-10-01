@@ -26,7 +26,7 @@ In addition, a Tester is added to the team to ensure performance and cross-devic
 
 The Developer and Tech lead skills necessary for starting Low-Code development projects are likely to already exist on current BES PMO contractor teams, either on existing contracts or available as reach back capabilities. In addition, Low-Code development platform vendors generally provide online learning materials to get Low-Code agile development teams up to speed in just a few weeks. Low-Code vendors also have support programs to ensure the necessary vendor technical support is available. By taking advantage of these resources and the fact that it takes less time to learn Low-Code technology, Low-Code agile development teams often begin delivering business apps in a matter of weeks.  The foundational small team resource skill set profiles are described in **Figure 3**. 
 
-[image here]
+_![Figure 3](images/4-3-3.png)_
 
 **Figure 3. Foundation Small Team Skill Sets Profile.**
 
@@ -35,6 +35,6 @@ The Developer and Tech lead skills necessary for starting Low-Code development p
 
 As organizations move to creating exceptional digital experiences, the UX/UI Developer, Front-End Developer, and Tester roles are added to the contractor project team to ensure new digital experiences are robust and make an exceptional first impression on business users. A BES PMO’s contractor organization may already have people with these skills, which means they can be transferred to Low-Code, however, the BES PMO needs to be vigilant to ensure contractors having developers on the team try to fill multiple roles. The additional roles should be fully resourced and focused on the digital experience tasks. These UX/UI Developer, Front-End Developer, and Tester roles are best handled by people with the right background and skill sets. **Figure 4** presents the profiles of the No-Code agile team member roles that the BES PMOs needs to look for on a contractor’s project team developing Apps with exceptional digital experiences.
 
-[image here]
+_![Figure 4](images/4-3-4.png)_
 
 **Figure 4. Foundation Digital Experience Team Skill Sets Profile.**

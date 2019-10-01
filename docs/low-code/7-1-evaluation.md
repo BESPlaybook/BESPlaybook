@@ -8,19 +8,20 @@ PCMag, Gartner and Forrester Low-Code evaluation templates were selected as repr
 
 A product features trade-off matrix (see table below) is used by PCMag to evaluate the Low-Code Development Platforms they tested. We selected the top 5 vendors for evaluation side-by-side using the PCMag trade-off matrix.
 
-[table here]
-
+_![pc mag](images/7-1-1.png)_
+_![pc mag](images/7-1-2.png)_
 _Source: PCMag Low-Code Evaluation Trade-off Matrix._
 
 ### Forrester WaveTM 
 
 Evaluation Templates are excerpted from the Forrester Wave™ Low-Code Development Platforms For AD&D Professionals, Q1 2019, by John R. Rymer and Rob Koplowitz, March 13, 2019. Please see the excerpted template charts presented below. Refer to the full report for the rich details it contains.
 
-[image here]
+_![Forrester Wave](images/7-1-3.png)_
+
 
 _Source: Forrester Wave™ Low-Code Development Platforms For AD&D Professionals, Q1 2019_
 
-[image here]
+_![Forrester Wave](images/7-1-4.png)_
 
 _Source: Forrester Wave™ Low-Code Development Platforms For AD&D Professionals, Q1 2019_
 
@@ -56,5 +57,14 @@ Gartner analysts evaluate technology providers on their ability to convincingly 
 
 #### Table 2: Completeness of Vision Evaluation Criteria
 
-[image here]
+| Evaluation Criteria         | Weighting |
+| --------------------------- | --------- |
+| Market Understanding        | High      |
+| Marketing Strategy          | High      |
+| Sales Strategy              | Medium    |
+| Offering (Product) Strategy | High      |
+| Business Model              | Low       |
+| Vertical/Industry Strategy  | Low       |
+| Innovation                  | High      |
+| Geographic Strategy         | Medium    |
 
