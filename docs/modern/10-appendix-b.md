@@ -8,7 +8,7 @@ The PEO BES ILS-S program management office (PMO) led a successful modernization
 
 The goals were to introduce agility, reduce costs, modernize the technical stack, and enhance security. This was accomplished using automated code transformation tools and techniques while maintaining all functionality, screens, and reports. 
 
-The intermediate modernization hosting target was a DISA X86 virtualized environment and the long-term hosting target is AF Cloud One in AWS GovCloud (US).  AWS GovCloud was chosen to meet DoD’s stringent security and compliance requirements such as U.S. citizenship.
+The intermediate modernization hosting target was a DISA X86 virtualized environment and the long-term hosting target is AF Cloud One in [AWS GovCloud (US)](https://aws.amazon.com/govcloud-us/).  AWS GovCloud was chosen to meet DoD’s stringent security and compliance requirements such as U.S. citizenship.
 
 ## Objectives
 
@@ -59,7 +59,7 @@ Once the COBOL-to-Java code automated transformation and refactoring solution wa
 
 **Figure B-1** shows our three-phrase modernization approach. The two Java logos illustrate the different Java phases. At the end of Phase 1, the Java program contains COBOL coding practices. At the end of Phase 2, the Java program is “clean” with COBOL remnants removed.
 
-[image here]
+_![figure B-1](images/b-1.png)_
 
 **Figure B-1 – Three-phase automated application modernization approach met the DoD’s stringent requirements.**
 
@@ -69,9 +69,10 @@ The modernization of the application involved a transformation of ~1.2M lines of
 
 The applications’ COBOL online and batch applications were automatically transformed using TSRI JANUS Studio tool suite to run on a JEE platform using Java object-oriented software layers (data access, presentation, business logic) and design patterns to enable migration to a standard x86 architecture. Rather than simply transforming source COBOL code to target Java code, the TSRI JANUS Studio tool executes a mature automated transformation and refactoring process by first constructing a comprehensive Intermediate Object Model of the legacy system in an intermediate translation language.  Once modeled within the tool transformation engine, technical SMEs employ an iterative process of applying rules and tuning to output the transformed code into the target Java language. The modernized Java software reused identifier names from the original COBOL application, allowing the component functional SMEs to read and understand the new Java code and routines more easily.  Testing was accomplished using the existing test cases from the legacy application because their was no change in functionality.
 
-During this phase, the COBOL Data Management System network database code was transformed to COBOL with SQL. This COBOL and SQL code was then transformed to Java and SQL code (See *Figure B-2*).
+During this phase, the COBOL Data Management System network database code was transformed to COBOL with SQL. This COBOL and SQL code was then transformed to Java and SQL code (See **Figure B-2**).
 
-[image here]
+_![figure B-2](images/b-2.png)_
+
 
 **Figure B-2 – The component COBOL automated transformation and refactoring to Java.**
 
@@ -83,7 +84,7 @@ The refactoring approach used the TSRI JANUS Studio tool and a semi-automated re
 
 These techniques, along with the improved method synthesis algorithm, greatly improved the maintainability of the Java codebase.
 
-[image here]
+_![figure B-3](images/b-3.png)_
 
 **Figure B-3 – The supply application refactoring plan (to maintainable Java).**
 
@@ -93,7 +94,7 @@ After Phase 2 was completed, the entire application will be migrated to AF Cloud
 
 AWS GovCloud (US) was selected because it aligned with the future technical direction of the system. This included cybersecurity, DevSecOps, and automated continuous integration (CI) and continuous delivery (CD) pipeline processes and DevSecOps Toolchain. The applications’ architecture is being installed in AWS GovCloud (US) and continues to evolve.
 
-[image here]
+_![figure B-4](images/b-4.png)_
 
 **Figure B-4 – Amazon Web Services (AWS) GovCloud Hosting Design.**
 

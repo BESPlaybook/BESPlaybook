@@ -7,9 +7,9 @@ Standards related to modernization include: PEO BES BPD best **practices**, PEO 
 The AF has been evolving to some application standards, although a single standard does not exist.  The following table provides some Architecture Runway technologies commonly used within the AF.  (Also see AF CCE’s technology standards.)
 
 
-| Category  |  Commonly Used Technology |
-|---|---|
-| Operating Systems | Windows, Linux |
-| Programming Languages | Java, C# |
-| Databases | Oracle RDBMS, SQL Server, Cloud DBaaS |
-| Cloud Environments | AWS, Azure |
+| Category              | Commonly Used Technology              |
+| --------------------- | ------------------------------------- |
+| Operating Systems     | Windows, Linux                        |
+| Programming Languages | Java, C#                              |
+| Databases             | Oracle RDBMS, SQL Server, Cloud DBaaS |
+| Cloud Environments    | AWS, Azure                            |

@@ -49,8 +49,7 @@ Once the Rehost (Lift and Shift) cloud migration strategy was decided upon, Asta
 
 In the Discovery phase all IMDS CDB applications, languages, databases, networks, platforms, and processes in the UNISYS environment were cataloged and analyzed using Micros Focus Enterprise Analyzer.  The interrelationships between applications and all external integration points were documented.  In addition to Micro Focus Enterprise Analyzer, Astadia used their own specially-developed parsers, to analyze legacy code quickly and efficiently. This analysis output was used to establish the transformation blueprint of migration rules that are loaded into Astadia Code Transformation Engine during tool setup. These rules get updated and refined throughout the project.
 
-[image here]
-
+_![figure a-1](images/a-1.png)_
 **Figure A-1.** Astadia’s Cloud Migration Roadmap. Excerpted from Astadia’s Mainframe Modernization: The balanced Path to Success dated 2016. 
 
 ### Design
@@ -91,7 +90,7 @@ The UNISYS COBOL is transformed to Micro Focus Visual COBOL for development in M
 
 Some program functions may be replaced by the target Windows operating system or other target-platform components, so a gap analysis is performed to find the gaps in services. For example, legacy sort functions may be replaced by RDBMS SQL clauses. A data migration strategy is formulated. Flat files may be kept in their same legacy flat form, but Astadia converted them to relational in order to facilitate integration with modern Azure SQL-based tools, and to facilitate scalability and data integrity. UNISYS DMS and RDBMS data is converted to relational data using Astadia conversions tools and extract-transform-load (ETL) programs.
 
-[image here]
+_![figure A-2](images/a-2.png)_
 **Figure A-2. Migrating Unisys Dorado (Sperry) mainframe applications to Azure.** Excerpted from Astadia’s Unisys to AWS Reference Architecture, dtd 2017. 
 
 #### Transformation

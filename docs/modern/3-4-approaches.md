@@ -43,6 +43,6 @@ Maybe you’re still riding out some depreciation, aren’t ready to prioritize 
 
 AAM mostly focuses on Migration Approach #4: Refactoring / Re-architecting legacy systems, but also is relevant to Migration Approach #2: Re-platforming.
 
-[image here]
 
-**Figure 3-1: Six most common application migration strategies.** Excerpted from AWS Migration Whitepaper, AWS Professional Services, March 2018.
+_![fig 3-1](images/3-1.png)_
+_**Figure 3-1: Six most common application migration strategies.** Excerpted from AWS Migration Whitepaper, AWS Professional Services, March 2018.)_

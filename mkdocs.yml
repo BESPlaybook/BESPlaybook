@@ -211,7 +211,7 @@ nav:
       - 1. Overview: cloud/1-1-cloud.md
   - Agile Acquisitions:
       - 1. Overview: acquisitions/1-1-acquisitions.md
-  - Automated Application Modernization (in progress):
+  - Automated Application Modernization:
       - 1. Plays:
           - "1.1 Application's Future Lifespan": modern/1-1-play-1.md
           - 1.2 Technical Baseline: modern/1-2-play-2.md
@@ -271,8 +271,8 @@ nav:
           - '10.1 Appendix A: Sample Design 1': modern/10-appendix-a.md
           - '10.2 Appendix B: Sample Design 2': modern/10-appendix-b.md
       - '11. Appendix C: Checklists and Templates':
-          - 11.1 Checklist for successful application modernization: modern/11-checklist.md
-          - 11.2 Legacy System Application Portfolio Assessment Framework: modern/11-3-security.md
+          - 11.1 Checklist for successful application modernization: modern/11-1-checklist.md
+          - 11.2 Legacy System Application Portfolio Assessment Framework: modern/11-2-legacy-system.md
           - 11.3 SANS Security Roadmap: modern/11-3-security.md
           - 11.4 BPD Tailoring Worksheet: modern/11-4-worksheet.md
 extra:
@@ -280,8 +280,8 @@ extra:
   # This value is combined with the playbook urls to build the inter-playbook nav
   # baseurl: https://isobar-us.github.io/USAF-2212-A4UX-Playbook
   # baseurl: https://ArrayBESPlaybooks.github.io/ArrayBESPlaybook
-  # baseurl: https://BESPlaybook.github.io/BESPlaybook
-  baseurl: http://localhost:8000
+  baseurl: https://BESPlaybook.github.io/BESPlaybook
+  # baseurl: http://localhost:8000
 
   # This list
   playbooks:
@@ -297,12 +297,14 @@ extra:
       url: /ux/1-1-purpose
       icon: _assets/0_home_page_icon_user_experience.svg
       desc: Delivering value requires delivering an experience that meets the needs of your users. Learn what UX is, how it benefits and enhances development efforts, methods for designing experiences, and best-practice visual design guidelines.
-    - name: Automated Application Modernization (in progress)
+    - name: Automated Application Modernization
       url: /modern/1-1-play-1
       icon: _assets/0_home_page_icon_automated_App_modern.svg
-    - name: Low-Code (in progress)
-      url: /low-code/1-1-plays
+      desc: Unlock the business value of your legacy application more quickly using innovative automated tools and methods. Learn about the benefits, solution options, how to set up a modernization project, and best practices to make your project a success.
+    - name: Low-Code
+      url: /low-code/1-1-plays 
       icon: _assets/0_home_page_icon_agile_Model-Driven.svg
+      desc: Empower your “citizen developers” (functional subject matter experts) to be more involved in the application development and improvement process by using graphical representations of business logic and workflows in low-code development environments. Learn about the benefits, platforms, and best practices.
     # - name: DevSec Ops
     #   url: /devops/1-1-devops
     #   icon: _assets/0_home_page_icon_devsec.svg
