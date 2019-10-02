@@ -1508,8 +1508,134 @@
 <tr>
 <td></td>
 <td></td>
+<td>App Estimation</td>
+<td>After making the business case, determine the effort and budget required and available to create the Low-Code App. Consider the Epics, Features and high-level User Stories in the Product Backlog. Estimate total App Story Points using ‘t-shirt sizing’ methods. <br /> <strong>Responsible:</strong> Product Owner <br /> <strong>Consulted:</strong> Tech Lead and Business User Stakeholders</td>
+</tr>
+<tr>
+<td><strong>Sprint Planning</strong></td>
+<td><strong>App Delivery</strong></td>
+<td>App Initiation</td>
+<td>After the initial Epics, Features, high-level User Stories and Target Devices are recorded in the Product Backlog, select and prioritize items for the Sprint Backlog, refine the User Stories, break them down into tasks, estimate their size in Story Points using Planning Poker methodology, define ‘Definition of Done’, and define ‘Minimum Viable Product (MVP)’.  The resulting Sprint Backlog is worked off in the development sprint iterations.  <br /> <strong>Responsible:</strong> Product Owner <br /> <strong>Consulted:</strong> Tech Lead and Business User Stakeholders</td>
+</tr>
+<tr>
 <td></td>
 <td></td>
+<td>Application Architecture design</td>
+<td>To make sure the application is a success, it needs to have a good architecture runway that allows scalability, performance, and component reusability. <br /><strong>Responsible:</strong> Tech Lead, acting as Architect</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Iteration Planning</td>
+<td>Every development sprint iteration starts with Release Planning and Sprint Planning so that everything is clear for the sprint iteration. Planning should include recent user feedback on the prior sprint iteration to promote user adoption. <br /> <strong>Responsible:</strong> Tech Lead  <br /> <strong>Consulted:</strong> Product Owner</td>
+</tr>
+<tr>
+<td><strong>Development Sprints</strong></td>
+<td></td>
+<td>Iteration Delivery</td>
+<td>After iteration planning, development is executed according to the sprint backlog and according to agile best practices described in this section. <br /> <strong>Responsible:</strong> Tech Lead, Low-Code Developers  <br /> <strong>Consulted:</strong> Product Owner</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Mockups – Low and High Fidelity</td>
+<td>During the MVP definition, ideas should be presented first with low-fidelity mockups. Some of the mockups should be taken to high-fidelity so that project stakeholders can be aligned with the vision for the application. <br /> <strong>Responsible:</strong> UX/UI Designer <br />  <strong>Consulted:</strong> Product Owner and Business User Stakeholders</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Customer Journey</td>
+<td>During the MVP definition, it is necessary to define the customer journey, the multi-touch point mapping, the experience map value, and the business value metrics. <br /> <strong>Responsible:</strong> UX/UI Designer  <br /> <strong>Accountable:</strong> Product Owner  <br /> <strong>Consulted:</strong> Business User Stakeholders</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Implement Look and Feel</td>
+<td>During the MVP definition, it is necessary to implement the look and feel based on the high-fidelity mockups. This will give a vision for how the application will look in the future and allow a faster development process.  <br /> <strong>Responsible:</strong> Front-end Developer  <br /> <strong>Accountable:</strong> Tech Lead <br /> <strong>Consulted:</strong> UX/UI Designer</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Native Plugin Development</td>
+<td>During the project implementation it might be necessary to implement features that require the use of mobile device capabilities. This requires native development of the plugins to be added to the application.  <br /> <strong>Responsible:</strong> Front-end Developer <br /> <strong>Accountable:</strong> Tech Lead</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Iteration Tests</td>
+<td>The developed features for the sprint development iteration are continuously tested in a CI pipeline process to assure the quality of the application. Unit, Component Integration, Functional, Device, Load, and Security testing are required before conducting the iteration Demo with the Product Owner and stakeholders. <br /> <strong>Responsible:</strong> Developers, Tester  <br /> <strong>Consulted:</strong> Tech Lead</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Quality Assurance</td>
+<td>Code quality scans are run to verify coding standards and static and dynamic App security tests are run to verify secure coding standards. <br /> <strong>Responsible:</strong> Developers, Tester <br /> <strong>Consulted:</strong> Tech Lead</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Iteration Demo</td>
+<td>After iteration development testing is complete, a demo is conducted with the Product Owner and stakeholders to validate ‘Definition of Done’ for the user stories and to validate MVP criteria for the completed features to assure that the features developed are correctly implemented and working in the way the users expect. <br />  <strong>Responsible:</strong> Tester  <br /> <strong>Accountable:</strong> Product Owner and Business User Stakeholders</td>
+</tr>
+<tr>
+<td><strong>Release Integration</strong></td>
+<td></td>
+<td>Production Rollout Plan</td>
+<td>The developed application needs a release Production Rollout Plan that defines the way the application is going to be deployed and used. This includes the criteria for a Release Review, MVP criteria, release promotion to CD staging and production environments, Government UAT, security testing, successful production rollout and tasks required to identify when a Rollback Plan should be triggered in the event of release failure. <br /> <strong>Responsible:</strong> Product Owner <br /> <strong>Consulted:</strong> Tech Lead</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Release Demo</td>
+<td>After development, a release demo (UAT and Security Test) is performed to assure that the features developed are: (1) correctly implemented and ‘Definition of Done’ and MVP criteria are met, (2) RMF and security controls are demonstrated for ATO, and (3) the App is working in the field the way the users expect. <br /> <strong>Responsible:</strong> Tester, Government Test Team <br /> <strong>Accountable:</strong> Product Owner and Business User Stakeholders</td>
+</tr>
+<tr>
+<td><strong>Production Release</strong></td>
+<td><strong>Run App</strong></td>
+<td>Production Release</td>
+<td>The application is deployed to the Staging Environment for Government UAT and Security Testing. Following successful Government testing, the release is promoted to the CD Production environment. If it is not a standalone application, it is connected to other production systems or application configurations. This process is based on the Production Rollout Plan document for the release, and it ensures a successful and shorter deployment process. <br /> <strong>Responsible:</strong> DevOps Engineer  <br /> <strong>Accountable:</strong> Product Owner</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>App Promotion</td>
+<td>To assure application success and user adoption, it is very important to have the application internally promoted with users and stakeholders. Create an internal marketing campaign with a video, demo with the app journey, and all internal PR work needed to show that this was the right app and solution (BES Executive Sponsor, Business User Stakeholders, IT management, etc.). <br /> <strong>Responsible:</strong> BES PMO Adoption Champion  <br /> <strong>Accountable:</strong> Product Owner</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>App Feedback</td>
+<td>After an application is in production, find out from users what they think so you can improve the app in future releases or fix urgent issues. The feedback you gather can be related to functionality, user experience, or app issues. <br /> <strong>Responsible:</strong> Product Owner <br /> <strong>Accountable:</strong> Tech Lead</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>App Troubleshooting</td>
+<td>If issues with the app are detected, DevOps must be able to execute symptom analysis, identify the root causes, and mitigate the problems. Otherwise, the application will not be adopted nor will it be successful. <br /> <strong>Responsible:</strong> Tech Lead, DevOps Engineer  <br /> <strong>Accountable:</strong> Product Owner</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Evaluate Business Case Metrics</td>
+<td>Compare the application in production with the business case and metrics defined in the define needs phase to determine the success of the application. Determine adoption rate and develop a plan based on the findings. <br /> <strong>Responsible:</strong> Product Owner  <br /> <strong>Consulted:</strong> Low-Code Adoption Expert</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>App Optimization</td>
+<td>In the future, there might be a need to evolve the application, issue new releases, or deliver new features. Periodic product portfolio reviews can determine and prioritize the next steps. <br /> <strong>Responsible:</strong> Product Owner  <br /> <strong>Consulted:</strong> BES PMO Adoption Champion, Low-Code Adoption Expert</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Performance Monitoring</td>
+<td>Continually monitor the application to identify possible future constraints and act on problems that may appear even before being reported. <br />  <strong>Responsible:</strong> DevOps Engineer, IT infrastructure management  <br /> <strong>Consulted:</strong> Product Owner</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Adoption Monitoring and Tuning</td>
+<td>After a mobile app is live, measure user adoption and identify actions to increase user adoption. <br /> <strong>Responsible:</strong> Product Owner  <br /> <strong>Consulted:</strong> Business User Stakeholders</td>
 </tr>
 </tbody>
 </table>
