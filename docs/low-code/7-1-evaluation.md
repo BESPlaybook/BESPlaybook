@@ -10,7 +10,6 @@ A product features trade-off matrix (see table below) is used by PCMag to evalua
 
 _![pc mag](images/7-1-1.png)_
 _![pc mag](images/7-1-2.png)_
-_Source: PCMag Low-Code Evaluation Trade-off Matrix._
 
 ### Forrester WaveTM 
 
@@ -18,12 +17,7 @@ Evaluation Templates are excerpted from the Forrester Wave™ Low-Code Developme
 
 _![Forrester Wave](images/7-1-3.png)_
 
-
-_Source: Forrester Wave™ Low-Code Development Platforms For AD&D Professionals, Q1 2019_
-
 _![Forrester Wave](images/7-1-4.png)_
-
-_Source: Forrester Wave™ Low-Code Development Platforms For AD&D Professionals, Q1 2019_
 
 ### Gartner
 

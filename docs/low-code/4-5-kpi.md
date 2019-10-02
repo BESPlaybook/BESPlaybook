@@ -14,7 +14,5 @@ In support of Low-Code Agile development practices, contractor Development Teams
 | Deployment Lead Time                  | Time between a favorable security assessment/successful non-production exit to completion of production deployment.            |
 | Pipeline-Stage Time                   | Time spent in any given pipeline or pipeline stage.                                                                            |
 
-In support of Low-Code Agile development practices, contractor Development Teams will implement a number of DevSecOps Software Quality Assurance metrics as listed in Figure 6 to serve as key performance indicators (KPIs) which provide the PMO and contractor project management oversight.
-
 **Figure 6: Recommended DevSecOps Metrics**
 

@@ -164,6 +164,7 @@ table th {
 
 table td {
   padding: 5px;
+  vertical-align: top;
 }
 
 table tbody tr:nth-child(odd) {
