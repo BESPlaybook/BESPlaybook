@@ -13,7 +13,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>9 1 glossary - BES Playbook
+  <title>1.12 Use Data to Drive Decisions - BES Playbook
   </title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet" />
 
@@ -21,8 +21,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "9 1 glossary";
-    var mkdocs_page_input_path = "low-code/9-1-glossary.md";
+    var mkdocs_page_name = "1.12 Use Data to Drive Decisions";
+    var mkdocs_page_input_path = "low-code/1-12-decisions.md";
     var mkdocs_page_url = null;
     var mkdocs_base_url = "https://BESPlaybook.github.io/BESPlaybook";
     var mkdocs_section_headers = ["../../_assets/_headers/Header01.jpg", "../../_assets/_headers/Header02.jpg", "../../_assets/_headers/Header03.jpg", "../../_assets/_headers/Header04.jpg", "../../_assets/_headers/Header05.jpg", "../../_assets/_headers/Header06.jpg", "../../_assets/_headers/Header07.jpg", "../../_assets/_headers/Header08.jpg", "../../_assets/_headers/Header09.jpg"];
@@ -68,8 +68,8 @@
           Automated Application Modernization
         </a>
       </li>
-      <li data-url="/low-code/1-1-plays">
-        <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-1-plays">
+      <li data-url="/low-code/1-0-overview">
+        <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-0-overview">
           Low-Code
         </a>
       </li>
@@ -106,8 +106,8 @@
             Automated Application Modernization
           </a>
         </li>
-        <li data-url="/low-code/1-1-plays">
-          <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-1-plays">
+        <li data-url="/low-code/1-0-overview">
+          <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-0-overview">
             Low-Code
           </a>
         </li>
@@ -339,14 +339,86 @@
     </ul>
           </li>
         </ul>
-        <ul class="bes-doc-nav__list ">
-          <li class="">
+        <ul class="bes-doc-nav__list  bes-doc-nav__list--active ">
+          <li class="current">
 <span>1. Plays</span>
-    <ul>
+    <ul class="current">
                 <li class="">
 <a class="reference internal"\
-  href="../1-1-plays/">
-  1.1 Overview
+  href="../1-0-overview/">
+  1.0 Overview
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-1-application/">
+  1.1 Understand how Low-Code can be applied to your project
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-2-delight/">
+  1.2 Delight the User
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-3-only-way/">
+  1.3 Agile is the Only Way
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-4-empower/">
+  1.4 Empower the User
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-5-leader/">
+  1.5 Select a Leader and hold them Accountable
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-6-teams/">
+  1.6 Use Experienced Teams
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-7-rebuild/">
+  1.7 Plan to rebuild
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-8-automate/">
+  1.8 Automate Everything
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-9-cloud/">
+  1.9 Consider Cloud Hosting
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-10-interface/">
+  1.10 Don’t forget the Interfaces
+</a>
+                </li>
+                <li class="">
+<a class="reference internal"\
+  href="../1-11-ato/">
+  1.11 Fast Track ATO
+</a>
+                </li>
+                <li class="current">
+<a class="reference internal current"\
+  href="./">
+  1.12 Use Data to Drive Decisions
 </a>
                 </li>
     </ul>
@@ -1486,14 +1558,55 @@
       
       <div class="bes-content">
         
-        
+        <blockquote>
+<h1 id="112-play-12-use-data-to-drive-decisions"><strong>1.12</strong> Play 12: Use Data to drive Decisions</h1>
+</blockquote>
+<p>At every stage of a project, we should measure how well our system is working for our users. This includes measuring how well a system performs and how people are interacting with it in real-time. Our teams and program leadership should carefully watch these metrics to find issues and identify which bug fixes and improvements should be prioritized. Along with monitoring tools, a feedback mechanism should be in place for people to report issues directly.</p>
+<h3 id="checklist">Checklist</h3>
+<ul>
+<li>Monitor system-level resource utilization in real time</li>
+<li>Monitor system performance in real-time (e.g. response time, latency, throughput, and error rates)</li>
+<li>Ensure monitoring can measure median, 95th percentile, and 98th percentile performance</li>
+<li>Create automated alerts based on this monitoring</li>
+<li>Track concurrent users in real-time and monitor user behaviors in the aggregate to determine how well the system meets user needs</li>
+<li>Publish metrics internally</li>
+<li>Publish metrics externally</li>
+</ul>
+<h3 id="key-questions">Key Questions</h3>
+<ul>
+<li>What monitoring tools are provided by the Low-Code platform out-of-the-box?</li>
+<li>What are the key metrics for the system?</li>
+<li>Which system monitoring tools are in place?</li>
+<li>What is the targeted average response time for your system? What percent of requests take more than 1 second, 2 seconds, 4 seconds, and 8 seconds?</li>
+<li>What is the average response time and percentile breakdown (percent of requests taking more than 1s, 2s, 4s, and 8s) for the top 10 transactions?</li>
+<li>What is the volume of each of your system’s top 10 transactions? What is the percentage of transactions started vs. completed?</li>
+<li>What is your system’s monthly uptime target?</li>
+<li>What is your system’s monthly uptime percentage, including scheduled maintenance? Excluding scheduled maintenance?</li>
+<li>How does your team receive automated alerts when incidents occur?</li>
+<li>How does your team respond to incidents and what is your post-mortem process?</li>
+<li>Which tools are in place to measure user behavior?</li>
+<li>How do you measure user satisfaction?</li>
+</ul>
         
       </div>
       <div class="bes-feedback">
+        <a
+          href="mailto:arthur.stengell@arrayinfotech.com?subject=BES Playbook Feedback: Low-Code - 1.12 Use Data to Drive Decisions">feedback</a>
       </div>
 
 
 
+      
+      <div class="bes-page-nav" role="navigation" aria-label="footer navigation">
+        
+        <a href="../1-11-ato/" class="bes-page-nav__button bes-page-nav__button--prev"
+          title="1.11 Fast Track ATO">Previous</a>
+        
+        
+        <a href="../2-1-intro/" class="bes-page-nav__button bes-page-nav__button--next"
+          title="2.1 Introduction">Next</a>
+        
+      </div>
       
     </section>
 
@@ -1533,7 +1646,7 @@
           </a>
         </li>
         <li>
-          <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-1-plays">
+          <a href="https://BESPlaybook.github.io/BESPlaybook/low-code/1-0-overview">
           Low-Code
           </a>
         </li>
