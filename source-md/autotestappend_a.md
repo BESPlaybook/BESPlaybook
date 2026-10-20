@@ -71,11 +71,6 @@ Software Testing and Quality Assurance Forums<br/>
 URL: http://www.sqaforums.com/forums/<br/>
 The online community for software testing and quality assurance professionals. 
 
-Open Source Testing<br/>
-URL: http://www.opensourcetesting.org/<br/>
-The open source testing site aims to boost the profile of open source testing tools within the testing industry, principally by providing users with an easy to use 
-gateway to information on the wide range of open source testing tools available. 
-
 Test Automation Group on LinkedIn<br/>
 URL: https://www.linkedin.com/groups/86204<br/>
 LinkedIn is the world's largest professional network with more than 562 million users in more than 200 countries and territories worldwide. The Test Automation 

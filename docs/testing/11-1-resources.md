@@ -84,12 +84,6 @@ Each month, over 50 million developers come to Stack Overflow to learn, share th
 
 The online community for software testing and quality assurance professionals. 
 
-#### Open Source Testing
-[http://www.opensourcetesting.org/](http://www.opensourcetesting.org/)
-
-The open source testing site aims to boost the profile of open source testing tools within the testing industry, principally by providing users with an easy to use 
-gateway to information on the wide range of open source testing tools available. 
-
 #### Test Automation Group on LinkedIn
 [https://www.linkedin.com/groups/86204](https://www.linkedin.com/groups/86204)
 
